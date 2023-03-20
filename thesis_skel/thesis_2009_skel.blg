@@ -1,0 +1,72 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: thesis_2009_skel.aux
+A level-1 auxiliary file: thesis_acknowledge.aux
+A level-1 auxiliary file: thesis_intro.aux
+A level-1 auxiliary file: thesis_dark_photon.aux
+A level-1 auxiliary file: thesis_setup.aux
+A level-1 auxiliary file: thesis_tracking.aux
+A level-1 auxiliary file: thesis_alignment.aux
+A level-1 auxiliary file: thesis_MC.aux
+A level-1 auxiliary file: thesis_conclusion.aux
+The style file: ../refs/atlasBibStyleWithTitle.bst.bst
+A level-1 auxiliary file: thesis_appendix_A.aux
+A level-1 auxiliary file: thesis_appendix_B.aux
+Database file #1: ./thesis_refs.bib
+Warning--entry type for "PereiraDaCosta:1204557" isn't style-file defined
+--line 649 of file ./thesis_refs.bib
+Database file #2: ../refs/standard_refs-bibtex.bib
+Warning--empty pages in Book_SM
+Warning--empty pages in 10025429448
+Warning--empty pages in Akerib_2017
+Warning--empty pages in IceCube2018MultimessengerOO
+Warning--empty pages in Krasznahorkay_2016
+Warning--empty booktitle in Collaboration2007TheCE
+Warning--empty school in nabeel:2018
+Warning--empty pages in Arkani_Hamed_2009
+Warning--empty pages in article_beam_purity
+Warning--empty pages in Banerjee_2018
+Warning--empty school in Baust:2008
+Warning--empty pages in article_GEM_pic
+You've used 67 entries,
+            2323 wiz_defined-function locations,
+            1138 strings with 25143 characters,
+and the built_in function-call counts, 23578 in all, are:
+= -- 1761
+> -- 1704
+< -- 1
++ -- 598
+- -- 531
+* -- 2441
+:= -- 3296
+add.period$ -- 97
+call.type$ -- 67
+change.case$ -- 67
+chr.to.int$ -- 0
+cite$ -- 79
+duplicate$ -- 1079
+empty$ -- 1907
+format.name$ -- 531
+if$ -- 5538
+int.to.chr$ -- 0
+int.to.str$ -- 67
+missing$ -- 241
+newline$ -- 255
+num.names$ -- 67
+pop$ -- 350
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 756
+stack$ -- 0
+substring$ -- 847
+swap$ -- 513
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 12
+while$ -- 131
+width$ -- 69
+write$ -- 571
+(There were 13 warnings)
