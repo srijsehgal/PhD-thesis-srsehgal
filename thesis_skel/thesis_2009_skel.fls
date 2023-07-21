@@ -1784,6 +1784,10 @@ INPUT /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_CRnEAS.tex
 INPUT /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_CRnEAS.tex
 INPUT /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_CRnEAS.tex
 INPUT /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_CRnEAS.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/t1xbss.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/t1xbss.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxphvb.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxbss.tfm
 INPUT /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_figures/VISIBLE.png
 INPUT /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_figures/VISIBLE.png
 INPUT /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_figures/VISIBLE.png
@@ -1849,14 +1853,10 @@ INPUT /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_DGL.tex
 INPUT /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_DGL.tex
 INPUT /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_DGL.tex
 INPUT /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_DGL.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/t1xbss.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txb.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txbmi1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxbmi.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmbi.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/t1xbss.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxphvb.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxbss.tfm
 INPUT /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_figures/NA64_MM.png
 INPUT /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_figures/NA64_MM.png
 INPUT /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_figures/NA64_MM.png
