@@ -11,50 +11,50 @@
 \contentsline {figure}{\numberline {1.3}{\ignorespaces Scatter plot of fit values for the neutrino mass square and the effective $\beta $-decay endpoint E0 together with 1-$\sigma $ (black) and 2-$\sigma $ (blue) error contours around the best fit point (cross).~\cite {Aker:2019uuj}\relax }}{5}{figure.caption.4}%
 \contentsline {figure}{\numberline {1.4}{\ignorespaces Hypothesized X17 Boson production~\cite {Quanta_magazine}\relax }}{5}{figure.caption.5}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Visible mode \relax }}{14}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Invisible mode \relax }}{15}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Current limits for invisible mode for 90\% C.L. exclusion region in the ($m_{A'},\epsilon $) plane ~\cite {2019EPJWC.21206005K}.\relax }}{15}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Current limits for invisible mode for 90\% C.L. exclusion region in the ($m_{A'},\epsilon $) plane. The blue plane is with 2017 data and the dotted line is with 2017+2018 data for NA64. The red line is the region that might explain the X17 boson~\cite {2019EPJWC.21206005K}.\relax }}{15}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Visible mode \relax }}{17}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Invisible mode \relax }}{17}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Current limits for invisible mode for 90\% C.L. exclusion region in the ($m_{A'},\epsilon $) plane ~\cite {2019EPJWC.21206005K}.\relax }}{18}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Current limits for invisible mode for 90\% C.L. exclusion region in the ($m_{A'},\epsilon $) plane. The blue plane is with 2017 data and the dotted line is with 2017+2018 data for NA64. The red line is the region that might explain the X17 boson~\cite {2019EPJWC.21206005K}.\relax }}{18}{figure.caption.21}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Invisible mode setup~\cite {Banerjee:2016tad}\relax }}{17}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Visible mode setup 2017~\cite {Banerjee_2018}\relax }}{18}{figure.caption.20}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Visible mode setup 2018-top view~\cite {Gninenko:2677228}\relax }}{18}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Invisible mode setup~\cite {Banerjee:2016tad}\relax }}{19}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Visible mode setup 2017~\cite {Banerjee_2018}\relax }}{20}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Visible mode setup 2018-top view~\cite {Gninenko:2677228}\relax }}{20}{figure.caption.24}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Left: Strip dimensions of the modules, Right:NA64 Micromega's working principle~\cite {Banerjee:2017mdu}\relax }}{22}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces A sketch of GEM field lines~\cite {GEM_field}.\relax }}{23}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Schematic of a triple GEM detector along with the working principle~\cite {article_GEM_pic}\relax }}{23}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Linear regression pictorially. \relax }}{24}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Pictorial representation of the working principle of a Kalman filter ~\cite {article_KALMAN}.\relax }}{25}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Left: Strip dimensions of the modules, Right:NA64 Micromega's working principle~\cite {Banerjee:2017mdu}\relax }}{24}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces A sketch of GEM field lines~\cite {GEM_field}.\relax }}{25}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Schematic of a triple GEM detector along with the working principle~\cite {article_GEM_pic}\relax }}{25}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Linear regression pictorially. \relax }}{26}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Pictorial representation of the working principle of a Kalman filter ~\cite {article_KALMAN}.\relax }}{27}{figure.caption.28}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Pictorial representation of the previously used method\relax }}{30}{figure.caption.26}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Fitting of the residual for the X plane of GEM4\relax }}{31}{figure.caption.27}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces CORAL implementation of Millepede. The black lines signify the order of the steps while the green and red lines depict output and input respectively.\relax }}{33}{figure.caption.28}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Charge over momentum distribution of all fitted tracks during alignment\relax }}{35}{figure.caption.29}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Residual of GEM detectors\relax }}{37}{figure.caption.30}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Residual of Micromega detectors\relax }}{38}{figure.caption.31}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Residual of Micromega detectors\relax }}{39}{figure.caption.32}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces $\chi _{red}^2$ comparison before and after Millepede alignment implementation\relax }}{40}{figure.caption.33}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces $\chi _{red}^2$ comparison of previously used method with Millepede alignment implementation\relax }}{40}{figure.caption.34}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Residual of GEM detectors with downstream Micromegas switched off\relax }}{41}{figure.caption.35}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Residual vs position for GEM detectors\relax }}{43}{figure.caption.36}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Angular alignment\relax }}{44}{figure.caption.37}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces $\chi _{red}^2$ comparison before and after Millepede T alignment implementation\relax }}{44}{figure.caption.38}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Pictorial representation of the previously used method\relax }}{32}{figure.caption.29}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Fitting of the residual for the X plane of GEM4\relax }}{33}{figure.caption.30}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces CORAL implementation of Millepede. The black lines signify the order of the steps while the green and red lines depict output and input respectively.\relax }}{35}{figure.caption.31}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Charge over momentum distribution of all fitted tracks during alignment\relax }}{37}{figure.caption.32}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Residual of GEM detectors\relax }}{39}{figure.caption.33}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Residual of Micromega detectors\relax }}{40}{figure.caption.34}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Residual of Micromega detectors\relax }}{41}{figure.caption.35}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces $\chi _{red}^2$ comparison before and after Millepede alignment implementation\relax }}{42}{figure.caption.36}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces $\chi _{red}^2$ comparison of previously used method with Millepede alignment implementation\relax }}{42}{figure.caption.37}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Residual of GEM detectors with downstream Micromegas switched off\relax }}{43}{figure.caption.38}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Residual vs position for GEM detectors\relax }}{45}{figure.caption.39}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Angular alignment\relax }}{46}{figure.caption.40}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces $\chi _{red}^2$ comparison before and after Millepede T alignment implementation\relax }}{46}{figure.caption.41}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Number of simulated signal events at two $A'$ masses as a function of Dark Photon energy~\cite {Gninenko:2017yus}\relax }}{48}{figure.caption.39}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Track reconstruction display from CORAL.\relax }}{51}{figure.caption.40}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Reconstructed beam momentum in CORAL along with fit parameters.\relax }}{52}{figure.caption.41}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Fitted beam momentum vs dip angle of incoming track. \relax }}{53}{figure.caption.42}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Fitted beam momentum vs azimuthal angle of incoming track.\relax }}{54}{figure.caption.43}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Angle between the outgoing $e^+e^-$ tracks\relax }}{55}{figure.caption.44}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Number of simulated signal events at two $A'$ masses as a function of Dark Photon energy~\cite {Gninenko:2017yus}\relax }}{50}{figure.caption.42}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Track reconstruction display from CORAL.\relax }}{53}{figure.caption.43}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Reconstructed beam momentum in CORAL along with fit parameters.\relax }}{54}{figure.caption.44}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Fitted beam momentum vs dip angle of incoming track. \relax }}{55}{figure.caption.45}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Fitted beam momentum vs azimuthal angle of incoming track.\relax }}{56}{figure.caption.46}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Angle between the outgoing $e^+e^-$ tracks\relax }}{57}{figure.caption.47}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces $\chi ^2_{red}$ distribution for selected tracks showing the impact of Millepede alignment.\relax }}{57}{figure.caption.45}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces $\chi ^2_{red}$ distribution for selected tracks showing the impact of Millepede alignment.\relax }}{59}{figure.caption.48}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Residual of GEM detectors.\relax }}{64}{figure.caption.51}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Residual of Micromega detectors.\relax }}{65}{figure.caption.52}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Residual of Micromega detectors.\relax }}{66}{figure.caption.53}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Residual vs position for Micromega detectors\relax }}{67}{figure.caption.54}%
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Residual vs position for MM4\relax }}{68}{figure.caption.55}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Residual of GEM detectors.\relax }}{66}{figure.caption.54}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Residual of Micromega detectors.\relax }}{67}{figure.caption.55}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Residual of Micromega detectors.\relax }}{68}{figure.caption.56}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Residual vs position for Micromega detectors\relax }}{69}{figure.caption.57}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Residual vs position for MM4\relax }}{70}{figure.caption.58}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Snippet of the format fed to CORAL\relax }}{69}{figure.caption.56}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Snippet of the format fed to CORAL\relax }}{71}{figure.caption.59}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
