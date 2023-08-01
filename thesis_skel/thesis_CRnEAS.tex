@@ -93,7 +93,7 @@ The study of CRs to constrain their properties and the relevant sources requires
 \subsubsection*{Cosmic Ray spectrum}
 \label{subsubsec:CRspectrum}
 The cosmic ray spectrum measured by several experiments on Earth is summarised in figure.~\ref{}. Extending in energy from a few ~100 MeV(solar CRs) it spans about 12 orders of magnitude up till the highest observed CRs ~$10^{20}$eV. The flux decreases with increasing energy and follows a varying power law description:
-\begin{equation}\label{eq:Pdisinteg}
+\begin{equation}\label{eq:Powlaw}
   \frac{dN}{dE} \propto E^{-\gamma}   
 \end{equation}
 where $\gamma$ is the spectral index. The spectral index varies between 2.7 to 3.3 as measurements are made for higher energies. This signifies a decrease in the observed flux as the energy increases. The flux falls from $\sim 1m^{-2} s^{-1}$ at $10^{11}$eV to $\sim 1m^{-2} yr^{-1}$ at $10^{16}$eV to about $\sim 1km^{-2} yr^{-1}$ at $10^{19}$eV. Such a steep fall also poses challenges for the experimental design and the corresponding size. This also affects the detection mechanisms employed to measure this spectrum, due to the very low flux expected at high energies, the measurements of the direct primaries becomes nearly impossible and an indirect detection using the property of the cosmic ray to trigger an air shower in our atmosphere is employed. This phenomenon and how it is used to meausre CRs is discussed in the next chapter~\ref{}.
@@ -135,12 +135,83 @@ Photons again offer another window to look into the origin, propagation and the 
 \section{Ultra High Energy Neutrinos}
 \label{sec:UHENu}
 \subsection{History}
+Neutrino($\nu$)~\cite{} (neut-neutral, ino-small) is an elementary particle belonging to the fermion class with a 1/2 spin. It was named by Enrico Fermi but first postulated by Pauli in 1930 as an explanation for conservation of energy, momentum and angular momentum in $\beta$ decays. It rarely reacts in nature and only scatters via weak interaction. The neutrino was first observed in 1956 by the Cowan–Reines neutrino experiment~\cite{} by detecting the annihilation of neutron and positron produced by antineutrinos created in a nuclear reactor. Neutrinos can have three flavors  electron neutrinos ($\nu_e$), muon neutrinos ($\nu_{\mu}$), or tau neutrinos ($\nu_{\tau}$) depending on the charged lepton (elctron,muon or tau) accompanying them in their production. There are various mysteries involved with understanding this "ghost particle. One of these is the phenomenon of neutrino oscillations which is the intermixing of different neutrino flavors as it propagates through space. This has been observed in various experiments such as the Super-Kamiokande Observatory~\cite{} and the Sudbury Neutrino Observatories~\cite{} and was the recipient of the 2015 Nobel Prize for Physics since it was the first indication that neutrinos have some mass. This has led to various efforts to determine the mass of the three neutrinos~\cite{}. Currently, only a hierarchical differentiation can be established~\cite{}, the configuration of which is also not completely understood, and further experiments like Karlsruhe Tritium Neutrino experiment~\cite{} are underway to solve this mystery. Also, the very mechanisms with which neutrinos can acquire mass are currently not completely understood~\cite{}. 
+Neutrinos arriving at Earth through astrophysical sources such as the Sun have also played an important role in increasing our understanding of CRs and physics in general. The solar neutrino observations ultimately led to the postulation and discovery of neutrino oscillations. The observations of neutrinos from SN 1987A, a type II supernova in the Large Magellanic Cloud by Kamiokande II~\cite{} before the observation of any other messenger marked the dawn of non-solar neutrino astronomy and displayed the importance of neutrinos for multi-messenger physics. One of the most important experiment for this field has been the IceCube Observatory. Located at the South Pole the IceCube Observatory has revolutionised both neutrino and multi messenger astronomy. It has led to the first detection of astrophysical neutrinos~\cite{} and provided a measurement of their spectrum for high energies~\cite{}. It has also contributed to the study of the neutrino oscillations\cite{} and its mass hierarchy~\cite{}. Recently, IceCube has further found the first source of steady state neutrinos in our cosmos which is the NGC1068~\cite{} and has also led to the groundbreaking measurement of the  neutrino spectrum from our Galaxy~\cite{}. These results and their implications are discussed in more details in section~\ref{}. Its contributions to multi-messenger astronomy are also discussed later in section~\ref{}. For the highest of energies the Pierre Auger Observatory remains the only facility capable of detecting neutrinos. 
+Neutrinos can help to understand various astrophysical processes such as the Big Bang where the neutrinos are hypothesised to have decoupled 1 second after leading to cosmic neutrino background (CNB)~\cite{} to the nuclear processes inside stellar objects. Each such process speculates a unique neutrino spectrum which can be probed with experiments to garner their viability. Figure~\ref{} shows the unified neutrino spectrum with respect to energy. For this thesis the following sections are constrained to only the neutrinos of the highest energies(UHE$\nu$) above $10^16$ eV. How neutrinos can help decipher the mysteries of UHECRs is also discussed below.
+
+
+\subsection{Origin and Propagation}
+\label{subsec:nuorig}
+UHE$\nu_s$ can be broadly classified to three categories based on their origin. These are astrophysical, originating from known/hypothesised astrophysical sources, cosmic/cosmogenic, originating from the interactions of UHECRs with the CMB or the Extra galactic Background light(EBL) and exotic, emerging from processes such as the Big-Bang, dark matter annihilation etc. The reactions for the mentioned processes are as follows:
+
+
+
+\subsubsection*{Astrophysical Neutrinos}
+\label{subsubsec:AstroNu}
+
+Astrophysical neutrinos are thought to be produce by or around known sources of UHECRs. The most important ingredient that is required to produce UHE$\nu_s$ is the interactions of high energy protons and nuclei with matter or radiation fields which results in a photo-meson production followed by a charged pion decay. The decay length of pions is much shorter than the distances of the sources to Earth thus they decay and give rise to secondary neutrinos. 
+
+\begin{subequations}\label{eq:Nuprod_1}
+  \begin{align}
+    \begin{split}
+      p + \gamma &\longrightarrow \Delta^+(1232 ) \longrightarrow n+\pi^+ \\ 
+                      &\longrightarrow \Delta^+(1232 ) \longrightarrow p+\pi^0
+    \end{split} \\
+      p + \bar{p} &\longrightarrow \pi^- + \pi^+ + \pi^0 
+  \end{align}
+\end{subequations}
+
+\begin{subequations}\label{eq:Nuprod_2}
+  \begin{align}  
+    \pi^0 \longrightarrow \gamma + \gamma \\
+    \pi^+ \longrightarrow \mu^+ + \nu_{mu} \longrightarrow e^+ + \nu_{e} + \bar{\nu_{mu}} + \nu_{mu} \\
+    \pi^- \longrightarrow \mu^- + \bar{\nu_{mu}} \longrightarrow e^- + \bar{\nu_{e}} + \nu_{mu} + \bar{\nu_{mu}}
+  \end{align}
+\end{subequations}
+
+Other interactions such as Neutron Decay ($n \longrightarrow p + e^- + \nu_{e} $), electron/positron capture and $\beta$ decays can also contribute to neutrino production. In most of these scenarios the expected flux ratio per flavor can be either $ \nu_{e} : \nu_{\mu} : \nu_{\tau} = \bar{\nu_{e}} : \bar{\nu_{\mu}} : \bar{\nu_{\tau}} = (1:2:0) $ or (1:0:0) with no direct known process for $\nu_{\tau}$ production at the source. However, since neutrinos can oscillate which is a consequence of the mixing between the flavor  $\left| \nu_{\alpha} \right\rangle $ and mass eigenstates $\left| \nu_{i} \right\rangle $  of neutrinos, given by the following relation:
+\begin{equation}
+\left| \nu_{\alpha} \right\rangle  = \sum_i U_{\alpha i} \left| \nu_{i} \right\rangle
+\end{equation}
+
+where $U_{\alpha i}$ is the mixing matrix formulated by Pontecorvo-Maki-Nakagawa-Sakata (PMNS)~\cite{}. In a standard case where three neutrino flavors are considered this matrix is a 3x3 matrix parameterised by the three mixing angles ($\theta_{12},\theta_{23},\theta_{13}$) and a single phase called $\delta_{CP}$. Starting from the expected source flavor ratio one can calculate the flavor ratio at Earth by knowing the above four mentioned parameters. One example of such propagation is shown in fig.~\ref{}. Since high energy tau neutrinos are not expected to be present in the atmospheric neutrino background the detection of such neutrinos at Earth could be an indication that the neutrino had an astrophysical origin. 
+
+Another important aspect to fully understand the origin and propagation of astrophysical neutrinos is determining the expected energies these neutrinos can acquire. On average the energy fraction that pions can get from the CR nucleons is about 20\%. These relativistic pion can then further pass on between ~20-26\% depending on the flavor and type of the neutrino. Approximately, the Energy fraction for the produced neutrinos in relation to the gamma and Nucleon is:
+\begin{equation}
+  \left\langle E_{\nu} \right\rangle  \simeq  \frac{1}{2}\left\langle E_{\gamma} \right\rangle \simeq  \frac{1}{20}\left\langle E_{N} \right\rangle
+  \end{equation}
+
+Depending on the type of source and how far the said source is one can calculate the maximum energy potential for sources. With the measurement of the diffused astropysical flux~\ref{} by IceCube upto $10^{16}$eV these calculations can be directly constrained by measurement~\cite{}. Since extra galactic sources can produce UHECRs upto ~$10^{20}$eV which is corroborated by measurements of the Pierre Auger Observatory one can calculate an upper limit to the diffuse flux for neutrinos. Some of these calculations can be found in ~\cite{} for Starburst galaxies, ~\cite{}for AGNs and ~\cite{} for Magnetars. The non detection of UHE$\nu_s$ at Auger can thus also act as an important tool to constrain the production mechanisms hypothesised for these sources. The potential of this is discussed later in section~\ref{}.   
+
+
+How can neutrinos interact ? 
+
+\subsubsection*{Cosmogenic Neutrinos}
+\label{subsubsec:CosmoNu}
+
+Cosmogenic neutrinos are produced due either as a consequence of the GZK mechanism discussed in section~\ref{subsubsec:GZK} or due to the intearctions of UHERs with EBL. They were first suggested by Berensinsky and Zatsepin in 1969~\cite{}. The processes involved are similar to those for astrophysical neutrinos albeit the proton/nuclei interact with the CMB/EBL photon instead of the photons from the radiation fields. The two main processes are the same as that for the GZK mechanism i.e. photo-pion production~\ref{eq:GZK} and photo-disintegration~\ref{eq:Pdisinteg}. CMB mainly affects the protons~\cite{} during their propagation which form a large fraction of the UHECRs traversing the universe while the EBL plays an important role in the case of other nuclei~\cite{}. 
+Since the process are the same the flavor flux expectations at Earth remain the same. However, the expected energies that the cosmogenic neutrinos can acquire differ drastically as compared to astrophysical neutrinos. The energy threshold for neutrinos produced due to interactions with CMB in the case of photo-pionproduction is of the order of $10^{18}$eV while for photo-disintegration it is of the order of $10^{18}$eV~\cite{}(1505.04020.pdf). In case of interactions with EBL this lowers to about $10^{15}$eV and $10^{14}$eV for the two types of interactions. 
+The exact properties of the neutrinos produced are directly dependent on the parent UHECRs which produce them. The properties of UHECRs such as the total flux, composition, maximum energies, production spectrum at the sources and their cosmological evolution(adiabatic loses) are all crucial factors which affect the secondary cosmogenic neutrinos produced by these UHECRs. A collection of some example of the expected cosmological fluxes for different scenarios can be found in ~\cite{}~\cite{}. An example is also shown in fig~\ref{}. The two distinct humps are due to the two associated production processes with the lower one being the photo-disintegration. 
+
+Measurements of cosmic ray observatories such as the Pierre Auger Observatory can also be used to calculate an expected neutrino spectrum based on assumptions on the composition and the cosmological evolution of the sources. Neutrinos thus can act as a very important tool in constraining the composition of the incoming UHECRs and further their actual sources. They can also help to solve the question of the cutoff observed in the UHECR spectrum whether this is due to the GZK mechanism(proton dominated composition) or sources reaching their maximum potential as theorised by Hillas(mixed composition). The current results regarding this important study are discussed in the next section~\ref{}
+
+
+\subsubsection*{Exotic Neutrinos}
+\label{subsubsec:ExoticNu}
+
+Neutrinos can also be produced as a result of self-annihilation or decay of dark matter particles. In dark matter annihilation scenarios, two dark matter particles come together and annihilate, leading to the production of standard model particles as a result. The specific flux of the neutrino depends on the properties of the dark matter particle. One such candidate for such a process could be a Weakly Interacting Massive Particle (WIMP), that is its own antiparticle (a Majorana fermion). In regions with a high concentration of dark matter, such as the centers of galaxies or galaxy clusters, WIMPs can come together and annihilate into standard model particles~\cite{}. One of the annihilation channels of interest for producing very high-energy neutrinos is the annihilation into pairs of intermediate bosons, such as $W^+W^-$ (W-boson pair), or $Z^0Z^0$ (Z-boson pair). These intermediate bosons can subsequently decay into quarks, leptons, and other particles, including neutrinos. The final state neutrinos can be very high-energy, potentially reaching energies in the PeV (peta-electronvolt) range and beyond. For dark matter decay a stable dark matter particle is supposed to spontaneously transform to other standard model particles including neutrinos~cite{}. 
+
+(2203.17223.pdf)(CNB probably do not want to discuss this)
+
+
+\subsection{Neutrino Interactions and Detection }
+\label{subsec:Nuintdet}
 
 
 
 
 
-
+LPM Effect ?
 
 
 \begin{equation}\label{eq:Lagrangian}
