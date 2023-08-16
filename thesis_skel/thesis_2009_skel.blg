@@ -3,7 +3,8 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis_2009_skel.aux
 A level-1 auxiliary file: thesis_acknowledge.aux
 A level-1 auxiliary file: thesis_intro.aux
-A level-1 auxiliary file: thesis_CRnEAS.aux
+A level-1 auxiliary file: thesis_CRnNu.aux
+A level-1 auxiliary file: thesis_EAS.aux
 A level-1 auxiliary file: thesis_setup.aux
 A level-1 auxiliary file: thesis_DGL.aux
 A level-1 auxiliary file: thesis_DGH.aux
@@ -21,45 +22,45 @@ Warning--empty pages in Banerjee_2018
 Warning--empty school in Baust:2008
 Warning--empty pages in article_GEM_pic
 Warning--empty school in nabeel:2018
-You've used 37 entries,
+You've used 34 entries,
             2323 wiz_defined-function locations,
-            898 strings with 13725 characters,
-and the built_in function-call counts, 10784 in all, are:
-= -- 982
-> -- 457
+            870 strings with 13078 characters,
+and the built_in function-call counts, 9823 in all, are:
+= -- 887
+> -- 437
 < -- 1
-+ -- 170
-- -- 133
-* -- 1001
-:= -- 1348
-add.period$ -- 66
-call.type$ -- 37
-change.case$ -- 37
++ -- 162
+- -- 128
+* -- 903
+:= -- 1247
+add.period$ -- 61
+call.type$ -- 34
+change.case$ -- 34
 chr.to.int$ -- 0
-cite$ -- 42
-duplicate$ -- 578
-empty$ -- 1052
-format.name$ -- 133
-if$ -- 2707
+cite$ -- 39
+duplicate$ -- 520
+empty$ -- 957
+format.name$ -- 128
+if$ -- 2457
 int.to.chr$ -- 0
-int.to.str$ -- 37
-missing$ -- 118
-newline$ -- 162
-num.names$ -- 37
-pop$ -- 192
+int.to.str$ -- 34
+missing$ -- 103
+newline$ -- 149
+num.names$ -- 34
+pop$ -- 178
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 383
+skip$ -- 338
 stack$ -- 0
-substring$ -- 407
-swap$ -- 255
+substring$ -- 357
+swap$ -- 223
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 68
-width$ -- 39
-write$ -- 335
+while$ -- 60
+width$ -- 36
+write$ -- 309
 (There were 6 warnings)

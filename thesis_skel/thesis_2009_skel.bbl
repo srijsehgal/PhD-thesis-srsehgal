@@ -27,38 +27,6 @@ L.~R.-I. Natalie~Wolchover, {\em Evidence of a ‘Fifth Force’ Faces
 \newblock
   \url{https://www.quantamagazine.org/new-boson-claim-faces-scrutiny-20160607/}.
 
-\bibitem{PhysRevLett.13.508}
-P.~W. Higgs, {\em Broken Symmetries and the Masses of Gauge Bosons},
-  \href{http://dx.doi.org/10.1103/PhysRevLett.13.508}{Phys. Rev. Lett.
-  {\bfseries 13} (1964) 508--509},
-  \url{https://link.aps.org/doi/10.1103/PhysRevLett.13.508}.
-
-\bibitem{Kors:2005uz}
-B.~Kors and P.~Nath, {\em {Aspects of the Stueckelberg extension}},
-  \href{http://dx.doi.org/10.1088/1126-6708/2005/07/069}{JHEP {\bfseries 07}
-  (2005) 069},
-\href{http://arxiv.org/abs/hep-ph/0503208}{{\ttfamily arXiv:hep-ph/0503208
-  [hep-ph]}}.
-%%CITATION = HEP-PH/0503208;%%.
-
-\bibitem{Liu:2017htz}
-Y.-S. Liu and G.~A. Miller, {\em {Validity of the Weizsäcker-Williams
-  approximation and the analysis of beam dump experiments: Production of an
-  axion, a dark photon, or a new axial-vector boson}},
-  \href{http://dx.doi.org/10.1103/PhysRevD.96.016004}{Phys. Rev. {\bfseries
-  D96} no.~1, (2017) 016004},
-\href{http://arxiv.org/abs/1705.01633}{{\ttfamily arXiv:1705.01633 [hep-ph]}}.
-%%CITATION = ARXIV:1705.01633;%%.
-
-\bibitem{Gninenko:2017yus}
-S.~N. Gninenko, D.~V. Kirpichnikov, M.~M. Kirsanov,  and N.~V. Krasnikov, {\em
-  {The exact tree-level calculation of the dark photon production in
-  high-energy electron scattering at the CERN SPS}},
-  \href{http://dx.doi.org/10.1016/j.physletb.2018.05.010}{Phys. Lett.
-  {\bfseries B782} (2018) 406--411},
-\href{http://arxiv.org/abs/1712.05706}{{\ttfamily arXiv:1712.05706 [hep-ph]}}.
-%%CITATION = ARXIV:1712.05706;%%.
-
 \bibitem{2019EPJWC.21206005K}
 \href{http://dx.doi.org/10.1051/epjconf/201921206005}{{\em {Recent results of
   the NA64 experiment at the CERN SPS}}}, vol.~212 of {\em European Physical
@@ -246,6 +214,15 @@ S.~Blusk, O.~Buchmuller, A.~Jacholkowski, T.~Ruf, J.~Schieck,  and S.~Viret,
 H.~Pereira Da~Costa, {\em {Développement de chambres à dérive pour les hauts
   flux dans l’expérience COMPASS}}, 2001.
 \newblock \url{http://cds.cern.ch/record/1204557}. Presented on 23 Nov 2001.
+
+\bibitem{Gninenko:2017yus}
+S.~N. Gninenko, D.~V. Kirpichnikov, M.~M. Kirsanov,  and N.~V. Krasnikov, {\em
+  {The exact tree-level calculation of the dark photon production in
+  high-energy electron scattering at the CERN SPS}},
+  \href{http://dx.doi.org/10.1016/j.physletb.2018.05.010}{Phys. Lett.
+  {\bfseries B782} (2018) 406--411},
+\href{http://arxiv.org/abs/1712.05706}{{\ttfamily arXiv:1712.05706 [hep-ph]}}.
+%%CITATION = ARXIV:1712.05706;%%.
 
 \bibitem{PhysRevD.97.072002}
 {The NA64 Collaboration} Collaboration, D.~Banerjee, V.~E. Burtsev, A.~G.
