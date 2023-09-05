@@ -26,7 +26,7 @@
 \contentsline {section}{\numberline {3.1}Development}{27}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Characteristics}{31}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Detection}{33}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Pierre Auger Observatory}{37}{chapter.4}%
+\contentsline {chapter}{\numberline {4}The Pierre Auger Observatory}{37}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Neutrino Analysis $60^\circ < \theta < 75^\circ $}{41}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Detectors}{41}{section.5.1}%
 \contentsline {subsection}{\numberline {5.1.1}MicroMegas}{41}{subsection.5.1.1}%
@@ -52,8 +52,8 @@
 \contentsline {subsection}{\numberline {7.5.1}Momentum Reconstruction}{72}{subsection.7.5.1}%
 \contentsline {subsection}{\numberline {7.5.2}A' Reconstruction}{74}{subsection.7.5.2}%
 \contentsline {chapter}{\numberline {8}Conclusion and Outlook}{77}{chapter.8}%
-\contentsline {chapter}{\nonumberline Bibliography}{79}{chapter*.73}%
+\contentsline {chapter}{\nonumberline Bibliography}{79}{chapter*.74}%
 \contentsline {chapter}{\numberline {A}Testing hadronic models}{83}{appendix.A}%
 \contentsline {chapter}{\numberline {B}Adapting DGH analysis to current Offline}{89}{appendix.B}%
-\contentsline {chapter}{\nonumberline List of Figures}{91}{chapter*.80}%
+\contentsline {chapter}{\nonumberline List of Figures}{91}{chapter*.81}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
