@@ -54,21 +54,6 @@ D.~Banerjee, V.~Burtsev, A.~Chumakov, D.~Cooke, P.~Crivelli, E.~Depero,
   2019}}, Tech. Rep. CERN-SPSC-2019-024. SPSC-SR-255, CERN, Geneva, Jun, 2019.
 \newblock \url{https://cds.cern.ch/record/2677228}.
 
-\bibitem{CHARPAK200226}
-G.~Charpak, J.~Derré, Y.~Giomataris,  and P.~Rebourgeard, {\em Micromegas, a
-  multipurpose gaseous detector},
-  \href{http://dx.doi.org/https://doi.org/10.1016/S0168-9002(01)01713-2}{Nuclear
-  Instruments and Methods in Physics Research Section A: Accelerators,
-  Spectrometers, Detectors and Associated Equipment {\bfseries 478} no.~1,
-  (2002) 26 -- 36},
-  \url{http://www.sciencedirect.com/science/article/pii/S0168900201017132},
-  Proceedings of the ninth Int.Conf. on Instrumentation.
-
-\bibitem{Sauli:1977mt}
-F.~Sauli,
-{\em {Principles of Operation of Multiwire Proportional and Drift Chambers}},.
-%%CITATION = CERN-77-09;%%.
-
 \bibitem{Banerjee:2017mdu}
 D.~Banerjee {et~al.}, {\em {Performance of Multiplexed XY Resistive Micromegas
   detectors in a high intensity beam}},
@@ -77,33 +62,6 @@ D.~Banerjee {et~al.}, {\em {Performance of Multiplexed XY Resistive Micromegas
 \href{http://arxiv.org/abs/1708.04087}{{\ttfamily arXiv:1708.04087
   [physics.ins-det]}}.
 %%CITATION = ARXIV:1708.04087;%%.
-
-\bibitem{SAULI20162}
-F.~Sauli, {\em The gas electron multiplier (GEM): Operating principles and
-  applications},
-  \href{http://dx.doi.org/https://doi.org/10.1016/j.nima.2015.07.060}{Nuclear
-  Instruments and Methods in Physics Research Section A: Accelerators,
-  Spectrometers, Detectors and Associated Equipment {\bfseries 805} (2016) 2 --
-  24},
-  \url{http://www.sciencedirect.com/science/article/pii/S0168900215008980},
-  Special Issue in memory of Glenn F. Knoll.
-
-\bibitem{Baust:2008}
-A.~B. et~al., {\em Design, construction and test of a GEM-detector}.
-\newblock PhD thesis, 2008.
-\newblock Technical Thesis, Technical University Munich.
-
-\bibitem{Ketzer:2001dt}
-B.~Ketzer {et~al.}, {\em {Triple GEM tracking detectors for COMPASS}},
-\href{http://dx.doi.org/10.1109/TNS.2002.803891}{IEEE Trans. Nucl. Sci.
-  {\bfseries 49} (2002) 2403--2410}.
-%%CITATION = IETNA,49,2403;%%.
-
-\bibitem{hosgen:2017}
-M.~H\"{o}sgen, {\em GEM Detectors for the Tracking System of the Missing Energy
-  Experiment NA64 at CERN SPS}.
-\newblock Master thesis, University of Bonn, 2017.
-\newblock BONN-IR-2017-March2017.
 
 \bibitem{GEM_field}
 DESY, {\em DESY TPC information},
@@ -148,6 +106,12 @@ I.~Kisel, {\em Advances in tracking and trigger concepts},
   \href{http://dx.doi.org/10.1088/1742-6596/523/1/012022}{Journal of Physics:
   Conference Series {\bfseries 523} (2014) 012022}.
 
+\bibitem{hosgen:2017}
+M.~H\"{o}sgen, {\em GEM Detectors for the Tracking System of the Missing Energy
+  Experiment NA64 at CERN SPS}.
+\newblock Master thesis, University of Bonn, 2017.
+\newblock BONN-IR-2017-March2017.
+
 \bibitem{nabeel:2018}
 N.~Ahmed, {\em Spurrekonstruktion im NA64 Experiment zur Suche nach Dunkler
   Materie}.
@@ -191,6 +155,16 @@ S.~Blusk, O.~Buchmuller, A.~Jacholkowski, T.~Ruf, J.~Schieck,  and S.~Viret,
 H.~Pereira Da~Costa, {\em {Développement de chambres à dérive pour les hauts
   flux dans l’expérience COMPASS}}, 2001.
 \newblock \url{http://cds.cern.ch/record/1204557}. Presented on 23 Nov 2001.
+
+\bibitem{SAULI20162}
+F.~Sauli, {\em The gas electron multiplier (GEM): Operating principles and
+  applications},
+  \href{http://dx.doi.org/https://doi.org/10.1016/j.nima.2015.07.060}{Nuclear
+  Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment {\bfseries 805} (2016) 2 --
+  24},
+  \url{http://www.sciencedirect.com/science/article/pii/S0168900215008980},
+  Special Issue in memory of Glenn F. Knoll.
 
 \bibitem{Gninenko:2017yus}
 S.~N. Gninenko, D.~V. Kirpichnikov, M.~M. Kirsanov,  and N.~V. Krasnikov, {\em

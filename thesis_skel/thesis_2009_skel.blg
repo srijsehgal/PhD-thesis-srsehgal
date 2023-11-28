@@ -18,48 +18,47 @@ Warning--entry type for "PereiraDaCosta:1204557" isn't style-file defined
 --line 649 of file ./thesis_refs.bib
 Database file #2: ../refs/standard_refs-bibtex.bib
 Warning--empty pages in Banerjee_2018
-Warning--empty school in Baust:2008
 Warning--empty pages in article_GEM_pic
 Warning--empty school in nabeel:2018
-You've used 31 entries,
+You've used 27 entries,
             2323 wiz_defined-function locations,
-            846 strings with 12483 characters,
-and the built_in function-call counts, 8932 in all, are:
-= -- 805
-> -- 414
+            816 strings with 11743 characters,
+and the built_in function-call counts, 7865 in all, are:
+= -- 695
+> -- 384
 < -- 1
-+ -- 153
-- -- 122
-* -- 806
-:= -- 1150
-add.period$ -- 56
-call.type$ -- 31
-change.case$ -- 31
++ -- 141
+- -- 114
+* -- 724
+:= -- 1017
+add.period$ -- 48
+call.type$ -- 27
+change.case$ -- 28
 chr.to.int$ -- 0
-cite$ -- 35
-duplicate$ -- 468
-empty$ -- 866
-format.name$ -- 122
-if$ -- 2228
+cite$ -- 30
+duplicate$ -- 409
+empty$ -- 760
+format.name$ -- 114
+if$ -- 1956
 int.to.chr$ -- 0
-int.to.str$ -- 31
-missing$ -- 88
-newline$ -- 136
-num.names$ -- 31
-pop$ -- 164
+int.to.str$ -- 27
+missing$ -- 76
+newline$ -- 118
+num.names$ -- 27
+pop$ -- 146
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 303
+skip$ -- 268
 stack$ -- 0
-substring$ -- 317
-swap$ -- 197
+substring$ -- 253
+swap$ -- 173
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 4
-while$ -- 54
-width$ -- 33
-write$ -- 284
-(There were 5 warnings)
+warning$ -- 3
+while$ -- 46
+width$ -- 29
+write$ -- 249
+(There were 4 warnings)

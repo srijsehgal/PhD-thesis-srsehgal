@@ -2,19 +2,31 @@
 
 %==============================================================================
 \chapter{Neutrino Analysis $60^\circ < \theta < 75^\circ$}
-\label{sec:tracking}
+\label{sec:DGL}
 %==============================================================================
-This chapter gives a brief summary of the hardware and the software used to implement tracking for NA64. It begins with a description of the detectors used to track the incoming beam at NA64. Further it describes the algorithm implemented to fit tracks to the information received from the detectors. It ends with a brief description of the software where the said algorithm is implemented.
+This chapter gives a brief summary of the neutrino search performed for the zenith range $60^\circ < \theta < 75^\circ$. The neutrino search is separated in different angular range to maximise the performance of the detector array in this case the SD for the search. The chapter aims to cover the expected signature in terms of measurable quantities in the Pierre Auger Observatory for the particular angular range, the neutrino simulation used to develop the analysis, the reconstruction chain used along with the quality cuts used for such an analysis. Further, the quality cuts are analysed in more detail especially in the context of improving the capability of the search by the usage of MoPS and ToTd. In the end the improvements to both the diffused and point source neutrino searches with the new triggers are quantified.
 
-\section{Detectors}
-NA64 uses two varieties of Micro-Pattern Gas Detectors (MPGD) to track the beam particles and estimate their momentum. MPGDs offer a high rate capability along with a spatial resolution O($\mathrm{\mu m}$), both of which are required for NA64. They work on the basic principle that charged particles moving through a medium interact with it in different ways losing some energy in the process. The interaction in case of MPGDs is a direct Coulomb interaction with the atoms present in the detector medium leading to their ionization. The two varieties are the following:
-\subsection{MicroMegas}
-\label{sec:MM}
-MICRO-MEsh GAseous Structure (Micromegas) were invented in 1992 by Georges Charpak and Ioannis Giomataris~\cite{CHARPAK200226} as an alternative to Multi-Wire Proportional Chamber (MWPC)~\cite{Sauli:1977mt} to counter its space resolution and rate limitations.
 
-In a MicroMegas (MM) detector a metallic mesh is introduced between the anode and cathode. The mesh itself is supplied with a high voltage effectively separating the detector volume into two regions. When a charge particle traverses the detector region above the mesh it will ionize the atoms present in the medium. The electrons produced in this process drift towards the mesh where they encounter a high electric field reaching enough energy to create an avalanche. The electrons from the avalanche induce a signal on the readout electrodes while the ions are collected by the mesh. A schematic of the detector is shown in fig.(\ref{fig:Micromegas_na64}) and a more detailed description of the process can be found in \cite{CHARPAK200226}.
+\section{SD Neutrino signature $60^{\circ} < \theta < 75^{\circ}$}
+\label{sec:sig_DGL}
 
-The NA64 Micromegas are resistive Micromegas where the usual single readout layer is replaced with a layer of resistive strips (R) followed by additional readout layers below. They were developed at the CERN EP-DT-EF workshop~\cite{Banerjee:2017mdu}. The readout is made up of two layers of 320 strips(X and Y) perpendicular to each other, both rotated by an angle of $45^{\circ}$ with respect to the global reference system and are therefore called U and V throughout the thesis. The strips which are parallel to the resistive strips have a lower capacitive coupling compared to the ones which are perpendicular leading to a slightly worse positional resolution in one plane. The detector was measured to have a gain of $\approx 2 \times  10^4 $ at an amplification voltage of 540 V~\cite{Banerjee:2017mdu}.
+The strategy and method to detect neutrino showers in this angular range with the SD remains the same as mentioned before i.e to try detecting showers that develop late and have more electromagnetic or "young" shower front at ground. In terms of signal in the SD array the young shower is expected to be spread over a longer time period typically hundreds of nanoseconds and have a lower maximum peak compared to signal induced by older showers which are spread over tens of nanoseconds and have a higher maximum peak. A comparison of the difference between the induced SD signal from a young and old shower arriving from the same zenith angle is presented in fig. ~\ref{}. However, such differences in signals and the ability of the SD to differentiate between a neutrino induced and a proton/ heavy nuclei induced shower disappears for vertical showers($\Theta < 60^{\circ}$). For vertical showers a cosmic ray induced shower does not have enough time to develop because of the limited thickness of the atmosphere. At these zenith angles a high energy CR induced EAS can mimic the expected young shower signature of a neutrino induced EAS at ground. Thus, currently the neutrino searches at the Pierre Auger Observatory are limited to zenith angles above $60^\circ$ where it is much easier to separate a neutrino induced EAS from a CR induced EAS. Since we are also searching for young showers which have not fully developed till they are detected at ground, reconstructed energy cannot be used as a discrimination criterion.      
+
+To select the longer signals in the SD one of the variables that was used in erstwhile neutrino searches is the fraction of ToT-T2 triggered signals in the recorded event. As mentioned in the previous chapter this trigger is tuned to select broader signals which for an inclined shower is evidence of a young shower. For the search presented in this thesis along with the ToT-T2, the ToTd and MoPS are also used. Both ToTd and MoPS as mentioned in sec.~\ref{} help further increase the selection efficiency for broader signals by reducing the impact of low energy muons. These muons which form the majority of the background at low zenith angles of the selected search range. Thus, these triggers are impactful in increasing the separation power for low energy($\leq$ 1 EeV) neutrino showers. Another important variable which is used to judge the width of the signals is Area Over Peak (AoP). The AoP is defined as the ratio of the integrated signal of the station over the biggest value or peak of the signal. The AoP is calibrated in such a way that narrow/ old shower signals have AoP ~ 1 while broad/old shower signals have AoP $\geqslant $ 1. 
+
+
+
+\section{Neutrino Simulations}
+\label{sec:sim_DGL}
+To characterise the neutrino search ability of the Pierre Auger Observatory Monte Carlo simulations of EASs induced by UHE$\nu$s are required. The simulations were produced in two parts by the Pierre Auger Collaboration Monte Carlo task based on the GAP note ~\ref{}. The first part included using CORSIKA~\ref{} to generate the EAS initiated by a $\nu$ primary. This involves simulating the primary neutrino-nucleon interaction which is performed i CORSIKA using the HERWIG code  
+
+
+
+
+
+
+
+
 
 \begin{figure}[t!]
 \centering
@@ -25,11 +37,6 @@ The NA64 Micromegas are resistive Micromegas where the usual single readout laye
 
 \subsection{Gas Electron Multiplier}
 \label{sec:GEM}
- Gas Electron Multiplier (GEM) was invented by F.Sauli at CERN in 1997. They are cheaper and easier to manufacture compared to other tracking detectors and offer a flexible geometry thus can be used in different shapes and sizes. They have versatile applications as they can be used both as a standalone detector and as readout elements of a Time Projection Chamber (TPC).
-
- A standard GEM detector consists of a single or multiple layers of  GEM foils inserted between drift and charge collection electrodes. Each foil is made up of polymer coated with a thin metal layer on both sides. The foil is punched with a high density of holes. The holes are etched on both sides of the foil forming a double-conical structure as shown in fig.(\ref{fig:GEM_field}), other kind of hole shapes are also possible. When a differential voltage is applied to the electrodes the holes develop field lines as shown. Electrons drifting through the holes will follow the field lines gaining enough energy to ionize the filled gas leading to an avalanche. Electrons from the avalanche are then collected by the readout  electrode. A more detailed description of the process can be found in~\cite{SAULI20162}.
-
- The NA64 GEMs were developed at the Technical University Munich (TUM)~\cite{Baust:2008} and resemble the ones developed for COMPASS~\cite{Ketzer:2001dt}. They consist of three stacked GEM foils followed by a stripped readout. The readout consists of two layers perpendicular to each other (X and Y) which are aligned the same as the global reference system. The detector is filled with a mixture of $\mathrm{Ar/CO_2}$ in a ratio of 70/30. The gain of the detector was measured to be $\approx 8 \times 10^4 $ at detector voltage of 4050V~\cite{hosgen:2017}.
 
  \begin{figure}[t!]
  \centering
@@ -50,7 +57,6 @@ The NA64 Micromegas are resistive Micromegas where the usual single readout laye
  \end{figure}
 
 \section{Track-Reconstruction Algorithm}
-This section describes the methods used to fit a track to the output obtained from the tracking detectors and to extract momentum information of the beam from this data. For a simple setup this can be done by fitting a straight line through the hits on the detectors for the regions before and after the magnet obtaining the angle between the two lines to estimate the momentum. This method is described under Linear Regression. For a more complex tracking system and to simulate a more realistic picture for the beam and better alignment for the detectors, the Kalman filter algorithm is used to fit the tracks.
 
 \subsection{Linear Regression}
 \label{sec:Linear_Regression}
