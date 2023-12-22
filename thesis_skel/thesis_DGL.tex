@@ -18,7 +18,30 @@ To select the longer signals in the SD one of the variables that was used in ers
 
 \section{Neutrino Simulations}
 \label{sec:sim_DGL}
-To characterise the neutrino search ability of the Pierre Auger Observatory Monte Carlo simulations of EASs induced by UHE$\nu$s are required. The simulations were produced in two parts by the Pierre Auger Collaboration Monte Carlo task based on the GAP note ~\ref{}. The first part included using CORSIKA~\ref{} to generate the EAS initiated by a $\nu$ primary. This involves simulating the primary neutrino-nucleon interaction which is performed i CORSIKA using the HERWIG code  
+To characterise the neutrino search ability of the Pierre Auger Observatory Monte Carlo simulations of EASs induced by UHE$\nu$s are required. The simulations were produced in two parts by the Pierre Auger Collaboration Monte Carlo task based on the GAP note ~\ref{}. There are six possible neutrino interaction chanels due to the three possible neutrino flavors with each having two possible channels(CC or NC). However, for simulations these are envisioned to be characterised by just two sets of simulations. For the NC channel since the EAS induced by three neutrino flavors has the exact same signature for our detector only $\nu_e$ NC simulations were performed to estimate the NC contribution of all the three flavors to the final exposure. 
+
+For the CC interactions in the case of $\nu_{\mu}$ the resulting high energy muon has a high probability of evading detection. This is very similar to the NC interaction where the resultant secondary neutrino also carries approximately 80\% of the primary energy. Thus, after taking into account the appropriate crossection, in principle the NC simulations can be used to also estimate the contribution of $\nu_{\mu}$ CC channel.  
+
+In the case of $\nu_{\tau}$ CC interactions where the resulting $\tau$ especially at higher energies($\geq $EeV) can decay and also initiate a secondary shower resulting in a "double bang" like signature in the Observatory. In the context of this thesis such signatures are not accounted for and the $\nu_{\tau}$ CC interaction is treated in the same way as the $\nu_{\mu}$ CC interaction resulting in a possible underestimation of the Observatory to $\nu_{\tau}$ events. A future $\nu_{\tau}$ simulation library is currently being prepared by the Pierre Auger Collaboration Monte Carlo task and could help extend this analysis in the future.
+
+Thus, in summary $\nu_e$ CC and NC simulations can be considered to be good approximations to estimate the contributions of all the other channels to the overall exposure of the Observatory.
+
+\subsection{Atmospheric Shower simulations}
+\label{subsec:sim_EAS}
+The first part included using CORSIKA~\ref{} to generate the EAS initiated by a $\nu$ primary. This involves simulating the primary neutrino-nucleon interaction which is performed in CORSIKA using the HERWIG code. Further options such as CHARM to track charm secondaries are not used. Also since only $\nu_e$ simulations are simulated, the TAULEP option which handles $\nu_{\tau}$ and $\overline{\nu_{\tau}}$ is also not used. The systematic uncertainties related to the primary interaction estimator is discussed later in section~\ref{}. CORSIKA further tracks the primary interaction products as they travel in the atmosphere towards the ground constituting the air shower. CORSIKA offers a wide variety of choice regarding selecting the hadronic interaction model. For the simulations used in this study separate high and low energy hadronic interaction models were used. For energies higher than 200 GeV three high energy hadronic models QGSJETT~\cite{}, SYBILL~\cite{} and EPOS-LHC~\cite{} were compared. The results of the comparison are mentioned in detail in Appendix~\ref{}. Since the differences between the models are not that significant for the neutrino analysis ....dash..... was chosen as the high energy interaction model. For lower energies FLUKA~\cite{} was chosen. The systematic uncertainities arising from different models are discussed in section~\ref{}.  
+
+To account for the curvature of the Earth which is especially important for the zenith angles studied, the EGS4~\ref{} Monte-Carlo method is chosen to simulate the electromagnetic component of the shower. The analytical NKG~\ref{} method which is also available but is not used for these simulations since it vastly underestimates the maximum of the electromagnetic component due to the fact it does not account for a curved atmosphere.    
+
+
+
+
+Both CC and NC showers were simulated for fixed energy steps of log(E/eV) = 0.5 in the range $10^{17}-10^{20.5}$eV. The number of simulated showers was varied depending on the Energy, atmospheric depth of interaction and the injected zenith angle. More showers were simulated at lower energies and the energy dependent numbers are tabulated in table~\ref{}. Further, for both the interaction channels within the zenith angle range $60^{\circ}-70^{\circ}$ the neutrinos were forced to interact at fixed atmospheric depths in steps of 100 g cm$^{-2}$. The injection points both close to the ground where a neutrino shower might have a lower trigger efficiency and close to the top of the atmosphere where a neutrino induced shower might mimic one induced by a proton are rejected for the simulations. The azimuthal angle is left free and can take any value between 0$^{\circ}$ and 360$^{\circ}$. The simulated depths for each zenith angle bin are summarised in table~\ref{}. 
+
+For each (E,$\theta_{MC}$,X) bin the primary shower 
+
+
+
+
 
 
 
