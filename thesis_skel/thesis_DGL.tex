@@ -18,27 +18,77 @@ To select the longer signals in the SD one of the variables that was used in ers
 
 \section{Neutrino Simulations}
 \label{sec:sim_DGL}
-To characterise the neutrino search ability of the Pierre Auger Observatory Monte Carlo simulations of EASs induced by UHE$\nu$s are required. The simulations were produced in two parts by the Pierre Auger Collaboration Monte Carlo task based on the GAP note ~\ref{}. There are six possible neutrino interaction chanels due to the three possible neutrino flavors with each having two possible channels(CC or NC). However, for simulations these are envisioned to be characterised by just two sets of simulations. For the NC channel since the EAS induced by three neutrino flavors has the exact same signature for our detector only $\nu_e$ NC simulations were performed to estimate the NC contribution of all the three flavors to the final exposure. 
+To characterise the neutrino search ability of the Pierre Auger Observatory Monte Carlo simulations of EASs induced by UHE$\nu$s are required. There are six possible neutrino interaction chanels due to the three possible neutrino flavors with each having two possible channels(CC or NC). However, for simulations these are envisioned to be characterised by just two sets of simulations. For the NC channel since the EAS induced by three neutrino flavors has the exact same signature for our detector only $\nu_e$ NC simulations were performed to estimate the NC contribution of all the three flavors to the final exposure. 
 
 For the CC interactions in the case of $\nu_{\mu}$ the resulting high energy muon has a high probability of evading detection. This is very similar to the NC interaction where the resultant secondary neutrino also carries approximately 80\% of the primary energy. Thus, after taking into account the appropriate crossection, in principle the NC simulations can be used to also estimate the contribution of $\nu_{\mu}$ CC channel.  
 
 In the case of $\nu_{\tau}$ CC interactions where the resulting $\tau$ especially at higher energies($\geq $EeV) can decay and also initiate a secondary shower resulting in a "double bang" like signature in the Observatory. In the context of this thesis such signatures are not accounted for and the $\nu_{\tau}$ CC interaction is treated in the same way as the $\nu_{\mu}$ CC interaction resulting in a possible underestimation of the Observatory to $\nu_{\tau}$ events. A future $\nu_{\tau}$ simulation library is currently being prepared by the Pierre Auger Collaboration Monte Carlo task and could help extend this analysis in the future.
 
-Thus, in summary $\nu_e$ CC and NC simulations can be considered to be good approximations to estimate the contributions of all the other channels to the overall exposure of the Observatory.
+Thus, in summary $\nu_e$ CC and NC simulations can be considered to be good approximations to estimate the contributions of all the other channels to the overall exposure of the Observatory. The simulations were produced in two parts by the Pierre Auger Collaboration Monte Carlo task based on the GAP note ~\ref{}. The first part entails the simulation of the $\nu$ induced EAS in the atmosphere and the second consists of simulating the appropriate detector response for the corresponding shower. 
 
 \subsection{Atmospheric Shower simulations}
 \label{subsec:sim_EAS}
 The first part included using CORSIKA~\ref{} to generate the EAS initiated by a $\nu$ primary. This involves simulating the primary neutrino-nucleon interaction which is performed in CORSIKA using the HERWIG code. Further options such as CHARM to track charm secondaries are not used. Also since only $\nu_e$ simulations are simulated, the TAULEP option which handles $\nu_{\tau}$ and $\overline{\nu_{\tau}}$ is also not used. The systematic uncertainties related to the primary interaction estimator is discussed later in section~\ref{}. CORSIKA further tracks the primary interaction products as they travel in the atmosphere towards the ground constituting the air shower. CORSIKA offers a wide variety of choice regarding selecting the hadronic interaction model. For the simulations used in this study separate high and low energy hadronic interaction models were used. For energies higher than 200 GeV three high energy hadronic models QGSJETT~\cite{}, SYBILL~\cite{} and EPOS-LHC~\cite{} were compared. The results of the comparison are mentioned in detail in Appendix~\ref{}. Since the differences between the models are not that significant for the neutrino analysis ....dash..... was chosen as the high energy interaction model. For lower energies FLUKA~\cite{} was chosen. The systematic uncertainities arising from different models are discussed in section~\ref{}.  
 
-To account for the curvature of the Earth which is especially important for the zenith angles studied, the EGS4~\ref{} Monte-Carlo method is chosen to simulate the electromagnetic component of the shower. The analytical NKG~\ref{} method which is also available but is not used for these simulations since it vastly underestimates the maximum of the electromagnetic component due to the fact it does not account for a curved atmosphere.    
+To account for the curvature of the Earth which is especially important for the zenith angles studied, the EGS4~\ref{} Monte-Carlo method is chosen to simulate the electromagnetic component of the shower. The analytical NKG~\ref{} method which is also available but is not used for these simulations since it vastly underestimates the maximum of the electromagnetic component due to the fact it does not account for a curved atmosphere. GDAS Malargue October atmospheric profile is chosen for the simulations and the magnetic field components are taken to be the default values at the Malargue site ($B_x = 19.52\mu T$ and $B_z = -14.17\mu T$). 
+
+Further, since the computing times taken for shower simulations scale roughly with the primary energy, for primary energies > $10^{16}$eV these times become extremely long. Though parallel computing provides a viable solution, the technique of "thin sampling" or thinning~\cite{} offers an alternate way to reduce the computation times while simultaneously saving wastage of resources. The thinning algorithm is applied to all particles below the adjustable fraction of the primary energy which emerge from an interaction. Only one of these particles is followed ,and a proper weight is assigned to this particle to account for the untracked ones which are dropped based on the thinning level($\epsilon_{th} = E/E_0$). Additional improvements ~\cite{} which reduce the statistical fluctuation of particle densities far from the shower core using a maximum limitation of weights and reduction of number of particles close to the shower core where the detectors anyway have a high chance of saturation are also used as a part of thinning algorithm in CORSIKA. A thinning value of $10{-6}$ is used for the simulations in this study. An example of the CORSIKA input file used by the MC task to produce the simulated showers is shown below:
+
+\todo{Add The CORSIKA steer file}
+
+The simulations were performed using the GRID technology~\cite{}. Both CC and NC showers were simulated for fixed energy steps of log(E/eV) = 0.5 in the range $10^{17}-10^{20.5}$eV. The number of simulated showers was varied depending on the Energy, atmospheric depth of interaction and the injected zenith angle. More showers were simulated at lower energies and the energy dependent numbers are tabulated in table~\ref{}. Further, for both the interaction channels within the zenith angle range $60^{\circ}-70^{\circ}$ the neutrinos were forced to interact at fixed atmospheric depths in steps of 100 g cm$^{-2}$. The injection points both close to the ground where a neutrino shower might have a lower trigger efficiency and close to the top of the atmosphere where a neutrino induced shower might mimic one induced by a proton are rejected for the simulations. The azimuthal angle is left free and can take any value between 0$^{\circ}$ and 360$^{\circ}$. The simulated depths for each zenith angle bin are summarised in table~\ref{}. 
+
+Based on (E,$\theta_{MC}$,X) bin the number of CORSIKA showers simulated vary. Higher values were chosen for lower energies to increase the statistics since at these energies the simulated shower has a higher chance of not being detected be the detector.  
+
+After the simulation is completed CORSIKA produces a normal particle output file which contains information about the surviving particles on the ground level which is set based on the detector elevation. The file contains the relevant information such as energy, momentum, timing all segregated for each particle based on its Particle Data Group Code~\cite{}. It also produces a ".long" file which contains longitudinal distribution of various particle numbers along with the energy deposited which is relevant for fluorescence telescope based analyses. For this work the normal particle output files were used for further processing to simulate a response in the Pierre Auger Observatory SD.
+
+\subsection{Surface Detector Response}
+\label{subsec:sim_SD_resp}
+
+The next step required to complete the $\nu$-induced shower simulation is to generate an appropriate detector response in the SD array for each simulated atmospheric shower. This is done using the Offline framework. The framework can read in the CORSIKA output files, undo the applied thinning, simulate the Cherenkov light which will be produced as the particles travel through the WCDs and then also mimic the corresponding WCD electronics outputting the trigger and event information for each simulated shower akin to how real showers are measured at the Observatory. Each step is performed using special modules. The module sequence used to simulate the detector response for $\nu$-induced showers in this thesis is given below: 
+
+\todo{Add The module sequence}
 
 
+The \textit{EventFileReaderOG} reads in the CORSIKA output file. The following steps are performed assuming an "ideal" SD array with every station operational and fully efficient within the design limts. The steps are also repeated for an individual shower between 5- 30 times depending on the primary energy to further increase the statistics for each (E,$\theta$,X) bin. The first module is the EventGeneratorOG sets the core position, time and event ID for Monte Carlo events. In this analysis similar to ~\cite{} the core position is only allowed to be randomised over a 5 x 5 km$^2$ area around a fixed station at the center of the array. This allows an in depth study of how core position could impact the reconstruction which is discussed later. In the next step the \textit{CachedShowerRegeneratorOG} reads in the list of the shower particles and unthins each particle injecting a set of new particles based on its unique weight~\cite{}. It can then create a list of particles for each SD station which is then passed to the next module \textit{G4TankSimulatorOG}. G4TankSimulatorOG uses Geant4~\cite{} to simulate the particle trajectories in the WCD and the corresponding Cherenkov light produced by these particles. It also handles all the possible absorption and reflection the light can suffer before it is measured by the PMT. Following this the \textit{} simulates the detector calibration constants described in section~\ref{} and the \textit{SdPMTSimulatorOG} takes in the information from the tank simulator and simulates a corresponding PMT signal(trace). \textit{SdFilterFADCSimulatorMTU} and \textit{SdBaselineSimulatorOG} further simulate the processing of the PMT signal by the electronics at each station with the first applying the filter response and the FADC sampling and the second adding baseline and simulated noise to these traces. 
+
+The next two modules decide whether the simulated event fulfills the heirarichal trigger system of the Observatory explained in section~\ref{}. \textit{TankTriggerSimulatorOG} checks if the signal fulfills the local station criteria i.e T1 and T2 condition after which the \textit{CentralTriggerSimulatorXb} further combines all the station which fulfil the T2 criteria to form the T3 simulating the task performed by CDAS for real data. The \textit{CentralTriggerEventBuilderOG} and \textit{EventBuilderOG} then facilitate the transfer of events passing the T3 criteria from the simulation container class to the event class with the last module \textit{EventFileExporterOG} responsible for exporting all the processed showers now with the applied detector response in a file which can be further used for further reconstruction.  
 
 
-Both CC and NC showers were simulated for fixed energy steps of log(E/eV) = 0.5 in the range $10^{17}-10^{20.5}$eV. The number of simulated showers was varied depending on the Energy, atmospheric depth of interaction and the injected zenith angle. More showers were simulated at lower energies and the energy dependent numbers are tabulated in table~\ref{}. Further, for both the interaction channels within the zenith angle range $60^{\circ}-70^{\circ}$ the neutrinos were forced to interact at fixed atmospheric depths in steps of 100 g cm$^{-2}$. The injection points both close to the ground where a neutrino shower might have a lower trigger efficiency and close to the top of the atmosphere where a neutrino induced shower might mimic one induced by a proton are rejected for the simulations. The azimuthal angle is left free and can take any value between 0$^{\circ}$ and 360$^{\circ}$. The simulated depths for each zenith angle bin are summarised in table~\ref{}. 
+\section{Shower Reconstruction}
+\label{sec:reco}
 
-For each (E,$\theta_{MC}$,X) bin the primary shower 
+The event reconstruction is a necessary step before any further analysis can be performed. This procedure is developed first for neutrino simulations to enhance their identification efficiency and then applied to real measured data for both estimating the possible background for a neutrino like events and for the final search for neutrinos at the Observatory. Shower reconstruction is also performed within the Offline framework with a module sequence that contains a combination of some standard reconstruction modules and some specific modules developed for neutrino identification in GAP note~\cite{}. The Module sequence used to reconstruct simulated neutrino showers is given below:
 
+\todo{Reco modulesequence}
+
+The sequence remains similar to the one used in~\cite{} apart from the iterative development performed by the Offline developers over the years. For data reconstruction the \textit{SdMonteCarloEventSelectorOG} is omitted from the sequence. The chain can be subdivided to three main parts which are "event reading and pre-selection," "angular reconstruction" and "posterior selection and export" which are discussed in the next few sections.
+
+\subsection{Event reading and pre-selection}
+\label{subsec:reco_presel}
+
+The first module in this part of the reconstruction is again the \textit{EventFileReaderOG} which depending on the input format can parse the file. In the reconstruction sequence it is used to read in either the detector response simulated file for simulations or the measurement files obtained from the SD. The \textit{EventCheckerOG} further checks if the stations in each read event have proper timing information. After this point the FADC traces are processed with various modules to covert them to VEM units. The \textit{SdGainRatioCorrectorKG} corrects for the gain ratio for the electronics followed by \textit{TriggerTimeCorrection} which further corrects for differences in electronics especially related to timing for data over the course of its operation. The \textit{SdStationCheckerOG} further checks the station quality and appropriately sets silent stations if they do not contribute to the final trigger formation. After this point the \textit{SdHistogramFitterKG}, \textit{SdBaselineFinderKG} and \textit{SdTraceCalibratorOG} which get the calibration constants from the calibration traces, fit the baseline and the convert the traces to VEM units respectively. Further modules \textit{SdStationPositionCorrection} corrects the positional differences that might arise due to faulty GPSs which is important for correct timing information, \textit{SdBadStationRejectorKG} sets known bad stations in the array to be inoperational and the \textit{SdSignalRecoveryKLT} which tries to recover signals from the saturated PMTs if any by looking at the undershoot value~\cite{}. An extra module \textit{SdPMTQualityCheckerKG} is also used in the case of data reconstruction to estimate the quality of the detector.
+
+The next three modules are used to fine tune the selection of signals and later events to improve the both the quality of simulated and measured data to increase the efficiency of neutrino detection. The first one is the \textit{SdEventSelectorOG} which applies a basic SD event selection which is also used in other analyses. The module sets conditions based on T4, T5 and other station based parameters if appropriate. The different operations performed by the module are as follows:
+
+\begin{description}
+  \item $\bullet$~\textbf{Bottom-up Selection:} This selection helps in deciding the non-participating stations if the stations are not compatible with a planar shower front propagating at the speed of light hypothesis~\cite{}. Such stations can arise due to random noise in the array or due to random coincidences between non-air shower events with air shower events. The selection requires a minimum of three stations which fit the planar front of the shower within lenient time tolerances. It also removes isolated stations by checking the distances to nearest neighbors. Though, the selection is applied, it is not very effective for inclined showers(>$60^{\circ}$) since the showers above these angles are not geometrically compact. Thus, this selection is supplemented with an extra top-down selection implemented in \textit{SdTopDownSignalSelectorUGR} which is discussed later. 
+  \item $\bullet$~\textbf{T4 and T5 trigger:} The module also calculates the T4 and T5 criteria discussed in sec.~\ref{}. It also then further discards events if they do not fulfill these criteria. In this study the T4 criteria was not required but a stringent 6T5 criteria was required for the selection. 
+  \item $\bullet$~\textbf{Lightning Rejection:} The lightning events can be detected in the SD stations by looking for oscillatory signal in the FADC trace of all three PMTs~\cite{}. For this analysis if any lightning like signal is detected in any one of the stations the whole event is rejected from the analysis. 
+  \item $\bullet$~\textbf{ToTd and MoPs trigger:} The module can also silence particular triggers before applying the selection. This feature is used to produce two sets of reconstruction files one with the triggers turned off and one with them turned on. This can impact the number of events fulfilling the 6T5 conditions and thus the overall number of events which can be seen later.    
+\end{description}
+
+The \textit{MonteCarloEventSelectorOG} further removes stations with distance in shower plane coordinates smaller than the inner radius used in the CORSIKA simulations. It also removes dense stations i.e virtual stations which are sometimes used for MC studies since these are not representative of the regular SD array. 
+
+The \textit{SdTopDownSignalSelectorUGR} is a module developed specially to carry out a top-down selection and accidental signal rejection for neutrino like events. A summarised overview of what this module aims to accomplish is given next with a detailed description of the module already published in ~\cite{}. The Top-down procedure is applicable for both the simulations and measured data whereas the accidental signal treatment is only applied for measure data. The procedure is based on~\cite{} and ~\cite{}. Top-down selection requires a minimal of three station with the shower front time tolerance compatibility dependent on the zenith angle. If the fit does not converge stations are successively removed and re-tested until a satisfactory fit is achieved. At the end of the procedure stations which do not contribute to the final fit are rejected while the others are marked as candidate stations. Further the Top-Down procedure also takes into account the individual traces and uses the shape for 3-fold topologies. It also rejects isolated signals akin to the Bottom-up selection but with larger tolerances to account for the wider footprint of inclined events. The module also applies an accidental signal rejection procedure before the top-down procedure is applied to account for the atmospheric muon background. The atmospheric muons and also local showers can either trigger isolated stations or even real event stations affecting the start times and in turn the zenith angle reconstruction. This miss-reconstruction can either cause problems with the fitting of the top-down procedure and can also lead non-neutrino like or background events pass the analysis cuts affecting the overall neutrino detection efficiency. The module discards stations with total signals below 3 VEM which rejects the muonic background which typically peaks at 1 VEM. The discarding procedure is implemented only till the minimal number of stations present in the event are below 6. 
+
+
+\subsection{Angular Reconstruction}
+\label{subsec:reco_presel}
+
+The angular reconstruction forms the basis for neutrino detection using the SD especially since for inclined neutrinos the energy reconstruction algorithms typically used for cosmic rays at the Pierre Auger Observatory become unreliable. The angular reconstruction is performed by the \textit{SdPlaneFitOG} and \textit{LDFFinderKG}. The energy reconstruction using the SD is either typically done using the \textit{LDFFinderKG} which fits a lateral distribution function to the SD signal based on the NKG approximation. The NKG approximation is typically inaccurate for inclined showers above a zenith of $60^{\circ}$ thus alternate methods based on muon maps are used for inclined showers. These also fail for neutrino induced showers usually having a large electromagnetic component. Thus, without a reliable energy reconstruction angular reconstruction becomes vital for neutrino induced shower detection at the SD. 
+
+The angular reconstruction procedure is performed in the following way. 
 
 
 
@@ -104,94 +154,11 @@ Linear regression can also be used for NA64 to fit for the bending due to the ma
 \label{fig:linear_regression}
 \end{figure}
 
-\subsection{Kalman Filter}
-Kalman filter is an estimation technique originally developed to predict rocket trajectories. In particle-physics it is often used as an iterative least-square estimation procedure for track fitting. Following is a brief description of the algorithm for track fitting which closely follows~\cite{Fruhwirth:1987fm,Astier:412374}.
-
-Let's assume for a given track model $x_k$ be the value of the "ideal measurement" at the intersection point between the track and the detector at some point k. This is also called the state vector of the system and in an iterative procedure where the value at location $k$ is obtained from a previous location $k-1$ can be written as :
-\begin{equation}
-  x_k = f_k(x_{k-1}) + w_k
-\end{equation}
-where \textbf{f} is the track model propagator function and in this form propogates from detector $k-1$ to $k$ and $w_k$ is a random vector representing the noise between the two detector positions such as multiple scattering perhaps.
-
-\begin{figure}[t!]
-\centering
-\includegraphics[width=\textwidth]{thesis_figures/KALMAN.png}
-\caption{Pictorial representation of the working principle of a Kalman filter ~\cite{article_KALMAN}.}
-\label{fig:Kalman_filter}
-\end{figure}
-
-Now, the state vector is not a quantity that is measured directly by the detector. If we assume that $m_k$ is the value of the measurement by detector k then it can be given as :
-\begin{equation}
-  m_k = h_k(x_k) + \epsilon_k
-\end{equation}
-$h_k(x_k)$ is the function of the state vector measured at the detector which in our case will be a position measurement by our tracking detector. $\epsilon_k$ represents a measurement noise which for an ideal measurement will be zero. We assume that both $w_k$ and $\epsilon_k$ are independent random variables and have a mean value of zero.
-For a linearized system,
-\begin{equation}
-  f_k(x_{k-1}) = F_k x_{k-1}
-\end{equation}
-\begin{equation}
-  h_k(x_{k-1}) = H_k x_k
-\end{equation}
-There are three key operations that need to be performed for the Kalman filter procedure. These are ordered and described with respect to time specifically to handle multiple scattering in a proper manner.
 \begin{description}
   \item $\bullet$~\textbf{Filtering} is estimating the "present" state vector taking into account all the present and "past" measurements. Filtering from $m_1$ to $m_k$ includes filtering $m_1$ to $m_{k-1}$, then propagating from $m_{k-1}$ to $m_k$ and including $m_k$.
   \item $\bullet$~\textbf{Prediction} is estimating the state vector at a "future" time.
   \item $\bullet$~\textbf{Smoothing} is estimating the state vector at any point based on all the measurements.
 \end{description}
-
-The basic process can be described as follows. If we have an estimate at position $x_{k-1}$ then it can be extrapolated to position $x_k$ by using the system equation. The estimate at $x_k$ is calculated as a weighted mean between the prediction from the system equation and the measurement from the measurement equation $m_k$. This estimate is passed to all the previous estimates in parallel by using the smoother which is running in a backward direction. Also if there is no process noise $w_k$ then smoothing is equivalent to back extrapolation.
-
-\textbf{System equation:}
-\begin{equation}
-  x_k = F_k x_{k-1} + w_{k}
-\end{equation}
-\begin{equation}
-  E{w_k} = 0,  \mathrm{Cov[w_k]} = Q_k (1\leq k \leq N)
-\end{equation}
-\textbf{Measurement Equation:}
-\begin{equation}
-  m_k = H_k x_{k} + \epsilon_{k}
-\end{equation}
-\begin{equation}
-  E{\epsilon_k} = 0,  \mathrm{Cov[\epsilon_k]} = V_k = G_k^{-1} (1\leq k \leq N)
-\end{equation}
-
-As an example here are the different processes for one update step:
-
-\begin{description}
-\item $-$ Prediction - Extrapolation of the state vector
-      \begin{equation}
-        x_k^{k-1} = F_k x_{k-1}
-      \end{equation}
-      Extrapolation of covariance matrix :
-      \begin{equation}
-        C_k^{k-1} = F_k C_{k-1} F_k^T + Q_k
-      \end{equation}
-
-\item $-$ Filtering - Update of state vector
-       \begin{equation}
-         x_k = C_k [ \, (C^{k-1}_k)^{-1} x_k^{k-1} + H_k^T G_k m_k ] \,
-       \end{equation}
-       Update of covariance matrix :
-       \begin{equation}
-         C_k = [ \, (C^{k-1}_k)^{-1} + H_k^T G_k H_k ]^{-1} \,
-       \end{equation}
-
-\item $-$ Smoothing - Smoothed state vector
-      \begin{equation}
-        x_k^{N} = x_k + A_k(x_{k+1}^N - x_{k+1}^k)
-      \end{equation}
-      where $A_k$ is called the smoother gain matrix given by: $A_k = C_k F_{k+1} ^T (C_{k+1}^k)^{-1}$
-
-\end{description}
-Other information such as residuals $r_k$, covariance matrix of residuals $R_k$ and $\chi^2$ for each step are also calculated and incorporated during the fitting process. A global $\chi^2_{trk}$ is a sum of all chi-squares from filtering. After the Kalman fitting we have three fits for the parameters at a particular hit at position $k$: a track fit for the part upstream i.e  using measurements from 1 till $k$, a backward track fit for the part downstream using measurements from $N$ till $k$ and a fit for the whole track.
-
-The Kalman filter can also be applied for a non-linear system such as in the presence of a magnetic field, by the replacement of the track propagator $f_k$ with the first two terms of of its Taylor series expansion. With this change the procedure is known as extended Kalman filter. This procedure is implemented in the track fitting libraries in CORAL. The computational time of the filter is directly proportional to the number of detector and does not depend much on the total amount of hits in an individual detector. A potential drawback of the algorithm is that it needs initial starting parameters for the state vector and its covariance matrix. This is usually solved by either fitting a small number of measurements with linear regression and then feeding it to the algorithm or by starting with an arbitrary value for the state vector and covariance matrix.
-
-\section{CORAL and PHAST}
-CORAL is the reconstruction and analysis software used at COmmon Muon and Proton Apparatus for Structure and Spectroscopy (COMPASS). PHysics Analysis Software Tool (PHAST) was developed later to separate the analysis from reconstruction and works on the output obtained from CORAL. CORAL was envisioned as a modular program that consists of standard libraries for different processes such as track reconstruction and alignment, that are controlled using external option files. Different detectors can be added externally in a detectors table (detectors.dat) which is fed to CORAL along with the measured data file. The libraries of the detectors that are used at the NA64 experiment such as the Micromegas, which are a little different compared to the standard COMPASS ones, were also added to CORAL~\cite{hosgen:2017}.
-
-The track reconstruction process in CORAL works in the following way. The detectors are divided into separate zones either depending on the magnets or depending on obstruction by a detector such as a calorimeter both of which is true especially in the visible mode for NA64. Zones before and after the magnets are fitted with straight line segments depending on the measurements. The line segments in each zone are then bridged together through the magnets which is sped up with an external Dico file. A Dico file consists of all the possible trajectories pre-calculated, for a particular geometry or setup. The last step in the track reconstruction process is a Kalman filter taking the initial information from the previous two steps and running over the entire track piece, combining the measurements into the final prediction. The momentum is determined according to the integrated magnetic field and the bending angle observed for the fitted track. The option file for track reconstruction for NA64 controls the input and output files for the whole process and also contains information about various noise cuts implemented for the detectors which are described in detail in \cite{hosgen:2017}.
 
 
 

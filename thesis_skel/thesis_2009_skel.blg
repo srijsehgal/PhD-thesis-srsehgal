@@ -20,45 +20,45 @@ Database file #2: ../refs/standard_refs-bibtex.bib
 Warning--empty pages in Banerjee_2018
 Warning--empty pages in article_GEM_pic
 Warning--empty school in nabeel:2018
-You've used 27 entries,
+You've used 23 entries,
             2323 wiz_defined-function locations,
-            816 strings with 11743 characters,
-and the built_in function-call counts, 7865 in all, are:
-= -- 695
-> -- 384
+            780 strings with 10914 characters,
+and the built_in function-call counts, 6684 in all, are:
+= -- 576
+> -- 352
 < -- 1
-+ -- 141
-- -- 114
-* -- 724
-:= -- 1017
-add.period$ -- 48
-call.type$ -- 27
-change.case$ -- 28
++ -- 128
+- -- 105
+* -- 632
+:= -- 876
+add.period$ -- 41
+call.type$ -- 23
+change.case$ -- 24
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 409
-empty$ -- 760
-format.name$ -- 114
-if$ -- 1956
+cite$ -- 26
+duplicate$ -- 339
+empty$ -- 645
+format.name$ -- 105
+if$ -- 1649
 int.to.chr$ -- 0
-int.to.str$ -- 27
-missing$ -- 76
-newline$ -- 118
-num.names$ -- 27
-pop$ -- 146
+int.to.str$ -- 23
+missing$ -- 61
+newline$ -- 102
+num.names$ -- 23
+pop$ -- 126
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 268
+skip$ -- 220
 stack$ -- 0
-substring$ -- 253
-swap$ -- 173
+substring$ -- 188
+swap$ -- 138
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 46
-width$ -- 29
-write$ -- 249
+while$ -- 37
+width$ -- 25
+write$ -- 214
 (There were 4 warnings)

@@ -87,31 +87,6 @@ S.~M. Stigler, {\em Gergonne's 1815 paper on the design and analysis of
   Mathematica {\bfseries 1} no.~4, (1974) 431 -- 439},
   \url{http://www.sciencedirect.com/science/article/pii/0315086074900330}.
 
-\bibitem{Fruhwirth:1987fm}
-R.~Fruhwirth, {\em {Application of Kalman filtering to track and vertex
-  fitting}},
-\href{http://dx.doi.org/10.1016/0168-9002(87)90887-4}{Nucl. Instrum. Meth.
-  {\bfseries A262} (1987) 444--450}.
-%%CITATION = NUIMA,A262,444;%%.
-
-\bibitem{Astier:412374}
-P.~Astier, A.~Cardini, R.~D. Cousins, A.~A. Letessier-Selvon, B.~A. Popov,  and
-  T.~G. Vinogradova, {\em {Kalman Filter Track Fits and Track Breakpoint
-  Analysis}}, \href{http://dx.doi.org/10.1016/S0168-9002(00)00154-6}{Nucl.
-  Instrum. Methods Phys. Res., A {\bfseries 450} no.~physics/9912034. 1, (2000)
-  138--54}, \url{https://cds.cern.ch/record/412374}.
-
-\bibitem{article_KALMAN}
-I.~Kisel, {\em Advances in tracking and trigger concepts},
-  \href{http://dx.doi.org/10.1088/1742-6596/523/1/012022}{Journal of Physics:
-  Conference Series {\bfseries 523} (2014) 012022}.
-
-\bibitem{hosgen:2017}
-M.~H\"{o}sgen, {\em GEM Detectors for the Tracking System of the Missing Energy
-  Experiment NA64 at CERN SPS}.
-\newblock Master thesis, University of Bonn, 2017.
-\newblock BONN-IR-2017-March2017.
-
 \bibitem{nabeel:2018}
 N.~Ahmed, {\em Spurrekonstruktion im NA64 Experiment zur Suche nach Dunkler
   Materie}.
