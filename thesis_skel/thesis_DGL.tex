@@ -58,7 +58,7 @@ The next two modules decide whether the simulated event fulfills the heirarichal
 \section{Shower Reconstruction}
 \label{sec:reco}
 
-The event reconstruction is a necessary step before any further analysis can be performed. This procedure is developed first for neutrino simulations to enhance their identification efficiency and then applied to real measured data for both estimating the possible background for a neutrino like events and for the final search for neutrinos at the Observatory. Shower reconstruction is also performed within the Offline framework with a module sequence that contains a combination of some standard reconstruction modules and some specific modules developed for neutrino identification in GAP note~\cite{}. The Module sequence used to reconstruct simulated neutrino showers is given below:
+The event reconstruction is a necessary step before any further analysis can be performed. This procedure is developed first for neutrino simulations to enhance their identification efficiency and then applied to real measured data for both estimating the possible background for a neutrino like events and for the final search for neutrinos at the Observatory. Shower reconstruction is also performed within the Offline framework with a module sequence that contains a combination of some standard reconstruction modules and some specific modules developed for neutrino identification in GAP note~\cite{}. The reconstruction is again performed with the help of the MC task on the GRID framework based on the particular reconstruction chain developed for neutrinos. The Module sequence used to reconstruct simulated neutrino showers is given below:
 
 \todo{Reco modulesequence}
 
@@ -88,15 +88,41 @@ The \textit{SdTopDownSignalSelectorUGR} is a module developed specially to carry
 
 The angular reconstruction forms the basis for neutrino detection using the SD especially since for inclined neutrinos the energy reconstruction algorithms typically used for cosmic rays at the Pierre Auger Observatory become unreliable. The angular reconstruction is performed by the \textit{SdPlaneFitOG} and \textit{LDFFinderKG}. The energy reconstruction using the SD is either typically done using the \textit{LDFFinderKG} which fits a lateral distribution function to the SD signal based on the NKG approximation. The NKG approximation is typically inaccurate for inclined showers above a zenith of $60^{\circ}$ thus alternate methods based on muon maps are used for inclined showers. These also fail for neutrino induced showers usually having a large electromagnetic component. Thus, without a reliable energy reconstruction angular reconstruction becomes vital for neutrino induced shower detection at the SD. 
 
-The angular reconstruction procedure is performed in the following way. 
+The angular reconstruction procedure uses the timing information from the stations to fit either a plane or a spherical shower front. The axis of shower $a$ is initially assumed to intersect the ground at some time using a signal weighted barycenter $x_b$ and bary-time $t_b$ of selected stations located at $x_i$ with start time $t_i$ given by :
 
 
 
 
+The choice of the weights taken as $\sqrt{S} $ with $S$ being the signal of the stations has been previously evaluated using Monte-Carlo studies~\cite{} to give the best results. The barycenter also serves as the first estimate of impact position of \textit{shower core} at ground but is later estimated more accurately. The shower core is assumed to be moving in the $-a$ direction. Under the plane-front assumption the particles in the shower front move in a plane perpendicular to the shower axis($shower plane$) with the same speed as the core of the shower which is the speed of light c, the time t(x) when the shower plane passes through some chosen point
+x (e.g. a station on the ground) can be inferred through a simple projection onto the shower axis as,
+
+
+Assuming a minimal change in altitude which is true for SD location and precise knowledge of station locations the deviations in estimating the geometrical shower parameters can be due to the uncertainity of the observed start times $\sigma_t$. Thus, the following function needs to be minimised to fit the model for the measured signal start times 
+
+
+The start time variance needs to be modified for the new triggers and has been taken from~\cite{}. Replacing the axis with $a =(u,v,w)$ and the station coordinates with $x = (x,y)$ (ignoring altitude z). Adding the constraint $u^2 + v^2 + w^2 = 1$ the $chi^2$ can be easily solved. The solution only fails if the stations used while fitting have a linear dependence(three stations in a line) but for higher station multiplicity this is highly improbable especially for the theta range explored for the DGL channel. For more inclined events different solutions to the zenith estimation are used~\cite{}. 
+ 
+Another shower front estimation technique based on a curved shower front approximation is also used to fit the measured stations~\cite{}. The reconstruction assumes the shower development starting at time $t_o$ from a point of origin $x_o$ propagating toward the ground as a concentrically expanding sphere with the speed of light, $c$. The arrival time can thus be estimated as:
+
+
+As can be seen by the equation, the spherical fit is decoupled from any prior knowledge of the shower core or the shower axis. It is only dependent on the point of origin. Quantities such as shower axis can be determined later when the impact point has been estimated as $x_o -x_c/ x_o-x_c$. The expected solid angle differences between the two fits are of the order of half a degree. The curvature shower front fit is only used for station multiplicities greater than five. This is so because for lower station multiplicities the degrees of freedom are not enough to solve for the shower-front curvature(R-$\infty$). 
+
+
+\subsection{Posterior selection and Export}
+\label{subsec:reco_possel}
+
+The last part of the shower reconstruction chain includes the application of the \textit{SdEventPosteriorSelectorOG} module which computes the 6T5 \textit{posterior} trigger differing from the 6T5 criteria mentioned earlier. The 6T5 posterior requires the 6 stations in the first crown from the nearest station to the reconstructed shower axis to be active or alive during the event. The events which do not pass this criterion are rejected. The last module \textit{RecDataWriterNG} exports all the relevant information to ADST~\cite{} files. In case of reconstructed simulations both the simulated and reconstructed information is stored while for measured data only the reconstructed information is stored.
+
+
+\section{Reconstructed $\nu$ simulations}
+\label{sec:reco_possel}
+This section includes some sanity check to check and verify the quality of the $\nu$ simulations. Fig shows the  Efficiency of the reconstructed showers as a function of the zenith angle and the slant depth. The next figure shows the frequency of reconstructed events based on the core position. The non-uniform distribution with the minimal events for core positions close to the stations can be explained due to two reasons. The first being the removal of stations if the PMTs for the particular station is saturated. This saturation can occur for stations very close to the core. The second reason  
 
 
 
-
+\section{$\nu$ selection}
+\label{sec:nu_sel}
+This section tries to describe the decisions made to select $\nu$ induced air showers. The selection is optimised and evaluated on the above-mentioned neutrino simulations and a part of measured data used as an estimate for the expected background. Since a \textit{blind search} startegy is envisioned for the search. The rest of the measured data forms the \textit{search sample} and will be used to look for neutrino like events during \textit{unblinding}. 
 
 
 
