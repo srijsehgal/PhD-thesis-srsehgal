@@ -45,9 +45,10 @@
 \contentsline {subsection}{\numberline {5.3.3}Posterior selection and Export}{55}{subsection.5.3.3}%
 \contentsline {section}{\numberline {5.4}Reconstructed $\nu $ simulations}{55}{section.5.4}%
 \contentsline {section}{\numberline {5.5}$\nu $ selection}{55}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Gas Electron Multiplier}{55}{subsection.5.5.1}%
-\contentsline {section}{\numberline {5.6}Track-Reconstruction Algorithm}{55}{section.5.6}%
-\contentsline {subsection}{\numberline {5.6.1}Linear Regression}{55}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.5.1}Samples Used}{56}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Gas Electron Multiplier}{56}{subsection.5.5.2}%
+\contentsline {section}{\numberline {5.6}Track-Reconstruction Algorithm}{56}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Linear Regression}{56}{subsection.5.6.1}%
 \contentsline {chapter}{\numberline {6}Neutrino Analysis DGH}{59}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Previously used method}{59}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Millepede}{60}{section.6.2}%
