@@ -75,72 +75,6 @@ F.~Murtas, G.~Croci, A.~Pietropaolo, G.~Claps, C.~Frost, E.~Cippo, D.~Raspino,
   \href{http://dx.doi.org/10.1088/1748-0221/7/07/P07021}{Journal of
   Instrumentation - J INSTRUM {\bfseries 7} (2012) }.
 
-\bibitem{Linear_regression}
-J.~F. Kenney and E.~S. Keeping, {\em (1962) "Linear Regression and
-  Correlation." Ch. 15 in Mathematics of Statistics , Pt. 1, 3rd ed. Princeton,
-  NJ: Van Nostrand, pp. 252-285}, 1962.
-
-\bibitem{STIGLER1974431}
-S.~M. Stigler, {\em Gergonne's 1815 paper on the design and analysis of
-  polynomial regression experiments},
-  \href{http://dx.doi.org/https://doi.org/10.1016/0315-0860(74)90033-0}{Historia
-  Mathematica {\bfseries 1} no.~4, (1974) 431 -- 439},
-  \url{http://www.sciencedirect.com/science/article/pii/0315086074900330}.
-
-\bibitem{nabeel:2018}
-N.~Ahmed, {\em Spurrekonstruktion im NA64 Experiment zur Suche nach Dunkler
-  Materie}.
-\newblock PhD thesis, 2018.
-\newblock Bachelor Thesis, University Bonn.
-
-\bibitem{Blobel:2006yh}
-V.~Blobel, {\em {Software alignment for tracking detectors}},
-  \href{http://dx.doi.org/10.1016/j.nima.2006.05.157}{Nucl. Instrum. Meth.
-  {\bfseries A566} (2006) 5--13},
-\url{http://www.desy.de/~blobel/blobel_align.pdf}.
-%%CITATION = NUIMA,A566,5;%%.
-
-\bibitem{Millepede}
-B.~V. and DESY, {\em Millepede II},
-\newblock \url{http://www.desy.de/~kleinwrt/MP2/doc/html/index.html}.
-
-\bibitem{Blobel:2002ax}
-V.~Blobel and C.~Kleinwort, {\em {A New method for the high precision alignment
-  of track detectors}}, in {\em {Advanced Statistical Techniques in Particle
-  Physics. Proceedings, Conference, Durham, UK, March 18-22, 2002}}.
-\newblock 2002.
-\newblock \href{http://arxiv.org/abs/hep-ex/0208021}{{\ttfamily
-  arXiv:hep-ex/0208021 [hep-ex]}}.
-\newblock
-\url{http://www.ippp.dur.ac.uk/Workshops/02/statistics/proceedings//blobel1.pdf}.
-\newblock
-%%CITATION = HEP-EX/0208021;%%.
-
-\bibitem{Blusk:2007zza}
-S.~Blusk, O.~Buchmuller, A.~Jacholkowski, T.~Ruf, J.~Schieck,  and S.~Viret,
-  eds., {\em {Proceedings, first LHC Detector Alignment Workshop, CERN, Geneva,
-  Switzerland, 4-6 September 2006}}.
-\newblock 2007.
-\newblock
-\url{http://cdsweb.cern.ch/record/970621}.
-\newblock
-%%CITATION = CERN-2007-004;%%.
-
-\bibitem{PereiraDaCosta:1204557}
-H.~Pereira Da~Costa, {\em {Développement de chambres à dérive pour les hauts
-  flux dans l’expérience COMPASS}}, 2001.
-\newblock \url{http://cds.cern.ch/record/1204557}. Presented on 23 Nov 2001.
-
-\bibitem{SAULI20162}
-F.~Sauli, {\em The gas electron multiplier (GEM): Operating principles and
-  applications},
-  \href{http://dx.doi.org/https://doi.org/10.1016/j.nima.2015.07.060}{Nuclear
-  Instruments and Methods in Physics Research Section A: Accelerators,
-  Spectrometers, Detectors and Associated Equipment {\bfseries 805} (2016) 2 --
-  24},
-  \url{http://www.sciencedirect.com/science/article/pii/S0168900215008980},
-  Special Issue in memory of Glenn F. Knoll.
-
 \bibitem{Gninenko:2017yus}
 S.~N. Gninenko, D.~V. Kirpichnikov, M.~M. Kirsanov,  and N.~V. Krasnikov, {\em
   {The exact tree-level calculation of the dark photon production in
@@ -149,25 +83,5 @@ S.~N. Gninenko, D.~V. Kirpichnikov, M.~M. Kirsanov,  and N.~V. Krasnikov, {\em
   {\bfseries B782} (2018) 406--411},
 \href{http://arxiv.org/abs/1712.05706}{{\ttfamily arXiv:1712.05706 [hep-ph]}}.
 %%CITATION = ARXIV:1712.05706;%%.
-
-\bibitem{PhysRevD.97.072002}
-{The NA64 Collaboration} Collaboration, D.~Banerjee, V.~E. Burtsev, A.~G.
-  Chumakov, D.~Cooke, P.~Crivelli, E.~Depero, A.~V. Dermenev, S.~V. Donskov,
-  F.~Dubinin, R.~R. Dusaev, S.~Emmenegger, A.~Fabich, V.~N. Frolov,
-  A.~Gardikiotis, S.~G. Gerassimov, S.~N. Gninenko, M.~H\"osgen, A.~E.
-  Karneyeu, B.~Ketzer, D.~V. Kirpichnikov, M.~M. Kirsanov, I.~V. Konorov, S.~G.
-  Kovalenko, V.~A. Kramarenko, L.~V. Kravchuk, N.~V. Krasnikov, S.~V. Kuleshov,
-  V.~E. Lyubovitskij, V.~Lysan, V.~A. Matveev, Y.~V. Mikhailov, D.~V.
-  Peshekhonov, V.~A. Polyakov, B.~Radics, R.~Rojas, A.~Rubbia, V.~D.
-  Samoylenko, V.~O. Tikhomirov, D.~A. Tlisov, A.~N. Toropin, A.~Y. Trifonov,
-  B.~I. Vasilishin, G.~Vasquez~Arenas,  and P.~Ulloa, {\em Search for vector
-  mediator of dark matter production in invisible decay mode},
-  \href{http://dx.doi.org/10.1103/PhysRevD.97.072002}{Phys. Rev. D {\bfseries
-  97} (2018) 072002},
-  \url{https://link.aps.org/doi/10.1103/PhysRevD.97.072002}.
-
-\bibitem{pdg2010}
-{Particle Data Group}, K.~Nakamura,  {et~al.}, {\em {Review of Particle
-  Physics}}, J. Phys. G {\bfseries 37} (2010) 075021, \url{http://pdg.lbl.gov}.
 
 \end{thebibliography}\endgroup
