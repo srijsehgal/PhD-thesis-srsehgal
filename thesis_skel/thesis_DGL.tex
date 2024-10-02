@@ -147,16 +147,23 @@ The pre-selection cuts are applied based on the unique properties of "young" neu
 
 \subsection{Fisher linear discriminant analysis}
 \label{subsec:nu_sel_fisher}
-The last step for the $\nu$ selection and identification involves Fisher Discriminat Analysis (FDA) also known as Linear Discriminat Analysis(LDA)~cite{}. In this analysis this is a statistical method used to find a linear combination of features that characterizes and separates the the two classes, in our case,  signal and background distributions. The goal of FDA is to find a projection that maximises the distance between the projected class means while minimising the variance within each class. This ensures that the classes are well-separated in the reduced space. Mathematically, if we have a signal class represented by $X_s$ with mean $m_s$ and a background class $X_b$ with mean $m_b$ then the optimal discriminating hyperplane represented by $w$ can be found by solving the equation $S_B w = \lambda S_W w$ and is the eigenvector corresponding to the largest eigenvalue $\lambda$. $S_B$ is called the between-class matrix and represented as follows:
+The last step for the $\nu$ selection and identification involves Fisher Discriminat Analysis (FDA) also known as Linear Discriminat Analysis(LDA)~cite{}. In this analysis this is a statistical method used to find a linear combination of features that characterizes and separates the two classes, in our case, signal and background distributions. The goal of FDA is to find a projection that maximises the distance between the projected class means while minimising the variance within each class. This ensures that the classes are well-separated in the reduced space. Mathematically, if we have a signal class represented by $X_s$ with mean $\mu_s$ and a background class $X_b$ with mean $\mu_b$ then the optimal discriminating hyperplane represented by $w$ can be found by solving the equation $S_B w = \lambda S_W w$ and is the eigenvector corresponding to the largest eigenvalue $\lambda$. $S_B$ is called the between-class matrix and represented as follows:
 
 \begin{equation}
-  S_B = n_s (m_s - m)^T (m_s - m) + n_b (m_b - m)^T (m_b - m)
+  S_B = \sum_{i = X_s,X_b} n_i (\mu_i - \mu)(\mu_i - \mu)^T
 \end{equation}
-with $m = \frac{n_s m_s + n_B m_b}{n_s + n_b}$ is the overall mean 
+with $\mu = \frac{n_s \mu_s + n_B \mu_b}{n_s + n_b}$ is the overall mean 
 
-The between class matrix $S_W$ is given as  
+The between class matrix $S_W$ is given as
+\begin{equation}
+  S_W = \sum_{i = X_s,X_b} \sum_{j = n_s,n_b } (x^{(i)}_j - \mu_i) (x^{(i)}_j - \mu_i)^T
+\end{equation}
 
-\begin{figure}[t!]
+After finding the weight vector the projected data for each sample is given as $z_i = w^Tx_i$. The elements of the normalised transposed weight vector are called Fisher coefficients. The method has been implemented in a standalone python program with the help of ~\cite{} and has been verified with the inbuilt LDA module of python~\cite{} with both results agreeing within 0.01\%. 
+
+\subsubsection{Finding best for }
+\label{subsec:nu_sel_fisher}
+It is really important to find the correct features or variables to train the algorithm to achieve the best possible separation. Various combinations of input features were tested and evaluated based on the level of separation along with the shape of the tail of the background description which is important for the cut evaluation procedure. As mentioned before AoP will remain the primary feature used for discrimination. It was also shown in ~\cite{}
 \centering
 \includegraphics[width=\textwidth]{thesis_figures/NA64_MM.png}
 \caption{Left: Strip dimensions of the modules, Right:NA64 Micromega's working principle~\cite{Banerjee:2017mdu}}
