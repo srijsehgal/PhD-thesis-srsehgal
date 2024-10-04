@@ -124,7 +124,7 @@ This section includes some sanity checks to check and verify the quality of the 
 \label{sec:nu_sel}
 This section tries to describe the decisions made to select $\nu$ induced air showers. The selection is optimized and evaluated on the above-mentioned neutrino simulations and a part of the measured data is used as an estimate for the expected background. Since a \textit{blind search} strategy is envisioned for the search. The rest of the measured data forms the \textit{search sample} and will be used to look for neutrino like events during \textit{unblinding}. 
 In the first part the selection used to select $\nu$ showers is described in more detail. The selection consists of some pre-selection cuts applied to enhance the reconstruction quality of the selected events followed by a Fisher Linear Discriminant~\cite{} based on experimental observables which is the main criteria of differentiation between a $\nu$ induced air shower and background.  
-In the second part, the performance of the selection is further evaluated based on temporal changes such as aging in the surface detector and the neutrino detection efficiency is quantified. Comparison to previously used selection are also discussed especially in the context of the performance improvements achieved by using new triggers for neutrino detection.
+In the second part, the performance of the selection is further evaluated based on temporal changes such as ageing in the surface detector and the neutrino detection efficiency is quantified. Comparison to previously used selection are also discussed especially in the context of the performance improvements achieved by using new triggers for neutrino detection.
 
 \subsection{Samples Used}
 \label{subsec:nu_sel_samp}
@@ -147,7 +147,7 @@ The pre-selection cuts are applied based on the unique properties of "young" neu
 
 \subsection{Fisher linear discriminant analysis}
 \label{subsec:nu_sel_fisher}
-The last step for the $\nu$ selection and identification involves Fisher Discriminat Analysis (FDA) also known as Linear Discriminat Analysis(LDA)~cite{}. In this analysis this is a statistical method used to find a linear combination of features that characterizes and separates the two classes, in our case, signal and background distributions. The goal of FDA is to find a projection that maximises the distance between the projected class means while minimising the variance within each class. This ensures that the classes are well-separated in the reduced space. Mathematically, if we have a signal class represented by $X_s$ with mean $\mu_s$ and a background class $X_b$ with mean $\mu_b$ then the optimal discriminating hyperplane represented by $w$ can be found by solving the equation $S_B w = \lambda S_W w$ and is the eigenvector corresponding to the largest eigenvalue $\lambda$. $S_B$ is called the between-class matrix and represented as follows:
+The last step for the $\nu$ selection and identification involves Fisher Discriminat Analysis (FDA) also known as Linear Discriminat Analysis(LDA)~cite{}. In this analysis this is a statistical method used to find a linear combination of features i.e Fisher polynomial that characterizes and separates the two classes, in our case, signal and background distributions. The goal of FDA is to find a projection that maximises the distance between the projected class means while minimising the variance within each class. This ensures that the classes are well-separated in the reduced space. Mathematically, if we have a signal class represented by $X_s$ with mean $\mu_s$ and a background class $X_b$ with mean $\mu_b$ then the optimal discriminating hyperplane represented by $w$ can be found by solving the equation $S_B w = \lambda S_W w$ and is the eigenvector corresponding to the largest eigenvalue $\lambda$. $S_B$ is called the between-class matrix and represented as follows:
 
 \begin{equation}
   S_B = \sum_{i = X_s,X_b} n_i (\mu_i - \mu)(\mu_i - \mu)^T
@@ -159,11 +159,75 @@ The between class matrix $S_W$ is given as
   S_W = \sum_{i = X_s,X_b} \sum_{j = n_s,n_b } (x^{(i)}_j - \mu_i) (x^{(i)}_j - \mu_i)^T
 \end{equation}
 
-After finding the weight vector the projected data for each sample is given as $z_i = w^Tx_i$. The elements of the normalised transposed weight vector are called Fisher coefficients. The method has been implemented in a standalone python program with the help of ~\cite{} and has been verified with the inbuilt LDA module of python~\cite{} with both results agreeing within 0.01\%. 
+After finding the weight vector the projected data for each sample is given as $z_i = w^Tx_i$, $z_i$ from here on is reffered to as Fisher value, $\mathcal{F}$. The elements of the normalised transposed weight vector are called Fisher coefficients. The method has been implemented in a standalone python program with the help of ~\cite{} and has been verified with the inbuilt LDA module of python~\cite{} with both results agreeing within 0.01\%. 
 
-\subsubsection{Finding best for }
-\label{subsec:nu_sel_fisher}
-It is really important to find the correct features or variables to train the algorithm to achieve the best possible separation. Various combinations of input features were tested and evaluated based on the level of separation along with the shape of the tail of the background description which is important for the cut evaluation procedure. As mentioned before AoP will remain the primary feature used for discrimination. It was also shown in ~\cite{}
+\subsubsection{Fisher polynomials and training}
+\label{subsubsec:nu_sel_fisher_training}
+It is really important to find the correct features or variables to train the algorithm to achieve the best possible separation. Various combinations of input features were tested and evaluated based on the level of separation along with the shape of the tail of the background description which is important for the cut evaluation procedure. As mentioned before AoP will remain the primary feature used for discrimination. It was also shown in ~\cite{} that for the DGL channel AoPs of the earliest stations closest to the core provide the best level of discrimination between data and background. This also visualized in figs.~\ref{}. Further, the zenith angle range for the search, 58.5$^\circ < \theta < 76.5^\circ$ is subdivided into five sub-regions similar to ~\cite{} as shown in fig~\cite{}. This is done to incorporate shower age while training the Fisher polynomial. The first four angular regions are $3^\circ$ each whereas the last region is $6^\circ$. This is due to the small amount of statistics expected for higher angles which required a larger window size. For each angular window the Fisher polynomial is trained separately to maximise the analysis performance. 
+
+Different forms of the Fisher polynomial were tested, and their performance was evaluated based on the MC neutrinos passing the evaluated Fisher cut described in the next section. In this section only two forms are mentioned, the baseline polynomials were taken to be the one described in the previous analysis~\cite{} and the final one used for this analysis. For the first three angular regions (58.5$^\circ < \theta < 67.5^\circ$) a more stringent criterion which requires the AoPs of the first five triggered T5 stations was used to build the Fisher polynomial. For the remaining angular regions () only the first four triggered T5 stations were required. The form of the Fisher polynomial used in the previous analysis is given below:
+
+\begin{equation}
+  \mathcal{F} = \sum_{i=1}^{4or5} C_i AoP_i + C_p \prod_{i=1}^{4or5} AoP_i
+\end{equation}
+
+where $C_i$ and $C_p$ are the corresponding Fisher coefficients. 
+
+A modified version of this baseline polynomial was used for this analysis. The product term was found to not have a significant contribution to the separation and was thus removed for this analysis. Further, the requirement of five stations for lower angular regions was also eliminated which effectively lowered the minimum number of stations required for each event. The form of the polynomial used is $\mathcal{F} = \sum_{i=1}^{4} C_i AoP_i$. 
+
+The performance comparison of the two polynomials is discussed later in section~\ref{}
+
+As mentioned before to train the Fisher polynomial 20\% of the measured data sample for the time period 2014-2021 as the background training sample. Since this is measured data at the detector it is already weighted by energy(cross-section is a function of primary energy) and zenith angle (affects available detection area). For the MC neutrino events(signal sample) which do not have this natural weighting, each event is weighted by a factor of $\omega = E_{MC}^{-1} \cdot \sin(\theta_{MC}) \cdot \cos(\theta_{MC})$. The fig~\ref{} shows the Fisher value, $mathcal{F}$ distributions for both signal and background distributions for all five angular regions. An excellent separation is achieved for all angular regions. 
+
+\subsubsection{Fisher Cut and background estimation}
+\label{subsubsec:nu_sel_fisher_cut}
+After the training process a cut criterion is still needed to be established to best separate the signal and background distribution. This cut is evaluated by nalysing the tail of the Fisher value distribution of the background. 
+
+The tail is fit using an exponential function in the logarithmic scale ($A \mathcal{F} + B$). The fitting is done between for the range $\mu + \sigma$ - $\mu + n\sigma$ where $\mu$ is the mean and $\sigma$ is the rms value of the distribution. n takes a value depending on the last non-zero angular bin for that region. The exponential assumption is only a reasonable guess especially due to the low statistics of the last few bins. The bin size can also affect the fit and is determined for each angular region by minimising the residual fit. This bin size is also verfied with the calculator available in python to negate the possibility of over binning or under binning. Table~\ref{} shows the \textit{observed} and \textit{predicted} values for the exponential fit procedure. The values are calculated by integrating from the start point mentioned in the first column till the end of the $\mathcal{F}$ distribution. The estimate using the exponential fit mostly agrees with the observed values. It agrees the best near the mean of the distribution and becomes worse near the tails. In some angular regions a secondary bump like structure is also seen. This is attributed to the form of the Fisher polynomial and the lack of the product term. The predicted values also include the uncertainties of the fit which slightly increases the predicted number of the background events. The cut, $\mathcal{F}_cut$ is calculated such that after 20 years of data taking with a full SD array 0.2 events are expected to pass for each sub-angular regions with a total of 1 background event for the full search angular range. 
+
+\begin{equation}
+  \mathcal{F}_{cut} = 
+\end{equation}
+
+The two polynomials mentioned in the above section are evaluated based on the fraction of neutrino events passing the $\mathcal{F}_{cut}$. As can be seen in fig.~\ref{}. The simplified Fisher polynomial either matches or outperforms the polnomial used in the previous analysis. The comparison is done only for the case where new triggers are included. The much higher number of events in this sample are required to achieve a sufficiently high background-signal separation especially in the low zenith angular regions where previously a more stringent number of station cut was needed to reduce noise. Based on this comparison the polynomial given in ~\ref{} was used for signal-background separation is this analysis. 
+
+Fig~\ref{} shows the $\mathcal{F}_{cut}$ obtained for the different angular regions. 
+
+A two-dimensional plot with the Fisher values on an event by event basis vs the zenith angle is hown in fig~\ref{}. The blue dots represent the background events and the contour represents the signal events. The black line is obtained by setting the $\mathcal{F}_{cut}$ to the mid value of the bin and the extrapolating for a particular sub-angular region. The background events seem to be distributed non-uniformaly within the angular sub-samples. The linear interpolation ensures that the effective number of events is almost constant with the zenith angle. Anything above the cut line will be considered as a neutrino candidate. 
+
+\subsection{Time evolution of selection parameters}
+\label{subsec:nu_sel_timeev}
+
+A time evolution of the selection parameters used in the $\nu$ analysis is very important as any missed non-physical phenomenon which impacted the data taking with the SD can erroneously affect the training procedure. Since the search sample is kept "blind" and the analysis is fixed based on the training samples any missed error during the training procedure could result in fake neutrino candidates when the search sample is unblinded. 
+
+The first step that is taken to mitigate such instances is in the way the background training sample is chosen. Since the 20\% background sample is chosen randomly over the same time period as that of the search sample it already should be a good representative of the search sample. The check is still performed to look for specific features for the selection parameters such as AoP, Fisher value, Long signal fraction and the zenith angle. 
+
+The values for these parameters is plotted vs the SD Event ID which is correlated to time and represent the time evolution of the array. Fig~\ref{} shows the evolution of the Long signal fraction with respect to the SD Event ID number. The Long signal fraction is likely to be time dependent~\cite{} as the signal threshold for the triggers can be affected by changes in the SD stations(PMT degradation, change in linear reflectivity etc.). There is an ongoing effort to include the affect of ageing of the detector for future detector simulations~\cite{}. Since, this work is still ongoing it was not used for this analysis. 
+
+Fig~\cite{} show the evolution of AoP of the stations and the value of the Fisher discriminant with respect to the SD Event ID. AoP shows a slight modulation which could be related to the effect mentioned in ~\cite{} and was also observed in the previous DGL analysis. This modulation was also observed to have a slight zenith angle dependence as shown in the figure. Overall, this effect is very small and is not expected to affect the analysis.
+
+\subsection{Neutrino Detection Efficiency}
+\label{subsec:nu_sel_nudeteff}
+
+In this section the detection efficiency at each stage of the $\nu$ selection procedure is identified. The efficiency is affected by a myraid of factors such as neutrino flavour, NC or CC interaction, energy, zenith angle and slant depth of interaction. The list is presented in table.~\ref{}. The numbers are calculated with respect to the events remaining after the precedent cut. They are presented sequentially ordered according to the application of the cut in the selection chain. The values are obtained from MC simulations assuming a fully functional surface detector array. 
+
+The inclined shower selection removes ~ $x\%$ of showers. These showers were previously discussed in section~\ref{}. Most of these events are showers which interact very close to the ground which can lead to a mis-reconstructed zenith angle. Further, calculating the impact of $\Delta \theta_{rec}$ a stronger reduction is observed in NC than CC events. The error distributions for both channels are given in fig~\ref{}. The error seems to worsen with increasing zenith angle and reduction of shower energy. These are the two areas where the reconstruction algorithm does not perform properly as in both cases the number of triggered stations are very few and additionally in the second case certain geometrical patterns such as a line can impact the zenith angle determination.
+
+The fiducial quality cut is already a part of the reconstruction algorithm and is thus not evaluated in this section.
+
+The long signal trigger fraction impact \todo{Write more after the numbers}
+
+It is also observed that the Fisher discrimination has different efficiency based on the channel. It seems to perform better for the CC channel in comparison to the NC channel. This is further analysed by looking at the AoP distribution for the two channels. On average the CC events have a higher AoP value in comparison to the NC events. The values of AoP for NC lie in between the CC and the background events. THis makes for a less efficient separation for the NC channel. Overall NC channel events seems to retain a lower electro magnetic component when they reach the ground in comparison to the CC events. This was already shown in the previous analysis.
+
+Fig~\ref{} shows the comparison of the neutrino detection efficiency based of the zenith angle for the CC channel at different primary energies. The plot is compared to the one shown in the previous analysis. Overall the efficiency increases with energy reached maximum values for ~$10^{20.5}$. The efficiency increases as a function of zenith angle with a maximum efficiency for $\theta_{MC} ~ 70^{\circ}$. The efficiency slightly decreases for angles above ~$73^{\circ}$ since for very inclined showers the electro magnetic component at ground is significantly less which affects the identification efficiency. Another factor contributing to this decrease for higher zenith angles is the quality cut on $\Delta \theta_{rec}$ which disproportionally affects the highest zenith angles since the angular reconstruction algorithm is not optimized for very inclined showers. 
+
+It was observed that by using the new triggers a 10-20\% improvement can be achieved for the neutrino search for the DGL channel. The effect of the improvement decreases for higher energy and is the most prominent for energies up to $log E_{\nu} = 18.5$. There several effects which contribute to this improvement. The new triggers increase the overall number of events especially for lower energies as shown in fig~\ref{}. The other factors which are different in this analysis namely the reduction of the number of T5 station requirement for the low angular regions and the change of the Fisher polynomial also contribute to the overall neutrino detection improvement in comparison to the previous analysis. A similar behaviour is observed for the NC channel albeit with a reduced overall efficiency in comparison to the CC channel. 
+
+
+
+
+
+\begin{figure}[t!]
 \centering
 \includegraphics[width=\textwidth]{thesis_figures/NA64_MM.png}
 \caption{Left: Strip dimensions of the modules, Right:NA64 Micromega's working principle~\cite{Banerjee:2017mdu}}
