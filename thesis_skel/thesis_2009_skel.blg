@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2020/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis_2009_skel.aux
+A level-1 auxiliary file: thesis_acknowledge.aux
+A level-1 auxiliary file: thesis_intro.aux
+A level-1 auxiliary file: thesis_CRnNu.aux
+A level-1 auxiliary file: thesis_EAS.aux
+A level-1 auxiliary file: thesis_setup.aux
+A level-1 auxiliary file: thesis_DGL.aux
+A level-1 auxiliary file: thesis_DGH.aux
+A level-1 auxiliary file: thesis_follow.aux
+A level-1 auxiliary file: thesis_conclusion.aux
+The style file: ../refs/atlasBibStyleWithTitle.bst.bst
+A level-1 auxiliary file: thesis_appendix_A.aux
+A level-1 auxiliary file: thesis_appendix_B.aux
+Database file #1: ./thesis_refs.bib
+Database file #2: ../refs/standard_refs-bibtex.bib
+Warning--empty pages in Banerjee_2018
+Warning--empty pages in article_GEM_pic
+You've used 16 entries,
+            2323 wiz_defined-function locations,
+            726 strings with 9132 characters,
+and the built_in function-call counts, 5023 in all, are:
+= -- 403
+> -- 299
+< -- 1
++ -- 107
+- -- 91
+* -- 511
+:= -- 663
+add.period$ -- 22
+call.type$ -- 16
+change.case$ -- 19
+chr.to.int$ -- 0
+cite$ -- 18
+duplicate$ -- 248
+empty$ -- 451
+format.name$ -- 91
+if$ -- 1219
+int.to.chr$ -- 0
+int.to.str$ -- 16
+missing$ -- 50
+newline$ -- 64
+num.names$ -- 15
+pop$ -- 81
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 182
+stack$ -- 0
+substring$ -- 150
+swap$ -- 118
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 26
+width$ -- 18
+write$ -- 140
+(There were 2 warnings)

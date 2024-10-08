@@ -29,7 +29,7 @@ The next step involves integrating the \textit{acceptance} over the different si
 
 Fig.~\ref{} shows the effective mass for both CC and NC interaction channels for a single 6T5 hexagon unit. Like the detection efficiency it increases with energy. 
 
-Exposure calculation still needs to account for the still needs the detector configuration and its evolution over time. We reduced our array to units of 6T5 hexagons and a full SD array consisting of 1660 stations consists 1420 of these hexagons. Since the establishment of the Pierre Auger Observatory the active number of 6T5 hexagons are monitored every second. This forms a very good indicator for the time evolution of the SD array since any non-working station or large periods of instability are intrinsically recorded in the number of active 6T5 hexagons at that time. The instantaneous number of hexagons, $n_{hex}(t)$ thus can be used as an indicator of detector configurations over time. The $n_{hex}(t)$ were updated and calculated every minute and have an uncertainty of about 1.5\% as mentioned in ~\cite{}. To calculate the energy dependent exposure the effective mass of one 6T5 hexagon is multiplied by the instantaneous number of hexagons and integrated in time. Further, the $\nu$ interaction probability for each flavour(i = $\nu_e, \nu_{\mu}, \nu_{\tau}$) and channel(c = CC,NC) is also folded in. The exposure is given as:
+Exposure calculation still needs to account for the still needs the detector configuration and its evolution over time. We reduced our array to units of 6T5 hexagons and a full SD array consisting of 1660 stations consists 1420 of these hexagons. Since the establishment of the Pierre Auger Observatory the active number of 6T5 hexagons are monitored every second. This forms a very good indicator for the time evolution of the SD array since any non-working station or large periods of instability are intrinsically recorded in the number of active 6T5 hexagons at that time. The instantaneous number of hexagons, $n_{hex}(t)$ thus can be used as an indicator of detector configurations over time. The $n_{hex}(t)$ were updated and calculated every minute and have an uncertainty of about 1.5\% as mentioned in ~\cite{}. To calculate the energy dependent exposure the effective mass of one 6T5 hexagon is multiplied by the instantaneous number of hexagons and integrated in time. Further, the $\nu$ interaction probability for each flavour(i = $\nu_e, \nu_{\mu}, \nu_{\tau}$) and channel(c = CC, NC) is also folded in. The exposure is given as:
 
 \begin{equation}
   \xi^{i,c}(E_{\nu}) = \frac{\sigma^{i,c}(E_{\nu})}{m_N} \int_{t} M_{hex}^{i,c}(E_{\nu}) \cdot n_{hex}(t) \cdot dt =  \frac{\sigma^{i,c}(E_{\nu})}{m_N} \cdot M_{hex}^{i,c}(E_{\nu}) \cdot N_{hex}
@@ -37,12 +37,87 @@ Exposure calculation still needs to account for the still needs the detector con
 
 ,$\sigma^{i,c}(E_{\nu})$ is the neutrino nucleon cross-section~\cite{} and $N_{hex}$ is the total number of active 6T5 hexagons integrated in time over the search period. The energy dependent exposure for different flavors and interaction channels is shown in fig~\ref{}. It is necessary to pint out that the double bang showers which can be produced by $\nu_{tau}$ are not taken into account for this analysis. 
 
-An effective or total exposure is calculated by summing all the interaction channels and assuming a 1:1:1 flavour ration at earth(large propagation distances combined with neutrino oscillations) as shown by the red line in fig~\ref{}. 
+An effective or total exposure, $\xi_{tot}(E_{\nu}) = \sum_{i}\sum_{c} \xi^{i,c}(E_{\nu})$ is calculated by summing all the interaction channels and assuming a 1:1:1 flavour ration at earth(large propagation distances combined with neutrino oscillations) as shown by the red line in fig~\ref{}. 
 
 As seen in the figure the $\nu_e$ CC channels contributes the most to the total neutrino exposure(~85\%). The exposure rises rapidly at lower energies and then mostly flattens with just a slight increase which is due to the energy dependent neutrino cross-section. The shape is due to the neutrino detection efficiency which is small at lower energies as shown in fig~\ref{} in the last section. The next dominant channels are the $\nu_{\tau}$ and $\nu_{\mu}$ which have a similar detection efficiency as the NC channel but have a higher value of cross-section. The NC channel contribution is very small(~5\%) due to the reasons discussed in section ~\ref{}.  
 
 \section{Systematic uncertainties}
 \label{sec:det_uncert}
+
+
+\section{Data unblinding}
+\label{sec:data_unblinding}
+As mentioned before in section~\ref{} the search data comprises all events recorded at the Observatory between 2014-2021 which have a SD ID number non-divisible by 5 i.e. 80\% of all SD data recorded between 2014-2021. This search data sample was further split into a 20\% test sample similarly where SD ID numbers divisible by 4 were taken to be a part of the test sample while the rest became the part of the 60\% search sample. This split was done to perform the unblinding in two stages. The first where only the test sample in unblinded to detect any flaws with the analysis and if and when those flaws are fixed, the rest of the data is unblinded. This exercise turned out to be useful as a slight flaw was uncovered during the unblinding process of the 20\% test sample which was corrected. Said flaw which is described in more detail later required the whole reconstruction process along with the training of the Fisher polynomial to be performed again. The splitting procedure was repeated and the total unblinding was performed again in parts. It is important to mention in all of unblinding procedure \textbf{0 neutrino events survive} the analysis selection.
+This section is thus split into two subsections. The first describing the unblinding of the 20\% test sample along with the changes brought about by this unblinding. The second section details the full unblinding of the redone search samples and discusses the interesting features of the unblinded search samples. 
+
+\subsection{20\% test sample}
+\label{subsec:unblind_20}
+
+The Fisher value distribution for the test sample is shown in fig~\ref{}. As it is shown no event passes the Fisher cut in any angular region. However, there are a few events which come very close to the cut line. Five events marked with a red circle were analysed in more detail. Each of them has its own unique reason with only the one with zenith~ being the most interesting. This event has the ID of 66106356. After looking at detailed information about the event it was found out that the accidental station cut used is insufficient. Currently, the  accidental cut(rejection of stations with Totalsignal < 3  VEM) is only applied to the event if there are more than 5 stations in the event. Since for this analysis due to the inclusion of MoPS and ToTd an overall increase in events is expected which also increases the overall number of stations with accidental stations this cut needs to be reduced a bit to take this overall increase into account. Thus, this cut was reduced to apply for events with more than 4 stations. This reduction of the cut decreases the total events passing the analysis cut by ~5\% for both background and signal training samples. The Fisher coefficients and cut changes slightly as shown in table ~\ref{}. After this change in the reconstruction the test sample was obtained again as shown in fig~\ref{}. The other interesting events which have $\mathcal{F}$ values close to the $\mathcal{F_{cut}}$ with their respective ids are tabulated in table~\ref{}. These events were individually evaluated. Some of these () were found to have a bad time residual fit primarily because of mutiple peaks observed in stations triggered by the new triggers. Since, no segmentation algorithm was used sometimes a wrong peak was selected which affected the reconstruction for these events. A future analysis with a corrected segmentation algorithm which is functional for the new triggers MoPS and ToTd is envisaged in the future analysis upgrades. Such events are expected to be limited to less than ~1\% of total events but still require a careful look for future analysis upgrades. A further detailed was also performed for these events where the primary mass composition was extracted via the muon production distributions as mentioned in~\cite{}. Even with large uncertainties these events are most likely due to a light deep primary. For other three events no particular feature was found. 
+
+\subsection{60\% search sample}
+\label{subsec:unblind_60}
+After the unblinding of the test sample and changing the cut mentioned in the section above, the remaining 60\% blinded sample was analysed. Again \textbf{0 neutrino candidates} were found after candidate selection. The results of the unblinding for each sub-angular bin is presented in fig~\ref{} along with the Fisher value as a function of zenith angle presented in fig~\ref{}. The results(red) are overlayed over the training(orange) and test(blue) samples with the dashed lines indicating the value of the $\mathcal{F_{cut}}$ obtained according to eq.~\ref{}. As it can be seen the distributions are compatible to each other within statistical fluctuations. The overlay also confirms that the exponential tail assumption is a reasonable enough to detetrmine the $mathcal{F_{cut}}$. The goodness of the fit is once against checked in the form similar to table~\ref{}. This time for the observed values the numbers are calculated from the much larger search sample.  It is found that the tails of the distributions which typically seemed to have fit badly also fit reasonably well. The events in the search sample that have $\mathcal{F}$ values close to the $\mathcal{F_{cut}}$ were again carefully checked and were found to be either due to the issues with the segmentation algorithm or known issues such as partial shower containment or large number of non-working PMTs both issue have also been seen in previous analysis. 
+
+\section{Diffuse limit for the UHE neutrino flux}
+\label{sec:diff_limit}
+Since no neutrino candidate was found in this analysis.=, an upperlimit to the flux of the income UHE$\nu_s$ can be evaluated. Let flux per unit area, \textit{A}, energy, solid angle $\omega$ and time be denoted by $\phi(E_{\nu}) = \frac{d^6 N_{\nu}}{dE_{\nu}d\omega dA dt}$. The expected number of detected neutrinos can be calculated by folding in the total exposure $\xi_{tot}(E_{\nu})$ with flux as follows,
+
+\begin{equation}
+  N_{expected} = \int_{E_{\nu min}}^{E_{\nu max}} \phi(E_{\nu}) \cdot \xi_{tot}(E_{\nu}) \cdot dE_{\nu}
+\end{equation}
+
+Assuming a differential UHE$\nu$ flux $\phi = k \cdot E_{\nu}^{-2}$, the integrated upperlimit on the value of k is given by:
+
+\begin{equation}
+  k_{up} = \frac{N_{up}}{\int_{E_{\nu min}}^{E_{\nu max}} E_{\nu}^{-2} \cdot \xi_{tot}(E_{\nu}) \cdot dE_{\nu}}
+\end{equation}
+
+, the value of $N_{up}$ for a given confidence level can be determined based on the number of observed events and the number of expected background events. Different statistical methods can be used to obtain the value for $N_{up}$ based on the confidence interval. In the next section these different statistical approaches are discussed in more detail. The Feldman and Cousins limit~\cite{} with an extension that incorporates the systematic uncertainties discussed above is chosen as a final estimate for $N_{up}$.
+
+\subsection{Feldman and Cousins limit}
+\label{subsec:FandC}
+Feldman-Cousins method~\cite{} is a statistical technique used to construct confidence intervals, particularly for Poisson distributed data. This approach addressed the key shortcomings of traditional methods used to construct confidence intervals especially for cases where the number of observed events are low or zero. Traditional methods such as Gaussian approximation, which assumes that data follows a normal distribution which are used to calculate confidence intervals can often lead to incorrect interval particularly in rare event searches where the data is better described by a Poisson distribution. This can also lead to unphysical values eg. negative value for rate of expected events. The Feldman-Cousins approach solves these problems by giving a unified method for constructing confidence intervals. The method ensures that the intervals are unbiased and do not favour one outcome over the other. It also ensures natural transition from two-sided intervals(where there is significant data) to one-sided upper limits(when there is little to no data). The method also respects physical constraints, such as non-negative value for expected event rates. It also provides intervals with more accurate coverage probabilities, reducing over-coverage issues common in other methods. 
+
+The Feldman \& Cousins approach is implemented as a part of \textit{gammapy} in python~\cite{} which was used for to get the interval this analysis. The information was also verified with look-up tables in~\cite{}. For a 90\% confidence interval in the case of zero signal and background events the upper and lower limits are given as $N^{90\%}_{up} = 2.44$ and $N^{90\%}_{low} = 0$ respectively. If one signal event is seen with zero background then this interval shifts to [4.36,0.11]. It is important to note that both statistical and systematic uncertainties are not included for the intervals calculated in the Feldman \& Cousins method. 
+
+\subsection{Rolke approach}
+\label{subsec:Rolke}
+The Feldman \& Cousins treatment is a frequentist method which requires the background source to be known precisely. Such a method can fail if the uncertainties are too high~\cite{}. To solve this problem one can also use the Rolke method~\cite{} which incorporates prior information in this case signal with a Poisson distribution and background with either a Poisson or Gaussian distribution. The method is implemented as a ROOT class under TRolke~\cite{}. For a 90\% confidence interval in the case of zero signal and background events the interval is given as [2.21,0] assuming a Poisson distribution for both signal and background. As it is seen the interval is smaller in comparison to the Feldman \& Cousins approach. This can be explained much more clearly for the case where there is one signal event and no background where the Rolke interval is [3.65,0]. In this case according to the Feldman \& Cousins approach the event has to be a signal since the lower limit is > 0 but in the Rolke approach it is still possible that such an event in the signal region could be a background event i.e in the Rolke approach the absence of background does not imply zero background but it only means that the background is not too large. This is because background is treated as a Poisson number. Thus, the overall upper and lower limits in the Rolke approach are always smaller in comaprison to the Feldman \& Cousins  method. 
+
+\subsection{Conrad approach}
+\label{subsec:Conrad}
+The Conrad method for calculating confidence intervals allows the inclusion of systematic uncertainties in the evaluation. Using this approach the uncertainities in the background prediction, background detection and the signal detection efficiencies can be incorporated in the confidence interval calculation by integrating over the PDFs of these parameters~\cite{}. The method computes the upper limit based on a likelihood ratio between the observed data and the null hypothesis(no signal). For this work the interval was calculated using POLE++~\cite{} which is a C++ program that implements the Conrad method. The systematic uncertainty on exposure was estimated to be as [] as mentioned in section~\ref{}. Under the assumption of a uniform PDF to characterise the exposure and gaussian assumption for background, for a 90\% confidence interval in the case of zero signal and background events the upper and lower limits are given as: 
+
+\begin{equation}
+  N^{90\%}_{up} = 2.39\\
+  N^{90\%}_{low} = 0
+\end{equation}
+
+The interval is smaller in comparison to the Feldman \& Cousins method due to the uneven interval for the systematic uncertainty. For one signal event and zero background the interval changes to []. 
+
+\subsection{Final calculation}
+\label{subsec:final_lim}
+After the determination of $N_{up}$ using the Conrad approach the equation~\ref{} can be solved to determine the upper limit to the diffused flux of UHE$\nu_s$. The integral goes from $E_min = 10^{17.5} $eV till $E_max = 10^{20.5} $eV which is the total energy range explored in the simulations. It is also important to note that the limit is only valid for a smaller energy window. The single flavour 90\% C.L. integrated limit is given by 
+\begin{equation}
+  k_{90} < 6.3 x 10^{-17} GeV cm^{-2} s^{-1} sr^{-1},
+\end{equation}
+It applies to an energy range of $E_{\nu} \epsilon [1.9 \times 10^{18} - 2.0 \times 10^{20}]$ which is the energy range for which ~90\% total event rate is expected in the case of $E^{}-2_{nu}$ flux. The value along with the 90\% energy range is plotted as a solid line in fig~\ref{}.
+
+The other lines in green are the \textit{differential limits}. These are calculated by integrating the denominator of eq.~\ref{} in bins of width $\Delta = 0.5eV$ in $log_{10}(E_{\nu})$. Mathematically for the $i^{th}$ bin this can be represented as follows:
+
+\begin{equation}
+  Differential \,limit \, (i^{th} \, E_{\nu} \, bin)  = \frac{N_{Up}}{\int_{log_10(E^i - (\Delta log_{10}E)/2)}^{log_10(E^i + (\Delta log_{10}E)/2)} E^{-1}_{\nu} \cdot \xi(E_{\nu}) \cdot ln(10) \cdot d(log_{10}(E_{\nu}))}
+\end{equation}
+
+Assuming constant exposure and flux in each energy bin the differential limit can be estimated as:
+
+\begin{equation}
+  Approx. \, Differential \,limit \, (i^{th} \, E_{\nu} \, bin)  = \frac{N_{Up}}{E^{-1}_{\nu} \cdot \xi(E_{\nu}) \cdot ln(10) \cdot \Delta (log_{10}(E_{\nu}))}
+\end{equation}These limIts provide a way to denote the sensitivity of the detector for different energies. As it can be seen from the fig.~\ref{} for the Down-going Low analysis the Pierre AUger Observatory is the most sensitive for energies ~ 1 EeV. 
+
+
+
 
 
 
