@@ -17,45 +17,45 @@ Database file #1: ./thesis_refs.bib
 Database file #2: ../refs/standard_refs-bibtex.bib
 Warning--empty pages in Banerjee_2018
 Warning--empty pages in article_GEM_pic
-You've used 16 entries,
+You've used 13 entries,
             2323 wiz_defined-function locations,
-            726 strings with 9132 characters,
-and the built_in function-call counts, 5023 in all, are:
-= -- 403
-> -- 299
+            697 strings with 7615 characters,
+and the built_in function-call counts, 3442 in all, are:
+= -- 305
+> -- 140
 < -- 1
-+ -- 107
-- -- 91
-* -- 511
-:= -- 663
-add.period$ -- 22
-call.type$ -- 16
-change.case$ -- 19
++ -- 53
+- -- 40
+* -- 331
+:= -- 423
+add.period$ -- 18
+call.type$ -- 13
+change.case$ -- 16
 chr.to.int$ -- 0
-cite$ -- 18
-duplicate$ -- 248
-empty$ -- 451
-format.name$ -- 91
-if$ -- 1219
+cite$ -- 15
+duplicate$ -- 185
+empty$ -- 356
+format.name$ -- 40
+if$ -- 864
 int.to.chr$ -- 0
-int.to.str$ -- 16
-missing$ -- 50
-newline$ -- 64
-num.names$ -- 15
-pop$ -- 81
+int.to.str$ -- 13
+missing$ -- 35
+newline$ -- 53
+num.names$ -- 12
+pop$ -- 68
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 182
+skip$ -- 130
 stack$ -- 0
-substring$ -- 150
-swap$ -- 118
+substring$ -- 98
+swap$ -- 81
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 26
-width$ -- 18
-write$ -- 140
+while$ -- 19
+width$ -- 15
+write$ -- 114
 (There were 2 warnings)

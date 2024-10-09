@@ -67,16 +67,13 @@
 \contentsline {subsection}{\numberline {6.4.3}Conrad approach}{70}{subsection.6.4.3}%
 \contentsline {subsection}{\numberline {6.4.4}Final calculation}{70}{subsection.6.4.4}%
 \contentsline {chapter}{\numberline {7}Source follow-up analysis}{73}{chapter.7}%
-\contentsline {section}{\numberline {7.1}$A'$ Production}{73}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Tracking Detectors}{74}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Calorimeters}{75}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Trigger Detectors}{76}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Reconstruction Results}{77}{section.7.5}%
-\contentsline {subsection}{\numberline {7.5.1}Momentum Reconstruction}{78}{subsection.7.5.1}%
-\contentsline {subsection}{\numberline {7.5.2}A' Reconstruction}{80}{subsection.7.5.2}%
-\contentsline {chapter}{\numberline {8}Conclusion and Outlook}{83}{chapter.8}%
-\contentsline {chapter}{\nonumberline Bibliography}{85}{chapter*.70}%
-\contentsline {chapter}{\numberline {A}Testing hadronic models}{87}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Adapting DGH analysis to current Offline}{93}{appendix.B}%
-\contentsline {chapter}{\nonumberline List of Figures}{95}{chapter*.77}%
+\contentsline {section}{\numberline {7.1}Procedure for point source analysis}{73}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Source visibility}{73}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Effective area and Exposure}{74}{subsection.7.1.2}%
+\contentsline {section}{\numberline {7.2}Point-source neutrino flux limit}{75}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Conclusion and Outlook}{77}{chapter.8}%
+\contentsline {chapter}{\nonumberline Bibliography}{79}{chapter*.64}%
+\contentsline {chapter}{\numberline {A}Testing hadronic models}{81}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Adapting DGH analysis to current Offline}{87}{appendix.B}%
+\contentsline {chapter}{\nonumberline List of Figures}{89}{chapter*.71}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
