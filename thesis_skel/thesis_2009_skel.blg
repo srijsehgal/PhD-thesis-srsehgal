@@ -14,48 +14,75 @@ The style file: ../refs/atlasBibStyleWithTitle.bst.bst
 A level-1 auxiliary file: thesis_appendix_A.aux
 A level-1 auxiliary file: thesis_appendix_B.aux
 Database file #1: ./thesis_refs.bib
+Reallocated buffer (elt_size=1) to 40000 items from 20000.
+Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
+Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
+Reallocated out_buf (elt_size=1) to 40000 items from 20000.
+Reallocated name_tok (elt_size=4) to 40000 items from 20000.
+Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
+Reallocated buffer (elt_size=1) to 60000 items from 40000.
+Reallocated sv_buffer (elt_size=1) to 60000 items from 40000.
+Reallocated ex_buf (elt_size=1) to 60000 items from 40000.
+Reallocated out_buf (elt_size=1) to 60000 items from 40000.
+Reallocated name_tok (elt_size=4) to 60000 items from 40000.
+Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
+Reallocated buffer (elt_size=1) to 80000 items from 60000.
+Reallocated sv_buffer (elt_size=1) to 80000 items from 60000.
+Reallocated ex_buf (elt_size=1) to 80000 items from 60000.
+Reallocated out_buf (elt_size=1) to 80000 items from 60000.
+Reallocated name_tok (elt_size=4) to 80000 items from 60000.
+Reallocated name_sep_char (elt_size=1) to 80000 items from 60000.
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Database file #2: ../refs/standard_refs-bibtex.bib
+Warning--empty author in Auger:2015
+Warning--empty title in Auger:2015
+Warning--empty pages in Abreu_2023
+Warning--empty author in Auger_photons_2022
+Reallocated str_pool (elt_size=1) to 260000 items from 195000.
+Warning--empty pages in TXS_Multi_2018
+Warning--empty pages in Busca_2006
 Warning--empty pages in Banerjee_2018
 Warning--empty pages in article_GEM_pic
-You've used 13 entries,
+You've used 42 entries,
             2323 wiz_defined-function locations,
-            697 strings with 7615 characters,
-and the built_in function-call counts, 3442 in all, are:
-= -- 305
-> -- 140
+            949 strings with 151823 characters,
+and the built_in function-call counts, 115610 in all, are:
+= -- 1170
+> -- 24144
 < -- 1
-+ -- 53
-- -- 40
-* -- 331
-:= -- 423
-add.period$ -- 18
-call.type$ -- 13
-change.case$ -- 16
++ -- 8068
+- -- 8026
+* -- 16997
+:= -- 25195
+add.period$ -- 49
+call.type$ -- 42
+change.case$ -- 44
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 185
-empty$ -- 356
-format.name$ -- 40
-if$ -- 864
+cite$ -- 50
+duplicate$ -- 734
+empty$ -- 1243
+format.name$ -- 8026
+if$ -- 19073
 int.to.chr$ -- 0
-int.to.str$ -- 13
-missing$ -- 35
-newline$ -- 53
-num.names$ -- 12
-pop$ -- 68
+int.to.str$ -- 42
+missing$ -- 174
+newline$ -- 139
+num.names$ -- 39
+pop$ -- 211
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 130
+skip$ -- 570
 stack$ -- 0
-substring$ -- 98
-swap$ -- 81
+substring$ -- 690
+swap$ -- 395
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 19
-width$ -- 15
-write$ -- 114
-(There were 2 warnings)
+warning$ -- 8
+while$ -- 94
+width$ -- 44
+write$ -- 340
+(There were 8 warnings)
