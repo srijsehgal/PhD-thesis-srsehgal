@@ -34,55 +34,69 @@ Reallocated name_tok (elt_size=4) to 80000 items from 60000.
 Reallocated name_sep_char (elt_size=1) to 80000 items from 60000.
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Reallocated str_pool (elt_size=1) to 260000 items from 195000.
 Database file #2: ../refs/standard_refs-bibtex.bib
+Warning--I didn't find a database entry for "2019EPJWC.21206005K"
+Warning--I didn't find a database entry for "Banerjee:2016tad"
+Warning--I didn't find a database entry for "Banerjee_2018"
+Warning--I didn't find a database entry for "Gninenko:2677228"
+Warning--I didn't find a database entry for "Banerjee:2017mdu"
+Warning--I didn't find a database entry for "GEM_field"
+Warning--I didn't find a database entry for "article_GEM_pic"
+Warning--I didn't find a database entry for "Linear_regression"
+Warning--I didn't find a database entry for "STIGLER1974431"
 Warning--empty author in Auger:2015
 Warning--empty title in Auger:2015
 Warning--empty pages in Abreu_2023
 Warning--empty author in Auger_photons_2022
-Reallocated str_pool (elt_size=1) to 260000 items from 195000.
+Reallocated str_pool (elt_size=1) to 325000 items from 260000.
 Warning--empty pages in TXS_Multi_2018
 Warning--empty pages in Busca_2006
-Warning--empty pages in Banerjee_2018
-Warning--empty pages in article_GEM_pic
-You've used 42 entries,
+Warning--empty author in 2018_auger_comp_spec
+Warning--empty pages in Ar_mburo_Garc_a_2021
+Warning--empty author and editor in 2018_CTAO
+Warning--empty pages in universe8110579
+Warning--empty pages in Abbasi_2023_Oscillation
+Warning--empty pages in psf2023008007
+You've used 80 entries,
             2323 wiz_defined-function locations,
-            949 strings with 151823 characters,
-and the built_in function-call counts, 115610 in all, are:
-= -- 1170
-> -- 24144
-< -- 1
-+ -- 8068
-- -- 8026
-* -- 16997
-:= -- 25195
-add.period$ -- 49
-call.type$ -- 42
-change.case$ -- 44
+            1278 strings with 203298 characters,
+and the built_in function-call counts, 159484 in all, are:
+= -- 2207
+> -- 31979
+< -- 0
++ -- 10696
+- -- 10616
+* -- 23074
+:= -- 33977
+add.period$ -- 87
+call.type$ -- 80
+change.case$ -- 80
 chr.to.int$ -- 0
-cite$ -- 50
-duplicate$ -- 734
-empty$ -- 1243
-format.name$ -- 8026
-if$ -- 19073
+cite$ -- 92
+duplicate$ -- 1413
+empty$ -- 2335
+format.name$ -- 10616
+if$ -- 26994
 int.to.chr$ -- 0
-int.to.str$ -- 42
-missing$ -- 174
-newline$ -- 139
-num.names$ -- 39
-pop$ -- 211
+int.to.str$ -- 80
+missing$ -- 356
+newline$ -- 251
+num.names$ -- 76
+pop$ -- 382
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 570
+skip$ -- 1098
 stack$ -- 0
-substring$ -- 690
-swap$ -- 395
-text.length$ -- 1
+substring$ -- 1296
+swap$ -- 774
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 8
-while$ -- 94
-width$ -- 44
-write$ -- 340
-(There were 8 warnings)
+warning$ -- 12
+while$ -- 185
+width$ -- 82
+write$ -- 645
+(There were 21 warnings)

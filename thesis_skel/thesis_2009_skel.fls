@@ -1794,6 +1794,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txi.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txmia.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txsyc.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txexa.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/t1xb.tfm
 INPUT /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_figures/exclusion_visible_latest.png
 INPUT /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_figures/exclusion_visible_latest.png
 INPUT /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_figures/exclusion_visible_latest.png
@@ -1802,6 +1803,9 @@ INPUT /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_figures/exclusi
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txmi1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxmi.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/t1xb.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmb.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm
 INPUT /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_EAS.tex
 INPUT /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_EAS.tex
 INPUT /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_EAS.tex

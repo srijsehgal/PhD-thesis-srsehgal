@@ -1578,64 +1578,761 @@ N.~Busca, D.~Hooper,  and E.~W. Kolb, {\em Pierre Auger data, photons, and
   {\bfseries 73} no.~12, (2006)},
   \url{http://dx.doi.org/10.1103/PhysRevD.73.123001}.
 
-\bibitem{2019EPJWC.21206005K}
-\href{http://dx.doi.org/10.1051/epjconf/201921206005}{{\em {Recent results of
-  the NA64 experiment at the CERN SPS}}}, vol.~212 of {\em European Physical
-  Journal Web of Conferences}.
-\newblock Mar, 2019.
+\bibitem{PhysRev.75.1169}
+E.~Fermi, {\em On the Origin of the Cosmic Radiation},
+  \href{http://dx.doi.org/10.1103/PhysRev.75.1169}{Phys. Rev. {\bfseries 75}
+  (1949) 1169--1174}, \url{https://link.aps.org/doi/10.1103/PhysRev.75.1169}.
 
-\bibitem{Banerjee:2016tad}
-{NA64} Collaboration, D.~Banerjee {et~al.}, {\em {Search for invisible decays
-  of sub-GeV dark photons in missing-energy events at the CERN SPS}},
-  \href{http://dx.doi.org/10.1103/PhysRevLett.118.011802}{Phys. Rev. Lett.
-  {\bfseries 118} no.~1, (2017) 011802},
-\href{http://arxiv.org/abs/1610.02988}{{\ttfamily arXiv:1610.02988 [hep-ex]}}.
-%%CITATION = ARXIV:1610.02988;%%.
+\bibitem{BLASI_2011}
+P.~BLASI, {\em COSMIC RAY ACCELERATION IN SUPERNOVA REMNANTS},
+  \url{http://dx.doi.org/10.1142/9789814329033_0061}.
 
-\bibitem{Banerjee_2018}
-D.~Banerjee, V.~Burtsev, A.~Chumakov, D.~Cooke, P.~Crivelli, E.~Depero,
-  A.~Dermenev, S.~Donskov, R.~Dusaev, T.~Enik,  and et~al., {\em Search for a
-  Hypothetical 16.7 MeV Gauge Boson and Dark Photons in the NA64 Experiment at
-  CERN}, \href{http://dx.doi.org/10.1103/physrevlett.120.231802}{Physical
-  Review Letters {\bfseries 120} no.~23, (2018)},
-  \url{http://dx.doi.org/10.1103/PhysRevLett.120.231802}.
+\bibitem{Rieger_2022}
+F.~M. Rieger, {\em Active Galactic Nuclei as Potential Sources of Ultra-High
+  Energy Cosmic Rays},
+  \href{http://dx.doi.org/10.3390/universe8110607}{Universe {\bfseries 8}
+  no.~11, (2022) 607}, \url{http://dx.doi.org/10.3390/universe8110607}.
 
-\bibitem{Gninenko:2677228}
-{NA64 Collaboration} Collaboration, S.~Gninenko, {\em {NA64 Status Report
-  2019}}, Tech. Rep. CERN-SPSC-2019-024. SPSC-SR-255, CERN, Geneva, Jun, 2019.
-\newblock \url{https://cds.cern.ch/record/2677228}.
+\bibitem{PhysRevD.84.023002}
+K.~Kotera, {\em Ultrahigh energy cosmic ray acceleration in newly born
+  magnetars and their associated gravitational wave signatures},
+  \href{http://dx.doi.org/10.1103/PhysRevD.84.023002}{Phys. Rev. D {\bfseries
+  84} (2011) 023002},
+  \url{https://link.aps.org/doi/10.1103/PhysRevD.84.023002}.
 
-\bibitem{Banerjee:2017mdu}
-D.~Banerjee {et~al.}, {\em {Performance of Multiplexed XY Resistive Micromegas
-  detectors in a high intensity beam}},
-  \href{http://dx.doi.org/10.1016/j.nima.2017.10.067}{Nucl. Instrum. Meth.
-  {\bfseries A881} (2018) 72--81},
-\href{http://arxiv.org/abs/1708.04087}{{\ttfamily arXiv:1708.04087
-  [physics.ins-det]}}.
-%%CITATION = ARXIV:1708.04087;%%.
+\bibitem{Cerutti_2020}
+B.~Cerutti and G.~Giacinti, {\em A global model of particle acceleration at
+  pulsar wind termination shocks},
+  \href{http://dx.doi.org/10.1051/0004-6361/202038883}{Astronomy \&
+  Astrophysics {\bfseries 642} (2020) A123},
+  \url{http://dx.doi.org/10.1051/0004-6361/202038883}.
 
-\bibitem{GEM_field}
-DESY, {\em DESY TPC information},
-\newblock \url{https://flc.desy.de/tpc/basics/gem/index_eng.html}.
+\bibitem{Murase_2008}
+K.~Murase, S.~Inoue,  and S.~Nagataki, {\em Cosmic Rays above the Second Knee
+  from Clusters of Galaxies and Associated High-Energy Neutrino Emission},
+  \href{http://dx.doi.org/10.1086/595882}{The Astrophysical Journal {\bfseries
+  689} no.~2, (2008) L105}, \url{https://dx.doi.org/10.1086/595882}.
 
-\bibitem{article_GEM_pic}
-F.~Murtas, G.~Croci, A.~Pietropaolo, G.~Claps, C.~Frost, E.~Cippo, D.~Raspino,
-  M.~Rebai, N.~Rhodes, E.~Schooneveld, M.~Tardocchi,  and G.~Gorini, {\em
-  Triple GEM gas detectors as real time fast neutron beam monitors for
-  spallation neutron sources},
-  \href{http://dx.doi.org/10.1088/1748-0221/7/07/P07021}{Journal of
-  Instrumentation - J INSTRUM {\bfseries 7} (2012) }.
+\bibitem{Condorelli_2023}
+A.~Condorelli, J.~Biteau,  and R.~Adam, {\em Impact of Galaxy Clusters on the
+  Propagation of Ultrahigh-energy Cosmic Rays},
+  \href{http://dx.doi.org/10.3847/1538-4357/acfeef}{The Astrophysical Journal
+  {\bfseries 957} no.~2, (2023) 80},
+  \url{https://dx.doi.org/10.3847/1538-4357/acfeef}.
 
-\bibitem{Linear_regression}
-J.~F. Kenney and E.~S. Keeping, {\em (1962) "Linear Regression and
-  Correlation." Ch. 15 in Mathematics of Statistics , Pt. 1, 3rd ed. Princeton,
-  NJ: Van Nostrand, pp. 252-285}, 1962.
+\bibitem{Kirk_2000}
+J.~G. Kirk, A.~W. Guthmann, Y.~A. Gallant,  and A.~Achterberg, {\em Particle
+  Acceleration at Ultrarelativistic Shocks: An Eigenfunction Method},
+  \href{http://dx.doi.org/10.1086/309533}{The Astrophysical Journal {\bfseries
+  542} no.~1, (2000) 235}, \url{https://dx.doi.org/10.1086/309533}.
 
-\bibitem{STIGLER1974431}
-S.~M. Stigler, {\em Gergonne's 1815 paper on the design and analysis of
-  polynomial regression experiments},
-  \href{http://dx.doi.org/https://doi.org/10.1016/0315-0860(74)90033-0}{Historia
-  Mathematica {\bfseries 1} no.~4, (1974) 431 -- 439},
-  \url{http://www.sciencedirect.com/science/article/pii/0315086074900330}.
+\bibitem{10.1046/j.1365-8711.2001.04851.x}
+A.~Achterberg, Y.~A. Gallant, J.~G. Kirk,  and A.~W. Guthmann, {\em {Particle
+  acceleration by ultrarelativistic shocks: theory and simulations}},
+  \href{http://dx.doi.org/10.1046/j.1365-8711.2001.04851.x}{Monthly Notices of
+  the Royal Astronomical Society {\bfseries 328} no.~2, (2001) 393--408},
+  \href{http://arxiv.org/abs/https://academic.oup.com/mnras/article-pdf/328/2/393/3784816/328-2-393.pdf}{{\ttfamily
+  https://academic.oup.com/mnras/article-pdf/328/2/393/3784816/328-2-393.pdf}},
+  \url{https://doi.org/10.1046/j.1365-8711.2001.04851.x}.
+
+\bibitem{ALOISIO2008307}
+R.~Aloisio and F.~Tortorici, {\em Super heavy dark matter and UHECR anisotropy
+  at low energy},
+  \href{http://dx.doi.org/https://doi.org/10.1016/j.astropartphys.2008.02.005}{Astroparticle
+  Physics {\bfseries 29} no.~5, (2008) 307--316},
+  \url{https://www.sciencedirect.com/science/article/pii/S0927650508000285}.
+
+\bibitem{MARZOLA201756}
+L.~Marzola and F.~R. Urban, {\em Ultra High Energy Cosmic Rays \& Super-heavy
+  Dark Matter: Observables and prospect of (non)detection},
+  \href{http://dx.doi.org/https://doi.org/10.1016/j.astropartphys.2017.04.005}{Astroparticle
+  Physics {\bfseries 93} (2017) 56--69},
+  \url{https://www.sciencedirect.com/science/article/pii/S0927650516301931}.
+
+\bibitem{BHATTACHARJEE2000109}
+P.~Bhattacharjee and G.~Sigl, {\em Origin and propagation of extremely
+  high-energy cosmic rays},
+  \href{http://dx.doi.org/https://doi.org/10.1016/S0370-1573(99)00101-5}{Physics
+  Reports {\bfseries 327} no.~3, (2000) 109--247},
+  \url{https://www.sciencedirect.com/science/article/pii/S0370157399001015}.
+
+\bibitem{PhysRevD.64.043004}
+V.~Berezinsky, B.~Hnatyk,  and A.~Vilenkin, {\em Gamma ray bursts from
+  superconducting cosmic strings},
+  \href{http://dx.doi.org/10.1103/PhysRevD.64.043004}{Phys. Rev. D {\bfseries
+  64} (2001) 043004},
+  \url{https://link.aps.org/doi/10.1103/PhysRevD.64.043004}.
+
+\bibitem{PhysRevLett.79.5202}
+V.~Berezinsky and A.~Vilenkin, {\em Cosmic Necklaces and Ultrahigh Energy
+  Cosmic Rays}, \href{http://dx.doi.org/10.1103/PhysRevLett.79.5202}{Phys. Rev.
+  Lett. {\bfseries 79} (1997) 5202--5205},
+  \url{https://link.aps.org/doi/10.1103/PhysRevLett.79.5202}.
+
+\bibitem{PhysRevLett.16.748}
+K.~Greisen, {\em End to the Cosmic-Ray Spectrum?},
+  \href{http://dx.doi.org/10.1103/PhysRevLett.16.748}{Phys. Rev. Lett.
+  {\bfseries 16} (1966) 748--750},
+  \url{https://link.aps.org/doi/10.1103/PhysRevLett.16.748}.
+
+\bibitem{Zatsepin:1966jv}
+G.~T. Zatsepin and V.~A. Kuzmin, {\em {Upper limit of the spectrum of cosmic
+  rays}}, JETP Lett. {\bfseries 4} (1966) 78--80.
+
+\bibitem{KAMPERT2014318}
+K.-H. Kampert and P.~Tinyakov, {\em Cosmic rays from the ankle to the cutoff},
+  \href{http://dx.doi.org/https://doi.org/10.1016/j.crhy.2014.04.006}{Comptes
+  Rendus Physique {\bfseries 15} no.~4, (2014) 318--328},
+  \url{https://www.sciencedirect.com/science/article/pii/S1631070514000541},
+  Ultra-high-energy cosmic rays: From the ankle to the tip of the spectrum.
+
+\bibitem{kawai2008telescope}
+H.~Kawai, S.~Yoshida, H.~Yoshii, K.~Tanaka, F.~Cohen, M.~Fukushima,
+  N.~Hayashida, K.~Hiyama, D.~Ikeda, E.~Kido,  {et~al.}, {\em Telescope array
+  experiment}, Nuclear Physics B-Proceedings Supplements {\bfseries 175}
+  no.~SUPPL.: COMPLETE, (2008) 221--226.
+
+\bibitem{PhysRevLett.110.141102}
+{AMS Collaboration} Collaboration, M.~Aguilar, G.~Alberti, B.~Alpat, A.~Alvino,
+  G.~Ambrosi, K.~Andeen, H.~Anderhub, L.~Arruda, P.~Azzarello, A.~Bachlechner,
+  F.~Barao, B.~Baret, A.~Barrau, L.~Barrin, A.~Bartoloni, L.~Basara, A.~Basili,
+  L.~Batalha, J.~Bates, R.~Battiston, J.~Bazo, R.~Becker, U.~Becker,
+  M.~Behlmann, B.~Beischer, J.~Berdugo, P.~Berges, B.~Bertucci, G.~Bigongiari,
+  A.~Biland, V.~Bindi, S.~Bizzaglia, G.~Boella, W.~de~Boer, K.~Bollweg,
+  J.~Bolmont, B.~Borgia, S.~Borsini, M.~J. Boschini, G.~Boudoul, M.~Bourquin,
+  P.~Brun, M.~Bu\'enerd, J.~Burger, W.~Burger, F.~Cadoux, X.~D. Cai, M.~Capell,
+  D.~Casadei, J.~Casaus, V.~Cascioli, G.~Castellini, I.~Cernuda, F.~Cervelli,
+  M.~J. Chae, Y.~H. Chang, A.~I. Chen, C.~R. Chen, H.~Chen, G.~M. Cheng, H.~S.
+  Chen, L.~Cheng, N.~Chernoplyiokov, A.~Chikanian, E.~Choumilov, V.~Choutko,
+  C.~H. Chung, C.~Clark, R.~Clavero, G.~Coignet, V.~Commichau, C.~Consolandi,
+  A.~Contin, C.~Corti, M.~T. Costado~Dios, B.~Coste, D.~Crespo, Z.~Cui, M.~Dai,
+  C.~Delgado, S.~Della~Torre, B.~Demirkoz, P.~Dennett, L.~Derome, S.~Di~Falco,
+  X.~H. Diao, A.~Diago, L.~Djambazov, C.~D\'{\i}az, P.~von Doetinchem, W.~J.
+  Du, J.~M. Dubois, R.~Duperay, M.~Duranti, D.~D'Urso, A.~Egorov, A.~Eline,
+  F.~J. Eppling, T.~Eronen, J.~van Es, H.~Esser, A.~Falvard, E.~Fiandrini,
+  A.~Fiasson, E.~Finch, P.~Fisher, K.~Flood, R.~Foglio, M.~Fohey, S.~Fopp,
+  N.~Fouque, Y.~Galaktionov, M.~Gallilee, L.~Gallin-Martel, G.~Gallucci,
+  B.~Garc\'{\i}a, J.~Garc\'{\i}a, R.~Garc\'{\i}a-L\'opez,
+  L.~Garc\'{\i}a-Tabares, C.~Gargiulo, H.~Gast, I.~Gebauer, S.~Gentile,
+  M.~Gervasi, W.~Gillard, F.~Giovacchini, L.~Girard, P.~Goglov, J.~Gong,
+  C.~Goy-Henningsen, D.~Grandi, M.~Graziani, A.~Grechko, A.~Gross, I.~Guerri,
+  C.~de~la Gu\'{\i}a, K.~H. Guo, M.~Habiby, S.~Haino, F.~Hauler, Z.~H. He,
+  M.~Heil, J.~Heilig, R.~Hermel, H.~Hofer, Z.~C. Huang, W.~Hungerford,
+  M.~Incagli, M.~Ionica, A.~Jacholkowska, W.~Y. Jang, H.~Jinchi, M.~Jongmanns,
+  L.~Journet, L.~Jungermann, W.~Karpinski, G.~N. Kim, K.~S. Kim, T.~Kirn,
+  R.~Kossakowski, A.~Koulemzine, O.~Kounina, A.~Kounine, V.~Koutsenko, M.~S.
+  Krafczyk, E.~Laudi, G.~Laurenti, C.~Lauritzen, A.~Lebedev, M.~W. Lee, S.~C.
+  Lee, C.~Leluc, H.~Le\'on~Vargas, V.~Lepareur, J.~Q. Li, Q.~Li, T.~X. Li,
+  W.~Li, Z.~H. Li, P.~Lipari, C.~H. Lin, D.~Liu, H.~Liu, T.~Lomtadze, Y.~S. Lu,
+  S.~Lucidi, K.~L\"ubelsmeyer, J.~Z. Luo, W.~Lustermann, S.~Lv, J.~Madsen,
+  R.~Majka, A.~Malinin, C.~Ma\~n\'a, J.~Mar\'{\i}n, T.~Martin,
+  G.~Mart\'{\i}nez, F.~Masciocchi, N.~Masi, D.~Maurin, A.~McInturff,
+  P.~McIntyre, A.~Menchaca-Rocha, Q.~Meng, M.~Menichelli, I.~Mereu,
+  M.~Millinger, D.~C. Mo, M.~Molina, P.~Mott, A.~Mujunen, S.~Natale, P.~Nemeth,
+  J.~Q. Ni, N.~Nikonov, F.~Nozzoli, P.~Nunes, A.~Obermeier, S.~Oh, A.~Oliva,
+  F.~Palmonari, C.~Palomares, M.~Paniccia, A.~Papi, W.~H. Park, M.~Pauluzzi,
+  F.~Pauss, A.~Pauw, E.~Pedreschi, S.~Pensotti, R.~Pereira, E.~Perrin,
+  G.~Pessina, G.~Pierschel, F.~Pilo, A.~Piluso, C.~Pizzolotto, V.~Plyaskin,
+  J.~Pochon, M.~Pohl, V.~Poireau, S.~Porter, J.~Pouxe, A.~Putze, L.~Quadrani,
+  X.~N. Qi, P.~G. Rancoita, D.~Rapin, Z.~L. Ren, J.~S. Ricol, E.~Riihonen,
+  I.~Rodr\'{\i}guez, U.~Roeser, S.~Rosier-Lees, L.~Rossi, A.~Rozhkov, D.~Rozza,
+  A.~Sabellek, R.~Sagdeev, J.~Sandweiss, B.~Santos, P.~Saouter, M.~Sarchioni,
+  S.~Schael, D.~Schinzel, M.~Schmanau, G.~Schwering, A.~Schulz~von Dratzig,
+  G.~Scolieri, E.~S. Seo, B.~S. Shan, J.~Y. Shi, Y.~M. Shi, T.~Siedenburg,
+  R.~Siedling, D.~Son, F.~Spada, F.~Spinella, M.~Steuer, K.~Stiff, W.~Sun,
+  W.~H. Sun, X.~H. Sun, M.~Tacconi, C.~P. Tang, X.~W. Tang, Z.~C. Tang, L.~Tao,
+  J.~Tassan-Viol, S.~C.~C. Ting, S.~M. Ting, C.~Titus, N.~Tomassetti, F.~Toral,
+  J.~Torsti, J.~R. Tsai, J.~C. Tutt, J.~Ulbricht, T.~Urban, V.~Vagelli,
+  E.~Valente, C.~Vannini, E.~Valtonen, M.~Vargas~Trevino, S.~Vaurynovich,
+  M.~Vecchi, M.~Vergain, B.~Verlaat, C.~Vescovi, J.~P. Vialle, G.~Viertel,
+  G.~Volpini, D.~Wang, N.~H. Wang, Q.~L. Wang, R.~S. Wang, X.~Wang, Z.~X. Wang,
+  W.~Wallraff, Z.~L. Weng, M.~Willenbrock, M.~Wlochal, H.~Wu, K.~Y. Wu, Z.~S.
+  Wu, W.~J. Xiao, S.~Xie, R.~Q. Xiong, G.~M. Xin, N.~S. Xu, W.~Xu, Q.~Yan,
+  J.~Yang, M.~Yang, Q.~H. Ye, H.~Yi, Y.~J. Yu, Z.~Q. Yu, S.~Zeissler, J.~G.
+  Zhang, Z.~Zhang, M.~M. Zhang, Z.~M. Zheng, H.~L. Zhuang, V.~Zhukov,
+  A.~Zichichi, P.~Zuccon,  and C.~Zurbach, {\em First Result from the Alpha
+  Magnetic Spectrometer on the International Space Station: Precision
+  Measurement of the Positron Fraction in Primary Cosmic Rays of 0.5--350 GeV},
+  \href{http://dx.doi.org/10.1103/PhysRevLett.110.141102}{Phys. Rev. Lett.
+  {\bfseries 110} (2013) 141102},
+  \url{https://link.aps.org/doi/10.1103/PhysRevLett.110.141102}.
+
+\bibitem{SCHATZ1998151}
+G.~Schatz, W.~Apel, K.~Bekk, E.~Bollmann, H.~Bozdog, I.~Brancus, M.~Brendle,
+  J.~Capdevielle, A.~Chilingarian, K.~Daumiller, P.~Doll, J.~Engler,
+  M.~Föller, P.~Gabriel, H.~Gils, R.~Glasstetter, A.~Haungs, D.~Heck,
+  J.~Hörandel, K.-H. Kampert, H.~Keim, J.~Kempa, H.~Klages, J.~Knapp,
+  H.~Mathes, H.~Mayer, H.~Mielke, D.~Mühlenberg, J.~Oehlschläger, M.~Petcu,
+  C.~Rämer, U.~Raidt, H.~Rebel, M.~Roth, H.~Schieler, G.~Schmalz, H.~Simonis,
+  T.~Thouw, J.~Unger, G.~Völker, B.~Vulpescu, G.~Wagner, J.~Wdowczyk,
+  J.~Weber, J.~Wentz, Y.~Wetzel, T.~Wibig, T.~Wiegert, D.~Wochele, J.~Wochele,
+  J.~Zabierowski, S.~Zagromski,  and B.~Zeitnitz, {\em The KASCADE Experiment},
+  \href{http://dx.doi.org/https://doi.org/10.1016/S0920-5632(97)00510-0}{Nuclear
+  Physics B - Proceedings Supplements {\bfseries 60} no.~3, (1998) 151--160},
+  \url{https://www.sciencedirect.com/science/article/pii/S0920563297005100}.
+
+\bibitem{2017arXiv171007249T}
+{The Pierre Auger Collaboration}, A.~{Aab}, P.~{Abreu}, M.~{Aglietta}, I.~A.
+  {Samarai}, I.~F.~M. {Albuquerque}, I.~{Allekotte}, A.~{Almela}, J.~{Alvarez
+  Castillo}, J.~{Alvarez-Mu{\~n}iz}, G.~A. {Anastasi}, L.~{Anchordoqui},
+  B.~{Andrada}, S.~{Andringa}, C.~{Aramo}, F.~{Arqueros}, N.~{Arsene},
+  H.~{Asorey}, P.~{Assis}, J.~{Aublin}, G.~{Avila}, A.~M. {Badescu},
+  A.~{Balaceanu}, F.~{Barbato}, R.~J. {Barreira Luz}, J.~J. {Beatty}, K.~H.
+  {Becker}, J.~A. {Bellido}, C.~{Berat}, M.~E. {Bertaina}, X.~{Bertou}, P.~L.
+  {Biermann}, J.~{Biteau}, S.~G. {Blaess}, A.~{Blanco}, J.~{Blazek},
+  C.~{Bleve}, M.~{Boh{\'a}{\v{c}}ov{\'a}}, D.~{Boncioli}, C.~{Bonifazi},
+  N.~{Borodai}, A.~M. {Botti}, J.~{Brack}, I.~{Brancus}, T.~{Bretz},
+  A.~{Bridgeman}, F.~L. {Briechle}, P.~{Buchholz}, A.~{Bueno}, S.~{Buitink},
+  M.~{Buscemi}, K.~S. {Caballero-Mora}, L.~{Caccianiga}, A.~{Cancio},
+  F.~{Canfora}, L.~{Caramete}, R.~{Caruso}, A.~{Castellina}, F.~{Catalani},
+  G.~{Cataldi}, L.~{Cazon}, A.~G. {Chavez}, J.~A. {Chinellato}, J.~{Chudoba},
+  R.~W. {Clay}, A.~{Cobos}, R.~{Colalillo}, A.~{Coleman}, L.~{Collica}, M.~R.
+  {Coluccia}, R.~{Concei{\c{c}}{\~a}o}, G.~{Consolati}, F.~{Contreras}, M.~J.
+  {Cooper}, S.~{Coutu}, C.~E. {Covault}, J.~{Cronin}, S.~{D'Amico},
+  B.~{Daniel}, S.~{Dasso}, K.~{Daumiller}, B.~R. {Dawson}, R.~M. {de Almeida},
+  S.~J. {de Jong}, G.~{De Mauro}, J.~R.~T. {de Mello Neto}, I.~{De Mitri},
+  J.~{de Oliveira}, V.~{de Souza}, J.~{Debatin}, O.~{Deligny}, M.~L. {D{\'\i}az
+  Castro}, F.~{Diogo}, C.~{Dobrigkeit}, J.~C. {D'Olivo}, Q.~{Dorosti}, R.~C.
+  {dos Anjos}, M.~T. {Dova}, A.~{Dundovic}, J.~{Ebr}, R.~{Engel}, M.~{Erdmann},
+  M.~{Erfani}, C.~O. {Escobar}, J.~{Espadanal}, A.~{Etchegoyen}, H.~{Falcke},
+  J.~{Farmer}, G.~{Farrar}, A.~C. {Fauth}, N.~{Fazzini}, F.~{Fenu}, B.~{Fick},
+  J.~M. {Figueira}, A.~{Filip{\v{c}}i{\v{c}}}, O.~{Fratu}, M.~M. {Freire},
+  T.~{Fujii}, A.~{Fuster}, R.~{Gaior}, B.~{Garc{\'\i}a}, D.~{Garcia-Pinto},
+  F.~{Gat{\'e}}, H.~{Gemmeke}, A.~{Gherghel-Lascu}, P.~L. {Ghia},
+  U.~{Giaccari}, M.~{Giammarchi}, M.~{Giller}, D.~{G{\l}as}, C.~{Glaser},
+  G.~{Golup}, M.~{G{\'o}mez Berisso}, P.~F. {G{\'o}mez Vitale},
+  N.~{Gonz{\'a}lez}, A.~{Gorgi}, P.~{Gorham}, A.~F. {Grillo}, T.~D. {Grubb},
+  F.~{Guarino}, G.~P. {Guedes}, R.~{Halliday}, M.~R. {Hampel}, P.~{Hansen},
+  D.~{Harari}, T.~A. {Harrison}, J.~L. {Harton}, A.~{Haungs}, T.~{Hebbeker},
+  D.~{Heck}, P.~{Heimann}, A.~E. {Herve}, G.~C. {Hill}, C.~{Hojvat}, E.~{Holt},
+  P.~{Homola}, J.~R. {H{\"o}randel}, P.~{Horvath}, M.~{Hrabovsk{\'y}},
+  T.~{Huege}, J.~{Hulsman}, A.~{Insolia}, P.~G. {Isar}, I.~{Jandt}, J.~A.
+  {Johnsen}, M.~{Josebachuili}, J.~{Jurysek}, A.~{K{\"a}{\"a}p{\"a}},
+  O.~{Kambeitz}, K.~H. {Kampert}, B.~{Keilhauer}, N.~{Kemmerich}, E.~{Kemp},
+  J.~{Kemp}, R.~M. {Kieckhafer}, H.~O. {Klages}, M.~{Kleifges},
+  J.~{Kleinfeller}, R.~{Krause}, N.~{Krohm}, D.~{Kuempel}, G.~{Kukec Mezek},
+  N.~{Kunka}, A.~{Kuotb Awad}, B.~L. {Lago}, D.~{LaHurd}, R.~G. {Lang},
+  M.~{Lauscher}, R.~{Legumina}, M.~A. {Leigui de Oliveira},
+  A.~{Letessier-Selvon}, I.~{Lhenry-Yvon}, K.~{Link}, D.~{Lo Presti},
+  L.~{Lopes}, R.~{L{\'o}pez}, A.~{L{\'o}pez Casado}, R.~{Lorek}, Q.~{Luce},
+  A.~{Lucero}, M.~{Malacari}, M.~{Mallamaci}, D.~{Mandat}, P.~{Mantsch}, A.~G.
+  {Mariazzi}, I.~C. {Mari{\c{s}}}, G.~{Marsella}, D.~{Martello}, H.~{Martinez},
+  O.~{Mart{\'\i}nez Bravo}, J.~J. {Mas{\'\i}as Meza}, H.~J. {Mathes},
+  S.~{Mathys}, J.~{Matthews}, J.~A.~J. {Matthews}, G.~{Matthiae}, E.~{Mayotte},
+  P.~O. {Mazur}, C.~{Medina}, G.~{Medina-Tanco}, D.~{Melo}, A.~{Menshikov},
+  K.~D. {Merenda}, S.~{Michal}, M.~I. {Micheletti}, L.~{Middendorf},
+  L.~{Miramonti}, B.~{Mitrica}, D.~{Mockler}, S.~{Mollerach}, F.~{Montanet},
+  C.~{Morello}, M.~{Mostaf{\'a}}, A.~L. {M{\"u}ller}, G.~{M{\"u}ller}, M.~A.
+  {Muller}, S.~{M{\"u}ller}, R.~{Mussa}, I.~{Naranjo}, L.~{Nellen}, P.~H.
+  {Nguyen}, M.~{Niculescu-Oglinzanu}, M.~{Niechciol}, L.~{Niemietz},
+  T.~{Niggemann}, D.~{Nitz}, D.~{Nosek}, V.~{Novotny}, L.~{No{\v{z}}ka}, L.~A.
+  {N{\'u}{\~n}ez}, L.~{Ochilo}, F.~{Oikonomou}, A.~{Olinto}, M.~{Palatka},
+  J.~{Pallotta}, P.~{Papenbreer}, G.~{Parente}, A.~{Parra}, T.~{Paul},
+  M.~{Pech}, F.~{Pedreira}, J.~{P{\k{e}}kala}, R.~{Pelayo},
+  J.~{Pe{\~n}a-Rodriguez}, L.~A.~S. {Pereira}, M.~{Perlin}, L.~{Perrone},
+  C.~{Peters}, S.~{Petrera}, J.~{Phuntsok}, R.~{Piegaia}, T.~{Pierog},
+  M.~{Pimenta}, V.~{Pirronello}, M.~{Platino}, M.~{Plum}, C.~{Porowski}, R.~R.
+  {Prado}, P.~{Privitera}, M.~{Prouza}, E.~J. {Quel}, S.~{Querchfeld},
+  S.~{Quinn}, R.~{Ramos-Pollan}, J.~{Rautenberg}, D.~{Ravignani}, J.~{Ridky},
+  F.~{Riehn}, M.~{Risse}, P.~{Ristori}, V.~{Rizi}, W.~{Rodrigues de Carvalho},
+  G.~{Rodriguez Fernandez}, J.~{Rodriguez Rojo}, D.~{Rogozin}, M.~J.
+  {Roncoroni}, M.~{Roth}, E.~{Roulet}, A.~C. {Rovero}, P.~{Ruehl}, S.~J.
+  {Saffi}, A.~{Saftoiu}, F.~{Salamida}, H.~{Salazar}, A.~{Saleh}, F.~{Salesa
+  Greus}, G.~{Salina}, F.~{S{\'a}nchez}, P.~{Sanchez-Lucas}, E.~M. {Santos},
+  E.~{Santos}, F.~{Sarazin}, R.~{Sarmento}, C.~{Sarmiento-Cano}, R.~{Sato},
+  M.~{Schauer}, V.~{Scherini}, H.~{Schieler}, M.~{Schimp}, D.~{Schmidt},
+  O.~{Scholten}, P.~{Schov{\'a}nek}, F.~G. {Schr{\"o}der}, S.~{Schr{\"o}der},
+  A.~{Schulz}, J.~{Schumacher}, S.~J. {Sciutto}, A.~{Segreto}, A.~{Shadkam},
+  R.~C. {Shellard}, G.~{Sigl}, G.~{Silli}, O.~{Sima}, A.~{{\'S}mia{\l}kowski},
+  R.~{{\v{S}}m{\'\i}da}, G.~R. {Snow}, P.~{Sommers}, S.~{Sonntag},
+  R.~{Squartini}, D.~{Stanca}, S.~{Stani{\v{c}}}, J.~{Stasielak}, P.~{Stassi},
+  M.~{Stolpovskiy}, F.~{Strafella}, A.~{Streich}, F.~{Suarez}, M.~{Suarez
+  Dur{\'a}n}, T.~{Sudholz}, T.~{Suomij{\"a}rvi}, A.~D. {Supanitsky},
+  J.~{{\v{S}}up{\'\i}k}, J.~{Swain}, Z.~{Szadkowski}, A.~{Taboada}, O.~A.
+  {Taborda}, V.~M. {Theodoro}, C.~{Timmermans}, C.~J. {Todero Peixoto},
+  L.~{Tomankova}, B.~{Tom{\'e}}, G.~{Torralba Elipe}, P.~{Travnicek},
+  M.~{Trini}, R.~{Ulrich}, M.~{Unger}, M.~{Urban}, J.~F. {Vald{\'e}s Galicia},
+  I.~{Vali{\~n}o}, L.~{Valore}, G.~{van Aar}, P.~{van Bodegom}, A.~M. {van den
+  Berg}, A.~{van Vliet}, E.~{Varela}, B.~{Vargas C{\'a}rdenas}, G.~{Varner},
+  R.~A. {V{\'a}zquez}, D.~{Veberi{\v{c}}}, C.~{Ventura}, I.~D. {Vergara
+  Quispe}, V.~{Verzi}, J.~{Vicha}, L.~{Villase{\~n}or}, S.~{Vorobiov},
+  H.~{Wahlberg}, O.~{Wainberg}, D.~{Walz}, A.~A. {Watson}, M.~{Weber},
+  A.~{Weindl}, L.~{Wiencke}, H.~{Wilczy{\'n}ski}, M.~{Wirtz}, D.~{Wittkowski},
+  B.~{Wundheiler}, L.~{Yang}, A.~{Yushkov}, E.~{Zas}, D.~{Zavrtanik},
+  M.~{Zavrtanik}, A.~{Zepeda}, B.~{Zimmermann}, M.~{Ziolkowski}, Z.~{Zong},
+  and F.~{Zuccarello}, {\em {Inferences on Mass Composition and Tests of
+  Hadronic Interactions from 0.3 to 100 EeV using the water-Cherenkov Detectors
+  of the Pierre Auger Observatory}},
+  \href{http://dx.doi.org/10.48550/arXiv.1710.07249}{arXiv e-prints (2017)
+  arXiv:1710.07249}, \href{http://arxiv.org/abs/1710.07249}{{\ttfamily
+  arXiv:1710.07249 [astro-ph.HE]}}.
+
+\bibitem{2018_auger_comp_spec}
+{\em Erratum: Combined fit of spectrum and composition data as measured by the
+  Pierre Auger Observatory},
+  \href{http://dx.doi.org/10.1088/1475-7516/2018/03/E02}{Journal of Cosmology
+  and Astroparticle Physics {\bfseries 2018} no.~03, (2018) E02},
+  \url{https://dx.doi.org/10.1088/1475-7516/2018/03/E02}.
+
+\bibitem{ANASTASI2022167497}
+G.~A. Anastasi, {\em AugerPrime: The Pierre Auger Observatory upgrade},
+  \href{http://dx.doi.org/https://doi.org/10.1016/j.nima.2022.167497}{Nuclear
+  Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment {\bfseries 1044} (2022)
+  167497},
+  \url{https://www.sciencedirect.com/science/article/pii/S0168900222007896}.
+
+\bibitem{Ar_mburo_Garc_a_2021}
+A.~Arámburo-García, K.~Bondarenko, A.~Boyarsky, D.~Nelson, A.~Pillepich,  and
+  A.~Sokolenko, {\em Ultrahigh energy cosmic ray deflection by the
+  intergalactic magnetic field},
+  \href{http://dx.doi.org/10.1103/physrevd.104.083017}{Physical Review D
+  {\bfseries 104} no.~8, (2021)},
+  \url{http://dx.doi.org/10.1103/PhysRevD.104.083017}.
+
+\bibitem{BONIFAZI200920}
+C.~Bonifazi, {\em The angular resolution of the Pierre Auger Observatory},
+  \href{http://dx.doi.org/https://doi.org/10.1016/j.nuclphysbps.2009.03.063}{Nuclear
+  Physics B - Proceedings Supplements {\bfseries 190} (2009) 20--25},
+  \url{https://www.sciencedirect.com/science/article/pii/S0920563209003028},
+  Proceedings of the Cosmic Ray International Seminars.
+
+\bibitem{Abreu_2022}
+P.~Abreu, M.~Aglietta, J.~M. Albury, I.~Allekotte, K.~A. Cheminant, A.~Almela,
+  J.~Alvarez-Muñiz, R.~A. Batista, J.~A. Yebra, G.~A. Anastasi,
+  L.~Anchordoqui, B.~Andrada, S.~Andringa, C.~Aramo, P.~R.~A. Ferreira,
+  E.~Arnone, J.~C.~A. Velázquez, H.~Asorey, P.~Assis, G.~Avila, E.~Avocone,
+  A.~M. Badescu, A.~Bakalova, A.~Balaceanu, F.~Barbato, J.~A. Bellido,
+  C.~Berat, M.~E. Bertaina, G.~Bhatta, P.~L. Biermann, V.~Binet, K.~Bismark,
+  T.~Bister, J.~Biteau, J.~Blazek, C.~Bleve, J.~Blümer, M.~Boháčová,
+  D.~Boncioli, C.~Bonifazi, L.~B. Arbeletche, N.~Borodai, A.~M. Botti,
+  J.~Brack, T.~Bretz, P.~G.~B. Orchera, F.~L. Briechle, P.~Buchholz, A.~Bueno,
+  S.~Buitink, M.~Buscemi, M.~Büsken, K.~S. Caballero-Mora, L.~Caccianiga,
+  F.~Canfora, I.~Caracas, R.~Caruso, A.~Castellina, F.~Catalani, G.~Cataldi,
+  L.~Cazon, M.~Cerda, J.~A. Chinellato, J.~Chudoba, L.~Chytka, R.~W. Clay,
+  A.~C.~C. Cerutti, R.~Colalillo, A.~Coleman, M.~R. Coluccia, R.~Conceição,
+  A.~Condorelli, G.~Consolati, F.~Contreras, F.~Convenga, D.~C. dos Santos,
+  C.~E. Covault, S.~Dasso, K.~Daumiller, B.~R. Dawson, J.~A. Day, R.~M.
+  de~Almeida, J.~de~Jesús, S.~J. de~Jong, J.~R.~T. de~Mello~Neto, I.~D. Mitri,
+  J.~de~Oliveira, D.~de~Oliveira~Franco, F.~de~Palma, V.~de~Souza, E.~D. Vito,
+  A.~D. Popolo, M.~del Río, O.~Deligny, L.~Deval, A.~di~Matteo, M.~Dobre,
+  C.~Dobrigkeit, J.~C. D’Olivo, L.~M.~D. Mendes, R.~C. dos Anjos, M.~T. Dova,
+  J.~Ebr, R.~Engel, I.~Epicoco, M.~Erdmann, C.~O. Escobar, A.~Etchegoyen,
+  H.~Falcke, J.~Farmer, G.~Farrar, A.~C. Fauth, N.~Fazzini, F.~Feldbusch,
+  F.~Fenu, B.~Fick, J.~M. Figueira, A.~Filipčič, T.~Fitoussi, T.~Fodran,
+  T.~Fujii, A.~Fuster, C.~Galea, C.~Galelli, B.~García, H.~Gemmeke,
+  F.~Gesualdi, A.~Gherghel-Lascu, P.~L. Ghia, U.~Giaccari, M.~Giammarchi,
+  J.~Glombitza, F.~Gobbi, F.~Gollan, G.~Golup, M.~G. Berisso, P.~F.~G. Vitale,
+  J.~P. Gongora, J.~M. González, N.~González, I.~Goos, D.~Góra, A.~Gorgi,
+  M.~Gottowik, T.~D. Grubb, F.~Guarino, G.~P. Guedes, E.~Guido, S.~Hahn,
+  P.~Hamal, M.~R. Hampel, P.~Hansen, D.~Harari, V.~M. Harvey, A.~Haungs,
+  T.~Hebbeker, D.~Heck, G.~C. Hill, C.~Hojvat, J.~R. Hörandel, P.~Horvath,
+  M.~Hrabovský, T.~Huege, A.~Insolia, P.~G. Isar, P.~Janecek, J.~A. Johnsen,
+  J.~Jurysek, A.~Kääpä, K.~H. Kampert, B.~Keilhauer, A.~Khakurdikar,
+  V.~V.~K. Covilakam, H.~O. Klages, M.~Kleifges, J.~Kleinfeller, F.~Knapp,
+  N.~Kunka, B.~L. Lago, N.~Langner, M.~A.~L. de~Oliveira, V.~Lenok,
+  A.~Letessier-Selvon, I.~Lhenry-Yvon, D.~L. Presti, L.~Lopes, R.~López,
+  L.~Lu, Q.~Luce, J.~P. Lundquist, A.~M. Payeras, G.~Mancarella, D.~Mandat,
+  B.~C. Manning, J.~Manshanden, P.~Mantsch, S.~Marafico, F.~M. Mariani, A.~G.
+  Mariazzi, I.~C. Mariş, G.~Marsella, D.~Martello, S.~Martinelli, O.~M. Bravo,
+  M.~Mastrodicasa, H.~J. Mathes, J.~Matthews, G.~Matthiae, E.~Mayotte,
+  S.~Mayotte, P.~O. Mazur, G.~Medina-Tanco, D.~Melo, A.~Menshikov, S.~Michal,
+  M.~I. Micheletti, L.~Miramonti, S.~Mollerach, F.~Montanet, L.~Morejon,
+  C.~Morello, M.~Mostafá, A.~L. Müller, M.~A. Muller, K.~Mulrey, R.~Mussa,
+  M.~Muzio, W.~M. Namasaka, A.~Nasr-Esfahani, L.~Nellen, G.~Nicora,
+  M.~Niculescu-Oglinzanu, M.~Niechciol, D.~Nitz, I.~Norwood, D.~Nosek,
+  V.~Novotny, L.~Nožka, A.~Nucita, L.~A. Núñez, C.~Oliveira, M.~Palatka,
+  J.~Pallotta, P.~Papenbreer, G.~Parente, A.~Parra, J.~Pawlowsky, M.~Pech,
+  J.~Pekala, R.~Pelayo, J.~Peña-Rodriguez, E.~E.~P. Martins, J.~P. Armand,
+  C.~P. Bertolli, L.~Perrone, S.~Petrera, C.~Petrucci, T.~Pierog, M.~Pimenta,
+  V.~Pirronello, M.~Platino, B.~Pont, M.~Pothast, P.~Privitera, M.~Prouza,
+  A.~Puyleart, S.~Querchfeld, J.~Rautenberg, D.~Ravignani, M.~Reininghaus,
+  J.~Ridky, F.~Riehn, M.~Risse, V.~Rizi, W.~R. de~Carvalho, J.~R. Rojo, M.~J.
+  Roncoroni, S.~Rossoni, M.~Roth, E.~Roulet, A.~C. Rovero, P.~Ruehl,
+  A.~Saftoiu, M.~Saharan, F.~Salamida, H.~Salazar, G.~Salina, J.~D.~S. Gomez,
+  F.~Sánchez, E.~M. Santos, E.~Santos, F.~Sarazin, R.~Sarmento, R.~Sato,
+  P.~Savina, C.~M. Schäfer, V.~Scherini, H.~Schieler, M.~Schimassek,
+  M.~Schimp, F.~Schlüter, D.~Schmidt, O.~Scholten, H.~Schoorlemmer,
+  P.~Schovánek, F.~G. Schröder, J.~Schulte, T.~Schulz, S.~J. Sciutto,
+  M.~Scornavacche, A.~Segreto, S.~Sehgal, R.~C. Shellard, G.~Sigl, G.~Silli,
+  O.~Sima, R.~Smau, R.~Šmída, P.~Sommers, J.~F. Soriano, R.~Squartini,
+  M.~Stadelmaier, D.~Stanca, S.~Stanič, J.~Stasielak, P.~Stassi, M.~Straub,
+  A.~Streich, M.~Suárez-Durán, T.~Sudholz, T.~Suomijärvi, A.~D. Supanitsky,
+  Z.~Szadkowski, A.~Tapia, C.~Taricco, C.~Timmermans, O.~Tkachenko, P.~Tobiska,
+  C.~J.~T. Peixoto, B.~Tomé, Z.~Torrès, A.~Travaini, P.~Travnicek,
+  C.~Trimarelli, M.~Tueros, R.~Ulrich, M.~Unger, L.~Vaclavek, M.~Vacula,
+  J.~F.~V. Galicia, L.~Valore, E.~Varela, A.~Vásquez-Ramírez, D.~Veberič,
+  C.~Ventura, I.~D.~V. Quispe, V.~Verzi, J.~Vicha, J.~Vink, S.~Vorobiov,
+  H.~Wahlberg, C.~Watanabe, A.~A. Watson, A.~Weindl, L.~Wiencke,
+  H.~Wilczyński, D.~Wittkowski, B.~Wundheiler, A.~Yushkov, O.~Zapparrata,
+  E.~Zas, D.~Zavrtanik, M.~Zavrtanik, L.~Zehrer,  and T.~P.~A. Collaboration,
+  {\em Arrival Directions of Cosmic Rays above 32 EeV from Phase One of the
+  Pierre Auger Observatory},
+  \href{http://dx.doi.org/10.3847/1538-4357/ac7d4e}{The Astrophysical Journal
+  {\bfseries 935} no.~2, (2022) 170},
+  \url{https://dx.doi.org/10.3847/1538-4357/ac7d4e}.
+
+\bibitem{Aab_2020_dipole_modulation}
+A.~Aab, P.~Abreu, M.~Aglietta, I.~F.~M. Albuquerque, J.~M. Albury,
+  I.~Allekotte, A.~Almela, J.~A. Castillo, J.~Alvarez-Muñiz, G.~A. Anastasi,
+  L.~Anchordoqui, B.~Andrada, S.~Andringa, C.~Aramo, P.~R.~A. Ferreira,
+  H.~Asorey, P.~Assis, G.~Avila, A.~M. Badescu, A.~Bakalova, A.~Balaceanu,
+  F.~Barbato, R.~J.~B. Luz, K.~H. Becker, J.~A. Bellido, C.~Berat, M.~E.
+  Bertaina, X.~Bertou, P.~L. Biermann, T.~Bister, J.~Biteau, A.~Blanco,
+  J.~Blazek, C.~Bleve, M.~Boháčová, D.~Boncioli, C.~Bonifazi, L.~B.
+  Arbeletche, N.~Borodai, A.~M. Botti, J.~Brack, T.~Bretz, F.~L. Briechle,
+  P.~Buchholz, A.~Bueno, S.~Buitink, M.~Buscemi, K.~S. Caballero-Mora,
+  L.~Caccianiga, L.~Calcagni, A.~Cancio, F.~Canfora, I.~Caracas, J.~M.
+  Carceller, R.~Caruso, A.~Castellina, F.~Catalani, G.~Cataldi, L.~Cazon,
+  M.~Cerda, J.~A. Chinellato, K.~Choi, J.~Chudoba, L.~Chytka, R.~W. Clay,
+  A.~C.~C. Cerutti, R.~Colalillo, A.~Coleman, M.~R. Coluccia, R.~Conceição,
+  A.~Condorelli, G.~Consolati, F.~Contreras, F.~Convenga, C.~E. Covault,
+  S.~Dasso, K.~Daumiller, B.~R. Dawson, J.~A. Day, R.~M. de~Almeida,
+  J.~de~Jesús, S.~J. de~Jong, G.~D. Mauro, J.~R.~T. de~Mello~Neto, I.~D.
+  Mitri, J.~de~Oliveira, D.~de~Oliveira~Franco, V.~de~Souza, J.~Debatin, M.~del
+  Río, O.~Deligny, N.~Dhital, A.~D. Matteo, M.~L.~D. Castro, C.~Dobrigkeit,
+  J.~C. D’Olivo, Q.~Dorosti, R.~C. dos Anjos, M.~T. Dova, J.~Ebr, R.~Engel,
+  I.~Epicoco, M.~Erdmann, C.~O. Escobar, A.~Etchegoyen, H.~Falcke, J.~Farmer,
+  G.~Farrar, A.~C. Fauth, N.~Fazzini, F.~Feldbusch, F.~Fenu, B.~Fick, J.~M.
+  Figueira, A.~Filipčič, M.~M. Freire, T.~Fujii, A.~Fuster, C.~Galea,
+  C.~Galelli, B.~García, A.~L.~G. Vegas, H.~Gemmeke, F.~Gesualdi,
+  A.~Gherghel-Lascu, P.~L. Ghia, U.~Giaccari, M.~Giammarchi, M.~Giller,
+  J.~Glombitza, F.~Gobbi, G.~Golup, M.~G. Berisso, P.~F.~G. Vitale, J.~P.
+  Gongora, N.~González, I.~Goos, D.~Góra, A.~Gorgi, M.~Gottowik, T.~D. Grubb,
+  F.~Guarino, G.~P. Guedes, E.~Guido, S.~Hahn, R.~Halliday, M.~R. Hampel,
+  P.~Hansen, D.~Harari, V.~M. Harvey, A.~Haungs, T.~Hebbeker, D.~Heck, G.~C.
+  Hill, C.~Hojvat, J.~R. Hörandel, P.~Horvath, M.~Hrabovský, T.~Huege,
+  J.~Hulsman, A.~Insolia, P.~G. Isar, J.~A. Johnsen, J.~Jurysek, A.~Kääpä,
+  K.~H. Kampert, B.~Keilhauer, J.~Kemp, H.~O. Klages, M.~Kleifges,
+  J.~Kleinfeller, M.~Köpke, G.~K. Mezek, A.~K. Awad, B.~L. Lago, D.~LaHurd,
+  R.~G. Lang, M.~A.~L. de~Oliveira, V.~Lenok, A.~Letessier-Selvon,
+  I.~Lhenry-Yvon, D.~L. Presti, L.~Lopes, R.~López, A.~L. Casado, R.~Lorek,
+  Q.~Luce, A.~Lucero, A.~M. Payeras, M.~Malacari, G.~Mancarella, D.~Mandat,
+  B.~C. Manning, J.~Manshanden, P.~Mantsch, A.~G. Mariazzi, I.~C. Mariş,
+  G.~Marsella, D.~Martello, H.~Martinez, O.~M. Bravo, M.~Mastrodicasa, H.~J.
+  Mathes, J.~Matthews, G.~Matthiae, E.~Mayotte, P.~O. Mazur, G.~Medina-Tanco,
+  D.~Melo, A.~Menshikov, K.-D. Merenda, S.~Michal, M.~I. Micheletti,
+  L.~Miramonti, D.~Mockler, S.~Mollerach, F.~Montanet, C.~Morello, G.~Morlino,
+  M.~Mostafá, A.~L. Müller, M.~A. Muller, S.~Müller, R.~Mussa, M.~Muzio,
+  W.~M. Namasaka, L.~Nellen, M.~Niculescu-Oglinzanu, M.~Niechciol, D.~Nitz,
+  D.~Nosek, V.~Novotny, L.~Nožka, A.~Nucita, L.~A. Núñez, M.~Palatka,
+  J.~Pallotta, M.~P. Panetta, P.~Papenbreer, G.~Parente, A.~Parra, M.~Pech,
+  F.~Pedreira, J.~Pekala, R.~Pelayo, J.~Peña-Rodriguez, L.~A.~S. Pereira,
+  J.~P. Armand, M.~Perlin, L.~Perrone, C.~Peters, S.~Petrera, T.~Pierog,
+  M.~Pimenta, V.~Pirronello, M.~Platino, B.~Pont, M.~Pothast, P.~Privitera,
+  M.~Prouza, A.~Puyleart, S.~Querchfeld, J.~Rautenberg, D.~Ravignani,
+  M.~Reininghaus, J.~Ridky, F.~Riehn, M.~Risse, P.~Ristori, V.~Rizi, W.~R.
+  de~Carvalho, J.~R. Rojo, M.~J. Roncoroni, M.~Roth, E.~Roulet, A.~C. Rovero,
+  P.~Ruehl, S.~J. Saffi, A.~Saftoiu, F.~Salamida, H.~Salazar, G.~Salina,
+  J.~D.~S. Gomez, F.~Sánchez, E.~M. Santos, E.~Santos, F.~Sarazin,
+  R.~Sarmento, C.~Sarmiento-Cano, R.~Sato, P.~Savina, C.~Schäfer, V.~Scherini,
+  H.~Schieler, M.~Schimassek, M.~Schimp, F.~Schlüter, D.~Schmidt, O.~Scholten,
+  P.~Schovánek, F.~G. Schröder, S.~Schröder, S.~J. Sciutto, M.~Scornavacche,
+  R.~C. Shellard, G.~Sigl, G.~Silli, O.~Sima, R.~Šmída, P.~Sommers, J.~F.
+  Soriano, J.~Souchard, R.~Squartini, M.~Stadelmaier, D.~Stanca, S.~Stanič,
+  J.~Stasielak, P.~Stassi, A.~Streich, M.~Suárez-Durán, T.~Sudholz,
+  T.~Suomijärvi, A.~D. Supanitsky, J.~Šupík, Z.~Szadkowski, A.~Taboada,
+  O.~A. Taborda, A.~Tapia, C.~Timmermans, P.~Tobiska, C.~J.~T. Peixoto,
+  B.~Tomé, G.~T. Elipe, A.~Travaini, P.~Travnicek, C.~Trimarelli, M.~Trini,
+  M.~Tueros, R.~Ulrich, M.~Unger, M.~Urban, L.~Vaclavek, J.~F.~V. Galicia,
+  I.~Valiño, L.~Valore, A.~van Vliet, E.~Varela, B.~V. Cárdenas,
+  A.~Vásquez-Ramírez, D.~Veberič, C.~Ventura, I.~D.~V. Quispe, V.~Verzi,
+  J.~Vicha, L.~Villaseñor, J.~Vink, S.~Vorobiov, H.~Wahlberg, A.~A. Watson,
+  M.~Weber, A.~Weindl, L.~Wiencke, H.~Wilczyński, T.~Winchen, M.~Wirtz,
+  D.~Wittkowski, B.~Wundheiler, A.~Yushkov, E.~Zas, D.~Zavrtanik, M.~Zavrtanik,
+  L.~Zehrer, A.~Zepeda, M.~Ziolkowski, F.~Zuccarello,  and T.~P.~A.
+  Collaboration), {\em Cosmic-Ray Anisotropies in Right Ascension Measured by
+  the Pierre Auger Observatory},
+  \href{http://dx.doi.org/10.3847/1538-4357/ab7236}{The Astrophysical Journal
+  {\bfseries 891} no.~2, (2020) 142},
+  \url{https://dx.doi.org/10.3847/1538-4357/ab7236}.
+
+\bibitem{TelescopeArray:2021gxg}
+{Telescope Array, Pierre Auger} Collaboration, A.~di~Matteo {et~al.}, {\em
+  {UHECR arrival directions in the latest data from the original Auger and TA
+  surface detectors and nearby galaxies}},
+  \href{http://dx.doi.org/10.22323/1.395.0308}{PoS {\bfseries ICRC2021} (2021)
+  308}, \href{http://arxiv.org/abs/2111.12366}{{\ttfamily arXiv:2111.12366
+  [astro-ph.HE]}}.
+
+\bibitem{ParticleDataGroup:2024cfk}
+{Particle Data Group} Collaboration, S.~Navas {et~al.}, {\em {Review of
+  particle physics}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.110.030001}{Phys. Rev. D {\bfseries
+  110} no.~3, (2024) 030001}.
+
+\bibitem{PierreAuger:2023onx}
+{Pierre Auger} Collaboration, A.~Abdul~Halim {et~al.}, {\em {Search for
+  evidence of neutron fluxes using Pierre Auger Observatory data}},
+  \href{http://dx.doi.org/10.22323/1.444.0246}{PoS {\bfseries ICRC2023} (2023)
+  246}.
+
+\bibitem{Puhlhofer:2024fjx}
+G.~P\"uhlhofer, F.~Leuschner,  and H.~Salzmann, {\em {H.E.S.S.: The High Energy
+  Stereoscopic System}}, \href{http://arxiv.org/abs/2405.11104}{{\ttfamily
+  arXiv:2405.11104 [astro-ph.IM]}}.
+
+\bibitem{Thompson_2022}
+D.~J. Thompson and C.~A. Wilson-Hodge, {\em Fermi Gamma-Ray Space Telescope},
+  \url{http://dx.doi.org/10.1007/978-981-16-4544-0_58-1}.
+
+\bibitem{2018_CTAO}
+\href{http://dx.doi.org/10.1142/10986}{{\em Science with the Cherenkov
+  Telescope Array}}.
+\newblock WORLD SCIENTIFIC, Feb., 2018.
+\newblock \url{http://dx.doi.org/10.1142/10986}.
+
+\bibitem{universe8110579}
+T.~P.~A. Collaboration, {\em Searches for Ultra-High-Energy Photons at the
+  Pierre Auger Observatory},
+  \href{http://dx.doi.org/10.3390/universe8110579}{Universe {\bfseries 8}
+  no.~11, (2022)}, \url{https://www.mdpi.com/2218-1997/8/11/579}.
+
+\bibitem{10.1063/1.2995181}
+L.~M. Brown, {\em {The idea of the neutrino}},
+  \href{http://dx.doi.org/10.1063/1.2995181}{Physics Today {\bfseries 31}
+  no.~9, (1978) 23--28},
+  \href{http://arxiv.org/abs/https://pubs.aip.org/physicstoday/article-pdf/31/9/23/8285438/23\_1\_online.pdf}{{\ttfamily
+  https://pubs.aip.org/physicstoday/article-pdf/31/9/23/8285438/23\_1\_online.pdf}},
+  \url{https://doi.org/10.1063/1.2995181}.
+
+\bibitem{PhysRev.92.830}
+F.~Reines and C.~L. Cowan, {\em Detection of the Free Neutrino},
+  \href{http://dx.doi.org/10.1103/PhysRev.92.830}{Phys. Rev. {\bfseries 92}
+  (1953) 830--831}, \url{https://link.aps.org/doi/10.1103/PhysRev.92.830}.
+
+\bibitem{Fukuda_1998}
+Y.~Fukuda, T.~Hayakawa, E.~Ichihara, K.~Inoue, K.~Ishihara, H.~Ishino, Y.~Itow,
+  T.~Kajita, J.~Kameda, S.~Kasuga, K.~Kobayashi, Y.~Kobayashi, Y.~Koshio,
+  M.~Miura, M.~Nakahata, S.~Nakayama, A.~Okada, K.~Okumura, N.~Sakurai,
+  M.~Shiozawa, Y.~Suzuki, Y.~Takeuchi, Y.~Totsuka, S.~Yamada, M.~Earl,
+  A.~Habig, E.~Kearns, M.~D. Messier, K.~Scholberg, J.~L. Stone, L.~R. Sulak,
+  C.~W. Walter, M.~Goldhaber, T.~Barszczxak, D.~Casper, W.~Gajewski, P.~G.
+  Halverson, J.~Hsu, W.~R. Kropp, L.~R. Price, F.~Reines, M.~Smy, H.~W. Sobel,
+  M.~R. Vagins, K.~S. Ganezer, W.~E. Keig, R.~W. Ellsworth, S.~Tasaka, J.~W.
+  Flanagan, A.~Kibayashi, J.~G. Learned, S.~Matsuno, V.~J. Stenger,
+  D.~Takemori, T.~Ishii, J.~Kanzaki, T.~Kobayashi, S.~Mine, K.~Nakamura,
+  K.~Nishikawa, Y.~Oyama, A.~Sakai, M.~Sakuda, O.~Sasaki, S.~Echigo, M.~Kohama,
+  A.~T. Suzuki, T.~J. Haines, E.~Blaufuss, B.~K. Kim, R.~Sanford, R.~Svoboda,
+  M.~L. Chen, Z.~Conner, J.~A. Goodman, G.~W. Sullivan, J.~Hill, C.~K. Jung,
+  K.~Martens, C.~Mauger, C.~McGrew, E.~Sharkey, B.~Viren, C.~Yanagisawa,
+  W.~Doki, K.~Miyano, H.~Okazawa, C.~Saji, M.~Takahata, Y.~Nagashima,
+  M.~Takita, T.~Yamaguchi, M.~Yoshida, S.~B. Kim, M.~Etoh, K.~Fujita,
+  A.~Hasegawa, T.~Hasegawa, S.~Hatakeyama, T.~Iwamoto, M.~Koga, T.~Maruyama,
+  H.~Ogawa, J.~Shirai, A.~Suzuki, F.~Tsushima, M.~Koshiba, M.~Nemoto,
+  K.~Nishijima, T.~Futagami, Y.~Hayato, Y.~Kanaya, K.~Kaneyuki, Y.~Watanabe,
+  D.~Kielczewska, R.~A. Doyle, J.~S. George, A.~L. Stachyra, L.~L. Wai, R.~J.
+  Wilkes,  and K.~K. Young, {\em Evidence for Oscillation of Atmospheric
+  Neutrinos}, \href{http://dx.doi.org/10.1103/physrevlett.81.1562}{Physical
+  Review Letters {\bfseries 81} no.~8, (1998) 1562–1567},
+  \url{http://dx.doi.org/10.1103/PhysRevLett.81.1562}.
+
+\bibitem{BELLERIVE201630}
+A.~Bellerive, J.~Klein, A.~McDonald, A.~Noble,  and A.~Poon, {\em The Sudbury
+  Neutrino Observatory},
+  \href{http://dx.doi.org/https://doi.org/10.1016/j.nuclphysb.2016.04.035}{Nuclear
+  Physics B {\bfseries 908} (2016) 30--51},
+  \url{https://www.sciencedirect.com/science/article/pii/S0550321316300736},
+  Neutrino Oscillations: Celebrating the Nobel Prize in Physics 2015.
+
+\bibitem{Qian_2015}
+X.~Qian and P.~Vogel, {\em Neutrino mass hierarchy},
+  \href{http://dx.doi.org/10.1016/j.ppnp.2015.05.002}{Progress in Particle and
+  Nuclear Physics {\bfseries 83} (2015) 1–30},
+  \url{http://dx.doi.org/10.1016/j.ppnp.2015.05.002}.
+
+\bibitem{aker2024directneutrinomassmeasurementbased}
+M.~Aker, D.~Batzler, A.~Beglarian, J.~Behrens, J.~Beisenkötter, M.~Biassoni,
+  B.~Bieringer, Y.~Biondi, F.~Block, S.~Bobien, M.~Böttcher, B.~Bornschein,
+  L.~Bornschein, T.~S. Caldwell, M.~Carminati, A.~Chatrabhuti, S.~Chilingaryan,
+  B.~A. Daniel, K.~Debowski, M.~Descher, D.~D. Barrero, P.~J. Doe, O.~Dragoun,
+  G.~Drexlin, F.~Edzards, K.~Eitel, E.~Ellinger, R.~Engel, S.~Enomoto,
+  A.~Felden, C.~Fengler, C.~Fiorini, J.~A. Formaggio, C.~Forstner, F.~M.
+  Fränkle, K.~Gauda, A.~S. Gavin, W.~Gil, F.~Glück, S.~Grohmann, R.~Grössle,
+  R.~Gumbsheimer, N.~Gutknecht, V.~Hannen, L.~Hasselmann, N.~Haußmann,
+  K.~Helbing, H.~Henke, S.~Heyns, S.~Hickford, R.~Hiller, D.~Hillesheimer,
+  D.~Hinz, T.~Höhn, A.~Huber, A.~Jansen, C.~Karl, J.~Kellerer,
+  K.~Khosonthongkee, M.~Kleifges, M.~Klein, J.~Kohpeiß, C.~Köhler,
+  L.~Köllenberger, A.~Kopmann, N.~Kovač, A.~Kovalík, H.~Krause, L.~L.
+  Cascio, T.~Lasserre, J.~Lauer, T.~Le, O.~Lebeda, B.~Lehnert, G.~Li,
+  A.~Lokhov, M.~Machatschek, M.~Mark, A.~Marsteller, E.~L. Martin, C.~Melzer,
+  S.~Mertens, S.~Mohanty, J.~Mostafa, K.~Müller, A.~Nava, H.~Neumann,
+  S.~Niemes, A.~Onillon, D.~S. Parno, M.~Pavan, U.~Pinsook, A.~W.~P. Poon,
+  J.~M.~L. Poyato, S.~Pozzi, F.~Priester, J.~Ráliš, S.~Ramachandran, R.~G.~H.
+  Robertson, C.~Rodenbeck, M.~Röllig, C.~Röttele, M.~Ryšavý, R.~Sack,
+  A.~Saenz, R.~Salomon, P.~Schäfer, M.~Schlösser, K.~Schlösser,
+  L.~Schlüter, S.~Schneidewind, U.~Schnurr, M.~Schrank, J.~Schürmann,
+  A.~Schütz, A.~Schwemmer, A.~Schwenck, M.~Šefčík, D.~Siegmann, F.~Simon,
+  F.~Spanier, D.~Spreng, W.~Sreethawong, M.~Steidl, J.~Štorek, X.~Stribl,
+  M.~Sturm, N.~Suwonjandee, N.~T. Jerome, H.~H. Telle, L.~A. Thorne,
+  T.~Thümmler, S.~Tirolf, N.~Titov, I.~Tkachev, K.~Urban, K.~Valerius,
+  D.~Vénos, C.~Weinheimer, S.~Welte, J.~Wendel, C.~Wiesinger, J.~F. Wilkerson,
+  J.~Wolf, S.~Wüstling, J.~Wydra, W.~Xu, S.~Zadorozhny,  and G.~Zeller, {\em
+  Direct neutrino-mass measurement based on 259 days of KATRIN data}, 2024.
+\newblock \url{https://arxiv.org/abs/2406.13516}.
+
+\bibitem{CERN_courier_nu_mass}
+A.~de~Gouvêa, {\em Neutrino mass puzzle},
+\newblock
+  \url{https://cerncourier.com/a/the-neutrino-mass-puzzle/#:~:text=Though%20there%20are%20too%20many,or%20through%20a%20different%20mechanism}.
+
+\bibitem{PhysRevLett.58.1490}
+K.~Hirata, T.~Kajita, M.~Koshiba, M.~Nakahata, Y.~Oyama, N.~Sato, A.~Suzuki,
+  M.~Takita, Y.~Totsuka, T.~Kifune, T.~Suda, K.~Takahashi, T.~Tanimori,
+  K.~Miyano, M.~Yamada, E.~W. Beier, L.~R. Feldscher, S.~B. Kim, A.~K. Mann,
+  F.~M. Newcomer, R.~Van, W.~Zhang,  and B.~G. Cortez, {\em Observation of a
+  neutrino burst from the supernova SN1987A},
+  \href{http://dx.doi.org/10.1103/PhysRevLett.58.1490}{Phys. Rev. Lett.
+  {\bfseries 58} (1987) 1490--1493},
+  \url{https://link.aps.org/doi/10.1103/PhysRevLett.58.1490}.
+
+\bibitem{PhysRevLett.111.021103}
+{IceCube Collaboration} Collaboration, M.~G. Aartsen, R.~Abbasi, Y.~Abdou,
+  M.~Ackermann, J.~Adams, J.~A. Aguilar, M.~Ahlers, D.~Altmann, J.~Auffenberg,
+  X.~Bai, M.~Baker, S.~W. Barwick, V.~Baum, R.~Bay, J.~J. Beatty, S.~Bechet,
+  J.~Becker~Tjus, K.-H. Becker, M.~Bell, M.~L. Benabderrahmane, S.~BenZvi,
+  J.~Berdermann, P.~Berghaus, D.~Berley, E.~Bernardini, A.~Bernhard,
+  D.~Bertrand, D.~Z. Besson, G.~Binder, D.~Bindig, M.~Bissok, E.~Blaufuss,
+  J.~Blumenthal, D.~J. Boersma, S.~Bohaichuk, C.~Bohm, D.~Bose, S.~B\"oser,
+  O.~Botner, L.~Brayeur, H.-P. Bretz, A.~M. Brown, R.~Bruijn, J.~Brunner,
+  M.~Carson, J.~Casey, M.~Casier, D.~Chirkin, A.~Christov, B.~Christy,
+  K.~Clark, F.~Clevermann, S.~Coenders, S.~Cohen, D.~F. Cowen, A.~H.
+  Cruz~Silva, M.~Danninger, J.~Daughhetee, J.~C. Davis, C.~De~Clercq,
+  S.~De~Ridder, P.~Desiati, M.~de~With, T.~DeYoung, J.~C. D\'{\i}az-V\'elez,
+  M.~Dunkman, R.~Eagan, B.~Eberhardt, J.~Eisch, R.~W. Ellsworth, S.~Euler,
+  P.~A. Evenson, O.~Fadiran, A.~R. Fazely, A.~Fedynitch, J.~Feintzeig,
+  T.~Feusels, K.~Filimonov, C.~Finley, T.~Fischer-Wasels, S.~Flis,
+  A.~Franckowiak, R.~Franke, K.~Frantzen, T.~Fuchs, T.~K. Gaisser,
+  J.~Gallagher, L.~Gerhardt, L.~Gladstone, T.~Gl\"usenkamp, A.~Goldschmidt,
+  G.~Golup, J.~G. Gonzalez, J.~A. Goodman, D.~G\'ora, D.~Grant, A.~Gro\ss{},
+  M.~Gurtner, C.~Ha, A.~Haj~Ismail, P.~Hallen, A.~Hallgren, F.~Halzen,
+  K.~Hanson, D.~Heereman, D.~Heinen, K.~Helbing, R.~Hellauer, S.~Hickford,
+  G.~C. Hill, K.~D. Hoffman, R.~Hoffmann, A.~Homeier, K.~Hoshina, W.~Huelsnitz,
+  P.~O. Hulth, K.~Hultqvist, S.~Hussain, A.~Ishihara, E.~Jacobi, J.~Jacobsen,
+  K.~Jagielski, G.~S. Japaridze, K.~Jero, O.~Jlelati, B.~Kaminsky, A.~Kappes,
+  T.~Karg, A.~Karle, J.~L. Kelley, J.~Kiryluk, F.~Kislat, J.~Kl\"as, S.~R.
+  Klein, J.-H. K\"ohne, G.~Kohnen, H.~Kolanoski, L.~K\"opke, C.~Kopper,
+  S.~Kopper, D.~J. Koskinen, M.~Kowalski, M.~Krasberg, K.~Krings, G.~Kroll,
+  J.~Kunnen, N.~Kurahashi, T.~Kuwabara, M.~Labare, H.~Landsman, M.~J. Larson,
+  M.~Lesiak-Bzdak, M.~Leuermann, J.~Leute, J.~L\"unemann, J.~Madsen,
+  R.~Maruyama, K.~Mase, H.~S. Matis, F.~McNally, K.~Meagher, M.~Merck,
+  P.~M\'esz\'aros, T.~Meures, S.~Miarecki, E.~Middell, N.~Milke, J.~Miller,
+  L.~Mohrmann, T.~Montaruli, R.~Morse, R.~Nahnhauer, U.~Naumann,
+  H.~Niederhausen, S.~C. Nowicki, D.~R. Nygren, A.~Obertacke, S.~Odrowski,
+  A.~Olivas, M.~Olivo, A.~O'Murchadha, L.~Paul, J.~A. Pepper, C.~P\'erez de~los
+  Heros, C.~Pfendner, D.~Pieloth, E.~Pinat, N.~Pirk, J.~Posselt, P.~B. Price,
+  G.~T. Przybylski, L.~R\"adel, M.~Rameez, K.~Rawlins, P.~Redl, R.~Reimann,
+  E.~Resconi, W.~Rhode, M.~Ribordy, M.~Richman, B.~Riedel, J.~P. Rodrigues,
+  C.~Rott, T.~Ruhe, B.~Ruzybayev, D.~Ryckbosch, S.~M. Saba, T.~Salameh, H.-G.
+  Sander, M.~Santander, S.~Sarkar, K.~Schatto, M.~Scheel, F.~Scheriau,
+  T.~Schmidt, M.~Schmitz, S.~Schoenen, S.~Sch\"oneberg, A.~Sch\"onwald,
+  A.~Schukraft, L.~Schulte, O.~Schulz, D.~Seckel, Y.~Sestayo, S.~Seunarine,
+  C.~Sheremata, M.~W.~E. Smith, M.~Soiron, D.~Soldin, G.~M. Spiczak,
+  C.~Spiering, M.~Stamatikos, T.~Stanev, A.~Stasik, T.~Stezelberger, R.~G.
+  Stokstad, A.~St\"o\ss{}l, E.~A. Strahler, R.~Str\"om, G.~W. Sullivan,
+  H.~Taavola, I.~Taboada, A.~Tamburro, S.~Ter-Antonyan, G.~Te\ifmmode
+  \check{s}\else \v{s}\fi{}i\ifmmode~\acute{c}\else \'{c}\fi{}, S.~Tilav, P.~A.
+  Toale, S.~Toscano, M.~Usner, D.~van~der Drift, N.~van Eijndhoven,
+  A.~Van~Overloop, J.~van Santen, M.~Vehring, M.~Voge, M.~Vraeghe, C.~Walck,
+  T.~Waldenmaier, M.~Wallraff, R.~Wasserman, C.~Weaver, M.~Wellons, C.~Wendt,
+  S.~Westerhoff, N.~Whitehorn, K.~Wiebe, C.~H. Wiebusch, D.~R. Williams,
+  H.~Wissing, M.~Wolf, T.~R. Wood, K.~Woschnagg, C.~Xu, D.~L. Xu, X.~W. Xu,
+  J.~P. Yanez, G.~Yodh, S.~Yoshida, P.~Zarzhitsky, J.~Ziemann, S.~Zierke,
+  A.~Zilles,  and M.~Zoll, {\em First Observation of PeV-Energy Neutrinos with
+  IceCube}, \href{http://dx.doi.org/10.1103/PhysRevLett.111.021103}{Phys. Rev.
+  Lett. {\bfseries 111} (2013) 021103},
+  \url{https://link.aps.org/doi/10.1103/PhysRevLett.111.021103}.
+
+\bibitem{doi:10.1126/science.1242856}
+I.~Collaboration*, {\em Evidence for High-Energy Extraterrestrial Neutrinos at
+  the IceCube Detector},
+  \href{http://dx.doi.org/10.1126/science.1242856}{Science {\bfseries 342}
+  no.~6161, (2013) 1242856},
+  \href{http://arxiv.org/abs/https://www.science.org/doi/pdf/10.1126/science.1242856}{{\ttfamily
+  https://www.science.org/doi/pdf/10.1126/science.1242856}},
+  \url{https://www.science.org/doi/abs/10.1126/science.1242856}.
+
+\bibitem{Abbasi_2023_Oscillation}
+R.~Abbasi, M.~Ackermann, J.~Adams, S.~Agarwalla, J.~Aguilar, M.~Ahlers,
+  J.~Alameddine, N.~Amin, K.~Andeen, G.~Anton, C.~Argüelles, Y.~Ashida,
+  S.~Athanasiadou, S.~Axani, X.~Bai, A.~B. V., M.~Baricevic, S.~Barwick,
+  V.~Basu, R.~Bay, J.~Beatty, K.-H. Becker, J.~B. Tjus, J.~Beise, C.~Bellenghi,
+  C.~Benning, S.~BenZvi, D.~Berley, E.~Bernardini, D.~Besson, G.~Binder,
+  E.~Blaufuss, S.~Blot, F.~Bontempo, J.~Book, C.~B. Meneguolo, S.~Böser,
+  O.~Botner, J.~Böttcher, E.~Bourbeau, J.~Braun, B.~Brinson,
+  J.~Brostean-Kaiser, R.~Burley, R.~Busse, D.~Butterfield, M.~Campana,
+  K.~Carloni, E.~Carnie-Bronca, S.~Chattopadhyay, N.~Chau, C.~Chen, Z.~Chen,
+  D.~Chirkin, S.~Choi, B.~Clark, L.~Classen, A.~Coleman, G.~Collin,
+  A.~Connolly, J.~Conrad, P.~Coppin, P.~Correa, S.~Countryman, D.~Cowen,
+  P.~Dave, C.~De~Clercq, J.~DeLaunay, D.~Delgado, H.~Dembinski, S.~Deng,
+  K.~Deoskar, A.~Desai, P.~Desiati, K.~de~Vries, G.~de~Wasseige, T.~DeYoung,
+  A.~Diaz, J.~Díaz-Vélez, M.~Dittmer, A.~Domi, H.~Dujmovic, M.~DuVernois,
+  T.~Ehrhardt, P.~Eller, S.~E. Mentawi, R.~Engel, H.~Erpenbeck, J.~Evans,
+  P.~Evenson, K.~Fan, K.~Fang, K.~Farrag, A.~Fazely, A.~Fedynitch, N.~Feigl,
+  S.~Fiedlschuster, C.~Finley, L.~Fischer, D.~Fox, A.~Franckowiak, E.~Friedman,
+  A.~Fritz, P.~Fürst, T.~Gaisser, J.~Gallagher, E.~Ganster, A.~Garcia,
+  L.~Gerhardt, A.~Ghadimi, C.~Glaser, T.~Glauch, T.~Glüsenkamp, N.~Goehlke,
+  J.~Gonzalez, S.~Goswami, D.~Grant, S.~Gray, O.~Gries, S.~Griffin,
+  S.~Griswold, C.~Günther, P.~Gutjahr, C.~Haack, A.~Hallgren, R.~Halliday,
+  L.~Halve, F.~Halzen, H.~Hamdaoui, M.~H. Minh, K.~Hanson, J.~Hardin,
+  A.~Harnisch, P.~Hatch, A.~Haungs, K.~Helbing, J.~Hellrung, F.~Henningsen,
+  L.~Heuermann, N.~Heyer, S.~Hickford, A.~Hidvegi, J.~Hignight, C.~Hill,
+  G.~Hill, K.~Hoffman, S.~Hori, K.~Hoshina, W.~Hou, T.~Huber, K.~Hultqvist,
+  M.~Hünnefeld, R.~Hussain, K.~Hymon, S.~In, A.~Ishihara, M.~Jacquart,
+  O.~Janik, M.~Jansson, G.~Japaridze, M.~Jeong, M.~Jin, B.~Jones, D.~Kang,
+  W.~Kang, X.~Kang, A.~Kappes, D.~Kappesser, L.~Kardum, T.~Karg, M.~Karl,
+  A.~Karle, U.~Katz, M.~Kauer, J.~Kelley, A.~K. Zathul, A.~Kheirandish,
+  J.~Kiryluk, S.~Klein, A.~Kochocki, R.~Koirala, H.~Kolanoski, T.~Kontrimas,
+  L.~Köpke, C.~Kopper, D.~Koskinen, P.~Koundal, M.~Kovacevich, M.~Kowalski,
+  T.~Kozynets, J.~Krishnamoorthi, K.~Kruiswijk, E.~Krupczak, A.~Kumar, E.~Kun,
+  N.~Kurahashi, N.~Lad, C.~L. Gualda, M.~Lamoureux, M.~Larson, S.~Latseva,
+  F.~Lauber, J.~Lazar, J.~Lee, K.~L. DeHolton, A.~Leszczyńska, M.~Lincetto,
+  Q.~Liu, M.~Liubarska, E.~Lohfink, C.~Love, C.~L. Mariscal, L.~Lu,
+  F.~Lucarelli, A.~Ludwig, W.~Luszczak, Y.~Lyu, W.~Ma, J.~Madsen, K.~Mahn,
+  Y.~Makino, E.~Manao, S.~Mancina, W.~M. Sainte, I.~Mariş, S.~Marka, Z.~Marka,
+  M.~Marsee, I.~Martinez-Soler, R.~Maruyama, F.~Mayhew, T.~McElroy, F.~McNally,
+  J.~Mead, K.~Meagher, S.~Mechbal, A.~Medina, M.~Meier, Y.~Merckx, L.~Merten,
+  J.~Micallef, T.~Montaruli, R.~Moore, Y.~Morii, R.~Morse, M.~Moulai,
+  T.~Mukherjee, R.~Naab, R.~Nagai, M.~Nakos, U.~Naumann, J.~Necker, M.~Neumann,
+  H.~Niederhausen, M.~Nisa, A.~Noell, S.~Nowicki, A.~O. Pollmann, V.~O’Dell,
+  M.~Oehler, B.~Oeyen, A.~Olivas, R.~Orsoe, J.~Osborn, E.~O’Sullivan,
+  H.~Pandya, N.~Park, G.~Parker, E.~Paudel, L.~Paul, C.~P. d.~l. Heros,
+  J.~Peterson, S.~Philippen, S.~Pieper, A.~Pizzuto, M.~Plum, A.~Pontén,
+  Y.~Popovych, M.~P. Rodriguez, B.~Pries, R.~Procter-Murphy, G.~Przybylski,
+  J.~Rack-Helleis, K.~Rawlins, Z.~Rechav, A.~Rehman, P.~Reichherzer, G.~Renzi,
+  E.~Resconi, S.~Reusch, W.~Rhode, M.~Richman, B.~Riedel, A.~Rifaie,
+  E.~Roberts, S.~Robertson, S.~Rodan, G.~Roellinghoff, M.~Rongen, C.~Rott,
+  T.~Ruhe, L.~Ruohan, D.~Ryckbosch, I.~Safa, J.~Saffer, D.~Salazar-Gallegos,
+  P.~Sampathkumar, S.~S. Herrera, A.~Sandrock, M.~Santander, S.~Sarkar,
+  S.~Sarkar, J.~Savelberg, P.~Savina, M.~Schaufel, H.~Schieler, S.~Schindler,
+  L.~Schlickmann, B.~Schlüter, F.~Schlüter, T.~Schmidt, J.~Schneider,
+  F.~Schröder, L.~Schumacher, G.~Schwefer, S.~Sclafani, D.~Seckel, M.~Seikh,
+  S.~Seunarine, R.~Shah, A.~Sharma, S.~Shefali, N.~Shimizu, M.~Silva,
+  B.~Skrzypek, B.~Smithers, R.~Snihur, J.~Soedingrekso, A.~Søgaard, D.~Soldin,
+  P.~Soldin, G.~Sommani, C.~Spannfellner, G.~Spiczak, C.~Spiering,
+  M.~Stamatikos, T.~Stanev, T.~Stezelberger, T.~Stürwald, T.~Stuttard,
+  G.~Sullivan, I.~Taboada, S.~Ter-Antonyan, A.~Terliuk, M.~Thiesmeyer,
+  W.~Thompson, J.~Thwaites, S.~Tilav, K.~Tollefson, C.~Tönnis, S.~Toscano,
+  D.~Tosi, A.~Trettin, C.~Tung, R.~Turcotte, J.~Twagirayezu, B.~Ty, M.~U.
+  Elorrieta, A.~Upadhyay, K.~Upshaw, N.~Valtonen-Mattila, J.~Vandenbroucke,
+  N.~van Eijndhoven, D.~Vannerom, J.~van Santen, J.~Vara, J.~Veitch-Michaelis,
+  M.~Venugopal, M.~Vereecken, S.~Verpoest, D.~Veske, C.~Walck, T.~Watson,
+  C.~Weaver, P.~Weigel, A.~Weindl, J.~Weldert, C.~Wendt, J.~Werthebach,
+  M.~Weyrauch, N.~Whitehorn, C.~Wiebusch, N.~Willey, D.~Williams, A.~Wolf,
+  M.~Wolf, G.~Wrede, X.~Xu, J.~Yanez, E.~Yildizci, S.~Yoshida, R.~Young, F.~Yu,
+  S.~Yu, T.~Yuan, Z.~Zhang,  and P.~Zhelnin, {\em Measurement of atmospheric
+  neutrino mixing with improved IceCube DeepCore calibration and data
+  processing}, \href{http://dx.doi.org/10.1103/physrevd.108.012014}{Physical
+  Review D {\bfseries 108} no.~1, (2023)},
+  \url{http://dx.doi.org/10.1103/PhysRevD.108.012014}.
+
+\bibitem{psf2023008007}
+M.~Prado~Rodriguez, {\em Neutrino Mass Ordering with IceCube DeepCore},
+  \href{http://dx.doi.org/10.3390/psf2023008007}{Physical Sciences Forum
+  {\bfseries 8} no.~1, (2023)}, \url{https://www.mdpi.com/2673-9984/8/1/7}.
+
+\bibitem{scott2024cosmicneutrinobackground}
+D.~Scott, {\em The Cosmic Neutrino Background}, 2024.
+\newblock \url{https://arxiv.org/abs/2402.16243}.
 
 \end{thebibliography}\endgroup
