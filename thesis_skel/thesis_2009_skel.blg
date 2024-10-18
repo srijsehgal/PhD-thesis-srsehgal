@@ -36,6 +36,7 @@ Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Reallocated str_pool (elt_size=1) to 260000 items from 195000.
 Reallocated str_pool (elt_size=1) to 325000 items from 260000.
+Reallocated str_pool (elt_size=1) to 390000 items from 325000.
 Database file #2: ../refs/standard_refs-bibtex.bib
 Warning--I didn't find a database entry for "2019EPJWC.21206005K"
 Warning--I didn't find a database entry for "Banerjee:2016tad"
@@ -48,7 +49,6 @@ Warning--I didn't find a database entry for "Linear_regression"
 Warning--I didn't find a database entry for "STIGLER1974431"
 Warning--empty author in Auger:2015
 Warning--empty title in Auger:2015
-Reallocated str_pool (elt_size=1) to 390000 items from 325000.
 Warning--empty pages in Abreu_2023
 Warning--empty author in Auger_photons_2022
 Reallocated str_pool (elt_size=1) to 455000 items from 390000.
@@ -67,45 +67,46 @@ Warning--empty pages in Prohira_2021
 Warning--empty pages in Aartsen_2014_first_flux
 Warning--empty pages in Abbasi_2009_Amanda
 Warning--empty pages in 10.3389/fspas.2019.00024
-You've used 133 entries,
+Warning--empty pages in Albrecht_2022_muon_puzzle
+You've used 152 entries,
             2323 wiz_defined-function locations,
-            1692 strings with 324303 characters,
-and the built_in function-call counts, 260813 in all, are:
-= -- 3645
-> -- 52163
+            1832 strings with 328858 characters,
+and the built_in function-call counts, 266203 in all, are:
+= -- 4121
+> -- 52358
 < -- 0
-+ -- 17445
-- -- 17312
-* -- 37775
-:= -- 55488
-add.period$ -- 140
-call.type$ -- 133
-change.case$ -- 133
++ -- 17519
+- -- 17367
+* -- 38259
+:= -- 56126
+add.period$ -- 162
+call.type$ -- 152
+change.case$ -- 153
 chr.to.int$ -- 0
-cite$ -- 152
-duplicate$ -- 2353
-empty$ -- 3877
-format.name$ -- 17312
-if$ -- 44206
+cite$ -- 172
+duplicate$ -- 2659
+empty$ -- 4414
+format.name$ -- 17367
+if$ -- 45578
 int.to.chr$ -- 0
-int.to.str$ -- 133
-missing$ -- 618
-newline$ -- 410
-num.names$ -- 129
-pop$ -- 616
+int.to.str$ -- 152
+missing$ -- 692
+newline$ -- 470
+num.names$ -- 148
+pop$ -- 720
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1801
+skip$ -- 2026
 stack$ -- 0
-substring$ -- 2148
-swap$ -- 1283
+substring$ -- 2398
+swap$ -- 1437
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 19
-while$ -- 315
-width$ -- 136
-write$ -- 1070
-(There were 28 warnings)
+warning$ -- 20
+while$ -- 355
+width$ -- 155
+write$ -- 1222
+(There were 29 warnings)
