@@ -13,6 +13,7 @@ A level-1 auxiliary file: thesis_conclusion.aux
 The style file: ../refs/atlasBibStyleWithTitle.bst.bst
 A level-1 auxiliary file: thesis_appendix_A.aux
 A level-1 auxiliary file: thesis_appendix_B.aux
+Reallocated field_info (elt_size=4) to 10549 items from 5000.
 Database file #1: ./thesis_refs.bib
 Reallocated buffer (elt_size=1) to 40000 items from 20000.
 Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
@@ -68,45 +69,47 @@ Warning--empty pages in Aartsen_2014_first_flux
 Warning--empty pages in Abbasi_2009_Amanda
 Warning--empty pages in 10.3389/fspas.2019.00024
 Warning--empty pages in Albrecht_2022_muon_puzzle
-You've used 152 entries,
+Warning--empty pages in osti_4100652
+Warning--empty pages in article_b_MESONS
+You've used 170 entries,
             2323 wiz_defined-function locations,
-            1832 strings with 328858 characters,
-and the built_in function-call counts, 266203 in all, are:
-= -- 4121
-> -- 52358
+            1972 strings with 347272 characters,
+and the built_in function-call counts, 281637 in all, are:
+= -- 4589
+> -- 54891
 < -- 0
-+ -- 17519
-- -- 17367
-* -- 38259
-:= -- 56126
-add.period$ -- 162
-call.type$ -- 152
-change.case$ -- 153
++ -- 18370
+- -- 18200
+* -- 40315
+:= -- 59088
+add.period$ -- 182
+call.type$ -- 170
+change.case$ -- 171
 chr.to.int$ -- 0
-cite$ -- 172
-duplicate$ -- 2659
-empty$ -- 4414
-format.name$ -- 17367
-if$ -- 45578
+cite$ -- 192
+duplicate$ -- 2957
+empty$ -- 4925
+format.name$ -- 18200
+if$ -- 48487
 int.to.chr$ -- 0
-int.to.str$ -- 152
-missing$ -- 692
-newline$ -- 470
-num.names$ -- 148
-pop$ -- 720
+int.to.str$ -- 170
+missing$ -- 769
+newline$ -- 526
+num.names$ -- 166
+pop$ -- 809
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2026
+skip$ -- 2248
 stack$ -- 0
-substring$ -- 2398
-swap$ -- 1437
+substring$ -- 2662
+swap$ -- 1596
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 20
-while$ -- 355
-width$ -- 155
-write$ -- 1222
-(There were 29 warnings)
+warning$ -- 22
+while$ -- 394
+width$ -- 173
+write$ -- 1364
+(There were 31 warnings)

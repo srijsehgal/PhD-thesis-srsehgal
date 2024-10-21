@@ -73,7 +73,7 @@
 \contentsline {section}{\numberline {7.2}Point-source neutrino flux limit}{75}{section.7.2}%
 \contentsline {chapter}{\numberline {8}Conclusion and Outlook}{77}{chapter.8}%
 \contentsline {chapter}{\nonumberline Bibliography}{81}{chapter*.61}%
-\contentsline {chapter}{\numberline {A}Testing hadronic models}{159}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Adapting DGH analysis to current Offline}{165}{appendix.B}%
-\contentsline {chapter}{\nonumberline List of Figures}{167}{chapter*.68}%
+\contentsline {chapter}{\numberline {A}Testing hadronic models}{163}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Adapting DGH analysis to current Offline}{169}{appendix.B}%
+\contentsline {chapter}{\nonumberline List of Figures}{171}{chapter*.68}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
