@@ -13,36 +13,11 @@ A level-1 auxiliary file: thesis_conclusion.aux
 The style file: ../refs/atlasBibStyleWithTitle.bst.bst
 A level-1 auxiliary file: thesis_appendix_A.aux
 A level-1 auxiliary file: thesis_appendix_B.aux
-Reallocated field_info (elt_size=4) to 10549 items from 5000.
+Reallocated field_info (elt_size=4) to 11293 items from 5000.
 Database file #1: ./thesis_refs.bib
-Reallocated buffer (elt_size=1) to 40000 items from 20000.
-Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
-Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
-Reallocated out_buf (elt_size=1) to 40000 items from 20000.
-Reallocated name_tok (elt_size=4) to 40000 items from 20000.
-Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
-Reallocated buffer (elt_size=1) to 60000 items from 40000.
-Reallocated sv_buffer (elt_size=1) to 60000 items from 40000.
-Reallocated ex_buf (elt_size=1) to 60000 items from 40000.
-Reallocated out_buf (elt_size=1) to 60000 items from 40000.
-Reallocated name_tok (elt_size=4) to 60000 items from 40000.
-Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
-Reallocated buffer (elt_size=1) to 80000 items from 60000.
-Reallocated sv_buffer (elt_size=1) to 80000 items from 60000.
-Reallocated ex_buf (elt_size=1) to 80000 items from 60000.
-Reallocated out_buf (elt_size=1) to 80000 items from 60000.
-Reallocated name_tok (elt_size=4) to 80000 items from 60000.
-Reallocated name_sep_char (elt_size=1) to 80000 items from 60000.
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Reallocated str_pool (elt_size=1) to 195000 items from 130000.
-Reallocated str_pool (elt_size=1) to 260000 items from 195000.
-Reallocated str_pool (elt_size=1) to 325000 items from 260000.
-Reallocated str_pool (elt_size=1) to 390000 items from 325000.
 Database file #2: ../refs/standard_refs-bibtex.bib
+Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "2019EPJWC.21206005K"
-Warning--I didn't find a database entry for "Banerjee:2016tad"
-Warning--I didn't find a database entry for "Banerjee_2018"
-Warning--I didn't find a database entry for "Gninenko:2677228"
 Warning--I didn't find a database entry for "Banerjee:2017mdu"
 Warning--I didn't find a database entry for "GEM_field"
 Warning--I didn't find a database entry for "article_GEM_pic"
@@ -52,64 +27,56 @@ Warning--empty author in Auger:2015
 Warning--empty title in Auger:2015
 Warning--empty pages in Abreu_2023
 Warning--empty author in Auger_photons_2022
-Reallocated str_pool (elt_size=1) to 455000 items from 390000.
-Warning--empty pages in TXS_Multi_2018
 Warning--empty pages in Busca_2006
-Warning--empty author in 2018_auger_comp_spec
 Warning--empty pages in Ar_mburo_Garc_a_2021
 Warning--empty author and editor in 2018_CTAO
 Warning--empty pages in universe8110579
-Warning--empty pages in Abbasi_2023_Oscillation
 Warning--empty pages in psf2023008007
 Warning--empty pages in Lipari_2007
 Warning--empty pages in Condorelli_2023_starburst
 Warning--empty pages in Cooper_Sarkar_2011
-Warning--empty pages in Prohira_2021
-Warning--empty pages in Aartsen_2014_first_flux
-Warning--empty pages in Abbasi_2009_Amanda
-Warning--empty pages in 10.3389/fspas.2019.00024
 Warning--empty pages in Albrecht_2022_muon_puzzle
 Warning--empty pages in osti_4100652
 Warning--empty pages in article_b_MESONS
-You've used 170 entries,
+You've used 196 entries,
             2323 wiz_defined-function locations,
-            1972 strings with 347272 characters,
-and the built_in function-call counts, 281637 in all, are:
-= -- 4589
-> -- 54891
+            2145 strings with 48566 characters,
+and the built_in function-call counts, 59018 in all, are:
+= -- 5336
+> -- 1795
 < -- 0
-+ -- 18370
-- -- 18200
-* -- 40315
-:= -- 59088
-add.period$ -- 182
-call.type$ -- 170
-change.case$ -- 171
++ -- 682
+- -- 486
+* -- 5769
+:= -- 6691
+add.period$ -- 208
+call.type$ -- 196
+change.case$ -- 199
 chr.to.int$ -- 0
-cite$ -- 192
-duplicate$ -- 2957
-empty$ -- 4925
-format.name$ -- 18200
-if$ -- 48487
+cite$ -- 211
+duplicate$ -- 3393
+empty$ -- 5839
+format.name$ -- 486
+if$ -- 15081
 int.to.chr$ -- 0
-int.to.str$ -- 170
-missing$ -- 769
-newline$ -- 526
-num.names$ -- 166
-pop$ -- 809
+int.to.str$ -- 196
+missing$ -- 881
+newline$ -- 605
+num.names$ -- 192
+pop$ -- 908
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2248
+skip$ -- 2618
 stack$ -- 0
-substring$ -- 2662
-swap$ -- 1596
+substring$ -- 3139
+swap$ -- 1820
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 22
-while$ -- 394
-width$ -- 173
-write$ -- 1364
-(There were 31 warnings)
+warning$ -- 15
+while$ -- 474
+width$ -- 199
+write$ -- 1598
+(There were 22 warnings)
