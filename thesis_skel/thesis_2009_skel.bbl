@@ -160,10 +160,9 @@ I.~Collaboration, {\em Neutrino emission from the direction of the blazar TXS
   arXiv:2307.04427 [astro-ph.HE]}}.
 
 \bibitem{gap_note_2013}
-J.~L.~N. Quirante, {\em Search for Ultra-High Energy Neutrinos at the Pierre
-  Auger Observatory}, 2012.
-\newblock
-  \url{https://www.auger.org/gap-notes/download/5-gap-notes-2013/93-gap2013-013}.
+J.~L. Navarro~Quirante, {\em Search for ultra-high energy neutrinos at the
+  Pierre Auger Observatory}, 2013.
+\newblock \url{http://hdl.handle.net/10481/26377}.
 
 \bibitem{hess2018observationspenetratingradiationseven}
 V.~Hess, {\em On the Observations of the Penetrating Radiation during Seven
@@ -1317,5 +1316,128 @@ R.~Brun and F.~Rademakers, {\em {ROOT: An object oriented data analysis
 
 \bibitem{Pivarski2024-za}
 J.~Pivarski {et~al.}, {\em Uproot}, 2024.
+
+\bibitem{Corcella:2000bw}
+G.~Corcella, I.~G. Knowles, G.~Marchesini, S.~Moretti, K.~Odagiri,
+  P.~Richardson, M.~H. Seymour,  and B.~R. Webber, {\em {HERWIG 6: An Event
+  generator for hadron emission reactions with interfering gluons (including
+  supersymmetric processes)}},
+  \href{http://dx.doi.org/10.1088/1126-6708/2001/01/010}{JHEP {\bfseries 01}
+  (2001) 010}, \href{http://arxiv.org/abs/hep-ph/0011363}{{\ttfamily
+  arXiv:hep-ph/0011363}}.
+
+\bibitem{Ostapchenko:2010vb}
+S.~Ostapchenko, {\em {Monte Carlo treatment of hadronic interactions in
+  enhanced Pomeron scheme: I. QGSJET-II model}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.83.014018}{Phys. Rev. D {\bfseries
+  83} (2011) 014018}, \href{http://arxiv.org/abs/1010.1869}{{\ttfamily
+  arXiv:1010.1869 [hep-ph]}}.
+
+\bibitem{Riehn:2019jet}
+F.~Riehn, R.~Engel, A.~Fedynitch, T.~K. Gaisser,  and T.~Stanev, {\em {Hadronic
+  interaction model Sibyll 2.3d and extensive air showers}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.102.063002}{Phys. Rev. D {\bfseries
+  102} no.~6, (2020) 063002}, \href{http://arxiv.org/abs/1912.03300}{{\ttfamily
+  arXiv:1912.03300 [hep-ph]}}.
+
+\bibitem{Pierog:2013ria}
+T.~Pierog, I.~Karpenko, J.~M. Katzy, E.~Yatsenko,  and K.~Werner, {\em {EPOS
+  LHC: Test of collective hadronization with data measured at the CERN Large
+  Hadron Collider}}, \href{http://dx.doi.org/10.1103/PhysRevC.92.034906}{Phys.
+  Rev. C {\bfseries 92} no.~3, (2015) 034906},
+  \href{http://arxiv.org/abs/1306.0121}{{\ttfamily arXiv:1306.0121 [hep-ph]}}.
+
+\bibitem{Ferrari:2005zk}
+A.~Ferrari, P.~R. Sala, A.~Fasso,  and J.~Ranft, {\em {FLUKA: A multi-particle
+  transport code (Program version 2005)}},.
+
+\bibitem{Battistoni:2015epi}
+G.~Battistoni {et~al.}, {\em {Overview of the FLUKA code}},
+  \href{http://dx.doi.org/10.1016/j.anucene.2014.11.007}{Annals Nucl. Energy
+  {\bfseries 82} (2015) 10--18}.
+
+\bibitem{Nelson:1990sr}
+W.~R. Nelson and Y.~Namito, {\em {THE EGS4 CODE SYSTEM: SOLUTION OF gamma-ray
+  AND ELECTRON TRANSPORT PROBLEMS}},
+\newblock 2, 1990.
+
+\bibitem{PierreAuger:2012jsu}
+{Pierre Auger} Collaboration, P.~Abreu {et~al.}, {\em {Description of
+  Atmospheric Conditions at the Pierre Auger Observatory using the Global Data
+  Assimilation System (GDAS)}},
+  \href{http://dx.doi.org/10.1016/j.astropartphys.2011.12.002}{Astropart. Phys.
+  {\bfseries 35} (2012) 591--607},
+  \href{http://arxiv.org/abs/1201.2276}{{\ttfamily arXiv:1201.2276
+  [astro-ph.HE]}}.
+
+\bibitem{Hillas:1997tf}
+A.~M. Hillas, {\em {Shower simulation: Lessons from MOCCA}},
+  \href{http://dx.doi.org/10.1016/S0920-5632(96)00847-X}{Nucl. Phys. B Proc.
+  Suppl. {\bfseries 52} (1997) 29--42}.
+
+\bibitem{Heck:1998gr}
+D.~Heck and J.~Knapp, {\em {Upgrade of the Monte Carlo code CORSIKA to simulate
+  extensive air showers with energies \ensuremath{>} 10**20-eV}}, in {\em
+  {Spring Meeting of the Germany Physical Society (DPG) on Particle Physics (In
+  German)}}.
+\newblock 7, 1998.
+
+\bibitem{Kobal:2001jx}
+{Pierre Auger} Collaboration, M.~Kobal, {\em {A thinning method using weight
+  limitation for air-shower simulations}},
+  \href{http://dx.doi.org/10.1016/S0927-6505(00)00158-4}{Astropart. Phys.
+  {\bfseries 15} (2001) 259--273}.
+
+\bibitem{GRID_tech}
+{\em EGI, European Grid Infrastructure.},
+\newblock \url{http://www.egi.eu/}.
+
+\bibitem{LozanoBahilo:2012pe}
+{Pierre Auger} Collaboration, J.~Lozano~Bahilo, {\em {Mass production of
+  extensive air showers for the Pierre Auger Collaboration using Grid
+  technology}}, \href{http://dx.doi.org/10.1088/1742-6596/368/1/012015}{J.
+  Phys. Conf. Ser. {\bfseries 368} (2012) 012015}.
+
+\bibitem{Stokes:2011wf}
+B.~T. Stokes, R.~Cady, D.~Ivanov, J.~N. Matthews,  and G.~B. Thomson, {\em
+  {Dethinning Extensive Air Shower Simulations}},
+  \href{http://dx.doi.org/10.1016/j.astropartphys.2012.03.004}{Astropart. Phys.
+  {\bfseries 35} (2012) 759--766},
+  \href{http://arxiv.org/abs/1104.3182}{{\ttfamily arXiv:1104.3182
+  [astro-ph.IM]}}.
+
+\bibitem{GEANT4:2002zbu}
+{GEANT4} Collaboration, S.~Agostinelli {et~al.}, {\em {GEANT4--a simulation
+  toolkit}}, \href{http://dx.doi.org/10.1016/S0168-9002(03)01368-8}{Nucl.
+  Instrum. Meth. A {\bfseries 506} (2003) 250--303}.
+
+\bibitem{Allison:2006ve}
+J.~Allison {et~al.}, {\em {Geant4 developments and applications}},
+  \href{http://dx.doi.org/10.1109/TNS.2006.869826}{IEEE Trans. Nucl. Sci.
+  {\bfseries 53} (2006) 270}.
+
+\bibitem{Allison:2016lfl}
+J.~Allison {et~al.}, {\em {Recent developments in Geant4}},
+  \href{http://dx.doi.org/10.1016/j.nima.2016.06.125}{Nucl. Instrum. Meth. A
+  {\bfseries 835} (2016) 186--225}.
+
+\bibitem{Veberic:2013suc}
+D.~Veberic, {\em {Estimation of the Total Signal in Saturated Stations of
+  Pierre Auger Surface Detector}}, 2013.
+
+\bibitem{PierreAuger:2020yab}
+{Pierre Auger} Collaboration, A.~Aab {et~al.}, {\em {Reconstruction of events
+  recorded with the surface detector of the Pierre Auger Observatory}},
+  \href{http://dx.doi.org/10.1088/1748-0221/15/10/P10021}{JINST {\bfseries 15}
+  no.~10, (2020) P10021}, \href{http://arxiv.org/abs/2007.09035}{{\ttfamily
+  arXiv:2007.09035 [astro-ph.IM]}}.
+
+\bibitem{gap_bottom_up}
+X.~B. C.~Medina, {\em GAP Note 2004-030 (Auger key protected)},.
+
+\bibitem{2017AGUFMAE31A..06C}
+R.~{Colalillo} and R.~{Mussa}, {\em {Observation of high energy radiation in
+  the Surface Detectors of the Pierre Auger Observatory in correspondance with
+  lightning strikes.}},.
 
 \end{thebibliography}\endgroup

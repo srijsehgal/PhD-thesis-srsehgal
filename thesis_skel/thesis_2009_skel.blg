@@ -13,16 +13,12 @@ A level-1 auxiliary file: thesis_conclusion.aux
 The style file: ../refs/atlasBibStyleWithTitle.bst.bst
 A level-1 auxiliary file: thesis_appendix_A.aux
 A level-1 auxiliary file: thesis_appendix_B.aux
-Reallocated field_info (elt_size=4) to 11293 items from 5000.
+Reallocated field_info (elt_size=4) to 11820 items from 5000.
 Database file #1: ./thesis_refs.bib
 Database file #2: ../refs/standard_refs-bibtex.bib
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "2019EPJWC.21206005K"
 Warning--I didn't find a database entry for "Banerjee:2017mdu"
-Warning--I didn't find a database entry for "GEM_field"
-Warning--I didn't find a database entry for "article_GEM_pic"
-Warning--I didn't find a database entry for "Linear_regression"
-Warning--I didn't find a database entry for "STIGLER1974431"
 Warning--empty author in Auger:2015
 Warning--empty title in Auger:2015
 Warning--empty pages in Abreu_2023
@@ -38,45 +34,46 @@ Warning--empty pages in Cooper_Sarkar_2011
 Warning--empty pages in Albrecht_2022_muon_puzzle
 Warning--empty pages in osti_4100652
 Warning--empty pages in article_b_MESONS
-You've used 196 entries,
+Warning--empty booktitle in Nelson:1990sr
+You've used 217 entries,
             2323 wiz_defined-function locations,
-            2145 strings with 48566 characters,
-and the built_in function-call counts, 59018 in all, are:
-= -- 5336
-> -- 1795
+            2277 strings with 52458 characters,
+and the built_in function-call counts, 64835 in all, are:
+= -- 5857
+> -- 1983
 < -- 0
-+ -- 682
-- -- 486
-* -- 5769
-:= -- 6691
-add.period$ -- 208
-call.type$ -- 196
-change.case$ -- 199
++ -- 754
+- -- 537
+* -- 6297
+:= -- 7354
+add.period$ -- 230
+call.type$ -- 217
+change.case$ -- 224
 chr.to.int$ -- 0
-cite$ -- 211
-duplicate$ -- 3393
-empty$ -- 5839
-format.name$ -- 486
-if$ -- 15081
+cite$ -- 233
+duplicate$ -- 3731
+empty$ -- 6453
+format.name$ -- 537
+if$ -- 16564
 int.to.chr$ -- 0
-int.to.str$ -- 196
-missing$ -- 881
-newline$ -- 605
-num.names$ -- 192
-pop$ -- 908
+int.to.str$ -- 217
+missing$ -- 957
+newline$ -- 671
+num.names$ -- 212
+pop$ -- 1031
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2618
+skip$ -- 2861
 stack$ -- 0
-substring$ -- 3139
-swap$ -- 1820
+substring$ -- 3419
+swap$ -- 1980
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 15
-while$ -- 474
-width$ -- 199
-write$ -- 1598
-(There were 22 warnings)
+warning$ -- 16
+while$ -- 522
+width$ -- 220
+write$ -- 1757
+(There were 19 warnings)
