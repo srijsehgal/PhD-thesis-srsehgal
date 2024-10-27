@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2020/Debian)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis_2009_skel.aux
 A level-1 auxiliary file: thesis_acknowledge.aux
 A level-1 auxiliary file: thesis_intro.aux
@@ -13,7 +13,7 @@ A level-1 auxiliary file: thesis_conclusion.aux
 The style file: ../refs/atlasBibStyleWithTitle.bst.bst
 A level-1 auxiliary file: thesis_appendix_A.aux
 A level-1 auxiliary file: thesis_appendix_B.aux
-Reallocated field_info (elt_size=4) to 11820 items from 5000.
+Reallocated field_info (elt_size=4) to 12006 items from 5000.
 Database file #1: ./thesis_refs.bib
 Database file #2: ../refs/standard_refs-bibtex.bib
 Warning--I didn't find a database entry for ""
@@ -35,45 +35,45 @@ Warning--empty pages in Albrecht_2022_muon_puzzle
 Warning--empty pages in osti_4100652
 Warning--empty pages in article_b_MESONS
 Warning--empty booktitle in Nelson:1990sr
-You've used 217 entries,
+You've used 223 entries,
             2323 wiz_defined-function locations,
-            2277 strings with 52458 characters,
-and the built_in function-call counts, 64835 in all, are:
-= -- 5857
-> -- 1983
+            2308 strings with 53367 characters,
+and the built_in function-call counts, 65955 in all, are:
+= -- 5964
+> -- 2006
 < -- 0
-+ -- 754
-- -- 537
-* -- 6297
-:= -- 7354
-add.period$ -- 230
-call.type$ -- 217
-change.case$ -- 224
++ -- 765
+- -- 542
+* -- 6375
+:= -- 7470
+add.period$ -- 236
+call.type$ -- 223
+change.case$ -- 230
 chr.to.int$ -- 0
-cite$ -- 233
-duplicate$ -- 3731
-empty$ -- 6453
-format.name$ -- 537
-if$ -- 16564
+cite$ -- 239
+duplicate$ -- 3794
+empty$ -- 6600
+format.name$ -- 542
+if$ -- 16866
 int.to.chr$ -- 0
-int.to.str$ -- 217
-missing$ -- 957
-newline$ -- 671
-num.names$ -- 212
-pop$ -- 1031
+int.to.str$ -- 223
+missing$ -- 969
+newline$ -- 691
+num.names$ -- 215
+pop$ -- 1067
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2861
+skip$ -- 2909
 stack$ -- 0
-substring$ -- 3419
-swap$ -- 1980
+substring$ -- 3457
+swap$ -- 2002
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 16
-while$ -- 522
-width$ -- 220
-write$ -- 1757
+while$ -- 529
+width$ -- 226
+write$ -- 1798
 (There were 19 warnings)

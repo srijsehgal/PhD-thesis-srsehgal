@@ -1440,4 +1440,32 @@ R.~{Colalillo} and R.~{Mussa}, {\em {Observation of high energy radiation in
   the Surface Detectors of the Pierre Auger Observatory in correspondance with
   lightning strikes.}},.
 
+\bibitem{James:1975dr}
+F.~James and M.~Roos, {\em {Minuit: A System for Function Minimization and
+  Analysis of the Parameter Errors and Correlations}},
+  \href{http://dx.doi.org/10.1016/0010-4655(75)90039-9}{Comput. Phys. Commun.
+  {\bfseries 10} (1975) 343--367}.
+
+\bibitem{Fisher_illustrative}
+{\em An illustrative example of Fisher's linear discriminant},
+\newblock \url{https://sthalles.github.io/fisher-linear-discriminant/}.
+
+\bibitem{JaimeAlvarezMuniz_conversation}
+{\em Conversations with Jaime Alvarez-Mu\~niz},.
+
+\bibitem{scikit_Learn}
+{\em Scikit-learn: Linear Discriminant Analysis},
+\newblock
+  \url{https://scikit-learn.org/0.16/modules/generated/sklearn.lda.LDA.html}.
+
+\bibitem{Sato:2011zze}
+{Pierre Auger} Collaboration, R.~Sato, {\em {Long term performance of the
+  surface detectors of the Pierre Auger Observatory}},.
+
+\bibitem{PierreAuger:2023xfj}
+{Pierre Auger} Collaboration, A.~Abdul~Halim {et~al.}, {\em {The Time Evolution
+  of the Surface Detector of the Pierre Auger Observatory}},
+  \href{http://dx.doi.org/10.22323/1.444.0266}{PoS {\bfseries ICRC2023} (2023)
+  266}.
+
 \end{thebibliography}\endgroup
