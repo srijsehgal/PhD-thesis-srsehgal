@@ -5,71 +5,76 @@
 \label{chap:follow-up}
 %==============================================================================
 
-One of the most exciting fields of modern day neutrino astrophysics involves scanning the observable sky to look for neutrino sources. As mentioned in section~\ref{} the observation of TXS~\cite{} and NGC 1068~\cite{} which are examples of a transient source and a steady state of neutrinos has brought unprecedented excitement to the field. Any observation of a neutrino source offers a chance to significantly increase our overall knowledge about astroparticle physics. Since, Auger is one of the few experiments in the world sensitive to UHE$\nu_s$ any improvement in its point source sensitivity increases its capability for neutrino detection. 
+One of the most exciting fields of modern day neutrino astrophysics involves scanning the observable sky to look for neutrino sources. As mentioned in section~\ref{subsubsec:Nusources} the observation of TXS 0506+056~\cite{Icecube_txs} and NGC 1068~\cite{Icecube_2022} which are examples of a transient source and a steady state of neutrinos has brought unprecedented excitement to the field. Any observation of a neutrino source offers a chance to significantly increase our overall knowledge about astroparticle physics. Since, Auger is one of the few experiments in the world sensitive to UHE$\nu_s$ any improvement in its point source sensitivity increases its capability for neutrino detection. 
 
-In this chapter the point source sensitivity to $\nu$ events of the SD array is discussed for the zenith angular range explored in this thesis, DG$_{low}$. Based on the zero neutrino candidates found in the search performed in this work a source declination, $\delta$ dependent neutrino flux is calculated. This process includes calculating the declination dependent exposure and then converting it to a limit on the flux. The improvements to this exposure and sensitivity by the inclusion of new triggers is also discussed. Finally, the new limit is used to scan a few interesting sources which lie in the most sensitive range for the DG$_{low}$ region.
+In this chapter, the point source sensitivity to $\nu$ events of the SD array is discussed for the zenith angular range explored in this thesis, DG$_{low}$. Based on the zero neutrino candidates found in the search performed in this work a source declination, $\delta$ dependent neutrino flux is calculated. This process includes calculating the declination dependent exposure and then converting it to a limit on the flux. The improvements to this exposure and sensitivity by the inclusion of new triggers is also discussed. Finally, the new limit is used to scan a few interesting sources which lie in the most sensitive range for the DG$_{low}$ region.
 
 \section{Procedure for point source analysis}
 \label{sec:procedure_point_source}
 
 \subsection{Source visibility}
 \label{subsec:psource_coverage}
-The field of view of the Observatory and the corresponding neutrino efficiency is related to the zenith angle which in turn is related to declination. For a given point like source at declination $\delta$ and right ascension $\alpha$(in equatorial coordinates), the time zenith angle, $\theta$ dependence at a certain time, $t$ is given by:
+The field of view (FOV) of the Observatory and the corresponding neutrino efficiency is related to the zenith angle which in turn is related to the declination. For a given point-like source at declination $\delta$ and right ascension $\alpha$ (in equatorial coordinates), the time zenith angle which is the $\theta$ dependence at a certain time, $t$ is given by:
 \begin{equation}
-  cos \theta(t) = sin \lambda \,sin \delta+ cos \lambda \, cos \delta \,sin (2\pi \frac{t}{T} - \alpha)
+  \label{eq:zenith_angle_time}
+  \mathrm{cos \theta(t) = sin \lambda \,sin \delta+ cos \lambda \, cos \delta \,sin (2\pi \frac{t}{T} - \alpha)}
 \end{equation} 
-where $T$ is the duration of one sidereal day and $\lambda$ is the latitude of the observer($\lambda = -35.2^{\circ}$ for Auger). 
-Fig.~\ref{} shows the FOV bands for different neutrino search channels(DGL, DGH, ES). These bands are plotted in equitorial coordinates as a function of $\alpha - t _{GS}$ where $t_{GS}$ is the Greenwich Sidereal Time(GST) converted to for a mean longitude of the Observatory, $l$ calculated as $t_{GS}= 2\pi t/T + l$. The sensitive declination ranges for different $t_{GS}$ can be read from the plot which is very useful for real-time transient follow-up. For DGL showers the SD of the Pierre AUger Observatory is sensitive to declinations between $\delta ~ -85^{\circ} - 40^{\circ}$. Another way to denote sky coverage for different neutrino searches at Auger is by calculating the time a source is visible to the Observatory for a particular declination. This is plotted in fig.~\ref{} for all three search channels. As it can be seen from the plot all three channels are the most sensitive at two ends of their sensitive declination ranges(DGL $\delta ~ -70^{\circ}, 35^{\circ}$) which is a consequence of smaller variation in zenith angle in time for certain directions. The sensitivity sharply decreases beyond these declination values. In the middle of these \textit{two horns} is a plateau like region. It is also seen that generally the fraction of time a source is visible is comparable in the DG$_{low}$ and DG$_{high}$ range with both being higher in the ES range due to the size of the zenith angle windows. The fraction of visible time for vertical showers is also plotted. Even though this fraction of time is significantly high no neutrino search can be performed for this region as it is very difficult to differentiate between a cosmic ray and neutrino shower for this zenith angle range. 
+where $T$ is the duration of one sidereal day and $\lambda$ is the latitude of the observer ($\lambda = -35.2^{\circ}$ for Pierre Auger Observatory). 
+Fig.~\ref{} shows the FOV bands for different neutrino search channels (DG$\mathrm{_{low}}$, DG$\mathrm{_{high}}$, ES). These bands are plotted in equitorial coordinates as a function of $\mathrm{\alpha - t _{GS}}$ where $\mathrm{t_{GS}}$ is the Greenwich Sidereal Time (GST) converted to for a mean longitude of the Observatory, $l$ calculated as $\mathrm{t_{GS}= 2\pi t/T + l}$. The sensitive declination ranges for different $\mathrm{t_{GS}}$ can be read from the plot which is very useful for real-time transient follow-up. For DG$\mathrm{_{low}}$ showers the SD of the Pierre Auger Observatory is sensitive to declinations between $\delta \sim -85^{\circ} - 40^{\circ}$. Another way to denote sky coverage for different neutrino searches at Auger is by calculating the time a source is visible to the Observatory for a particular declination. This is plotted in fig.~\ref{} for all three search channels. As it can be seen from the plot all three channels are the most sensitive at two ends of their sensitive declination ranges (DG$\mathrm{_{low}}$-$\delta \sim -70^{\circ}, 35^{\circ}$) which is a consequence of smaller variation in zenith angle in time for certain directions. The sensitivity sharply decreases beyond these declination values. In the middle of these \textit{two horns} is a plateau like region. It is also seen that generally the fraction of time a source is visible is comparable in the DG$\mathrm{_{low}}$ and DG$\mathrm{_{high}}$ range with both being higher in the ES range due to the size of the zenith angle windows. The fraction of visible time for vertical showers is also plotted. Even though this fraction of time is significantly high, currently no neutrino search is performed for this region as it is very difficult to differentiate between a cosmic ray and neutrino EAS for this zenith angle range.
 
 \subsection{Effective area and Exposure}
 \label{subsec:psource_area}
 Following this to calculate point source sensitivity, the declination dependent SD exposure is evaluated. This is done by first calculating an effective area to neutrinos of flavours i and energy $E_{\nu}$ is defined in the following way. For a point source spectral flux of flavour $i$ given by $\phi_i(E_{\nu}) = \frac{d^4 N_{\nu}}{dE_{\nu} dA dt}$ the expected number of detected events is given by 
 
 \begin{equation}
-  \frac{dN_{i}}{dt} = \int_{E_{\nu min}}^{E_{\nu max}} \, dE_{\nu} \, \phi(E_{\nu}) \, \mathcal{A}_i(E_{\nu})
+  \label{eq:expected_events_point}
+  \mathrm{\frac{dN_{i}}{dt} = \int_{E_{\nu min}}^{E_{\nu max}} \, dE_{\nu} \, \phi(E_{\nu}) \, \mathcal{A}_i(E_{\nu})}
 \end{equation}
-The effective area is flavour dependent since for each flavour the shower development and the primary interaction(c = NC, CC) is substantially different. The effective area is for the DGL region is given as follows:
+The effective area is flavour dependent since for each flavour the shower development and the primary interaction (c = NC, CC) is substantially different. The effective area is for the DG$\mathrm{_{low}}$ region is given as follows:
 \begin{equation}
-  \mathcal{A_{i,c}}(E_{\nu},\theta(t),t) = \frac{\sigma^{i,c}(E_{\nu})}{m_N} \int_{X} \, \varepsilon_{i,c}(E_{\nu},\theta(t),t) A_{6T5} n_{hex}(t) dX
+  \label{eq:effective_area}
+  \mathrm{\mathcal{A_{i,c}}(E_{\nu},\theta(t),t) = \frac{\sigma^{i,c}(E_{\nu})}{m_N} \int_{X} \, \varepsilon_{i,c}(E_{\nu},\theta(t),t) \, A_{6T5} n_{hex}(t) \, dX}
 \end{equation}
 
-where $\varepsilon_{i,c}$ is the neutrino identification efficiency for a 6T5 unit. The declination dependence is taken into account by the $\theta(t)$ dependence of the efficiency. The effective area for electron neutrinos with CC interactions in km$^2$ for 2016 array and different theta is plotted in fig.~\ref{}. The effective area increases with increasing primary energy. It also increases with zenith angles till ~70$^\circ$ after which there is a slight decrease in the effective area which is due to the decrease in neutrino sensitivity at higher zenith angles discussed earlier in section~\ref{}. 
+where $\varepsilon_{i,c}$ is the neutrino identification efficiency for a 6T5 unit. The declination dependence is taken into account by the $\mathrm{\theta(t)}$ dependence of the efficiency. The effective area for electron neutrinos with CC interactions in km$^2$ for 2016 array and different theta is plotted in fig.~\ref{}. The effective area increases with increasing primary energy. It also increases with zenith angles till $\sim$70$^\circ$ after which there is a slight decrease in the effective area which is due to the decrease in neutrino sensitivity at higher zenith angles discussed earlier in section~\ref{subsec:nu_sel_nudeteff}. 
 
 The exposure to point-like sources of UHE neutrinos can then be calculated by integrating the effective area for a given time interval and summing over the different flavours and channels as follows:
 \begin{equation}
-  \xi(E_{nu}, \delta) = \sum_{i,c} \int_{t} \mathcal{A_{i,c}}(E_{\nu},\theta(t),t) dt
+  \label{eq:exposure_point}
+  \mathrm{\xi(E_{nu}, \delta) = \sum_{i,c} \int_{t} \mathcal{A_{i,c}} \, (E_{\nu},\theta(t),t) \, dt}
 \end{equation}
 
 The exposure is $\delta$ dependent due to the dependence of effective area on $\theta(t)$. The effective area can also change with time due to the changes in the number of hexagons $n_{hex}(t)$. This change has been visualized for the DG$_{low}$ channel for the time period of this search in fig.~\ref{}. As it can be seen in the plot the number is relatively stable especially in the period of one sidereal day apart from few outages which are removed from the searches. The directional exposure for the DGL channels for different fixed energies between 2014-2021 is shown in fig.~\ref{}. The solid line shows the exposure calculated in this study by including the new triggers while the dashed line shows the exposure calculated with the previous analysis for the same time period. Similar to the exposure calculated for the diffuse flux the exposure is significantly improved for lower energies with the improvement decreasing or vanishing for higher energies. The shape of the exposure is similar to the observation time plot in fig.~\ref{} with the maximum exposure peaks seen at the same declinations. ES exposure published in ~\cite{} is also plotted for comparison. It can be seen that generally the DG$_{low}$ point source exposure in lower than that of ES expect at higher energies where it is comparable. At these energies the different sensitive zenith angle ranges between the channels are the only differentiating factors for the exposure distribution. 
 
 \section{Point-source neutrino flux limit}
 \label{sec:pfux_limit}
-Since no neutrino candidate was discovered in the search window a point-source neutrino flux limit can be calculated. Similar to the calculation for diffuse flux the number of expected neutrino events from a point like source at a given declination can be written as 
+Since no neutrino candidate was discovered in the search window a point-source neutrino flux limit can be calculated. Similar to the calculation for the diffuse flux the number of expected neutrino events from a point like source at a given declination can be written as 
 \begin{equation}
-  N_{expected}(\delta) = \int_{E_{min}}^{E_{max}}  \phi(E_{\nu})  \xi(E_{\nu}, \delta) dE_{\nu}
+  \mathrm{N_{expected}(\delta) = \int_{E_{min}}^{E_{max}}  \phi(E_{\nu}) \, \xi(E_{\nu}, \delta) \, dE_{\nu}}
 \end{equation}
 The point source flux is assumed to be independent of time and is assumed to be characterized as a power law, $\phi = k_{PS} E_{\nu}^{-2}$ for all declinations. The integrated upperlimit from each source can then be further calculated as follows:
 
 \begin{equation}
-  k_{PS}^{90\%CL} = \frac{N_{Up}}{\int_{E_{min}}^{E_{max}} E_{\nu}^{-2} \xi(E_{\nu}, \delta) dE_{\nu}}
+  \label{eq:point_flux_limit}
+  \mathrm{k_{PS}^{90\%CL} = \frac{N_{Up}}{\int_{E_{min}}^{E_{max}} E_{\nu}^{-2} \, \xi(E_{\nu}, \delta) \, dE_{\nu}}}
 \end{equation}
 
-For this study initially a time period from 1 Jan 2014 till 31 December 2021 is selected. The N$_{Up}$ = 2.39 is calculated according to the Conrad approach as mentioned in section~\ref{}. The exposure is assumed to be uniform within $\pm 0.6\%$ for the time period of search as shown in ~\cite{}. 
+For this study initially a time period from 1 Jan 2014 till 31 December 2021 is selected. The N$_{Up}$ = 2.39 is calculated according to the Conrad approach as mentioned in section~\ref{subsec:Conrad}. The exposure is assumed to be uniform within $\pm 0.6\%$ for the time period of search as shown in~\cite{PierreAuger:2017pzq}. 
 
-The 90\% C.L. declination dependent upper-limit for the DG$_{low}$ channel is shown in fig.~\ref{}. The limit is the stringent for the times the source is seen the longest. The limit is calculated for the energy range ~ 2.0 $\times 10^{18}$eV - $\times 10^{20}$eV. The dependence of energy intervals is minimal. This limit is also compared to the limit obtained from the previous analysis for the same time period in fig.~\ref{}. As it can be seen the limit is significantly improved with new triggers fulfilling one of the primary objectives of this thesis.     
-A cross-check of the diffuse limit is obtained from the point source analysis by performing double integration of the exposure, $\xi(E_{\nu}, \delta)$ in a similar way as done in~\cite{}.
+The 90\% C.L. declination dependent upper-limit for the DG$_{low}$ channel is shown in fig.~\ref{}. The limit is the stringent for the times the source is seen the longest. The limit is calculated for the energy range $\sim$ 2.0 $\times 10^{18}$eV - $\times 10^{20}$eV. The dependence of energy intervals is minimal. This limit is also compared to the limit obtained from the previous analysis for the same time period in fig.~\ref{}. As it can be seen the limit is significantly improved with new triggers fulfilling one of the primary objectives of this thesis.     
+A cross-check of the diffuse limit is obtained from the point source analysis by performing double integration of the exposure, $\xi(E_{\nu}, \delta)$ in a similar way as done in~\cite{gap_note_2013}.
 
 The diffuse limit can be written as:
 \begin{equation}
-  k_{PS}^{90\%CL} < \frac{N_{Up}}{\int_{log_{10}E_{min}}^{log_{10}E_{max}} \int_{-\pi/2}^{\pi/2}2\pi \cdot cos(\delta) \cdot E_{\nu}^{-1} \cdot \xi(E_{\nu}, \delta) \cdot ln(10) \cdot d(log_{10}(E_{\nu})) \cdot d\delta} 
+  \mathrm{k_{PS}^{90\%CL} < \frac{N_{Up}}{\int_{log_{10}E_{min}}^{log_{10}E_{max}} \int_{-\pi/2}^{\pi/2}2\pi \cdot cos(\delta) \cdot E_{\nu}^{-1} \cdot \xi(E_{\nu}, \delta) \cdot ln(10) \cdot d(log_{10}(E_{\nu})) \cdot d\delta}} 
 \end{equation}
 
 The diffuse limit from point source analysis is given as: 
 \begin{equation}
-  k_{PS}^{90\%CL} < 2.0000 \times 10^{-8} GeV cm^{-2} s^{-1} sr^{-1}
+  \mathrm{k_{PS}^{90\%CL} < 2.0000 \times 10^{-8} GeV cm^{-2} s^{-1} sr^{-1}}
 \end{equation}
 
-Which agrees with the value mentioned in eq.~\ref{}. It is also important to mention that even though the overall sensitive declination range for the DG$_{low}$ analysis is small in comparison to other channels~\cite{}, the improvement presented in this thesis is still important as the sensitive declination ranges are not fully overlapping. Thus, if there is a point source at between declinations $-80^{\circ}- -68^{\circ}$ then DG$_{low}$ channel offers the only window at Auger to see UHE$\nu_s$ from such a source.  
+Which agrees with the value mentioned in eq.~\ref{eq:final_lim}. It is also important to mention that even though the overall sensitive declination range for the DG$_{low}$ analysis is small in comparison to other channels~\cite{Aab_2019_point}, the improvement presented in this thesis is still important as the sensitive declination ranges are not fully overlapping. Thus, if there is a point source at between declinations $-80^{\circ}- -68^{\circ}$ then DG$_{low}$ channel offers the only window at Auger to see UHE$\nu_s$ from such a source.  
 
 
 

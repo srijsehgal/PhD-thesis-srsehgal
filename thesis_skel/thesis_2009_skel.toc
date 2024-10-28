@@ -5,73 +5,75 @@
 \babel@toc {UKenglish}{}
 \babel@toc {ngerman}{}
 \babel@toc {UKenglish}{}
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Ultra High Energy Cosmic Rays and Neutrinos}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Ultra High Energy Cosmic Rays}{5}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}History}{5}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Origin}{6}{subsection.2.1.2}
-\contentsline {subsubsection}{\nonumberline Bottom-up scenario}{7}{section*.5}
-\contentsline {subsubsection}{\nonumberline Top-down scenario}{8}{section*.6}
-\contentsline {subsection}{\numberline {2.1.3}Propagation}{8}{subsection.2.1.3}
-\contentsline {subsubsection}{\nonumberline GZK Limit}{9}{section*.7}
-\contentsline {subsection}{\numberline {2.1.4}Latest results}{10}{subsection.2.1.4}
-\contentsline {section}{\numberline {2.2}Ultra High Energy Neutrinos}{15}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}History}{15}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Origin and Propagation}{16}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Neutrino Interactions and Detection}{18}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Latest results}{22}{subsection.2.2.4}
-\contentsline {paragraph}{\nonumberline Limits}{22}{section*.20}
-\contentsline {section}{\numberline {2.3}Multimessenger Astronomy}{23}{section.2.3}
-\contentsline {chapter}{\numberline {3}Extensive Air Showers}{27}{chapter.3}
-\contentsline {section}{\numberline {3.1}Development}{27}{section.3.1}
-\contentsline {section}{\numberline {3.2}Characteristics}{31}{section.3.2}
-\contentsline {section}{\numberline {3.3}Detection}{33}{section.3.3}
-\contentsline {chapter}{\numberline {4}The Pierre Auger Observatory}{37}{chapter.4}
-\contentsline {section}{\numberline {4.1}Fluorescence Detector}{38}{section.4.1}
-\contentsline {section}{\numberline {4.2}Surface Detector}{39}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Calibration of SD}{40}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}SD Trigger system}{40}{subsection.4.2.2}
-\contentsline {subsubsection}{\nonumberline Old triggers}{41}{section*.36}
-\contentsline {subsubsection}{\nonumberline New triggers}{41}{section*.37}
-\contentsline {subsubsection}{\nonumberline Array Level Triggers}{42}{section*.38}
-\contentsline {section}{\numberline {4.3}AugerPrime}{43}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Advanced Data Summary Tree}{45}{subsection.4.3.1}
-\contentsline {chapter}{\numberline {5}Neutrino Analysis $60^\circ < \theta < 75^\circ $}{47}{chapter.5}
-\contentsline {section}{\numberline {5.1}SD Neutrino signature $60^{\circ } < \theta < 75^{\circ }$}{47}{section.5.1}
-\contentsline {section}{\numberline {5.2}Neutrino Simulations}{48}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Atmospheric Shower simulations}{49}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Surface Detector Response}{51}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Shower Reconstruction}{52}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Event reading and pre-selection}{53}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Angular Reconstruction}{55}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Posterior selection and Export}{57}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}Reconstructed $\nu $ simulations}{57}{section.5.4}
-\contentsline {section}{\numberline {5.5}$\nu $ selection}{58}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Samples Used}{58}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Pre-selection Cuts}{59}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Fisher linear discriminant analysis}{60}{subsection.5.5.3}
-\contentsline {subsubsection}{\nonumberline Fisher polynomials and training}{60}{section*.48}
-\contentsline {subsubsection}{\nonumberline Fisher Cut and background estimation}{62}{section*.49}
-\contentsline {subsection}{\numberline {5.5.4}Time evolution of selection parameters}{63}{subsection.5.5.4}
-\contentsline {subsection}{\numberline {5.5.5}Neutrino Detection Efficiency}{63}{subsection.5.5.5}
-\contentsline {chapter}{\numberline {6}Detector exposure and Limits to the diffuse flux}{67}{chapter.6}
-\contentsline {section}{\numberline {6.1}Exposure Calculation}{67}{section.6.1}
-\contentsline {section}{\numberline {6.2}Systematic uncertainties}{69}{section.6.2}
-\contentsline {section}{\numberline {6.3}Data unblinding}{69}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}20\% test sample}{69}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}60\% search sample}{70}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Diffuse limit for the UHE neutrino flux}{70}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Feldman and Cousins limit}{71}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Rolke approach}{72}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}Conrad approach}{72}{subsection.6.4.3}
-\contentsline {subsection}{\numberline {6.4.4}Final calculation}{72}{subsection.6.4.4}
-\contentsline {chapter}{\numberline {7}Source follow-up analysis}{75}{chapter.7}
-\contentsline {section}{\numberline {7.1}Procedure for point source analysis}{75}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Source visibility}{75}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Effective area and Exposure}{76}{subsection.7.1.2}
-\contentsline {section}{\numberline {7.2}Point-source neutrino flux limit}{77}{section.7.2}
-\contentsline {chapter}{\numberline {8}Conclusion and Outlook}{79}{chapter.8}
-\contentsline {chapter}{\nonumberline Bibliography}{83}{chapter*.59}
-\contentsline {chapter}{\numberline {A}Testing hadronic models}{103}{appendix.A}
-\contentsline {chapter}{\numberline {B}Adapting DGH analysis to current Offline}{109}{appendix.B}
-\contentsline {chapter}{\nonumberline List of Figures}{111}{chapter*.66}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Ultra High Energy Cosmic Rays and Neutrinos}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Ultra High Energy Cosmic Rays}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}History}{5}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Origin}{6}{subsection.2.1.2}%
+\contentsline {subsubsection}{\nonumberline Bottom-up scenario}{7}{subsubsection*.6}%
+\contentsline {subsubsection}{\nonumberline Top-down scenario}{8}{subsubsection*.8}%
+\contentsline {subsection}{\numberline {2.1.3}Propagation}{8}{subsection.2.1.3}%
+\contentsline {subsubsection}{\nonumberline GZK Limit}{9}{subsubsection*.10}%
+\contentsline {subsection}{\numberline {2.1.4}Latest results}{10}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Ultra High Energy Neutrinos}{15}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}History}{15}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Origin and Propagation}{16}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Neutrino Interactions and Detection}{18}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Latest results}{22}{subsection.2.2.4}%
+\contentsline {paragraph}{\nonumberline Limits}{22}{paragraph*.24}%
+\contentsline {section}{\numberline {2.3}Multimessenger Astronomy}{23}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Extensive Air Showers}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Development}{27}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Characteristics}{31}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Detection}{33}{section.3.3}%
+\contentsline {chapter}{\numberline {4}The Pierre Auger Observatory}{37}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Fluorescence Detector}{38}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Surface Detector}{39}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Calibration of SD}{40}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}SD Trigger system}{40}{subsection.4.2.2}%
+\contentsline {subsubsection}{\nonumberline Old triggers}{41}{subsubsection*.41}%
+\contentsline {subsubsection}{\nonumberline New triggers}{41}{subsubsection*.43}%
+\contentsline {subsubsection}{\nonumberline Array Level Triggers}{42}{subsubsection*.45}%
+\contentsline {section}{\numberline {4.3}AugerPrime}{43}{section.4.3}%
+\contentsline {section}{\numberline {4.4}The $\mathrm {\overline {Off}\underline {line}}$ Framework}{44}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Advanced Data Summary Tree}{45}{subsection.4.4.1}%
+\contentsline {chapter}{\numberline {5}Neutrino Analysis $60^\circ < \theta < 75^\circ $}{47}{chapter.5}%
+\contentsline {section}{\numberline {5.1}SD Neutrino signature $60^{\circ } < \theta < 75^{\circ }$}{47}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Neutrino Simulations}{48}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Atmospheric Shower simulations}{49}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Surface Detector Response}{51}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Shower Reconstruction}{52}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Event reading and pre-selection}{53}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Angular Reconstruction}{55}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Posterior selection and Export}{57}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.4}Reconstructed $\nu $ simulations}{57}{section.5.4}%
+\contentsline {section}{\numberline {5.5}$\nu $ selection}{58}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Samples Used}{58}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Pre-selection Cuts}{59}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Fisher linear discriminant analysis}{60}{subsection.5.5.3}%
+\contentsline {subsubsection}{\nonumberline Fisher polynomials and training}{61}{subsubsection*.57}%
+\contentsline {subsubsection}{\nonumberline Fisher Cut and background estimation}{62}{subsubsection*.59}%
+\contentsline {subsection}{\numberline {5.5.4}Time evolution of selection parameters}{63}{subsection.5.5.4}%
+\contentsline {subsection}{\numberline {5.5.5}Neutrino Detection Efficiency}{64}{subsection.5.5.5}%
+\contentsline {chapter}{\numberline {6}Detector exposure and Limits to the diffuse flux}{69}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Exposure Calculation}{69}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Systematic uncertainties}{71}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Data unblinding}{71}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}20\% test sample}{72}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}60\% search sample}{72}{subsection.6.3.2}%
+\contentsline {section}{\numberline {6.4}Diffuse limit for the UHE neutrino flux}{73}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Feldman and Cousins limit}{74}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Rolke approach}{74}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Conrad approach}{75}{subsection.6.4.3}%
+\contentsline {subsection}{\numberline {6.4.4}Final calculation}{75}{subsection.6.4.4}%
+\contentsline {chapter}{\numberline {7}Source follow-up analysis}{77}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Procedure for point source analysis}{77}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Source visibility}{77}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Effective area and Exposure}{78}{subsection.7.1.2}%
+\contentsline {section}{\numberline {7.2}Point-source neutrino flux limit}{79}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Conclusion and Outlook}{81}{chapter.8}%
+\contentsline {chapter}{\nonumberline Bibliography}{85}{chapter*.74}%
+\contentsline {chapter}{\numberline {A}Testing hadronic models}{107}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Adapting DGH analysis to current Offline}{113}{appendix.B}%
+\contentsline {chapter}{\nonumberline List of Figures}{115}{chapter*.81}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

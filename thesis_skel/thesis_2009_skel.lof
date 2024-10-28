@@ -6,32 +6,33 @@
 \babel@toc {ngerman}{}
 \babel@toc {UKenglish}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces Positron fraction measured by PAMELA (red) along with a theoretical model (black)~\cite {}\relax }}{1}{figure.caption.3}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Positron fraction measured by PAMELA (red) along with a theoretical model (black)~\cite {}\relax }}{1}{figure.caption.3}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Visible mode \relax }}{24}{figure.caption.22}
-\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Invisible mode \relax }}{24}{figure.caption.23}
-\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Current limits for invisible mode for 90\% C.L. exclusion region in the ($m_{A'},\epsilon $) plane ~\cite {2019EPJWC.21206005K}.\relax }}{25}{figure.caption.24}
-\contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces Current limits for invisible mode for 90\% C.L. exclusion region in the ($m_{A'},\epsilon $) plane. The blue plane is with 2017 data and the dotted line is with 2017+2018 data for NA64. The red line is the region that might explain the X17 boson~\cite {2019EPJWC.21206005K}.\relax }}{25}{figure.caption.24}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Invisible mode setup~\cite {}\relax }}{37}{figure.caption.35}
-\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Visible mode setup 2017~\cite {}\relax }}{46}{figure.caption.42}
-\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Visible mode setup 2018-top view~\cite {}\relax }}{46}{figure.caption.43}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Left: Strip dimensions of the modules, Right:NA64 Micromega's working principle~\cite {Banerjee:2017mdu}\relax }}{65}{figure.caption.51}
-\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces A sketch of GEM field lines~\cite {}.\relax }}{65}{figure.caption.52}
-\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Schematic of a triple GEM detector along with the working principle~\cite {}\relax }}{65}{figure.caption.52}
-\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces Linear regression pictorially. \relax }}{66}{figure.caption.53}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Visible mode \relax }}{24}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Invisible mode \relax }}{24}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Current limits for invisible mode for 90\% C.L. exclusion region in the ($m_{A'},\epsilon $) plane ~\cite {}.\relax }}{25}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Current limits for invisible mode for 90\% C.L. exclusion region in the ($m_{A'},\epsilon $) plane. The blue plane is with 2017 data and the dotted line is with 2017+2018 data for NA64. The red line is the region that might explain the X17 boson~\cite {}.\relax }}{25}{figure.caption.28}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Invisible mode setup~\cite {}\relax }}{37}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Visible mode setup 2017~\cite {}\relax }}{46}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Visible mode setup 2018-top view~\cite {}\relax }}{46}{figure.caption.50}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 8.1}{\ignorespaces $\chi ^2_{red}$ distribution for selected tracks showing the impact of Millepede alignment.\relax }}{79}{figure.caption.54}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Left: Strip dimensions of the modules, Right:NA64 Micromega's working principle~\cite {}\relax }}{66}{figure.caption.64}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces A sketch of GEM field lines~\cite {}.\relax }}{67}{figure.caption.65}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Schematic of a triple GEM detector along with the working principle~\cite {}\relax }}{67}{figure.caption.65}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Linear regression pictorially. \relax }}{67}{figure.caption.66}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces Residual of GEM detectors.\relax }}{104}{figure.caption.60}
-\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces Residual of Micromega detectors.\relax }}{105}{figure.caption.61}
-\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces Residual of Micromega detectors.\relax }}{106}{figure.caption.62}
-\contentsline {figure}{\numberline {\relax A.4}{\ignorespaces Residual vs position for Micromega detectors\relax }}{107}{figure.caption.63}
-\contentsline {figure}{\numberline {\relax A.5}{\ignorespaces Residual vs position for MM4\relax }}{108}{figure.caption.64}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax B.1}{\ignorespaces Snippet of the format fed to CORAL\relax }}{109}{figure.caption.65}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces $\chi ^2_{red}$ distribution for selected tracks showing the impact of Millepede alignment.\relax }}{81}{figure.caption.69}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Residual of GEM detectors.\relax }}{108}{figure.caption.75}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Residual of Micromega detectors.\relax }}{109}{figure.caption.76}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Residual of Micromega detectors.\relax }}{110}{figure.caption.77}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Residual vs position for Micromega detectors\relax }}{111}{figure.caption.78}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Residual vs position for MM4\relax }}{112}{figure.caption.79}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Snippet of the format fed to CORAL\relax }}{113}{figure.caption.80}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

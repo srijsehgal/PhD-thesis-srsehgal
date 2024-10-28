@@ -35,6 +35,8 @@
 \usepackage{placeins}
 \usepackage[numbers, sort&compress]{natbib}
 \usepackage{multirow}
+\usepackage{array}
+
 % \usepackage{lmodern}
 %------------------------------------------------------------------------------
 % Instead of colouring  links, cites, table of contents etc.
@@ -88,7 +90,8 @@
 \newcommand*{\thesismonth}{December}
 \newcommand*{\thesisyear}{2019}
 \newcommand*{\thesisnumber}{BONN-IR-2019-XXX}
-
+% Command to horizontal cenetr the table contents
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
 %------------------------------------------------------------------------------
 % The abstract is only needed for the printed version and should be in
 % English regardless of the language of the thesis

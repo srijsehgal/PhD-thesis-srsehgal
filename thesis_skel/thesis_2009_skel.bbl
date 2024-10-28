@@ -1468,4 +1468,75 @@ F.~James and M.~Roos, {\em {Minuit: A System for Function Minimization and
   \href{http://dx.doi.org/10.22323/1.444.0266}{PoS {\bfseries ICRC2023} (2023)
   266}.
 
+\bibitem{PierreAuger:2010zof}
+{Pierre Auger} Collaboration, J.~Abraham {et~al.}, {\em {Trigger and Aperture
+  of the Surface Detector Array of the Pierre Auger Observatory}},
+  \href{http://dx.doi.org/10.1016/j.nima.2009.11.018}{Nucl. Instrum. Meth. A
+  {\bfseries 613} (2010) 29--39},
+  \href{http://arxiv.org/abs/1111.6764}{{\ttfamily arXiv:1111.6764
+  [astro-ph.IM]}}.
+
+\bibitem{Cooper-Sarkar:2011jtt}
+A.~Cooper-Sarkar, P.~Mertsch,  and S.~Sarkar, {\em {The high energy neutrino
+  cross-section in the Standard Model and its uncertainty}},
+  \href{http://dx.doi.org/10.1007/JHEP08(2011)042}{JHEP {\bfseries 08} (2011)
+  042}, \href{http://arxiv.org/abs/1106.3723}{{\ttfamily arXiv:1106.3723
+  [hep-ph]}}.
+
+\bibitem{Feldman:1997qc}
+G.~J. Feldman and R.~D. Cousins, {\em {A Unified approach to the classical
+  statistical analysis of small signals}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.57.3873}{Phys. Rev. D {\bfseries 57}
+  (1998) 3873--3889}, \href{http://arxiv.org/abs/physics/9711021}{{\ttfamily
+  arXiv:physics/9711021}}.
+
+\bibitem{Gammapy:2023gvb}
+{Gammapy} Collaboration, A.~Donath {et~al.}, {\em {Gammapy: A Python package
+  for gamma-ray astronomy}},
+  \href{http://dx.doi.org/10.1051/0004-6361/202346488}{Astron. Astrophys.
+  {\bfseries 678} (2023) A157},
+  \href{http://arxiv.org/abs/2308.13584}{{\ttfamily arXiv:2308.13584
+  [astro-ph.IM]}}.
+
+\bibitem{Rolke:2000ij}
+W.~A. Rolke and A.~M. Lopez, {\em {Confidence intervals and upper bounds for
+  small signals in the presence of background noise}},
+  \href{http://dx.doi.org/10.1016/S0168-9002(00)00935-9}{Nucl. Instrum. Meth. A
+  {\bfseries 458} (2001) 745--758},
+  \href{http://arxiv.org/abs/hep-ph/0005187}{{\ttfamily arXiv:hep-ph/0005187}}.
+
+\bibitem{Rolke:2004mj}
+W.~A. Rolke, A.~M. Lopez,  and J.~Conrad, {\em {Limits and confidence intervals
+  in the presence of nuisance parameters}},
+  \href{http://dx.doi.org/10.1016/j.nima.2005.05.068}{Nucl. Instrum. Meth. A
+  {\bfseries 551} (2005) 493--503},
+  \href{http://arxiv.org/abs/physics/0403059}{{\ttfamily
+  arXiv:physics/0403059}}.
+
+\bibitem{TRolke_ROOT}
+{\em TRolke Class Reference},
+\newblock \url{https://root.cern/doc/v628/classTRolke.html}.
+
+\bibitem{Conrad:2002kn}
+J.~Conrad, O.~Botner, A.~Hallgren,  and C.~Perez de~los Heros, {\em {Including
+  systematic uncertainties in confidence interval construction for Poisson
+  statistics}}, \href{http://dx.doi.org/10.1103/PhysRevD.67.012002}{Phys. Rev.
+  D {\bfseries 67} (2003) 012002},
+  \href{http://arxiv.org/abs/hep-ex/0202013}{{\ttfamily arXiv:hep-ex/0202013}}.
+
+\bibitem{Conrad:2005zm}
+J.~Conrad and F.~Tegenfeldt, {\em {Likelihood ratio intervals with Bayesian
+  treatment of uncertainties: Coverage, power and combined experiments}},
+  \href{http://arxiv.org/abs/physics/0511055}{{\ttfamily
+  arXiv:physics/0511055}}.
+
+\bibitem{PierreAuger:2017pzq}
+{Pierre Auger} Collaboration, A.~Aab {et~al.}, {\em {Observation of a
+  Large-scale Anisotropy in the Arrival Directions of Cosmic Rays above $8
+  \times 10^{18}$ eV}},
+  \href{http://dx.doi.org/10.1126/science.aan4338}{Science {\bfseries 357}
+  no.~6537, (2017) 1266--1270},
+  \href{http://arxiv.org/abs/1709.07321}{{\ttfamily arXiv:1709.07321
+  [astro-ph.HE]}}.
+
 \end{thebibliography}\endgroup
