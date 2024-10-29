@@ -8,31 +8,41 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Positron fraction measured by PAMELA (red) along with a theoretical model (black)~\cite {}\relax }}{1}{figure.caption.3}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Visible mode \relax }}{24}{figure.caption.26}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Invisible mode \relax }}{24}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Current limits for invisible mode for 90\% C.L. exclusion region in the ($m_{A'},\epsilon $) plane ~\cite {}.\relax }}{25}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Current limits for invisible mode for 90\% C.L. exclusion region in the ($m_{A'},\epsilon $) plane. The blue plane is with 2017 data and the dotted line is with 2017+2018 data for NA64. The red line is the region that might explain the X17 boson~\cite {}.\relax }}{25}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Cartoon shock acceleration~\cite {article_Hoshino}\relax }}{7}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Hillas plot~\cite {AlvesBatista:2019tlv}\relax }}{8}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Spectrum Zenodo~\cite {evoli_2018_2360277}\relax }}{12}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Spectrum PDG, CRDB~\cite {ParticleDataGroup:2024cfk}\relax }}{13}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Composition comparison~\cite {ParticleDataGroup:2024cfk}\relax }}{15}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Anisotropy, jargon about Li-Ma~\cite {Abreu_2022}\relax }}{17}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Photon limits~\cite {PierreAuger:2024ayl}\relax }}{19}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Neutrino Spectra~\cite {SajjadAthar:2021prg}\relax }}{20}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Ternary plot~\cite {}(Ahlers ISAPP 2022 or 1810.00893)\relax }}{22}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Figure from mixed fit~\cite {Heinze:2019jou}\relax }}{24}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Neutrino flux measurements~\cite {ParticleDataGroup:2024cfk}\relax }}{28}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces NGC1068 excess~\cite {Icecube_2022}\relax }}{29}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Galactic plane with messengers~\cite {Galactic_plane_nu_2023}\relax }}{30}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Limits and models~\cite {PierreAuger:2023pjg}\relax }}{31}{figure.caption.37}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Invisible mode setup~\cite {}\relax }}{37}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Visible mode setup 2017~\cite {}\relax }}{46}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Visible mode setup 2018-top view~\cite {}\relax }}{46}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Invisible mode setup~\cite {}\relax }}{43}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Visible mode setup 2017~\cite {}\relax }}{52}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Visible mode setup 2018-top view~\cite {}\relax }}{52}{figure.caption.51}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Left: Strip dimensions of the modules, Right:NA64 Micromega's working principle~\cite {}\relax }}{66}{figure.caption.55}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces A sketch of GEM field lines~\cite {}.\relax }}{67}{figure.caption.56}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Schematic of a triple GEM detector along with the working principle~\cite {}\relax }}{67}{figure.caption.56}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Linear regression pictorially. \relax }}{67}{figure.caption.57}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces $\chi ^2_{red}$ distribution for selected tracks showing the impact of Millepede alignment.\relax }}{81}{figure.caption.60}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Left: Strip dimensions of the modules, Right:NA64 Micromega's working principle~\cite {}\relax }}{72}{figure.caption.65}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces A sketch of GEM field lines~\cite {}.\relax }}{73}{figure.caption.66}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Schematic of a triple GEM detector along with the working principle~\cite {}\relax }}{73}{figure.caption.66}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Linear regression pictorially. \relax }}{73}{figure.caption.67}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Residual of GEM detectors.\relax }}{108}{figure.caption.67}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Residual of Micromega detectors.\relax }}{109}{figure.caption.68}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Residual of Micromega detectors.\relax }}{110}{figure.caption.69}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Residual vs position for Micromega detectors\relax }}{111}{figure.caption.70}%
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Residual vs position for MM4\relax }}{112}{figure.caption.71}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Snippet of the format fed to CORAL\relax }}{113}{figure.caption.72}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces $\chi ^2_{red}$ distribution for selected tracks showing the impact of Millepede alignment.\relax }}{87}{figure.caption.70}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Residual of GEM detectors.\relax }}{114}{figure.caption.77}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Residual of Micromega detectors.\relax }}{115}{figure.caption.78}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Residual of Micromega detectors.\relax }}{116}{figure.caption.79}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Residual vs position for Micromega detectors\relax }}{117}{figure.caption.80}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Residual vs position for MM4\relax }}{118}{figure.caption.81}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Snippet of the format fed to CORAL\relax }}{119}{figure.caption.82}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

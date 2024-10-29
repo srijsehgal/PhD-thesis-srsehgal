@@ -224,10 +224,38 @@ N.~Busca, D.~Hooper,  and E.~W. Kolb, {\em Pierre Auger data, photons, and
   {\bfseries 73} no.~12, (2006)},
   \url{http://dx.doi.org/10.1103/PhysRevD.73.123001}.
 
+\bibitem{article_Hoshino}
+M.~Hoshino, {\em Nonthermal Particle Acceleration in Shock Front Region:
+  ``Shock Surfing Accelerations},
+  \href{http://dx.doi.org/10.1143/PTPS.143.149}{Progress of Theoretical Physics
+  Supplement - PROG THEOR PHYS SUPPL {\bfseries 143} (2001) 149--181}.
+
 \bibitem{PhysRev.75.1169}
 E.~Fermi, {\em On the Origin of the Cosmic Radiation},
   \href{http://dx.doi.org/10.1103/PhysRev.75.1169}{Phys. Rev. {\bfseries 75}
   (1949) 1169--1174}, \url{https://link.aps.org/doi/10.1103/PhysRev.75.1169}.
+
+\bibitem{Murase:2008sa}
+K.~Murase and H.~Takami, {\em {Implications of Ultra-High-Energy Cosmic Rays
+  for Transient Sources in the Auger Era}},
+  \href{http://dx.doi.org/10.1088/0004-637X/690/1/L14}{Astrophys. J. Lett.
+  {\bfseries 690} (2009) L14--L17},
+  \href{http://arxiv.org/abs/0810.1813}{{\ttfamily arXiv:0810.1813
+  [astro-ph]}}.
+
+\bibitem{2018_auger_comp_spec}
+{Pierre Auger} Collaboration, A.~Aab {et~al.}, {\em {Combined fit of spectrum
+  and composition data as measured by the Pierre Auger Observatory}},
+  \href{http://dx.doi.org/10.1088/1475-7516/2017/04/038}{JCAP {\bfseries 04}
+  (2017) 038}, \href{http://arxiv.org/abs/1612.07155}{{\ttfamily
+  arXiv:1612.07155 [astro-ph.HE]}}, [Erratum: JCAP 03, E02 (2018)].
+
+\bibitem{AlvesBatista:2019tlv}
+R.~Alves~Batista {et~al.}, {\em {Open Questions in Cosmic-Ray Research at
+  Ultrahigh Energies}},
+  \href{http://dx.doi.org/10.3389/fspas.2019.00023}{Front. Astron. Space Sci.
+  {\bfseries 6} (2019) 23}, \href{http://arxiv.org/abs/1903.06714}{{\ttfamily
+  arXiv:1903.06714 [astro-ph.HE]}}.
 
 \bibitem{BLASI_2011}
 P.~BLASI, {\em COSMIC RAY ACCELERATION IN SUPERNOVA REMNANTS},
@@ -315,6 +343,30 @@ V.~Berezinsky and A.~Vilenkin, {\em Cosmic Necklaces and Ultrahigh Energy
   Lett. {\bfseries 79} (1997) 5202--5205},
   \url{https://link.aps.org/doi/10.1103/PhysRevLett.79.5202}.
 
+\bibitem{PierreAuger:2021tog}
+{Pierre Auger} Collaboration, P.~Abreu {et~al.}, {\em {Testing effects of
+  Lorentz invariance violation in the propagation of astroparticles with the
+  Pierre Auger Observatory}},
+  \href{http://dx.doi.org/10.1088/1475-7516/2022/01/023}{JCAP {\bfseries 01}
+  no.~01, (2022) 023}, \href{http://arxiv.org/abs/2112.06773}{{\ttfamily
+  arXiv:2112.06773 [astro-ph.HE]}}.
+
+\bibitem{XENON:2023cxc}
+{XENON} Collaboration, E.~Aprile {et~al.}, {\em {First Dark Matter Search with
+  Nuclear Recoils from the XENONnT Experiment}},
+  \href{http://dx.doi.org/10.1103/PhysRevLett.131.041003}{Phys. Rev. Lett.
+  {\bfseries 131} no.~4, (2023) 041003},
+  \href{http://arxiv.org/abs/2303.14729}{{\ttfamily arXiv:2303.14729
+  [hep-ex]}}.
+
+\bibitem{LZ:2022lsv}
+{LZ} Collaboration, J.~Aalbers {et~al.}, {\em {First Dark Matter Search Results
+  from the LUX-ZEPLIN (LZ) Experiment}},
+  \href{http://dx.doi.org/10.1103/PhysRevLett.131.041002}{Phys. Rev. Lett.
+  {\bfseries 131} no.~4, (2023) 041002},
+  \href{http://arxiv.org/abs/2207.03764}{{\ttfamily arXiv:2207.03764
+  [hep-ex]}}.
+
 \bibitem{PhysRevLett.16.748}
 K.~Greisen, {\em End to the Cosmic-Ray Spectrum?},
   \href{http://dx.doi.org/10.1103/PhysRevLett.16.748}{Phys. Rev. Lett.
@@ -331,6 +383,16 @@ K.-H. Kampert and P.~Tinyakov, {\em Cosmic rays from the ankle to the cutoff},
   Rendus Physique {\bfseries 15} no.~4, (2014) 318--328},
   \url{https://www.sciencedirect.com/science/article/pii/S1631070514000541},
   Ultra-high-energy cosmic rays: From the ankle to the tip of the spectrum.
+
+\bibitem{evoli_2018_2360277}
+C.~Evoli, {\em The Cosmic-Ray Energy Spectrum}, Dec., 2018.
+\newblock \url{https://doi.org/10.5281/zenodo.2360277}.
+
+\bibitem{ParticleDataGroup:2024cfk}
+{Particle Data Group} Collaboration, S.~Navas {et~al.}, {\em {Review of
+  particle physics}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.110.030001}{Phys. Rev. D {\bfseries
+  110} no.~3, (2024) 030001}.
 
 \bibitem{kawai2008telescope}
 H.~Kawai, S.~Yoshida, H.~Yoshii, K.~Tanaka, F.~Cohen, M.~Fukushima,
@@ -359,13 +421,6 @@ H.~Kawai, S.~Yoshida, H.~Yoshii, K.~Tanaka, F.~Cohen, M.~Fukushima,
   96} no.~12, (2017) 122003}, \href{http://arxiv.org/abs/1710.07249}{{\ttfamily
   arXiv:1710.07249 [astro-ph.HE]}}.
 
-\bibitem{2018_auger_comp_spec}
-{Pierre Auger} Collaboration, A.~Aab {et~al.}, {\em {Combined fit of spectrum
-  and composition data as measured by the Pierre Auger Observatory}},
-  \href{http://dx.doi.org/10.1088/1475-7516/2017/04/038}{JCAP {\bfseries 04}
-  (2017) 038}, \href{http://arxiv.org/abs/1612.07155}{{\ttfamily
-  arXiv:1612.07155 [astro-ph.HE]}}, [Erratum: JCAP 03, E02 (2018)].
-
 \bibitem{ANASTASI2022167497}
 G.~A. Anastasi, {\em AugerPrime: The Pierre Auger Observatory upgrade},
   \href{http://dx.doi.org/https://doi.org/10.1016/j.nima.2022.167497}{Nuclear
@@ -373,6 +428,13 @@ G.~A. Anastasi, {\em AugerPrime: The Pierre Auger Observatory upgrade},
   Spectrometers, Detectors and Associated Equipment {\bfseries 1044} (2022)
   167497},
   \url{https://www.sciencedirect.com/science/article/pii/S0168900222007896}.
+
+\bibitem{Abreu_2022}
+{Pierre Auger} Collaboration, P.~Abreu {et~al.}, {\em {Arrival Directions of
+  Cosmic Rays above 32 EeV from Phase One of the Pierre Auger Observatory}},
+  \href{http://dx.doi.org/10.3847/1538-4357/ac7d4e}{Astrophys. J. {\bfseries
+  935} no.~2, (2022) 170}, \href{http://arxiv.org/abs/2206.13492}{{\ttfamily
+  arXiv:2206.13492 [astro-ph.HE]}}.
 
 \bibitem{Ar_mburo_Garc_a_2021}
 A.~Arámburo-García, K.~Bondarenko, A.~Boyarsky, D.~Nelson, A.~Pillepich,  and
@@ -389,13 +451,6 @@ C.~Bonifazi, {\em The angular resolution of the Pierre Auger Observatory},
   \url{https://www.sciencedirect.com/science/article/pii/S0920563209003028},
   Proceedings of the Cosmic Ray International Seminars.
 
-\bibitem{Abreu_2022}
-{Pierre Auger} Collaboration, P.~Abreu {et~al.}, {\em {Arrival Directions of
-  Cosmic Rays above 32 EeV from Phase One of the Pierre Auger Observatory}},
-  \href{http://dx.doi.org/10.3847/1538-4357/ac7d4e}{Astrophys. J. {\bfseries
-  935} no.~2, (2022) 170}, \href{http://arxiv.org/abs/2206.13492}{{\ttfamily
-  arXiv:2206.13492 [astro-ph.HE]}}.
-
 \bibitem{Aab_2020_dipole_modulation}
 {Pierre Auger} Collaboration, A.~Aab {et~al.}, {\em {Cosmic-ray anisotropies in
   right ascension measured by the Pierre Auger Observatory}},
@@ -410,12 +465,6 @@ C.~Bonifazi, {\em The angular resolution of the Pierre Auger Observatory},
   \href{http://dx.doi.org/10.22323/1.395.0308}{PoS {\bfseries ICRC2021} (2021)
   308}, \href{http://arxiv.org/abs/2111.12366}{{\ttfamily arXiv:2111.12366
   [astro-ph.HE]}}.
-
-\bibitem{ParticleDataGroup:2024cfk}
-{Particle Data Group} Collaboration, S.~Navas {et~al.}, {\em {Review of
-  particle physics}},
-  \href{http://dx.doi.org/10.1103/PhysRevD.110.030001}{Phys. Rev. D {\bfseries
-  110} no.~3, (2024) 030001}.
 
 \bibitem{PierreAuger:2023onx}
 {Pierre Auger} Collaboration, A.~Abdul~Halim {et~al.}, {\em {Search for
@@ -443,6 +492,14 @@ T.~P.~A. Collaboration, {\em Searches for Ultra-High-Energy Photons at the
   Pierre Auger Observatory},
   \href{http://dx.doi.org/10.3390/universe8110579}{Universe {\bfseries 8}
   no.~11, (2022)}, \url{https://www.mdpi.com/2218-1997/8/11/579}.
+
+\bibitem{PierreAuger:2024ayl}
+{Pierre Auger} Collaboration, A.~Abdul~Halim {et~al.}, {\em {Search for photons
+  above 1018\,\,eV by simultaneously measuring the atmospheric depth and the
+  muon content of air showers at the Pierre Auger Observatory}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.110.062005}{Phys. Rev. D {\bfseries
+  110} no.~6, (2024) 062005}, \href{http://arxiv.org/abs/2406.07439}{{\ttfamily
+  arXiv:2406.07439 [astro-ph.HE]}}.
 
 \bibitem{10.1063/1.2995181}
 L.~M. Brown, {\em {The idea of the neutrino}},
@@ -488,6 +545,13 @@ X.~Qian and P.~Vogel, {\em Neutrino mass hierarchy},
 A.~de~Gouvêa, {\em Neutrino mass puzzle},
 \newblock
   \url{https://cerncourier.com/a/the-neutrino-mass-puzzle/#:~:text=Though%20there%20are%20too%20many,or%20through%20a%20different%20mechanism}.
+
+\bibitem{SajjadAthar:2021prg}
+M.~Sajjad~Athar {et~al.}, {\em {Status and perspectives of neutrino physics}},
+  \href{http://dx.doi.org/10.1016/j.ppnp.2022.103947}{Prog. Part. Nucl. Phys.
+  {\bfseries 124} (2022) 103947},
+  \href{http://arxiv.org/abs/2111.07586}{{\ttfamily arXiv:2111.07586
+  [hep-ph]}}.
 
 \bibitem{PhysRevLett.58.1490}
 {Kamiokande-II} Collaboration, K.~Hirata {et~al.}, {\em {Observation of a
@@ -615,6 +679,14 @@ R.~Alves~Batista, R.~M. de~Almeida, B.~Lago,  and K.~Kotera, {\em {Cosmogenic
   \href{http://dx.doi.org/10.1088/1475-7516/2019/01/002}{JCAP {\bfseries 01}
   (2019) 002}, \href{http://arxiv.org/abs/1806.10879}{{\ttfamily
   arXiv:1806.10879 [astro-ph.HE]}}.
+
+\bibitem{Heinze:2019jou}
+J.~Heinze, A.~Fedynitch, D.~Boncioli,  and W.~Winter, {\em {A new view on Auger
+  data and cosmogenic neutrinos in light of different nuclear disintegration
+  and air-shower models}},
+  \href{http://dx.doi.org/10.3847/1538-4357/ab05ce}{Astrophys. J. {\bfseries
+  873} no.~1, (2019) 88}, \href{http://arxiv.org/abs/1901.03338}{{\ttfamily
+  arXiv:1901.03338 [astro-ph.HE]}}.
 
 \bibitem{10.1111/j.1365-2966.2008.13366.x}
 Z.~Myers and A.~Nusser, {\em {Searching for neutrinos from WIMP annihilations
@@ -859,6 +931,12 @@ D.~Eichler, {\em High-energy neutrino astronomy-A probe of galactic nuclei},
 V.~Berezinsky and V.~Ginzburg, {\em On high-energy neutrino radiation of
   quasars and active galactic nuclei}, Monthly Notices of the Royal
   Astronomical Society {\bfseries 194} no.~1, (1981) 3--14.
+
+\bibitem{PierreAuger:2023pjg}
+{Pierre Auger} Collaboration, A.~Abdul~Halim {et~al.}, {\em {Latest results
+  from the searches for ultra-high-energy photons and neutrinos at the Pierre
+  Auger Observatory}}, \href{http://dx.doi.org/10.22323/1.444.1488}{PoS
+  {\bfseries ICRC2023} (2023) 1488}.
 
 \bibitem{Abadie_2012}
 {LIGO Scientific} Collaboration, J.~Abadie {et~al.}, {\em {Implications For The
