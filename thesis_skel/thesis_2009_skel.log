@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2024.1.15)  28 OCT 2024 18:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2024.1.15)  29 OCT 2024 10:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1363,17 +1363,20 @@ LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 ]
 Package tocbasic Info: character protrusion at toc deactivated on input line 192.
  (/common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_2009_skel.toc [5]
-Overfull \hbox (0.41505pt too wide) detected at line 76
+Underfull \vbox (badness 1303) has occurred while \output is active []
+
+ [6]
+Overfull \hbox (0.41505pt too wide) detected at line 85
  []\T1/txss/bx/n/12 107
  []
 
 
-Overfull \hbox (0.41505pt too wide) detected at line 77
+Overfull \hbox (0.41505pt too wide) detected at line 86
  []\T1/txss/bx/n/12 113
  []
 
 
-Overfull \hbox (0.41505pt too wide) detected at line 78
+Overfull \hbox (0.41505pt too wide) detected at line 87
  []\T1/txss/bx/n/12 115
  []
 
@@ -1381,7 +1384,10 @@ Overfull \hbox (0.41505pt too wide) detected at line 78
 \tf@toc=\write5
 \openout5 = `thesis_2009_skel.toc'.
 
- [6]
+ [7] [8
+
+
+]
 \openout2 = `thesis_intro.aux'.
 
  (/common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_intro.tex
@@ -1390,15 +1396,13 @@ LaTeX Font Info:    Font shape `T1/txss/b/n' in size <17.28> not available
 (Font)              Font shape `T1/txss/bx/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 16.41594pt on input line 4.
-<thesis_figures/nj317989fig13.jpg, id=193, 375.4025pt x 356.33125pt>
+<thesis_figures/nj317989fig13.jpg, id=221, 375.4025pt x 356.33125pt>
 File: thesis_figures/nj317989fig13.jpg Graphic file (type jpg)
 <use thesis_figures/nj317989fig13.jpg>
 Package pdftex.def Info: thesis_figures/nj317989fig13.jpg  used on input line 9.
 (pdftex.def)             Requested size: 256.0748pt x 243.07954pt.
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 13.
 [1
-
-
 
 
 
@@ -1535,24 +1539,24 @@ Overfull \hbox (52.30368pt too wide) in paragraph at lines 271--285
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<thesis_figures/VISIBLE.png, id=624, 1191.45125pt x 520.94624pt>
+<thesis_figures/VISIBLE.png, id=650, 1191.45125pt x 520.94624pt>
 File: thesis_figures/VISIBLE.png Graphic file (type png)
 <use thesis_figures/VISIBLE.png>
 Package pdftex.def Info: thesis_figures/VISIBLE.png  used on input line 291.
 (pdftex.def)             Requested size: 412.56496pt x 180.38641pt.
-<thesis_figures/INVISIBLE.png, id=625, 1313.90875pt x 566.115pt>
+<thesis_figures/INVISIBLE.png, id=651, 1313.90875pt x 566.115pt>
 File: thesis_figures/INVISIBLE.png Graphic file (type png)
 <use thesis_figures/INVISIBLE.png>
 Package pdftex.def Info: thesis_figures/INVISIBLE.png  used on input line 298.
 (pdftex.def)             Requested size: 426.79134pt x 183.89017pt.
-<thesis_figures/exclusion_invisible.png, id=626, 519.9425pt x 405.515pt>
+<thesis_figures/exclusion_invisible.png, id=652, 519.9425pt x 405.515pt>
 File: thesis_figures/exclusion_invisible.png Graphic file (type png)
 <use thesis_figures/exclusion_invisible.png>
 Package pdftex.def Info: thesis_figures/exclusion_invisible.png  used on input line 308.
 (pdftex.def)             Requested size: 196.85619pt x 153.52803pt.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 10.40245pt on input line 309.
-<thesis_figures/exclusion_visible_latest.png, id=627, 461.725pt x 391.4625pt>
+<thesis_figures/exclusion_visible_latest.png, id=653, 461.725pt x 391.4625pt>
 File: thesis_figures/exclusion_visible_latest.png Graphic file (type png)
 <use thesis_figures/exclusion_visible_latest.png>
 Package pdftex.def Info: thesis_figures/exclusion_visible_latest.png  used on input line 315.
@@ -1577,14 +1581,14 @@ LaTeX Warning: Reference `' on page 28 undefined on input line 19.
 
 [28] [29]
 
-LaTeX Warning: Reference `' on page 30 undefined on input line 50.
+LaTeX Warning: Reference `' on page 30 undefined on input line 51.
 
 [30]
 
-LaTeX Warning: Reference `' on page 31 undefined on input line 62.
+LaTeX Warning: Reference `' on page 31 undefined on input line 63.
 
 
-LaTeX Warning: Reference `' on page 31 undefined on input line 62.
+LaTeX Warning: Reference `' on page 31 undefined on input line 63.
 
 [31]
 Underfull \vbox (badness 2662) has occurred while \output is active []
@@ -1594,7 +1598,7 @@ Underfull \vbox (badness 2662) has occurred while \output is active []
 
  (/common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_setup.tex
 chapter 4.
-<thesis_figures/Invisible_3d_setup.png, id=798, 2560.56625pt x 754.82pt>
+<thesis_figures/Invisible_3d_setup.png, id=817, 2560.56625pt x 754.82pt>
 File: thesis_figures/Invisible_3d_setup.png Graphic file (type png)
 <use thesis_figures/Invisible_3d_setup.png>
 Package pdftex.def Info: thesis_figures/Invisible_3d_setup.png  used on input line 9.
@@ -1654,12 +1658,12 @@ LaTeX Warning: Reference `' on page 42 undefined on input line 64.
 LaTeX Warning: Reference `' on page 44 undefined on input line 78.
 
 [44]
-<thesis_figures/Visible_3d_setup.png, id=908, 2988.16376pt x 928.46875pt>
+<thesis_figures/Visible_3d_setup.png, id=925, 2988.16376pt x 928.46875pt>
 File: thesis_figures/Visible_3d_setup.png Graphic file (type png)
 <use thesis_figures/Visible_3d_setup.png>
 Package pdftex.def Info: thesis_figures/Visible_3d_setup.png  used on input line 95.
 (pdftex.def)             Requested size: 437.46118pt x 135.92082pt.
-<thesis_figures/visible_mode_newest.png, id=909, 928.21782pt x 252.945pt>
+<thesis_figures/visible_mode_newest.png, id=926, 928.21782pt x 252.945pt>
 File: thesis_figures/visible_mode_newest.png Graphic file (type png)
 <use thesis_figures/visible_mode_newest.png>
 Package pdftex.def Info: thesis_figures/visible_mode_newest.png  used on input line 102.
@@ -1861,22 +1865,22 @@ LaTeX Warning: Reference `' on page 65 undefined on input line 410.
 
 LaTeX Warning: Reference `' on page 66 undefined on input line 412.
 
-<thesis_figures/NA64_MM.png, id=1115, 903.375pt x 417.56pt>
+<thesis_figures/NA64_MM.png, id=1133, 903.375pt x 417.56pt>
 File: thesis_figures/NA64_MM.png Graphic file (type png)
 <use thesis_figures/NA64_MM.png>
 Package pdftex.def Info: thesis_figures/NA64_MM.png  used on input line 420.
 (pdftex.def)             Requested size: 437.46118pt x 202.21051pt.
-<thesis_figures/GEM_field.png, id=1116, 185.0112pt x 146.52742pt>
+<thesis_figures/GEM_field.png, id=1134, 185.0112pt x 146.52742pt>
 File: thesis_figures/GEM_field.png Graphic file (type png)
 <use thesis_figures/GEM_field.png>
 Package pdftex.def Info: thesis_figures/GEM_field.png  used on input line 429.
 (pdftex.def)             Requested size: 196.85619pt x 155.9175pt.
-<thesis_figures/GEM_process.png, id=1117, 559.08875pt x 226.8475pt>
+<thesis_figures/GEM_process.png, id=1135, 559.08875pt x 226.8475pt>
 File: thesis_figures/GEM_process.png Graphic file (type png)
 <use thesis_figures/GEM_process.png>
 Package pdftex.def Info: thesis_figures/GEM_process.png  used on input line 437.
 (pdftex.def)             Requested size: 196.85619pt x 79.87202pt.
-<thesis_figures/linear_reg_new.png, id=1118, 630.10406pt x 243.91125pt>
+<thesis_figures/linear_reg_new.png, id=1136, 630.10406pt x 243.91125pt>
 File: thesis_figures/linear_reg_new.png Graphic file (type png)
 <use thesis_figures/linear_reg_new.png>
 Package pdftex.def Info: thesis_figures/linear_reg_new.png  used on input line 444.
@@ -1932,29 +1936,29 @@ LaTeX Warning: Reference `' on page 72 undefined on input line 60.
 LaTeX Warning: Reference `' on page 72 undefined on input line 60.
 
 
-LaTeX Warning: Reference `' on page 72 undefined on input line 64.
+LaTeX Warning: Reference `' on page 72 undefined on input line 65.
 
 
-LaTeX Warning: Reference `' on page 72 undefined on input line 64.
+LaTeX Warning: Reference `' on page 72 undefined on input line 65.
 
 
-LaTeX Warning: Reference `' on page 72 undefined on input line 64.
+LaTeX Warning: Reference `' on page 72 undefined on input line 65.
 
 [72]
-Overfull \hbox (16.7369pt too wide) in paragraph at lines 68--84
+Overfull \hbox (16.7369pt too wide) in paragraph at lines 69--85
  [][] 
  []
 
 [73] [74]
 
-LaTeX Warning: Reference `' on page 75 undefined on input line 133.
+LaTeX Warning: Reference `' on page 75 undefined on input line 134.
 
 [75]
 
-LaTeX Warning: Reference `' on page 76 undefined on input line 149.
+LaTeX Warning: Reference `' on page 76 undefined on input line 150.
 
 
-LaTeX Warning: Reference `' on page 76 undefined on input line 151.
+LaTeX Warning: Reference `' on page 76 undefined on input line 152.
 
 ) [76]
 \openout2 = `thesis_follow.aux'.
@@ -2002,7 +2006,7 @@ LaTeX Warning: Reference `' on page 80 undefined on input line 64.
 
  (/common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_conclusion.tex
 chapter 8.
-<thesis_figures/chi2_comp_conclusion_2.png, id=1246, 569.0058pt x 328.1058pt>
+<thesis_figures/chi2_comp_conclusion_2.png, id=1265, 569.0058pt x 328.1058pt>
 File: thesis_figures/chi2_comp_conclusion_2.png Graphic file (type png)
 <use thesis_figures/chi2_comp_conclusion_2.png>
 Package pdftex.def Info: thesis_figures/chi2_comp_conclusion_2.png  used on input line 9.
@@ -2018,30 +2022,19 @@ Package pdftex.def Info: thesis_figures/chi2_comp_conclusion_2.png  used on inpu
 LaTeX Warning: Reference `' on page 82 undefined on input line 16.
 
 
-LaTeX Warning: Reference `' on page 82 undefined on input line 16.
-
-
-LaTeX Warning: Reference `' on page 82 undefined on input line 16.
-
-
-LaTeX Warning: Reference `' on page 82 undefined on input line 16.
-
-
 LaTeX Warning: Reference `' on page 82 undefined on input line 20.
 
-[82]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82]
 
 LaTeX Warning: Reference `' on page 83 undefined on input line 29.
 
 
 LaTeX Warning: Reference `' on page 83 undefined on input line 29.
 
-) [83] (/common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_2009_skel.bbl [84
-
-
-
-
-]
+[83]) [84] (/common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_2009_skel.bbl
 chapter without number
 LaTeX Font Info:    Trying to load font information for T1+txtt on input line 32.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
@@ -2051,7 +2044,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `txtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [85] [86] [87] [88]
+ [85
+
+
+
+
+] [86] [87] [88]
 Overfull \hbox (61.64493pt too wide) in paragraph at lines 276--283
 []\T1/txtt/m/n/12 https://academic.oup.com/mnras/article-pdf/328/2/393/3784816/328-2-393.pdf[]\T1/txr/m/n/12 (-20) , 
  []
@@ -2085,32 +2083,32 @@ Overfull \hbox (99.44485pt too wide) in paragraph at lines 997--1004
 
 ]
 chapter A.
-<thesis_figures/alignment/Run_3211_after_prev/square/GEM1.png, id=1857, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_after_prev/square/GEM1.png, id=1887, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_after_prev/square/GEM1.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_after_prev/square/GEM1.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_after_prev/square/GEM1.png  used on input line 11.
 (pdftex.def)             Requested size: 196.85619pt x 188.92526pt.
-<thesis_figures/alignment/Run_3211_after_millepede/square/GEM1.png, id=1858, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_after_millepede/square/GEM1.png, id=1888, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_after_millepede/square/GEM1.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_after_millepede/square/GEM1.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_after_millepede/square/GEM1.png  used on input line 19.
 (pdftex.def)             Requested size: 196.85619pt x 188.92526pt.
-<thesis_figures/alignment/Run_3211_after_prev/square/GEM2.png, id=1859, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_after_prev/square/GEM2.png, id=1889, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_after_prev/square/GEM2.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_after_prev/square/GEM2.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_after_prev/square/GEM2.png  used on input line 26.
 (pdftex.def)             Requested size: 196.85619pt x 188.92526pt.
-<thesis_figures/alignment/Run_3211_after_millepede/square/GEM2.png, id=1860, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_after_millepede/square/GEM2.png, id=1890, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_after_millepede/square/GEM2.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_after_millepede/square/GEM2.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_after_millepede/square/GEM2.png  used on input line 33.
 (pdftex.def)             Requested size: 196.85619pt x 188.92526pt.
-<thesis_figures/alignment/Run_3211_after_prev/square/GEM4.png, id=1861, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_after_prev/square/GEM4.png, id=1891, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_after_prev/square/GEM4.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_after_prev/square/GEM4.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_after_prev/square/GEM4.png  used on input line 39.
 (pdftex.def)             Requested size: 196.85619pt x 188.92526pt.
-<thesis_figures/alignment/Run_3211_after_millepede/square/GEM4.png, id=1862, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_after_millepede/square/GEM4.png, id=1892, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_after_millepede/square/GEM4.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_after_millepede/square/GEM4.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_after_millepede/square/GEM4.png  used on input line 47.
@@ -2121,32 +2119,32 @@ LaTeX Warning: Float too large for page by 39.87578pt on input line 52.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<thesis_figures/alignment/Run_3211_after_prev/square/MX1.png, id=1863, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_after_prev/square/MX1.png, id=1893, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_after_prev/square/MX1.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_after_prev/square/MX1.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_after_prev/square/MX1.png  used on input line 60.
 (pdftex.def)             Requested size: 196.85619pt x 188.92526pt.
-<thesis_figures/alignment/Run_3211_after_millepede/square/MX1.png, id=1864, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_after_millepede/square/MX1.png, id=1894, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_after_millepede/square/MX1.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_after_millepede/square/MX1.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_after_millepede/square/MX1.png  used on input line 68.
 (pdftex.def)             Requested size: 196.85619pt x 188.92526pt.
-<thesis_figures/alignment/Run_3211_after_prev/square/MX2.png, id=1865, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_after_prev/square/MX2.png, id=1895, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_after_prev/square/MX2.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_after_prev/square/MX2.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_after_prev/square/MX2.png  used on input line 75.
 (pdftex.def)             Requested size: 196.85619pt x 188.92526pt.
-<thesis_figures/alignment/Run_3211_after_millepede/square/MX2.png, id=1866, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_after_millepede/square/MX2.png, id=1896, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_after_millepede/square/MX2.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_after_millepede/square/MX2.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_after_millepede/square/MX2.png  used on input line 82.
 (pdftex.def)             Requested size: 196.85619pt x 188.92526pt.
-<thesis_figures/alignment/Run_3211_after_prev/square/MX3.png, id=1867, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_after_prev/square/MX3.png, id=1897, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_after_prev/square/MX3.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_after_prev/square/MX3.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_after_prev/square/MX3.png  used on input line 88.
 (pdftex.def)             Requested size: 196.85619pt x 188.92526pt.
-<thesis_figures/alignment/Run_3211_after_millepede/square/MX3.png, id=1868, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_after_millepede/square/MX3.png, id=1898, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_after_millepede/square/MX3.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_after_millepede/square/MX3.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_after_millepede/square/MX3.png  used on input line 96.
@@ -2157,32 +2155,32 @@ LaTeX Warning: Float too large for page by 39.87578pt on input line 101.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<thesis_figures/alignment/Run_3211_after_prev/square/MX4.png, id=1869, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_after_prev/square/MX4.png, id=1899, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_after_prev/square/MX4.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_after_prev/square/MX4.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_after_prev/square/MX4.png  used on input line 108.
 (pdftex.def)             Requested size: 196.85619pt x 188.92526pt.
-<thesis_figures/alignment/Run_3211_after_millepede/square/MX4.png, id=1870, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_after_millepede/square/MX4.png, id=1900, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_after_millepede/square/MX4.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_after_millepede/square/MX4.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_after_millepede/square/MX4.png  used on input line 116.
 (pdftex.def)             Requested size: 196.85619pt x 188.92526pt.
-<thesis_figures/alignment/Run_3211_after_prev/square/MX5.png, id=1871, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_after_prev/square/MX5.png, id=1901, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_after_prev/square/MX5.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_after_prev/square/MX5.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_after_prev/square/MX5.png  used on input line 123.
 (pdftex.def)             Requested size: 196.85619pt x 188.92526pt.
-<thesis_figures/alignment/Run_3211_after_millepede/square/MX5.png, id=1872, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_after_millepede/square/MX5.png, id=1902, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_after_millepede/square/MX5.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_after_millepede/square/MX5.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_after_millepede/square/MX5.png  used on input line 130.
 (pdftex.def)             Requested size: 196.85619pt x 188.92526pt.
-<thesis_figures/alignment/Run_3211_after_prev/square/MX7.png, id=1873, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_after_prev/square/MX7.png, id=1903, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_after_prev/square/MX7.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_after_prev/square/MX7.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_after_prev/square/MX7.png  used on input line 136.
 (pdftex.def)             Requested size: 196.85619pt x 188.92526pt.
-<thesis_figures/alignment/Run_3211_after_millepede/square/MX7.png, id=1874, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_after_millepede/square/MX7.png, id=1904, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_after_millepede/square/MX7.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_after_millepede/square/MX7.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_after_millepede/square/MX7.png  used on input line 144.
@@ -2193,32 +2191,32 @@ LaTeX Warning: Float too large for page by 39.87578pt on input line 149.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<thesis_figures/alignment/Run_3211_T/rotMX1U_after_millepede_T.png, id=1875, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_T/rotMX1U_after_millepede_T.png, id=1905, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_T/rotMX1U_after_millepede_T.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_T/rotMX1U_after_millepede_T.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_T/rotMX1U_after_millepede_T.png  used on input line 157.
 (pdftex.def)             Requested size: 196.85619pt x 188.92526pt.
-<thesis_figures/alignment/Run_3211_T/rotMX1V_after_millepede_T.png, id=1876, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_T/rotMX1V_after_millepede_T.png, id=1906, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_T/rotMX1V_after_millepede_T.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_T/rotMX1V_after_millepede_T.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_T/rotMX1V_after_millepede_T.png  used on input line 164.
 (pdftex.def)             Requested size: 196.85619pt x 188.92526pt.
-<thesis_figures/alignment/Run_3211_T/rotMX2U_after_millepede_T.png, id=1877, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_T/rotMX2U_after_millepede_T.png, id=1907, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_T/rotMX2U_after_millepede_T.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_T/rotMX2U_after_millepede_T.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_T/rotMX2U_after_millepede_T.png  used on input line 171.
 (pdftex.def)             Requested size: 196.85619pt x 188.92526pt.
-<thesis_figures/alignment/Run_3211_T/rotMX2V_after_millepede_T.png, id=1878, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_T/rotMX2V_after_millepede_T.png, id=1908, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_T/rotMX2V_after_millepede_T.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_T/rotMX2V_after_millepede_T.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_T/rotMX2V_after_millepede_T.png  used on input line 177.
 (pdftex.def)             Requested size: 196.85619pt x 188.92526pt.
-<thesis_figures/alignment/Run_3211_T/rotMX3U_after_millepede_T.png, id=1879, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_T/rotMX3U_after_millepede_T.png, id=1909, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_T/rotMX3U_after_millepede_T.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_T/rotMX3U_after_millepede_T.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_T/rotMX3U_after_millepede_T.png  used on input line 184.
 (pdftex.def)             Requested size: 196.85619pt x 188.92526pt.
-<thesis_figures/alignment/Run_3211_T/rotMX3V_after_millepede_T.png, id=1880, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_T/rotMX3V_after_millepede_T.png, id=1910, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_T/rotMX3V_after_millepede_T.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_T/rotMX3V_after_millepede_T.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_T/rotMX3V_after_millepede_T.png  used on input line 191.
@@ -2229,12 +2227,12 @@ LaTeX Warning: Float too large for page by 39.87578pt on input line 197.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<thesis_figures/alignment/Run_3211_T/rotMX4U_after_millepede_T.png, id=1881, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_T/rotMX4U_after_millepede_T.png, id=1911, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_T/rotMX4U_after_millepede_T.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_T/rotMX4U_after_millepede_T.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_T/rotMX4U_after_millepede_T.png  used on input line 202.
 (pdftex.def)             Requested size: 196.85619pt x 188.92526pt.
-<thesis_figures/alignment/Run_3211_T/rotMX4V_after_millepede_T.png, id=1882, 598.235pt x 574.145pt>
+<thesis_figures/alignment/Run_3211_T/rotMX4V_after_millepede_T.png, id=1912, 598.235pt x 574.145pt>
 File: thesis_figures/alignment/Run_3211_T/rotMX4V_after_millepede_T.png Graphic file (type png)
 <use thesis_figures/alignment/Run_3211_T/rotMX4V_after_millepede_T.png>
 Package pdftex.def Info: thesis_figures/alignment/Run_3211_T/rotMX4V_after_millepede_T.png  used on input line 209.
@@ -2244,7 +2242,7 @@ Package pdftex.def Info: thesis_figures/alignment/Run_3211_T/rotMX4V_after_mille
 
  (/common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_appendix_B.tex
 chapter B.
-<thesis_figures/TGEANT_format.pdf, id=1913, 957.5775pt x 92.345pt>
+<thesis_figures/TGEANT_format.pdf, id=1943, 957.5775pt x 92.345pt>
 File: thesis_figures/TGEANT_format.pdf Graphic file (type pdf)
 <use thesis_figures/TGEANT_format.pdf>
 Package pdftex.def Info: thesis_figures/TGEANT_format.pdf  used on input line 7.
@@ -2282,18 +2280,18 @@ Package rerunfilecheck Info: File `thesis_2009_skel.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 36611 strings out of 479304
- 735048 string characters out of 5869779
- 1250551 words of memory out of 5000000
- 51654 multiletter control sequences out of 15000+600000
- 544621 words of font info for 754 fonts, out of 8000000 for 9000
+ 36640 strings out of 479304
+ 735508 string characters out of 5869779
+ 1251863 words of memory out of 5000000
+ 51675 multiletter control sequences out of 15000+600000
+ 544788 words of font info for 757 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,23n,125p,10663b,1955s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txbsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_2009_skel.pdf (121 pages, 1453975 bytes).
+Output written on /common/home/sehgal/PhD-thesis-srsehgal/thesis_skel/thesis_2009_skel.pdf (123 pages, 1456928 bytes).
 PDF statistics:
- 2322 PDF objects out of 2487 (max. 8388607)
- 2094 compressed objects within 21 object streams
- 543 named destinations out of 1000 (max. 500000)
- 164650 words of extra memory for PDF output out of 184870 (max. 10000000)
+ 2381 PDF objects out of 2487 (max. 8388607)
+ 2150 compressed objects within 22 object streams
+ 547 named destinations out of 1000 (max. 500000)
+ 164722 words of extra memory for PDF output out of 184870 (max. 10000000)
 

@@ -13,7 +13,7 @@ A level-1 auxiliary file: thesis_conclusion.aux
 The style file: ../refs/atlasBibStyleWithTitle.bst.bst
 A level-1 auxiliary file: thesis_appendix_A.aux
 A level-1 auxiliary file: thesis_appendix_B.aux
-Reallocated field_info (elt_size=4) to 12254 items from 5000.
+Reallocated field_info (elt_size=4) to 12285 items from 5000.
 Database file #1: ./thesis_refs.bib
 Database file #2: ../refs/standard_refs-bibtex.bib
 Warning--I didn't find a database entry for ""
@@ -33,45 +33,45 @@ Warning--empty pages in Albrecht_2022_muon_puzzle
 Warning--empty pages in osti_4100652
 Warning--empty pages in article_b_MESONS
 Warning--empty booktitle in Nelson:1990sr
-You've used 233 entries,
+You've used 234 entries,
             2323 wiz_defined-function locations,
-            2380 strings with 55243 characters,
-and the built_in function-call counts, 69041 in all, are:
-= -- 6249
-> -- 2091
+            2388 strings with 55502 characters,
+and the built_in function-call counts, 69379 in all, are:
+= -- 6281
+> -- 2099
 < -- 0
-+ -- 797
-- -- 564
-* -- 6709
-:= -- 7807
-add.period$ -- 246
-call.type$ -- 233
-change.case$ -- 240
++ -- 800
+- -- 566
+* -- 6747
+:= -- 7841
+add.period$ -- 247
+call.type$ -- 234
+change.case$ -- 241
 chr.to.int$ -- 0
-cite$ -- 249
-duplicate$ -- 3957
-empty$ -- 6920
-format.name$ -- 564
-if$ -- 17650
+cite$ -- 250
+duplicate$ -- 3979
+empty$ -- 6952
+format.name$ -- 566
+if$ -- 17739
 int.to.chr$ -- 0
-int.to.str$ -- 233
-missing$ -- 1011
-newline$ -- 722
-num.names$ -- 224
-pop$ -- 1110
+int.to.str$ -- 234
+missing$ -- 1016
+newline$ -- 725
+num.names$ -- 225
+pop$ -- 1113
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 3038
+skip$ -- 3058
 stack$ -- 0
-substring$ -- 3651
-swap$ -- 2088
+substring$ -- 3663
+swap$ -- 2102
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 16
-while$ -- 556
-width$ -- 236
-write$ -- 1879
+while$ -- 558
+width$ -- 237
+write$ -- 1889
 (There were 17 warnings)
