@@ -891,6 +891,12 @@ A.~Marinelli, P.~Migliozzi,  and A.~Simonelli, {\em Acoustic neutrino detection
   \href{http://arxiv.org/abs/2104.00459}{{\ttfamily arXiv:2104.00459
   [astro-ph.IM]}}.
 
+\bibitem{Arguelles:2024xkx}
+C.~A. Arg\"uelles, F.~Halzen,  and N.~Kurahashi, {\em {From the Dawn of
+  Neutrino Astronomy to A New View of the Extreme Universe}},
+  \href{http://arxiv.org/abs/2405.17623}{{\ttfamily arXiv:2405.17623
+  [hep-ex]}}.
+
 \bibitem{Aartsen_2014_first_flux}
 {IceCube} Collaboration, M.~G. Aartsen {et~al.}, {\em {Search for a diffuse
   flux of astrophysical muon neutrinos with the IceCube 59-string
@@ -1167,6 +1173,11 @@ J.~Cortina, F.~Goebel,  and T.~Schweizer, {\em Technical Performance of the
   MAGIC Telescopes}, 2009.
 \newblock \url{https://arxiv.org/abs/0907.1211}.
 
+\bibitem{article_2001_kampert}
+K.-H. Kampert, T.~Antoni, A.~Badea, E.~Bollmann, H.~Bozdog, C.~Uttner,
+  K.~Daumiller, J.~Engler, A.~Haungs,  and D.~Heck, {\em Cosmic Rays In The
+  Energy Range Of The Knee},.
+
 \bibitem{1966RSPSA.289..206K}
 F.~D. {Kahn} and I.~{Lerche}, {\em {Radiation from Cosmic Ray Air Showers}},
   \href{http://dx.doi.org/10.1098/rspa.1966.0007}{Proceedings of the Royal
@@ -1328,6 +1339,20 @@ F.~Salamida, {\em The analysis of hybrid events in the Pierre Auger
   {\bfseries 49} (2012) 1563--1569},
   \href{http://arxiv.org/abs/1204.6196}{{\ttfamily arXiv:1204.6196
   [astro-ph.SR]}}.
+
+\bibitem{gap_note_2009}
+P.~Billoir, {\em Proposition to improve the local trigger of the Surface
+  Detector for low energy showers}, 2009.
+\newblock \url{https://www.auger.org/gap-notes/}.
+
+\bibitem{PierreAuger:2021hun}
+{Pierre Auger} Collaboration, P.~Abreu {et~al.}, {\em {The energy spectrum of
+  cosmic rays beyond the turn-down around $10^{17}$ eV as measured with the
+  surface detector of the Pierre Auger Observatory}},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-021-09700-w}{Eur. Phys. J. C
+  {\bfseries 81} no.~11, (2021) 966},
+  \href{http://arxiv.org/abs/2109.13400}{{\ttfamily arXiv:2109.13400
+  [astro-ph.HE]}}.
 
 \bibitem{gap_note_2011}
 P.~Billoir, {\em New proposal to improve local trigger of the Surface

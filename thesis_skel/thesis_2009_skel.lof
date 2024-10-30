@@ -18,31 +18,44 @@
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Neutrino Spectra~\cite {SajjadAthar:2021prg}\relax }}{20}{figure.caption.22}%
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Ternary plot~\cite {}(Ahlers ISAPP 2022 or 1810.00893)\relax }}{22}{figure.caption.24}%
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Figure from mixed fit~\cite {Heinze:2019jou}\relax }}{24}{figure.caption.26}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Neutrino flux measurements~\cite {ParticleDataGroup:2024cfk}\relax }}{28}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces NGC1068 excess~\cite {Icecube_2022}\relax }}{29}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Galactic plane with messengers~\cite {Galactic_plane_nu_2023}\relax }}{30}{figure.caption.33}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Limits and models~\cite {PierreAuger:2023pjg}\relax }}{31}{figure.caption.37}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Different detection techniques for UHE neutrinos~\cite {Arguelles:2024xkx}\relax }}{28}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Neutrino flux measurements~\cite {ParticleDataGroup:2024cfk}\relax }}{29}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces NGC1068 excess~\cite {Icecube_2022}\relax }}{29}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Galactic plane with messengers~\cite {Galactic_plane_nu_2023}\relax }}{30}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Limits and models~\cite {PierreAuger:2023pjg}\relax }}{31}{figure.caption.38}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Development of Extensive Air Shower. The figure shows the different components of an EAS and the reactions which lead to their formation. The figure is adapted from Sonja's Thesis, redo to make own\relax }}{34}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Representation of Heitler's model for (a) electromagnetic cascades and (b) hadronic cascades.\relax }}{35}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Sketch of different possible interactions of UHE neutrinos in the atmosphere. \relax }}{38}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Schematic of the development of an EAS in the atmosphere.\relax }}{40}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Sketch of various ways to study experimentally extensive air showers.~\cite {article_2001_kampert}\relax }}{42}{figure.caption.45}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Layout of the Pierre Auger Observatory in Argentina. The black lines indicate the field of view of each telescope. \relax }}{45}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Fluorescence Telescope at Pierre Auger Observatory\relax }}{47}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Artistic representation of a Surface Detector tank with all its components.\relax }}{48}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Left:The charge histogram (black), is the sum of the responses of all three PMTs above the electronic noise threshold, while the dashed red line represents the reference measurement done by an external muon telescope. The first peak in the charge histogram is noise from low-energy particles. The second peak is caused by the vertical-through going muons and is used to determine VEM. Right: The pulse height histogram (black) that is used to calibrate $\mathrm {I^{peak}_{VEM}}$ which is used for trigger thresholds. The calibration is again performed using the reference measurements from the muon telescope.~\cite {PierreAuger:2005znw}\relax }}{50}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Schematics of the hierarchy of the trigger system of the Auger surface detector.\relax }}{51}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Functioning of ToTd trigger. Taken from~\cite {PierreAuger:2021hun}\relax }}{52}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Example waveform which passes the MoPS algorithm.\relax }}{53}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Trigger efficiency for different triggers implemented at the Pierre AUger Observatory calculated using the SD-750 array for zenith angles below $60^{\circ }$. Taken from~\cite {PierreAuger:2021hun}\relax }}{53}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Visible mode setup 2017~\cite {}\relax }}{57}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Visible mode setup 2018-top view~\cite {}\relax }}{58}{figure.caption.64}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Left: Strip dimensions of the modules, Right:NA64 Micromega's working principle~\cite {}\relax }}{78}{figure.caption.78}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces A sketch of GEM field lines~\cite {}.\relax }}{79}{figure.caption.79}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Schematic of a triple GEM detector along with the working principle~\cite {}\relax }}{79}{figure.caption.79}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Linear regression pictorially. \relax }}{79}{figure.caption.80}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Invisible mode setup~\cite {}\relax }}{43}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Visible mode setup 2017~\cite {}\relax }}{52}{figure.caption.50}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Visible mode setup 2018-top view~\cite {}\relax }}{52}{figure.caption.51}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Left: Strip dimensions of the modules, Right:NA64 Micromega's working principle~\cite {}\relax }}{72}{figure.caption.65}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces A sketch of GEM field lines~\cite {}.\relax }}{73}{figure.caption.66}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Schematic of a triple GEM detector along with the working principle~\cite {}\relax }}{73}{figure.caption.66}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Linear regression pictorially. \relax }}{73}{figure.caption.67}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces $\chi ^2_{red}$ distribution for selected tracks showing the impact of Millepede alignment.\relax }}{93}{figure.caption.83}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Residual of GEM detectors.\relax }}{120}{figure.caption.90}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Residual of Micromega detectors.\relax }}{121}{figure.caption.91}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Residual of Micromega detectors.\relax }}{122}{figure.caption.92}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Residual vs position for Micromega detectors\relax }}{123}{figure.caption.93}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Residual vs position for MM4\relax }}{124}{figure.caption.94}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces $\chi ^2_{red}$ distribution for selected tracks showing the impact of Millepede alignment.\relax }}{87}{figure.caption.70}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Residual of GEM detectors.\relax }}{114}{figure.caption.77}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Residual of Micromega detectors.\relax }}{115}{figure.caption.78}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Residual of Micromega detectors.\relax }}{116}{figure.caption.79}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Residual vs position for Micromega detectors\relax }}{117}{figure.caption.80}%
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Residual vs position for MM4\relax }}{118}{figure.caption.81}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Snippet of the format fed to CORAL\relax }}{119}{figure.caption.82}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Snippet of the format fed to CORAL\relax }}{125}{figure.caption.95}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -6,12 +6,12 @@
 %==============================================================================
 \begin{figure}[h!]
 \centering
-\includegraphics[width=\textwidth]{thesis_figures/Invisible_3d_setup.png}
-\caption{Invisible mode setup~\cite{}}
-\label{fig:Invisible_mode_setup}
+\includegraphics[width=\textwidth]{thesis_figures/Setup/map_srij_version.pdf}
+\caption{Layout of the Pierre Auger Observatory in Argentina. The black lines indicate the field of view of each telescope. }
+\label{fig:Auger_map}
 \end{figure}
 
-The Pierre Auger Observatory~\cite{Auger:2015} is the largest CR observatory in the world. Located outside Malargüe in the Argentinian \textit{pampas}, the observatory spans across an area of 3000k$m^2$. Originally conceptualized in the 1990s, the Observatory was built in the early 2000s and fully completed in 2008. Geographically the site is located near the base of the Andes at an altitude of 1400m above sea level and is relatively flat across its whole span. The Observatory was designed to detect CR-induced EASs having primary energy of $10^{17}$eV to $10^{20}eV$ and beyond. It does so by identifying the EAS via two different complementary detecting components: \textit{Surface Detector} array (SD) and the \textit{Fluorescence Detector} (FD). A schematic of the observatory is shown in fig.~\ref{}. The SD consists of 1660 water Cherenkov tanks spread in a triangular grid with 1.5 km spacing. The FD consists of four sites with 27 telescopes located at the edges of the ground array and overlooking the sky above. The Observatory also consists of various atmospheric monitoring devices such as LIDARs~\cite{BENZVI2007171}, laser facilities CLF and XLF~\cite{article_clf,Lawrence_Wiencke_2009} and other weather sensors to constantly monitor the atmosphere which is important for FD operation. With the AugerPrime upgrade of the Observatory which is scheduled to be finished in 2024 two new detecting components are being added: The \textit{Radio Detector}(RD)~\cite{Horandel:2023XL} and the \textit{Underground Muon Detector}(UMD)~\cite{AbdulHalim:2023ZF}. The SD is also being upgraded with the addition of a scintillator on top of the tanks~\cite{Cataldi:2021uwd}. Each individual component of the new upgrade is not discussed in detail since they are not used in the context of this thesis but only AugerPrime as a whole and its potential for detecting neutrinos at the Pierre Auger Observatory is discussed.
+The Pierre Auger Observatory~\cite{Auger:2015} is the largest CR observatory in the world. Located outside Malargüe in the Argentinian \textit{pampas}, the observatory spans across an area of 3000k$m^2$. Originally conceptualized in the 1990s, the Observatory was built in the early 2000s and fully completed in 2008. Geographically the site is located near the base of the Andes at an altitude of 1400 m above sea level and is relatively flat across its whole span. The Observatory was designed to detect CR-induced EASs having primary energy of $10^{17}$eV to $10^{20}eV$ and beyond. It does so by identifying the EAS via two different complementary detecting components: \textit{Surface Detector} array (SD) and the \textit{Fluorescence Detector} (FD). A schematic of the observatory is shown in fig.~\ref{fig:Auger_map}. The SD consists of 1660 water Cherenkov tanks spread in a triangular grid with 1.5 km spacing. The FD consists of four sites with 27 telescopes located at the edges of the ground array and overlooking the sky above. The Observatory also consists of various atmospheric monitoring devices such as LIDARs~\cite{BENZVI2007171}, laser facilities CLF and XLF~\cite{article_clf,Lawrence_Wiencke_2009} and other weather sensors to constantly monitor the atmosphere which is important for FD operation. With the AugerPrime upgrade of the Observatory which is scheduled to be finished in 2024 two new detecting components are being added: The \textit{Radio Detector}(RD)~\cite{Horandel:2023XL} and the \textit{Underground Muon Detector}(UMD)~\cite{AbdulHalim:2023ZF}. The SD is also being upgraded with the addition of a scintillator on top of the tanks~\cite{Cataldi:2021uwd}. Each individual component of the new upgrade is not discussed in detail since they are not used in the context of this thesis but only AugerPrime as a whole and its potential for detecting neutrinos at the Pierre Auger Observatory is discussed.
 
 Even though, the primary objective of the Pierre Auger Observatory is UHECR physics it is also sensitive to the neutrino induced EAS signature via both the SD and FD. The low neutrino interaction probability requires a detector that is always active. The high duty cycle of the SD $\approx 100$\% compared to a limited duty cycle of the FD $\approx 10-15$\% makes SD the more probable of the detector to detect neutrinos. This has already been shown in previous neutrino searches at Auger where the search with the SD provides the stringiest limits for neutrino searches at the Observatory~\cite{Aab_2019_diffuse}. This chapter aims to provide a short review of the different components of the Observatory with a focus on the SD and its trigger system since it is the primary detector used for the analysis presented in this thesis. 
 
@@ -19,14 +19,51 @@ Even though, the primary objective of the Pierre Auger Observatory is UHECR phys
 \label{sec:Fl_det}
 The Fluorescence Detector system at the Pierre Auger Observatory consists of an array of Fluorescence telescopes that are constantly looking inwards over the surface detector array trying to measure the nitrogen fluorescence induced by the EAS. The FD consists of 24 telescopes located at four different small hills (Coihueco, Los Morados, Loma Amarilla and Los Leones). The Coihueco site also consists of High Elevation Auger Telescopes (HEAT) which can be tilted upwards to extend the field of view at the Coiheuco site. Each of the 24 telescopes has a field of view of $30^{\circ} \times 30^{\circ}$ in azimuth and elevation. The combination of the telescopes gives an azimuth coverage of $180^{\circ}$. The HEAT telescopes can extend the field of view by a further $30^{\circ}$ in elevation. This gives a 100\% triggering efficiency for EAS above $10^{19}$eV for FD and above $10^{17}$eV with the inclusion of HEAT. Currently, the FD is always operated in combination with SD. As mentioned before the measured fluorescence light gives the deposited shower energy which is about 90\% of the total. The remaining 10\% which is carried by non-florescence producing particles such as neutrinos and muons is corrected with simulations~\cite{Abraham_2010_FD}. The expected fluorescence yield (combined for all wavelengths) is affected by the temperature, pressure and humidity of air~\cite{Rosado:2014bya}. This is constantly monitored at the Observatory via several monitoring instruments. Each FD site is equipped with a LIDAR station which continuously monitors the aerosol profile, cloud and sky cameras which photograph the sky to estimate the cloud coverage and wind and rain sensors for the safe functioning of the FD telescopes. Two laser facilities Central Laser Facility (CLF) and eXtreme Laser Facility (XLF) have also been functional since 2003 and 2008 respectively. These help provide hourly measurements of the atmospheric aerosol content and can also be used to measure FD performance. 
 
-Fig~\ref{} shows an FD site along with the schematic of an FD telescope. The fluorescence light enters through the UV filtered window 
+
+% \begin{figure}[t!]
+%   \centering
+%   \begin{subfigure}[b]{0.45\textwidth}
+%       \centering
+%       \includegraphics[width=\textwidth]{thesis_figures/Setup/FD_outside_drawing.png}
+%       \caption{An artistic drawing inspired by the FD building at Los Leones.}
+%       \label{sub:fig:FD_site_drawing}
+%   \end{subfigure}
+%   \hfill
+%   \begin{subfigure}[b]{0.45\textwidth}
+%       \centering
+%       \includegraphics[width=\textwidth]{thesis_figures/Setup/FD_schematic.png}
+%       \caption{Schematic view of a fluorescence telescope with a description of its main components taken from~\cite{Auger:2015}}
+%       \label{sub:fig:FD_schematic}
+%   \end{subfigure}
+%      \caption{Fluorescence Telescope at Pierre Auger Observatory}
+%      \label{fig:FD_sketch_schematic}
+% \end{figure}
+
+\begin{figure}
+  \centering
+  \subcaptionbox{An artistic drawing inspired by the FD building at Los Leones.\label{sub:fig:FD_site_drawing}}{\includegraphics[width=.45\linewidth]{thesis_figures/Setup/FD_outside_drawing.png}}
+  \hfill
+  \subcaptionbox{Schematic view of a fluorescence telescope with a description of its main components taken from~\cite{Auger:2015}\label{sub:fig:FD_schematic}}{\includegraphics[width=.45\linewidth]{thesis_figures/Setup/FD_schematic.png}}
+  \caption{Fluorescence Telescope at Pierre Auger Observatory}
+  \label{fig:FD_sketch_schematic}
+\end{figure}
+
+Fig~\ref{fig:FD_sketch_schematic} shows an FD site along with the schematic of an FD telescope. The fluorescence light enters through the UV filtered window 
 which is surrounded by a corrector ring. A spherical segmented mirror is used to gather the incoming light and focus it onto a 440 pixeled PMT camera. The camera records the light pulses every 100ns and based on a hierarchical trigger~\cite{Abraham_2010_FD} saves the event. For reconstructing the energy and the geometry of the shower the recorded information is combined with the information detected by the SD (hybrid) or other FD telescopes (stereo)~\cite{SALAMIDA2008207}. A relative calibration of the PMTs is performed for each camera before and after each night of data taking~\cite{Abraham_2010_FD}. A regular absolute calibration procedure called the X-Y scanner has also been developed and is currently being deployed at each FD telescope. 
 
 The FD acts as an important calibration tool for the SD, especially for the energy estimation where the hybrid detection of EAS is used to provide a simulation free primary energy estimate for the SD. It can also be useful for looking into high energy atmospheric phenomena such as ELVES ~\cite{PierreAuger:2020lri}. The low duty cycle of the FD is $\sim$15\% which is due to its operation being limited to clear moonless nights, limits its overall capabilities, especially for a neutrino analysis. However, the FD has been used for up-going neutrino searches~\cite{}(ANITA Paper) and also has a potential use to look for atmosphere skimming CRs or neutrinos.  
 
 \section{Surface Detector}
 \label{sec:Sur_det}
-The Surface Detector is a Water Cherenkov Detector(WCD) array which is used to detect the EAS on the ground particularly the footprint by detecting the shower particles that reach the ground. Each WCD~\cite{PierreAuger:2007kus} comprises a tank with 3.6 m diameter and 1.2 m height. It also consists of a reflective inner liner containing 12,000 liters of ultra-pure water. Three 9-in PMTs look into the water and detect the Cherenkov light produced by the charged shower particles as they traverse through the water. With the AugerPrime upgrade the WCDs have also been equipped with a scintillator, additional PMT and a radio detector on top. These are described later in section~\ref{sec:Aug_prime}. Each WCD tank also has its own electronics and communication system. All of the components are powered using a solar panel. An artistic representation along with all the components is shown in fig.~\ref{}. 
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\textwidth]{thesis_figures/Setup/SD_tank_schematics_drawing.png}
+  \caption{Artistic representation of a Surface Detector tank with all its components.}
+  \label{fig:SD_drawing}
+  \end{figure}
+
+The Surface Detector is a Water Cherenkov Detector(WCD) array which is used to detect the EAS on the ground particularly the footprint by detecting the shower particles that reach the ground. Each WCD~\cite{PierreAuger:2007kus} comprises a tank with 3.6 m diameter and 1.2 m height. It also consists of a reflective inner liner containing 12,000 liters of ultra-pure water. Three 9-in PMTs look into the water and detect the Cherenkov light produced by the charged shower particles as they traverse through the water. With the AugerPrime upgrade the WCDs have also been equipped with a scintillator, additional PMT and a radio detector on top. These are described later in section~\ref{sec:Aug_prime}. Each WCD tank also has its own electronics and communication system. All of the components are powered using a solar panel. An artistic representation along with all the components is shown in fig.~\ref{fig:SD_drawing}. 
 
 The 1.5 km grid spacing is commonly referred to as SD-1500. There are further sub-arrays within the SD, SD-750 also called the infill and SD-433 with the numbers representing the distance between the tanks in the sub-arrays in meters. Each WCD can be operated on its own with each PMT signal first recorded at the station and then combined using a Central Data Acquisition System (CDAS)~\cite{Auger:2015} which uses a ranked system of triggers to decide if the combination of all WCDs is a candidate for an EAS event. The data taking process of the SD is described in more detail in the following sections. Due to its autonomous nature, the SD array is easy to maintain and has a duty cycle $\sim$100\%. The array is only affected if there is a communication outage or if the solar panel cannot generate power for an extended time period both of which are rare at the site of the Pierre Auger Observatory.     
 
@@ -35,11 +72,29 @@ The 1.5 km grid spacing is commonly referred to as SD-1500. There are further s
 
 The PMT signals in the WCDs are digitised by a 40MHz 10 bit \textit{flash analog-to-digital converters} (FADCs)~\cite{PierreAuger:2005znw}. One of the signals is taken from the anode of the PMT and is called the \textit{low gain} (LG) channel and the other is taken by the last dynode and is amplified by a factor of 32 and is called the \textit{high gain} (HG) channel. The two signals provide sufficient precision and range to record both the signals produced near the shower core ($\sim$1000 particles/$\mu$s) and those produced far from the core ($\sim$1 particles/$\mu$s). The signal trace is recorded at a sampling rate of 40MHz with a total of 768 bins leading to each bin width corresponding to 25ns. Due to varying electronics across the WCDs a robust procedure is needed to calibrate each station to a universal unit of measurement for the SD. Also, due to the remoteness of the WCDs such a procedure needs to be performed locally for each station to allow for its functioning even in the case of individual broken PMTs. The unit of measurement used to calibrate the SD stations is called \textit{vertical equivalent muon}(VEM). This is the charge deposited by a vertically central through-going (VCT) muon in the WCD station. The SD station by itself cannot select these particular muons but the normal SD measurement of all atmospheric muons has been studied in comparison with a muon telescope that only triggers these VCTs for a reference tank~\cite{PierreAuger:2005cju}. This measurement is used to calibrate the SD.
 
-To perform the calibration charge distribution, $Q_{VEM}^{peak}$, and the pulse height, $I_{VEM}^{peak}$, both for the individual PMTs and their sums, are compared to the measurements done with a muon telescope as shown in fig.~\ref{}. The first peak in the figure for the PMT measurement is caused due to low energy particles while the second peak is produced by the atmospheric muons. This peak corresponds to $Q_{VEM}^{peak}$ $\sim$ 1.03 VEM for the sum and $\sim$1.09 VEM for each PMT. The shift in comparison to the muon telescope measurement is caused by the convolution of photo-electron statistics on an asymmetric peak in the track length distribution and local light collection effects. This peak is used to obtain a conversion for the integrated signal of the PMT to VEM units. In addition to this, since the subsequent trigger for the SD also requires a measure of the current $I_{VEM}$, this value also needs to be converted and calibrated to VEM units~\cite{PierreAuger:2005znw}. The same technique as the charge calibration is employed since the VCTs also produce a peak in the pulse height histograms. The calibration is performed every 60s and sent to CDAS thus for an incoming event, calibration data is available for the preceding minute ensuring high calibration accuracy. 
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\textwidth]{thesis_figures/Setup/VEM_Calib_SD.jpg}
+  \caption{Left:The charge histogram (black), is the sum of the responses of all three
+  PMTs above the electronic noise threshold, while the dashed red line
+  represents the reference measurement done by an external muon telescope.
+  The first peak in the charge histogram is noise from low-energy particles. The second peak is caused by the vertical-through going muons and is used to determine VEM. Right: The pulse height histogram (black) that is
+  used to calibrate $\mathrm{I^{peak}_{VEM}}$ which is used for trigger thresholds. The calibration is again performed using the reference measurements from the muon telescope.~\cite{PierreAuger:2005znw}}
+  \label{fig:SD_VEM_calib}
+\end{figure}
+
+To perform the calibration charge distribution, $Q_{VEM}^{peak}$, and the pulse height, $I_{VEM}^{peak}$, both for the individual PMTs and their sums, are compared to the measurements done with a muon telescope as shown in fig.~\ref{fig:SD_VEM_calib}. The first peak in the figure for the PMT measurement is caused due to low energy particles while the second peak is produced by the atmospheric muons. This peak corresponds to $Q_{VEM}^{peak}$ $\sim$ 1.03 VEM for the sum and $\sim$1.09 VEM for each PMT. The shift in comparison to the muon telescope measurement is caused by the convolution of photo-electron statistics on an asymmetric peak in the track length distribution and local light collection effects. This peak is used to obtain a conversion for the integrated signal of the PMT to VEM units. In addition to this, since the subsequent trigger for the SD also requires a measure of the current $I_{VEM}$, this value also needs to be converted and calibrated to VEM units~\cite{PierreAuger:2005znw}. The same technique as the charge calibration is employed since the VCTs also produce a peak in the pulse height histograms. The calibration is performed every 60s and sent to CDAS thus for an incoming event, calibration data is available for the preceding minute ensuring high calibration accuracy. 
 
 \subsection{SD Trigger system}
 \label{sec:Sur_det_trig}
-There are three types of different types of station level triggers scalar, calibration and shower trigger. The scalar trigger records signals for very low thresholds and is useful for supplementary physics such as space weather~\cite{Dasso:2012vk}. The calibration trigger, as explained in the previous section, helps store and calculate the calibration parameters. The main shower trigger, used to record the EAS events is a hierarchical system consisting of two local triggers (T1 and T2) implemented at the station level, a third level trigger (T3) implemented by a CDAS and further event selection triggers (T4 and T5) stored by the SD but only used depending on the analysis and the quality of data required by the said analysis. The hierarchical nature arises from the limits on the wireless communication network required for a vast autonomous array. The trigger aims to reduce the rate especially for the expected muonic background and at the same time maximising the EAS event detection. A schematic of the logic of the trigger system is shown in fig~\ref{}. 
+There are three types of different types of station level triggers scalar, calibration and shower trigger. The scalar trigger records signals for very low thresholds and is useful for supplementary physics such as space weather~\cite{Dasso:2012vk}. The calibration trigger, as explained in the previous section, helps store and calculate the calibration parameters. The main shower trigger, used to record the EAS events is a hierarchical system consisting of two local triggers (T1 and T2) implemented at the station level, a third level trigger (T3) implemented by a CDAS and further event selection triggers (T4 and T5) stored by the SD but only used depending on the analysis and the quality of data required by the said analysis. The hierarchical nature arises from the limits on the wireless communication network required for a vast autonomous array. The trigger aims to reduce the rate especially for the expected muonic background and at the same time maximising the EAS event detection. A schematic of the logic of the trigger system is shown in fig~\ref{fig:SD_trigger_logic}. 
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\textwidth]{thesis_figures/Setup/Trigger_logic.png}
+  \caption{Schematics of the hierarchy of the trigger system of the Auger surface detector.}
+  \label{fig:SD_trigger_logic}
+\end{figure}
 
 \subsubsection{Old triggers}
 \label{sec:Sur_det_trig_old}
@@ -49,11 +104,61 @@ The T1 trigger consists of two parts/modes both of which need to be satisfied fo
 \label{sec:Sur_det_trig_new}
 In June 2013, two additional T1 trigger modes were implemented in the Pierre Auger Observatory to reduce the influence of muons and reduce the energy threshold of the array. The two modes both of which build upon the ToT condition are time-over-threshold-deconvolved (ToTd) and multiplicity-of-positive-steps (MoPS).
 
-The ToTd trigger was first proposed internally in~\cite{gap_note_2011}(Change to correct). The trigger aims to deconvolve the FADC trace, suppressing the exponential tail of the diffusely reflected Cherenkov emission before applying the ToT condition. This helps in compressing the signal from a muon which typically has a fast rise time in one or two time bins before the application of the ToT condition. The trigger has an expected rate of 0.2-3Hz. ToTd also requires the integrated signal to be above 0.5 VEM. An example of the functioning of the trigger is shown in fig.~\ref{}. 
+The ToTd trigger was first proposed internally in~\cite{gap_note_2009}. The trigger aims to deconvolve the FADC trace, suppressing the exponential tail of the diffusely reflected Cherenkov emission before applying the ToT condition. This helps in compressing the signal from a muon which typically has a fast rise time in one or two time bins before the application of the ToT condition. The trigger has an expected rate of 0.2-3Hz. ToTd also requires the integrated signal to be above 0.5 VEM. An example of the functioning of the trigger is shown in fig.~\ref{fig:ToTd_working}. 
 
-The MoPs trigger~\cite{gap_note_2011} was implemented to achieve a similar goal as ToT and ToTd i.e. a better separation between the air shower signal from the mostly muonic background. It is designed to do so by counting the number of positive steps(cumulation of successive increases) in the FADC trace within a 3$\mu$s sliding window. These steps are expected to be above a certain threshold (5xRMS noise) and below a maximum value ($\sim$0.5 VEM). The MoPs trigger is satisfied if more than 4 positive steps are counted during the sliding window in at least 2 PMTs. The expected rates both from simulations and data taking are found to be <2Hz. MoPs is even better at recovering lower signals compared to ToT and ToTd, thus improving the overall trigger efficiency. Both ToTd and MoPs are implemented as an OR logic with the ToT condition. 
+\begin{figure}[t!]
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{thesis_figures/Setup/Totd.png}
+      \caption{Example waveform which passes the ToTd algorithm.}
+      \label{sub:fig:FD_site_drawing}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{thesis_figures/Setup/Ttd_deconvuluted.png}
+      \caption{The deconvolution of the initial ToTd waveform along with the required threshold in red dashed line}
+      \label{sub:fig:FD_schematic}
+  \end{subfigure}
+     \caption{Functioning of ToTd trigger. Taken from~\cite{PierreAuger:2021hun}}
+     \label{fig:ToTd_working}
+\end{figure}
 
-These triggers particularly improve the trigger efficiency and sensitivity for photon and neutrino induced EAS. The trigger efficiencies for the different T1s implemented at the Pierre Auger Observatory are shown in fig~\ref{}. By rejecting the signals caused by muons or other low energetic particles the triggers are expected to increase the low energy threshold for the detection of these particles. They also help in recording more low electromagnetic like signals which is the expected signature for photons and neutrinos. 
+The MoPs trigger~\cite{gap_note_2011} was implemented to achieve a similar goal as ToT and ToTd i.e. a better separation between the air shower signal from the mostly muonic background. It is designed to do so by counting the number of positive steps(cumulation of successive increases) in the FADC trace within a 3$\mu$s sliding window. These steps are expected to be above a certain threshold (5xRMS noise) and below a maximum value ($\sim$0.5 VEM). The MoPs trigger is satisfied if more than 4 positive steps are counted during the sliding window in at least 2 PMTs. The expected rates both from simulations and data taking are found to be <2Hz. MoPs is even better at recovering lower signals compared to ToT and ToTd, thus improving the overall trigger efficiency. Both ToTd and MoPs are implemented as an OR logic with the ToT condition. An example of a signal that passes the MoPs trigger is shown in fig.~\ref{fig:MoPs_working}.
+
+\begin{figure}[t!]
+  \centering
+  \includegraphics[width=\textwidth]{thesis_figures/Setup/MoPS.png}
+  \caption{Example waveform which passes the MoPS algorithm.}
+  \label{fig:MoPs_working}
+\end{figure}
+
+\begin{figure}[t!]
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{thesis_figures/Setup/Efficiency_triggers.png}
+      \caption{ Contribution to the different triggers to the efficiency as a function
+      of the mean expected signal. Respectively green, blue, pink and cyan
+      for TOT, TOTd, MOPs and Th.}
+      \label{sub:fig:Triiger_eff_infill}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{thesis_figures/Setup/Triggering_efficiency_theta.png}
+      \caption{The change in the triggering efficiency with zenith angle.}
+      \label{sub:fig:Trigger_eff_theta}
+  \end{subfigure}
+     \caption{Trigger efficiency for different triggers implemented at the Pierre AUger Observatory calculated using the SD-750 array for zenith angles below $60^{\circ}$. Taken from~\cite{PierreAuger:2021hun}}
+     \label{fig:Trigger_eff_infill}
+\end{figure}
+
+
+The trigger efficiencies for the different T1s implemented at the Pierre Auger Observatory along with the zenith dependence are shown in fig~\ref{fig:Trigger_eff_infill}. The results are taken from a study~\cite{gap_note_2011} performed over three years using a special doublet hexagon which consisted of two hexagons of SD stations next to each other, one with new triggers active and one with new triggers inactive. Due to the small size of the hexagon the study was only performed for zenith angles less than $60^{\circ}$. However, the overall trend i.e. increase in efficiency holds for higher zenith angles. This is validated in sec.~\ref{sec:reco_possel} where an overall increase in events is seen when new triggers are included in the neutrino analysis.
+
+These triggers particularly improve the trigger efficiency and sensitivity for photon and neutrino induced EAS. By rejecting the signals caused by muons or other low energetic particles the new triggers are expected to increase the low energy threshold for the detection of these particles. They also help in recording more low electromagnetic like signals which is the expected signature for photons and neutrinos. 
 
 \subsubsection{Array Level Triggers}
 \label{sec:Sur_det_trig_array}
