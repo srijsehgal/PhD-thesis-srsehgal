@@ -1359,6 +1359,19 @@ P.~Billoir, {\em New proposal to improve local trigger of the Surface
   Detector}, 2011.
 \newblock \url{https://www.auger.org/gap-notes/}.
 
+\bibitem{gap_note_2017}
+M.~M. Alan~Coleman, Piera~Ghia, {\em The Station Triggering Efficiency Using
+  the New Triggers}, 2017.
+\newblock \url{https://www.auger.org/gap-notes/}.
+
+\bibitem{PierreAuger:2010zof}
+{Pierre Auger} Collaboration, J.~Abraham {et~al.}, {\em {Trigger and Aperture
+  of the Surface Detector Array of the Pierre Auger Observatory}},
+  \href{http://dx.doi.org/10.1016/j.nima.2009.11.018}{Nucl. Instrum. Meth. A
+  {\bfseries 613} (2010) 29--39},
+  \href{http://arxiv.org/abs/1111.6764}{{\ttfamily arXiv:1111.6764
+  [astro-ph.IM]}}.
+
 \bibitem{PierreAuger:2021nnx}
 {Pierre Auger} Collaboration, P.~Abreu {et~al.}, {\em {AugerPrime Upgraded
   Electronics}}, \href{http://dx.doi.org/10.22323/1.395.0230}{PoS {\bfseries
@@ -1570,14 +1583,6 @@ F.~James and M.~Roos, {\em {Minuit: A System for Function Minimization and
   of the Surface Detector of the Pierre Auger Observatory}},
   \href{http://dx.doi.org/10.22323/1.444.0266}{PoS {\bfseries ICRC2023} (2023)
   266}.
-
-\bibitem{PierreAuger:2010zof}
-{Pierre Auger} Collaboration, J.~Abraham {et~al.}, {\em {Trigger and Aperture
-  of the Surface Detector Array of the Pierre Auger Observatory}},
-  \href{http://dx.doi.org/10.1016/j.nima.2009.11.018}{Nucl. Instrum. Meth. A
-  {\bfseries 613} (2010) 29--39},
-  \href{http://arxiv.org/abs/1111.6764}{{\ttfamily arXiv:1111.6764
-  [astro-ph.IM]}}.
 
 \bibitem{Cooper-Sarkar:2011jtt}
 A.~Cooper-Sarkar, P.~Mertsch,  and S.~Sarkar, {\em {The high energy neutrino

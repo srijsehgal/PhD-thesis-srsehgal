@@ -42,10 +42,10 @@
 \contentsline {subsection}{\numberline {4.2.2}SD Trigger system}{50}{subsection.4.2.2}%
 \contentsline {subsubsection}{\nonumberline Old triggers}{51}{subsubsection*.52}%
 \contentsline {subsubsection}{\nonumberline New triggers}{51}{subsubsection*.54}%
-\contentsline {subsubsection}{\nonumberline Array Level Triggers}{54}{subsubsection*.59}%
+\contentsline {subsubsection}{\nonumberline Array Level Triggers}{53}{subsubsection*.59}%
 \contentsline {section}{\numberline {4.3}AugerPrime}{55}{section.4.3}%
-\contentsline {section}{\numberline {4.4}The $\mathrm {\overline {Off}\underline {line}}$ Framework}{56}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Advanced Data Summary Tree}{57}{subsection.4.4.1}%
+\contentsline {section}{\numberline {4.4}The $\mathrm {\overline {Off}\underline {line}}$ Framework}{57}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Advanced Data Summary Tree}{58}{subsection.4.4.1}%
 \contentsline {chapter}{\numberline {5}Neutrino Analysis $60^\circ < \theta < 75^\circ $}{59}{chapter.5}%
 \contentsline {section}{\numberline {5.1}SD Neutrino signature $60^{\circ } < \theta < 75^{\circ }$}{59}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Neutrino Simulations}{60}{section.5.2}%
@@ -60,8 +60,8 @@
 \contentsline {subsection}{\numberline {5.5.1}Samples Used}{70}{subsection.5.5.1}%
 \contentsline {subsection}{\numberline {5.5.2}Pre-selection Cuts}{71}{subsection.5.5.2}%
 \contentsline {subsection}{\numberline {5.5.3}Fisher linear discriminant analysis}{72}{subsection.5.5.3}%
-\contentsline {subsubsection}{\nonumberline Fisher polynomials and training}{73}{subsubsection*.71}%
-\contentsline {subsubsection}{\nonumberline Fisher Cut and background estimation}{74}{subsubsection*.73}%
+\contentsline {subsubsection}{\nonumberline Fisher polynomials and training}{73}{subsubsection*.72}%
+\contentsline {subsubsection}{\nonumberline Fisher Cut and background estimation}{74}{subsubsection*.74}%
 \contentsline {subsection}{\numberline {5.5.4}Time evolution of selection parameters}{75}{subsection.5.5.4}%
 \contentsline {subsection}{\numberline {5.5.5}Neutrino Detection Efficiency}{76}{subsection.5.5.5}%
 \contentsline {chapter}{\numberline {6}Detector exposure and Limits to the diffuse flux}{81}{chapter.6}%
@@ -81,8 +81,8 @@
 \contentsline {subsection}{\numberline {7.1.2}Effective area and Exposure}{90}{subsection.7.1.2}%
 \contentsline {section}{\numberline {7.2}Point-source neutrino flux limit}{91}{section.7.2}%
 \contentsline {chapter}{\numberline {8}Conclusion and Outlook}{93}{chapter.8}%
-\contentsline {chapter}{\nonumberline Bibliography}{97}{chapter*.89}%
+\contentsline {chapter}{\nonumberline Bibliography}{97}{chapter*.90}%
 \contentsline {chapter}{\numberline {A}Testing hadronic models}{119}{appendix.A}%
 \contentsline {chapter}{\numberline {B}Adapting DGH analysis to current Offline}{125}{appendix.B}%
-\contentsline {chapter}{\nonumberline List of Figures}{127}{chapter*.96}%
+\contentsline {chapter}{\nonumberline List of Figures}{127}{chapter*.97}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
