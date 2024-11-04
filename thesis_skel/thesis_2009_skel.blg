@@ -1,0 +1,79 @@
+This is BibTeX, Version 0.99d (TeX Live 2020/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis_2009_skel.aux
+A level-1 auxiliary file: thesis_acknowledge.aux
+A level-1 auxiliary file: thesis_intro.aux
+A level-1 auxiliary file: thesis_CRnNu.aux
+A level-1 auxiliary file: thesis_EAS.aux
+A level-1 auxiliary file: thesis_setup.aux
+A level-1 auxiliary file: thesis_DGL.aux
+A level-1 auxiliary file: thesis_DGH.aux
+A level-1 auxiliary file: thesis_follow.aux
+A level-1 auxiliary file: thesis_conclusion.aux
+The style file: ../refs/atlasBibStyleWithTitle.bst.bst
+A level-1 auxiliary file: thesis_appendix_A.aux
+A level-1 auxiliary file: thesis_appendix_B.aux
+A level-1 auxiliary file: thesis_appendix_C.aux
+A level-1 auxiliary file: thesis_appendix_D.aux
+Reallocated field_info (elt_size=4) to 12874 items from 5000.
+Database file #1: ./thesis_refs.bib
+Database file #2: ../refs/standard_refs-bibtex.bib
+Warning--I didn't find a database entry for ""
+Warning--empty author in Auger:2015
+Warning--empty title in Auger:2015
+Warning--empty pages in Abreu_2023
+Warning--empty author in Auger_photons_2022
+Warning--empty pages in Busca_2006
+Warning--empty pages in Ar_mburo_Garc_a_2021
+Warning--empty author and editor in 2018_CTAO
+Warning--empty pages in universe8110579
+Warning--empty pages in psf2023008007
+Warning--empty pages in Lipari_2007
+Warning--empty pages in Condorelli_2023_starburst
+Warning--empty pages in Cooper_Sarkar_2011
+Warning--empty pages in Albrecht_2022_muon_puzzle
+Warning--empty pages in osti_4100652
+Warning--empty pages in article_b_MESONS
+Warning--empty booktitle in Nelson:1990sr
+You've used 253 entries,
+            2323 wiz_defined-function locations,
+            2506 strings with 59408 characters,
+and the built_in function-call counts, 74288 in all, are:
+= -- 6707
+> -- 2267
+< -- 0
++ -- 864
+- -- 611
+* -- 7252
+:= -- 8408
+add.period$ -- 270
+call.type$ -- 253
+change.case$ -- 264
+chr.to.int$ -- 0
+cite$ -- 269
+duplicate$ -- 4252
+empty$ -- 7471
+format.name$ -- 611
+if$ -- 18991
+int.to.chr$ -- 0
+int.to.str$ -- 253
+missing$ -- 1080
+newline$ -- 786
+num.names$ -- 244
+pop$ -- 1214
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 3259
+stack$ -- 0
+substring$ -- 3813
+swap$ -- 2235
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 16
+while$ -- 593
+width$ -- 256
+write$ -- 2048
+(There were 17 warnings)

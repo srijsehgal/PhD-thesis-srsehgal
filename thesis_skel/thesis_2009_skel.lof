@@ -1,0 +1,63 @@
+\babel@toc {UKenglish}{}
+\babel@toc {ngerman}{}
+\babel@toc {UKenglish}{}
+\babel@toc {ngerman}{}
+\babel@toc {UKenglish}{}
+\babel@toc {ngerman}{}
+\babel@toc {UKenglish}{}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Window to the inner workings of the Universe is only half opened. (better caption?)\relax }}{1}{figure.caption.3}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces (a)An illustration to depict the diffusive shock acceleration mechanism and the possible trajectory in the plasma like shock front region. Figure inspired from work by M. Scholer\relax }}{7}{figure.caption.4}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces An updated version of Hillas plot. Different source classes are plotted according to their radial size, $R$ (abscissa), and magnetic field strength, $B$. The solid and dashed lines indicate the lower limits beyond which confinement of protons (red) and iron (blue) nuclei with energy $10^{20}$eV are possible. The solid and dashed lines indicate different shock velocities. Taken from~\cite {AlvesBatista:2019tlv}\relax }}{8}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Cosmic flux vs Energy spectrum. The colour indicates the experiment used to record the flux. At lower energies we have much detailed information about the composition. At high energies only the all particle spectrum is shown due to low flux. Also shown is the gamma ray spectrum recorded by FERMI and the neutrino flux measurement by IceCube. Taken from ~\cite {evoli_2018_2360277}\relax }}{12}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Spectrum PDG, CRDB~\cite {ParticleDataGroup:2024cfk} (Which figure is better ?)\relax }}{13}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Measurements of mass composition by different experiments. $\mathrm {<X_{max}>}$ (top) and its fluctuations $\mathrm {\sigma <X_{max}>}$ (bottom). The red and blue lines are obtained from simulations with different hadronic interaction models. Taken from ~\cite {ParticleDataGroup:2024cfk}\relax }}{16}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Localised excess or Li-Ma~\cite {Li:1983fv} significance map at energies above 41 EeV and within a top-hat search angle $\Psi = 24^\circ $ in Galactic coordinates. The gray line indicates the super galactic plane. Area outside the field of view of the Observatory is shown in white. The dark red areas indicate the possible source locations of extragalactic UHECRs. Taken from~\cite {Abreu_2022}\relax }}{17}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Summary of the current upper limts on the integral photon flux determined by Pierre Auger observatory and other experiments~\cite {PierreAuger:2024ayl}\relax }}{19}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Grand Unified neutrino spectra at Earth. Taken from ~\cite {Vitagliano:2019yzm}\relax }}{20}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces A ternary plot to show the neutrino flavor oscillations. Two different flux ratio per flavor are shown. The propogation distance ??. Taken from~\cite {Ahlers:ISAPP2022}\relax }}{23}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Figure from mixed fit(Will change to something simpler))~\cite {Heinze:2019jou}\relax }}{24}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Different detection techniques for UHE neutrinos. Ice and Water based Cherenkov detectors are sensitive to atmospheric, galactic neutrinos and some extragalactic neutrinos while radio and air shower detectors are sesitive to very high energy neutrinos with other techniques filling the gaps. The spectral indices of the different components are estimations. Taken from~\cite {Arguelles:2024xkx}\relax }}{29}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Measured neutrino flux for atmospheric and astrophysical neutrinos. At high energies for the diffuse flux of cosmogenic neutrinos there are upperlimits from IceCube and the Pierre Auger Observatory. Taken from~\cite {ParticleDataGroup:2024cfk}\relax }}{30}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Left:The sky region around the most significant neutrino excess spot in the Northern Hemisphereand NGC 1068. The plot shows a fine scan of the region around the hottest spot. The hotspot is marked by a yellow cross and the dot marks the position of NGC 1068. Further, the solid and dashed contours show the 68\% (solid) and 95\% (dashed) confidence regions of the hot spot localization. Right: The distribution of the squared angular distance between NGC 1068 and the reconstructed event direction. Taken from~\cite {Icecube_2022}\relax }}{31}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Galactic plane with different messengers. The observation of neutrinos at the bottom is the final piece added to this picture.Taken from~\cite {Galactic_plane_nu_2023}\relax }}{32}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Current upper limits on the diffuse flux of neutrinos from different experiments. Only the differential limits are shown. Also shown are the expected neutrino fluxes from different theoretical predictions for comparison. Taken from~\cite {PierreAuger:2023pjg}\relax }}{33}{figure.caption.37}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Development of Extensive Air Shower. The figure shows the different components of an EAS and the reactions which lead to their formation.\relax }}{36}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Representation of Heitler's model.\relax }}{37}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Sketch of different possible interactions of UHE neutrinos in the atmosphere.\relax }}{40}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Schematic of the development of an EAS in the atmosphere. Taken from~\cite {thesis:mayotte2021}.\relax }}{42}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Sketch of various ways to study experimentally extensive air showers. Inspired from~\cite {article_2001_kampert}\relax }}{44}{figure.caption.44}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Layout of the Pierre Auger Observatory in Argentina. The black lines indicate the field of view of each telescope. Redone from~\cite {} \relax }}{47}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Fluorescence Telescope at Pierre Auger Observatory\relax }}{49}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Artistic representation of a Surface Detector tank with all its components.\relax }}{50}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Left:The charge histogram (black), is the sum of the responses of all three PMTs above the electronic noise threshold, while the dashed red line represents the reference measurement done by an external muon telescope. The first peak in the charge histogram is noise from low-energy particles. The second peak is caused by the vertical-through going muons and is used to determine VEM. Right: The pulse height histogram (black) that is used to calibrate $\mathrm {I^{peak}_{VEM}}$ which is used for trigger thresholds. The calibration is again performed using the reference measurements from the muon telescope.~\cite {PierreAuger:2005znw}\relax }}{52}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Schematics of the hierarchy of the trigger system of the Auger surface detector.\relax }}{53}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Functioning of ToTd trigger and an example of MoPS. Taken from~\cite {PierreAuger:2021hun}\relax }}{54}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Trigger efficiency for different triggers implemented at the Pierre Auger Observatory calculated using the SD-750 array for zenith angles below $60^{\circ }$. Taken from~\cite {gap_note_2017}\relax }}{55}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Example of two possible T3 configurations. Taken from~\cite {PierreAuger:2010zof}\relax }}{56}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Different possible minimal T4 configurations. In blue are the three possible minimal 4C$_1$ configurations while in green are the two possible minimal 3ToT configurations\relax }}{57}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Two T5 configurations. The dark shaded hexagon represents the 5T5 condition while the entire shaded hexagons represents the 6T5 hexagon\relax }}{58}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces An Overview of the general structure of $\mathrm {\overline {Off}\underline {line}}$framework. Modified from ~\cite {Argiro:2007qg} \relax }}{59}{figure.caption.62}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Schematic of plane-front approximation. Taken from~\cite {PierreAuger:2020yab}\relax }}{71}{figure.caption.67}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Schematic of spherical-front approximation. Taken from~\cite {PierreAuger:2020yab}\relax }}{72}{figure.caption.68}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces An illustration to depict the station selection process for the Fisher polynomial. The AoPs of the green stations are used to build the Fisher polynomial i.e. stations triggered earliest in the first crown. Stations in yellow are the ones triggered by the EAS and take part in the shower reconstruction.\relax }}{77}{figure.caption.73}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces $\chi ^2_{red}$ distribution for selected tracks showing the impact of Millepede alignment.\relax }}{95}{figure.caption.83}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Residual of GEM detectors.\relax }}{128}{figure.caption.92}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Residual of Micromega detectors.\relax }}{129}{figure.caption.93}%
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Residual of Micromega detectors.\relax }}{130}{figure.caption.94}%
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Residual vs position for Micromega detectors\relax }}{131}{figure.caption.95}%
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Residual vs position for MM4\relax }}{132}{figure.caption.96}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Snippet of the format fed to CORAL\relax }}{133}{figure.caption.97}%
+\addvspace {10\p@ }
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
