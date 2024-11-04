@@ -28,28 +28,28 @@ Thus, in summary, $\nu_e$ CC and NC simulations can be considered to be good app
 
 \subsection{Atmospheric Shower simulations}
 \label{subsec:sim_EAS}
-CORSIKA (COsmic Ray Simulations for KASCADE)~\cite{Heck:1998vt}, a simulation software for modelling extensive air showers in the Earth's atmosphere was used to generate the EAS initiated by a $\nu$ primary. The simulation parameters are defined through files known as input cards. An example of the input cards used to generate simulation for this analysis is provided in Appendix~\ref{}. The first step involved simulating the primary neutrino-nucleon interaction which is performed in CORSIKA using the HERWIG~\cite{Corcella:2000bw} code. Further, options such as CHARM to track charm secondaries are not used. Also since only $\nu_e$ simulations are simulated, the TAULEP option which handles $\nu_{\tau}$ and $\overline{\nu_{\tau}}$ is also not used. The systematic uncertainties related to the primary interaction estimator are discussed later in section~\ref{sec:det_uncert}. CORSIKA further tracks and simulates the interactions of the primary interaction products as they travel in the atmosphere toward the ground constituting the air shower. It offers a wide variety of choices regarding the hadronic interaction models it uses to simulate these interactions. For the simulations used in this study separate high and low energy hadronic interaction models were used. For energies higher than 200 GeV three high energy hadronic models QGSJETT-II.04~\cite{Ostapchenko:2010vb}, SYBILL 2.3d~\cite{Riehn:2019jet} and EPOS-LHC~\cite{Pierog:2013ria} were compared. The results of the comparison are mentioned in detail in Appendix~\ref{}. Since the differences between the models are not that significant for the neutrino analysis SYBILL 2.3d was chosen as the high energy interaction model. For lower energies FLUKA~\cite{Ferrari:2005zk,Battistoni:2015epi} was chosen. The systematic uncertainties arising from different models are discussed in section~\ref{sec:det_uncert}.  
+CORSIKA (COsmic Ray Simulations for KASCADE)~\cite{Heck:1998vt}, a simulation software for modelling extensive air showers in the Earth's atmosphere was used to generate the EAS initiated by a $\nu$ primary. The simulation parameters are defined through files known as input cards. An example of the input cards used to generate simulation for this analysis is provided in Appendix~\ref{sec:app_1}. The first step involved simulating the primary neutrino-nucleon interaction which is performed in CORSIKA using the HERWIG~\cite{Corcella:2000bw} code. Further, options such as CHARM to track charm secondaries are not used. Also since only $\nu_e$ simulations are simulated, the TAULEP option which handles $\nu_{\tau}$ and $\overline{\nu_{\tau}}$ is also not used. The systematic uncertainties related to the primary interaction estimator are discussed later in section~\ref{sec:det_uncert}. CORSIKA further tracks and simulates the interactions of the primary interaction products as they travel in the atmosphere toward the ground constituting the air shower. It offers a wide variety of choices regarding the hadronic interaction models it uses to simulate these interactions. For the simulations used in this study separate high and low energy hadronic interaction models were used. For energies higher than 200 GeV three high energy hadronic models QGSJETT-II.04~\cite{Ostapchenko:2010vb}, SYBILL 2.3d~\cite{Riehn:2019jet} and EPOS-LHC~\cite{Pierog:2013ria} were compared. The results of the comparison are mentioned in detail in Appendix~\ref{sec:app_2}. Since the differences between the models are not that significant for the neutrino analysis SYBILL 2.3d was chosen as the high energy interaction model. For lower energies FLUKA~\cite{Ferrari:2005zk,Battistoni:2015epi} was chosen. The systematic uncertainties arising from different models are discussed in section~\ref{sec:det_uncert}.  
 
 To account for the curvature of the Earth which is especially important for the zenith angles studied, the EGS4~\cite{Nelson:1990sr} Monte-Carlo method is chosen to simulate the electromagnetic component of the shower. The analytical NKG method based on eq.~\ref{eq:Lateral_dist_func} which is also available but is not used for these simulations since it vastly underestimates the maximum of the electromagnetic component due to the fact it does not account for a curved atmosphere. Global Data Assimilation System (GDAS) measurements at Malargue~\cite{PierreAuger:2012jsu} were used for atmospheric profile chosen for the simulations. The magnetic field components are taken to be the default values at the Malargue site ($\mathrm{B_x = 19.52\mu T}$ and $\mathrm{B_z = -14.17\mu T}$). 
 
 Further, since the computing times taken for shower simulations scale roughly with the primary energy, for primary energies >$10^{16}$eV these times become extremely long. Though parallel computing provides a viable solution, the technique of "thin sampling" or thinning~\cite{Hillas:1997tf} offers an alternate way to reduce the computation times while simultaneously avoiding the waste of resources. The thinning algorithm is applied to all particles below the adjustable fraction of the primary energy that emerge from an interaction. Only one of these particles is followed, and a proper weight is assigned to this particle to account for the untracked ones which are dropped based on the thinning level ($\mathrm{\epsilon_{th} = E/E_0}$). Additional information about the application and the improvements to this process can be found in~\cite{Heck:1998gr,Kobal:2001jx}. A thinning value of $10^{-6}$ is used for the simulations in this study.
 
-\todo{Add The CORSIKA steer file to appendix}
 
-The simulations were performed using the GRID technology~\cite{GRID_tech,LozanoBahilo:2012pe}. Both CC and NC showers were simulated for fixed energy steps of log(E/eV) = 0.5 in the range $10^{17}-10^{20.5}$eV. The number of simulated showers was varied depending on the Energy, atmospheric depth of interaction and the injected zenith angle. More showers were simulated at lower energies and the energy dependent numbers are tabulated in table~\ref{tab:Simulation_params}. Further, for both the interaction channels within the zenith angle range $60^{\circ}-70^{\circ}$ the neutrinos were forced to interact at fixed atmospheric depths in steps of 100 g cm$^{-2}$. The injection points both close to the ground where a neutrino shower might have a lower trigger efficiency and close to the top of the atmosphere where a neutrino induced shower might mimic one induced by a proton are rejected for the simulations. The azimuthal angle is left free and can take any value between 0$^{\circ}$ and 360$^{\circ}$. The simulated depths for each zenith angle bin are also summarised in table~\ref{tab:Simulation_params}. The values for the simulations are exactly the same as used in the previous analysis~\cite{gap_note_2013}.
+The simulations were performed using the GRID technology~\cite{GRID_tech,LozanoBahilo:2012pe}. Both CC and NC showers were simulated for fixed primary energy steps of log(E/eV) = 0.5 in the range $10^{16.5}-10^{20.0}$eV. The number of simulated showers was varied depending on the Energy, atmospheric depth of interaction and the injected zenith angle. More showers were simulated at lower energies and the energy dependent numbers are tabulated in table~\ref{tab:Simulation_params}. Further, for both the interaction channels within the zenith angle range $60^{\circ}-70^{\circ}$ the neutrinos were forced to interact at fixed atmospheric depths in steps of 100 g cm$^{-2}$. The injection points both close to the ground where a neutrino shower might have a lower trigger efficiency and close to the top of the atmosphere where a neutrino induced shower might mimic one induced by a proton are rejected for the simulations. The azimuthal angle is left free and can take any value between 0$^{\circ}$ and 360$^{\circ}$. The simulated depths for each zenith angle bin are also summarised in table~\ref{tab:Simulation_params}. The values for the simulations are almost the same as used in the previous analysis~\cite{gap_note_2013} with the only change being the range for the primary energy which was simulated.
 
 \begin{table}[h!]
   \centering
-  \begin{tabular}{ |p{4cm}||p{0.75cm}|p{0.75cm}|p{0.75cm}|p{0.75cm}|p{0.75cm}|p{0.75cm}|p{0.75cm}|p{0.75cm}|  }
+  \begin{tabular}{ |P{4.5cm}||P{0.75cm}|P{0.75cm}|P{0.75cm}|P{0.75cm}|P{0.75cm}|P{0.75cm}|P{0.75cm}|P{0.75cm}|  }
     \hline
     $\log_{10}(E/eV)$& 16.5 &17.0 & 17.5 & 18.0 & 18.5 & 19.0 & 19.5 & 20.0 \\
-    \# Showers per ($\theta$, X) & 300 & 200 & 150 & 50 & 50 & 50 & 50 & 50\\
-    \# Resampling in Offline CC & 100(200) & 50(100) & 50(100) & 10(50) & 10(50) & 10(50) & 10(50) & 10(50)\\
+    Showers per ($\theta$, X) & 300 & 200 & 150 & 50 & 50 & 50 & 50 & 50\\
+    \multirow{2}{*}{\shortstack{Resamplings in Offline CC \\(NC)}} & 100 & 50 & 50 & 10 & 10 & 10 & 10 & 10 \\
+                            & (200) & (100) & (100) & (50) & (50) & (50) & (50) & (50) \\
     \hline
   \end{tabular}
 
     \bigskip
-  \begin{tabular}{ |p{4cm}||p{0.75cm}|p{0.75cm}|p{0.75cm}|p{0.75cm}|p{0.75cm}|p{0.75cm}| }
+  \begin{tabular}{ |P{4cm}||P{0.75cm}|P{0.75cm}|P{0.75cm}|P{0.75cm}|P{0.75cm}|P{0.75cm}| }
     \hline
     $\theta_{MC}$  & 60$^\circ$& 63$^\circ$& 66$^\circ$& 69$^\circ$& 72$^\circ$ &75$^\circ$\\
     Interaction Depths (X) & 13    & 14 & 17 & 19 & 23 & 29\\
@@ -118,19 +118,24 @@ The event reconstruction is a necessary step before any further analysis can be 
   \null\quad <enableTiming/>\\
   \null\quad <moduleControl>\\
   \null\qquad <loop numTimes="unbounded" pushEventToStack="yes"> \\
+    \null\qquad \quad  <!-- Event Reading and Pre-selection -->\\
     \null\qquad \quad  <module> EventFileReaderOG </module>\\
     \null \qquad \quad  <module> EventCheckerOG </module>\\
+    \null\qquad \quad  <!-- SD Calibration -->\\
     \null\qquad \quad   <module> SdGainRatioCorrectorKG </module>\\
     \null\qquad \quad   <module> SdStationCheckerOG </module>\\
     \null\qquad \quad   <module> SdHistogramFitterKG </module>\\
     \null\qquad \quad   <module> SdBaselineFinderKG </module>\\
     \null\qquad \quad   <module> SdTraceCalibratorOG </module>\\
     \null\qquad \quad   <module> SdSignalRecoveryKLT </module>\\
+    \null\qquad \quad  <!-- Event-selection -->\\
     \null\qquad \quad   <module> SdMonteCarloEventSelectorOG </module>\\
     \null\qquad \quad   <module> SdEventSelectorOG </module>\\
     \null\qquad \quad   <module> SdTopDownSignalSelectorUGR </module>\\
+    \null\qquad \quad  <!-- Angular Reconstruction -->\\
     \null\qquad \quad   <module> SdPlaneFitOG </module>\\
     \null\qquad \quad   <module> LDFFinderKG </module>\\
+    \null\qquad \quad  <!-- Post selection and export -->\\
     \null\qquad \quad   <module> DLECorrectionWG </module>\\
     \null\qquad \quad   <module> SdEventPosteriorSelectorOG </module>\\
     \null\qquad \quad   <module> RecDataWriterNG </module>\\
@@ -159,7 +164,7 @@ The \textit{MonteCarloEventSelectorOG} further removes stations with distance in
 
 The \textit{SdTopDownSignalSelectorUGR} is a module developed specifically to carry out a top-down selection and accidental signal rejection for neutrino like events. A summarised overview of what this module aims to accomplish is given next with a detailed description of the module already published in~\cite{}(Billor?). The Top-down procedure is applicable for both the simulations and measured data whereas the accidental signal treatment is only applied for measured data. The procedure is based on~\cite{} and~\cite{}. Top-down selection requires a minimum of three stations with the shower front time tolerance compatibility dependent on the zenith angle. If the fit does not converge stations are successively removed and re-tested until a satisfactory fit is achieved. At the end of the procedure stations which do not contribute to the final fit are rejected while the others are marked as candidate stations. Further, the Top-Down procedure also takes into account the individual traces and uses the shape for 3-fold topologies. It also rejects isolated signals akin to the Bottom-up selection but with larger tolerances to account for the wider footprint of inclined events. The module also applies an accidental signal rejection procedure before the top-down procedure is applied to account for the atmospheric muon background. The atmospheric muons and also local showers can either trigger isolated stations or even real event stations affecting the start times and in turn the zenith angle reconstruction. This miss-reconstruction can either cause problems with the fitting of the top-down procedure and can also lead to non-neutrino like or background events past the analysis cuts affecting the overall neutrino detection efficiency. The module discards stations with total signals below 3 VEM which rejects the muonic background which typically peaks at 1 VEM. The discarding procedure is implemented only till the minimal number of stations present in the event is below 6.
 
-Since the parameters of the module were evaluated without the consideration of MoPS and ToTd especially for the segment selection procedure slight changes were made to the module. The segmentation procedure was not applied to the stations which had a MoPS/ToTd trigger. These stations were only subjected to the top-down selection procedure. Further, the accidental station cut was lowered till the minimum number of stations present in the event are below 5 compared to 6 to account for the increased number of stations expected with the inclusion of new triggers. This was done after the partial unblinding of the test sample and is described in more detail in sec.~\ref{subsec:unblind_20}. These changes were only implemented for the sample where the new triggers are included and the sample where they are not remains unchanged. 
+Since the parameters of the module were evaluated without the consideration of MoPS and ToTd especially for the segment selection procedure slight changes were made to the module. The segmentation procedure was not applied to the stations which had a MoPS/ToTd trigger. These stations were only subjected to the top-down selection procedure. Some more details about this choice are presented in Appendix~\ref{sec:app_3}. Further, the accidental station cut was lowered till the minimum number of stations present in the event are below 5 compared to 6 to account for the increased number of stations expected with the inclusion of new triggers. This was done after the partial unblinding of the test sample and is described in more detail in sec.~\ref{subsec:unblind_20}. These changes were only implemented for the sample where the new triggers are included and the sample where they are not remains unchanged. 
 
 \subsection{Angular Reconstruction}
 \label{subsec:angular_reco}
@@ -183,8 +188,31 @@ Assuming a minimal change in altitude which is true for the SD location and prec
 \end{equation}
 
 \todo{Add the schematics}
+
+% \begin{figure}[t!]
+%   \centering
+%   \subcaptionbox{SChematic of plane-front approximation  \label{sub:fig:plane_fit}}{\includegraphics[width=.45\linewidth]{thesis_figures/Nu_analysis/Plane_fit.pdf}}
+%   \hfill
+%   \subcaptionbox{2C$_1$\&3C$_2$\&4C$_4$\label{sub:fig:T3_config_2}}{\includegraphics[width=.45\linewidth]{thesis_figures/Setup/T3_config_2.png}}
+%   \caption{Example of two possible T3 configurations. Taken from~\cite{PierreAuger:2010zof}}
+%   \label{fig:T3_config}
+% \end{figure}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\textwidth]{thesis_figures/Nu_analysis/Plane_fit.pdf}
+  \caption{Schematic of plane-front approximation. Taken from~\cite{PierreAuger:2020yab}}
+  \label{fig:Plane_fit}
+  \end{figure}
+
 where $t_i$ are the start time of the signals of station i located at $x_i = \vec{x} - \vec{x_b}$. The minimization of the $\chi^2$ is performed using MINUIT~\cite{James:1975dr}. For the start time variance determination the standard model described in~\cite{PierreAuger:2020yab} is used. Modifications for new triggers have been suggested in~\cite{}(Coleman thesis), but these have not yet been approved by the Collaboration for wider use. Replacing the axis with $a =(u,v,w)$ and the station coordinates with $x = (x,y)$ (ignoring altitude z). Adding the constraint $u^2 + v^2 + w^2 = 1$ the $chi^2$ can be easily solved. The solution only fails if the stations used while fitting have a linear dependence (three stations in a line) but for higher station multiplicity this is highly improbable, especially for the theta range explored for the DG$\mathrm{_{low}}$ channel.
- 
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\textwidth]{thesis_figures/Nu_analysis/Spherical_fit.png}
+  \caption{Schematic of spherical-front approximation. Taken from~\cite{PierreAuger:2020yab}}
+  \label{fig:Spherical_fit}
+\end{figure}
+
 Another shower front estimation technique based on a curved shower front approximation is also used to fit the measured stations. The reconstruction called the $Observer$, assumes the shower development starting at time $t_o$ from a point of origin $x_o$ propagating toward the ground as a concentrically expanding sphere with the speed of light, $c$. The arrival time of the shower front at point $\vec{x}$can thus be estimated as:
 \begin{equation}
   t(\vec{x}) = t_o + \frac{|\vec{x}-\vec{x_o}|}{c}
@@ -271,6 +299,13 @@ After finding the weight vector, the projected data for each sample is given as 
 \subsubsection{Fisher polynomials and training}
 \label{subsubsec:nu_sel_fisher_training}
 It is really important to find the correct features or variables to train the algorithm to achieve the best possible separation. Various combinations of input features were tested and evaluated based on the level of separation along with the shape of the tail of the background description which is important for the cut evaluation procedure. As mentioned before AoP will remain the primary feature used for discrimination. It was also shown in~\cite{gap_note_2013} that for the DG$\mathrm{_{low}}$ channel AoPs of the earliest stations closest to the core provide the best level of discrimination between data and background. This also visualized in figs.~\ref{}. Further, the zenith angle range for the search, 58.5$^\circ < \theta < 76.5^\circ$ is subdivided into five sub-regions similar to~\cite{gap_note_2013} as shown in fig~\cite{}. This is done to incorporate shower age while training the Fisher polynomial. The first four angular regions are $3^\circ$ each whereas the last region is $6^\circ$. This is due to the small amount of statistics expected for higher angles which required a larger window size. For each angular window the Fisher polynomial is trained separately to maximise the analysis performance. 
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\textwidth]{thesis_figures/Nu_analysis/Fisher_early_late.pdf}
+  \caption{An illustration to depict the station selection process for the Fisher polynomial. The AoPs of the green stations are used to build the Fisher polynomial i.e. stations triggered earliest in the first crown. Stations in yellow are the ones triggered by the EAS and take part in the shower reconstruction.}
+  \label{fig:AoP_early_late}
+\end{figure}
 
 Different forms of the Fisher polynomial were tested, and their performance was evaluated based on the MC neutrinos passing the evaluated Fisher cut which described in the next section. In this section only two forms are mentioned, the baseline polynomials were taken to be the one described in the previous analysis~\cite{gap_note_2013} and the final one used for this analysis. For the first three angular regions (58.5$^\circ \leq \theta < 67.5^\circ$) a more stringent criterion which requires the AoPs of the first five triggered T5 stations was used to build the Fisher polynomial. For the remaining two angular regions (67.5$^\circ \leq \theta < 76.5^\circ$) only the first four triggered T5 stations were required. The form of the Fisher polynomial used in the previous analysis is given below:
 

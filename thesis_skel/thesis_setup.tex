@@ -7,7 +7,7 @@
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\textwidth]{thesis_figures/Setup/map_srij_version.pdf}
-\caption{Layout of the Pierre Auger Observatory in Argentina. The black lines indicate the field of view of each telescope. }
+\caption{Layout of the Pierre Auger Observatory in Argentina. The black lines indicate the field of view of each telescope. Redone from~\cite{} }
 \label{fig:Auger_map}
 \end{figure}
 
@@ -229,8 +229,8 @@ In the context of this thesis, the data from the ongoing upgrade and the precedi
   \label{fig:T5_config}
 \end{figure}
 
-\section{The \texorpdfstring{$\mathrm{\overline{Off}\underline{line}}$}{} Framework}
-\label{sec:Offline}
+% \section{The \texorpdfstring{$\overline{\text{Off}} \underline{\text{line}}$}{} Framework}
+% \label{sec:Offline}
 
 The $\mathrm{\overline{Off} \underline{line}}$ framework~\cite{Argiro:2007qg,PierreAuger:2023cqe} is the C++ based software developed internally by the Pierre Auger Observatory to reconstruct air showers and perform cosmic ray analysis. It can process and reconstruct both air shower simulation outputs from generators such as CORSIKA~\cite{Heck:1998vt}, Aires~\cite{Sciutto:1999jh} etc. and the data recorded at the Observatory. $\mathrm{\overline{Off} \underline{line}}$ aims to standardize basic quantities such as detector response for simulations and important variables inferred from reconstructing an EAS for the entire Collaboration. This helps in providing the collaboration with a homogenous backbone to build physics analysis. It also allows for the physics analysis to be stored and implemented within the framework which helps in leading and optimising productivity. The modular design allows it to be constantly updated for the addition of new functionality and detectors. The framework is available internally on GitLab to the entire Collaboration with regularly planned public releases. $\mathrm{\overline{Off} \underline{line}}$ consists of three fundamental constituents as shown in fig.~\ref{fig:Offline_schematic}. These are summarised below:
 
@@ -247,7 +247,7 @@ This part acts as an input and consists of information about the individual dete
 \end{figure}
 
 \paragraph*{Event data:}
-This part is used to store the important event variables required by modules or the end physics analysis. This includes basic detector level information such as measured or reconstructed signal traces, trigger information etc. to reconstructed variables such as energy, direction or $X_{max}$. The information is transferred to the data processing modules based on the use case. For a simulation, the event information is first provided to the modules to generate the detector response which is then further reconstructed. In such cases true MC values, detector response and the reconstructed quantities are all stored in the event data. Whereas, for real recorded data since the detector response is already present only the reconstruction is performed by the data processing modules. Event data acts as both an input and output for the data processing component of the framework.
+This part is used to store the important event variables required by modules or the end physics analysis. This includes basic detector level information such as measured or reconstructed signal traces, trigger information etc. to reconstructed variables such as energy, direction or $\mathrm{X_{max}}$. The information is transferred to the data processing modules based on the use case. For a simulation, the event information is first provided to the modules to generate the detector response which is then further reconstructed. In such cases true MC values, detector response and the reconstructed quantities are all stored in the event data. Whereas, for real recorded data since the detector response is already present only the reconstruction is performed by the data processing modules. Event data acts as both an input and output for the data processing component of the framework.
 
 \paragraph*{Data processing:}
 The type of task performed by the $\mathrm{\overline{Off}\underline{line}}$ is controlled using the data processing components. The different tasks are implemented using individual modules where each module is a self-contained algorithm with the ability to read the detector description. The modules can also read and write event data. Since the modules do not interact with each other they can be easily updated and new modules can be used in an analysis in a plug and play fashion. The different modules can be implemented sequentially in a chosen order based on the analysis. This is controlled via an XML file called Modulesequence.xml. The modules also have adjustable parameters which can either be controlled using individual XML steering files of each module or using a central XML file called bootstrap.xml. There are various standard pre-defined sets of module sequences and bootstraps available in the $\mathrm{\overline{Off}\underline{line}}$ framework which can be directly used without any alterations. For this analysis, one standard reconstruction SdDglNeutrinoReconstruction was tweaked to perform a neutrino search with MoPS and ToTd. Two new reconstruction modules SdDghNeutrinoReconstruction and SdNeutrinoSimulation based on previously done analyses were also adapted and added to the $\mathrm{\overline{Off}\underline{line}}$ framework. The exact modules used in the different neutrino analyses and a description of their functionality are mentioned in the following chapters.

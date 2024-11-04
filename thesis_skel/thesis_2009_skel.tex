@@ -36,7 +36,9 @@
 \usepackage[numbers, sort&compress]{natbib}
 \usepackage{multirow}
 \usepackage{array}
+\usepackage{caption}
 \usepackage{subcaption}
+% \usepackage[labelfont=bf]{caption}
 
 % \usepackage{lmodern}
 %------------------------------------------------------------------------------
@@ -70,17 +72,17 @@
 %------------------------------------------------------------------------------
 % The following definitions are used to produce the title pages
 % needed at various stages
-\newcommand{\thesistitle}{Event reconstruction for Dark Photon searches at NA64}
+\newcommand{\thesistitle}{Enhancing Sensitivity for Ultra-High Energy Down-Going Neutrino Detection with the Pierre Auger Observatory}
 \newcommand*{\thesisauthor}{Srijan Sehgal}
-\newcommand*{\thesistown}{Bonn}
-\renewcommand*{\InstituteName}{\HISKP}
-\renewcommand*{\inInstitute}{\inHISKP}
-\renewcommand*{\InstituteAddress}{\HISKPaddress}
+\newcommand*{\thesistown}{Wuppertal}
+\renewcommand*{\InstituteName}{\BUWfac}
+\renewcommand*{\inInstitute}{\inBUWfac}
+\renewcommand*{\InstituteAddress}{\BUWaddress}
 % Adjust \thesisreferee...text depending on male/female referee
 \newcommand*{\thesisrefereeonetext}{1.\ Gutachter}
-\newcommand*{\thesisrefereeone}{Prof.\ Dr.\ Bernhard Ketzer}
+\newcommand*{\thesisrefereeone}{Prof.\ Dr.\ Karl-Heinz Kampert}
 \newcommand*{\thesisrefereetwotext}{2.\ Gutachter}
-\newcommand*{\thesisrefereetwo}{Prof.\ Dr.\ Jochen Dingfelder}
+\newcommand*{\thesisrefereetwo}{Prof.\ Dr.\ Jaime Alvarez Muñiz}
 % Date when thesis was submitted (Master/Diplom)
 % Year or Month, Year when thesis was submitted (PhD)
 \newcommand*{\thesissubmit}{16.12.2019}
@@ -89,10 +91,11 @@
 \newcommand*{\thesispromotion}{16.12.2016}
 % Month and year of the final printed version of the thesis
 \newcommand*{\thesismonth}{December}
-\newcommand*{\thesisyear}{2019}
+\newcommand*{\thesisyear}{2024}
 \newcommand*{\thesisnumber}{BONN-IR-2019-XXX}
 % Command to horizontal cenetr the table contents
 \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\captionsetup[figure]{labelfont=bf,format=hang}
 %------------------------------------------------------------------------------
 % The abstract is only needed for the printed version and should be in
 % English regardless of the language of the thesis
@@ -242,6 +245,8 @@
 % Add your appendices here - don't forget to also add them to \includeonly above
 \include{thesis_appendix_A}
 \include{thesis_appendix_B}
+\include{thesis_appendix_C}
+\include{thesis_appendix_D}
 % \printbibliography[heading=subbibliography]
 
 %------------------------------------------------------------------------------

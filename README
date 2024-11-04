@@ -1,3 +1,10 @@
+# PhD thesis
+
+This repo contains source files for my PhD thesis titled, "Tidy tools for supporting fluent workflow in temporal data analysis", at Monash University.
+
+# Package used
+The thesis was built upon a skeleton provided by University of Bonn. The deatils of the said package follows.
+
 Version 6.0 08/12/2018
 
 The idea with this package is that you also look at the LaTeX that
@@ -73,3 +80,7 @@ guide with the commands `make feynmf; make guide09' instead of `make guide'.
 
 The guide also includes a description of how to use the package under
 Windows.
+
+## License
+
+This work is licensed under a [![CC BY NC SA 4.0](https://img.shields.io/badge/License-CC%20BY%20NC%20SA%204.0-green.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/). The code contained in this work is available under the [MIT license](https://opensource.org/licenses/MIT).

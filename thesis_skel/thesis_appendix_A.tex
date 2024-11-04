@@ -1,218 +1,53 @@
 %------------------------------------------------------------------------------
-\chapter{Testing hadronic models}
+\chapter{CORSIKA steer file}
 \label{sec:app_1}
 %------------------------------------------------------------------------------
-This appendix includes the comparison of residuals obtained from alignment using the previously used method and Millepede. The reduced chi-square comparison plots for the two methods were shown earlier.
-It also includes the residual versus position plots for the Micromega detectors.
-\begin{figure}[h!]
-\centering
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_prev/square/GEM1.png}
+An example of a CORSIKA steer file used to produce neutrino simulations for this analysis is presented below. The parameters used along with a brief description of their use is given below. The file was used to simualte a CC neutrino shower having a primary energy of 10$^{17.5}$eV, a zenith angle of $63^\circ$ and the interaction slant depth (X) of 1750 gcm$^{-2}$. The example shower used FLUKA as the low energy and Sibyll 2.3d as the high energy hadronic interaction model. The file was kindly provided by E. Santos from the MC task of the Pierre Auger Observatory.
 
-   \caption{GEM1 after previously used method}
-   \label{fig:GEM1_after_prev}
- \end{subfigure}
- %\hfill
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_millepede/square/GEM1.png}
-   \caption{GEM1 after Millepede}
-   %\label{fig:GEM1_before}
- \end{subfigure}
- \hfill
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_prev/square/GEM2.png}
-   \caption{GEM2 after previously used method}
-   \label{fig:GEM2_after_prev}
- \end{subfigure}
- %\hfill
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_millepede/square/GEM2.png}
-   \caption{GEM2 after Millepede}
-   %\label{fig:GEM2_before}
- \end{subfigure}
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_prev/square/GEM4.png}
+\begingroup
+  \fontfamily{cmtt}\selectfont 
+  \noindent RUNNR  1626        \hfill number of run\\
+  NSHOW  1            \hfill                          number of showers to generate\\
+  EVTNR  1             \hfill                     number of first shower event\\
+  PRMPAR 66           \hfill                primary particle code: electron neutrino (66)\\
+NUSLCT 1               \hfill             type of interaction (0 - NC/ 1 - CC/ 2 - random)\\
+FIXHEI 215132.421773 1   \hfill    fix the height of the first interaction\\
+ERANGE 3.162278E+08 3.162278E+08  \hfill   energy range of primary (GeV)\\
+THETAP 63 63         \hfill            range of zenith angle (degree)\\
+PHIP   -180.0 180.0   \hfill     range of azimuth angle (degree)\\
+SEED   16261 0 0     \hfill                        seed for hadronic part\\
+SEED   16262 0 0      \hfill                       seed for EGS4 part\\
+SEED   16263 0 0      \hfill                       seed for Cherenkov part\\
+SEED   16264 0 0      \hfill                       seed for ...\\
+SEED   16265 0 0       \hfill                      seed for ...\\
+THIN   1.000E-06 3.162278E+02 5.000E+3   \hfill     parameters for the thinning\\
+THINH  1.000E+00 1.000E+02     \hfill               relation between thin em. and had.\\
+SIBYLL T 0        \hfill             SIBYLL 2.3d for high energy \& debug level\\
+SIBSIG T         \hfill                             SIBYLL 2.3d cross-sections enabled\\
+ATMOD   27       \hfill   US Standard - 0 / Malargue GDAS model (18 - 29 Jan to Dec)\\
+OBSLEV  1.452E+05      \hfill                       observation level (in cm) \\
+MAGNET   19.5083   -14.2163     \hfill    magnetic field Malargue  \\
+ECUTS   5.00E-02 1.00E-02 2.50E-04 2.50E-04  \hfill  energy cuts: hadr., muon, \\ 
+\null\hfill elect., phot. (GeV) \\
+MUADDI  T            \hfill                         additional info for muons \\
+MUMULT  T             \hfill                        muon multiple scattering angle \\
+HADFLG  0 0 0 0 0 2    \hfill                       flags hadr. interact. \& fragmentation \\
+ELMFLG  F T          \hfill                         em. interaction flags (NKG,EGS) \\
+STEPFC  1.0        \hfill                           mult. scattering step length fact. \\
+RADNKG  5.0E+05     \hfill                          outer radius for NKG lat. dens. distr. \\
+LONGI   T 5.0 T T     \hfill         longit. distr. \& step size \& fit \& out  \\
+ECTMAP  2.5E+05      \hfill                         cut on gamma factor for printout \\
+HILOW   200         \hfill                          transition energy between models \\
+MAXPRT  1           \hfill                          max. number of printed events \\
+DATBAS  T           \hfill                          write .dbase file \\
+PAROUT  T T           \hfill                        output files \\
+FLATOUT F              \hfill                       for backward compatibility \\
+DIRECT  /mnt/   \hfill     directory of particle output \\
+DATDIR  /mnt/  \hfill directory with CORSIKA input tables \\
+USER    santos         \hfill                       username for database file \\
+HOST    condor         \hfill                       hostname for database file   \\
+DEBUG   F 6 F 100000     \hfill                     debug flag and log. unit for out \\
+EXIT
+\endgroup
 
-   \caption{GEM4 after previously used method}
-   \label{fig:GEM4_after_prev}
- \end{subfigure}
- %\hfill
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_millepede/square/GEM4.png}
-   \caption{GEM4 after Millepede}
-   %\label{fig:GEM4_before}
- \end{subfigure}
- \caption{Residual of GEM detectors.}
-\end{figure}
-
-%%%%MICROMEGAS start here
-
-\begin{figure}[h!]
-\centering
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_prev/square/MX1.png}
-
-   \caption{MM1 after previously used method}
-   \label{fig:MX1_after_prev}
- \end{subfigure}
- %\hfill
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_millepede/square/MX1.png}
-   \caption{MM1 after Millepede}
-   %\label{fig:MX1_after}
- \end{subfigure}
- \hfill
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_prev/square/MX2.png}
-   \caption{MM2 after previously used method}
-   \label{fig:MX2_after_prev}
- \end{subfigure}
- %\hfill
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_millepede/square/MX2.png}
-   \caption{MM2 after Millepede}
-   %\label{fig:MX2_after}
- \end{subfigure}
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_prev/square/MX3.png}
-
-   \caption{MM3 after previously used method}
-   \label{fig:MX3_after_prev}
- \end{subfigure}
- %\hfill
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_millepede/square/MX3.png}
-   \caption{MM3 after Millepede}
-   %\label{fig:MX3_after}
- \end{subfigure}
- \caption{Residual of Micromega detectors.}
-\end{figure}
-
-
-\begin{figure}[h!]
-\centering
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_prev/square/MX4.png}
-
-   \caption{MM4 after previously used method}
-   \label{fig:MX4_after_prev}
- \end{subfigure}
- %\hfill
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_millepede/square/MX4.png}
-   \caption{MM4 after Millepede}
-   %\label{fig:MX4_after}
- \end{subfigure}
- \hfill
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_prev/square/MX5.png}
-   \caption{MM5 after previously used method}
-   \label{fig:MX5_after_prev}
- \end{subfigure}
- %\hfill
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_millepede/square/MX5.png}
-   \caption{MM5 after Millepede}
-   %\label{fig:MX5_after}
- \end{subfigure}
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_prev/square/MX7.png}
-
-   \caption{MM6 after previously used method}
-   \label{fig:MX6_after_prev}
- \end{subfigure}
- %\hfill
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_millepede/square/MX7.png}
-   \caption{MM6 after Millepede}
-   %\label{fig:MX6_after}
- \end{subfigure}
- \caption{Residual of Micromega detectors.}
-\end{figure}
-
-%%micromegas%
-
-\begin{figure}[h!]
-\centering
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_T/rotMX1U_after_millepede_T.png}
-   \caption{MM1 U plane}
-   %\label{fig:MX1X_before}
- \end{subfigure}
- %\hfill
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_T/rotMX1V_after_millepede_T.png}
-   \caption{MM1 V plane}
-   %\label{fig:MX1Y_before}
- \end{subfigure}
- \hfill
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_T/rotMX2U_after_millepede_T.png}
-   \caption{MM2 U plane}
-   %\label{fig:GEM2X_before}
- \end{subfigure}
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_T/rotMX2V_after_millepede_T.png}
-   \caption{MM2 V plane}
-   %\label{fig:GEM2Y_before}
- \end{subfigure}
- \hfill
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_T/rotMX3U_after_millepede_T.png}
-   \caption{MM3 U plane}
-   %\label{fig:MX1 X plane}
- \end{subfigure}
- %\hfill
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_T/rotMX3V_after_millepede_T.png}
-   \caption{MM3 V plane}
-   %\label{fig:GEM4Y_before}
- \end{subfigure}
- \caption{Residual vs position for Micromega detectors}
- \label{fig:res_vs_pos_MX}
-\end{figure}
-
-\begin{figure}[t!]
-\begin{subfigure}[l]{.45\textwidth}
-  \centering
-  \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_T/rotMX4U_after_millepede_T.png}
-  \caption{MM4 U plane}
-  %\label{fig:GEM4X_before}
-\end{subfigure}
-%\hfill
-\begin{subfigure}[r]{.45\textwidth}
-  \centering
-  \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_T/rotMX4V_after_millepede_T.png}
-  \caption{MM4 V plane}
-  %\label{fig:GEM4Y_before}
-\end{subfigure}
-\caption{ Residual vs position for MM4}
-\end{figure}
-%%% Local Variables:
-%%% mode: latex
-%%% TeX-master: "../mythesis"
-%%% End:
+%------------------------------------------------------------------------------

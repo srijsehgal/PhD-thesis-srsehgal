@@ -224,12 +224,6 @@ N.~Busca, D.~Hooper,  and E.~W. Kolb, {\em Pierre Auger data, photons, and
   {\bfseries 73} no.~12, (2006)},
   \url{http://dx.doi.org/10.1103/PhysRevD.73.123001}.
 
-\bibitem{article_Hoshino}
-M.~Hoshino, {\em Nonthermal Particle Acceleration in Shock Front Region:
-  ``Shock Surfing Accelerations},
-  \href{http://dx.doi.org/10.1143/PTPS.143.149}{Progress of Theoretical Physics
-  Supplement - PROG THEOR PHYS SUPPL {\bfseries 143} (2001) 149--181}.
-
 \bibitem{PhysRev.75.1169}
 E.~Fermi, {\em On the Origin of the Cosmic Radiation},
   \href{http://dx.doi.org/10.1103/PhysRev.75.1169}{Phys. Rev. {\bfseries 75}
@@ -546,12 +540,13 @@ A.~de~Gouvêa, {\em Neutrino mass puzzle},
 \newblock
   \url{https://cerncourier.com/a/the-neutrino-mass-puzzle/#:~:text=Though%20there%20are%20too%20many,or%20through%20a%20different%20mechanism}.
 
-\bibitem{SajjadAthar:2021prg}
-M.~Sajjad~Athar {et~al.}, {\em {Status and perspectives of neutrino physics}},
-  \href{http://dx.doi.org/10.1016/j.ppnp.2022.103947}{Prog. Part. Nucl. Phys.
-  {\bfseries 124} (2022) 103947},
-  \href{http://arxiv.org/abs/2111.07586}{{\ttfamily arXiv:2111.07586
-  [hep-ph]}}.
+\bibitem{Vitagliano:2019yzm}
+E.~Vitagliano, I.~Tamborra,  and G.~Raffelt, {\em {Grand Unified Neutrino
+  Spectrum at Earth: Sources and Spectral Components}},
+  \href{http://dx.doi.org/10.1103/RevModPhys.92.045006}{Rev. Mod. Phys.
+  {\bfseries 92} (2020) 45006},
+  \href{http://arxiv.org/abs/1910.11878}{{\ttfamily arXiv:1910.11878
+  [astro-ph.HE]}}.
 
 \bibitem{PhysRevLett.58.1490}
 {Kamiokande-II} Collaboration, K.~Hirata {et~al.}, {\em {Observation of a
@@ -592,6 +587,9 @@ M.~Prado~Rodriguez, {\em Neutrino Mass Ordering with IceCube DeepCore},
 \bibitem{scott2024cosmicneutrinobackground}
 D.~Scott, {\em The Cosmic Neutrino Background}, 2024.
 \newblock \url{https://arxiv.org/abs/2402.16243}.
+
+\bibitem{Ahlers:ISAPP2022}
+M.~Ahlers, {\em ISAPP lecture on high energy neutrino astronomy}, 2022.
 
 \bibitem{Pontecorvo:1957qd}
 B.~Pontecorvo, {\em {Inverse beta processes and nonconservation of lepton
@@ -1069,6 +1067,17 @@ A.~Sandrock, J.-M. Alameddine,  and F.~Riehn, {\em Validation of
 T.~K. {Gaisser} and A.~M. {Hillas}, {\em {Reliability of the Method of Constant
   Intensity Cuts for Reconstructing the Average Development of Vertical
   Showers}}, Jan., 1977.
+
+\bibitem{thesis:mayotte2021}
+{Mayotte, Sonja}, {\em {Study of the cosmic ray composition sensitivity of
+  AugerPrime: probing the prospects of the upgrade to the Pierre Auger
+  Observatory with a deep learning approach}}, {electronic; online}, {June
+  2021}.
+\newblock
+  \url{{https://eu04.alma.exlibrisgroup.com/view/uresolver/49HBZ_WUP/openurl?u.ignore_date_coverage=true&portfolio_pid=53161361770006447&Force_direct=true;
+  https://doi.org/10.25926/99h7-fc44;
+  http://nbn-resolving.de/urn/resolver.pl?urn=urn%3Anbn%3Ade%3Ahbz%3A468-20210812-123827-3;
+  http://elpub.bib.uni-wuppertal.de/edocs/dokumente/fbc/physik/diss2021/mayotte/}}.
 
 \bibitem{annurev:/content/journals/10.1146/annurev.ns.10.120160.000431}
 K.~Greisen, {\em Cosmic Ray Showers},
@@ -1654,5 +1663,12 @@ J.~Conrad and F.~Tegenfeldt, {\em {Likelihood ratio intervals with Bayesian
   no.~6537, (2017) 1266--1270},
   \href{http://arxiv.org/abs/1709.07321}{{\ttfamily arXiv:1709.07321
   [astro-ph.HE]}}.
+
+\bibitem{PierreAuger:2011cpc}
+{Pierre Auger} Collaboration, P.~Abreu {et~al.}, {\em {A Search for Ultra-High
+  Energy Neutrinos in Highly Inclined Events at the Pierre Auger Observatory}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.84.122005}{Phys. Rev. D {\bfseries
+  84} (2011) 122005}, \href{http://arxiv.org/abs/1202.1493}{{\ttfamily
+  arXiv:1202.1493 [astro-ph.HE]}}, [Erratum: Phys.Rev.D 84, 029902 (2011)].
 
 \end{thebibliography}\endgroup

@@ -12,21 +12,29 @@ As mentioned in the previous chapter An Extensive Air Shower (EAS) is a cascade 
 
 \begin{figure}[t!]
     \centering
-    \includegraphics[width=14.5cm]{thesis_figures/EAS/Air_shower_reactions_redo.png}
-    \caption{Development of Extensive Air Shower. The figure shows the different components of an EAS and the reactions which lead to their formation. The figure is adapted from Sonja's Thesis, redo to make own}
+    \includegraphics[width=14.5cm]{thesis_figures/EAS/EAS_reactions.pdf}
+    \caption{Development of Extensive Air Shower. The figure shows the different components of an EAS and the reactions which lead to their formation.}
     \label{fig:EAS_components}
 \end{figure}
 
 As the CR particle which is predominantly a proton collides with the nuclei of the atmosphere ($N_2, O_2 $etc.) it produces pions and a few kaons. The neutral pions produced immediately decay to pairs of photons which in turn produce electrons via the process of pair-production. These electrons can then further produce photons via bremsstrahlung initiating a chain reaction which alternates between these two processes and forms the \textit{electromagnetic component} of the shower. The charged pions can survive for a while but eventually decay to muon and a corresponding anti neutrino. These muons can either survive till the shower reaches the ground and form the \textit{muonic component} or can also decay to electron thus contributing to the electromagnetic part. The neutrinos due to their low interaction cross-section mostly survive till they reach the ground and even further. Though not causing any problem for an EAS detector such neutrinos are the biggest background for a neutrino telescope. Kaons and charged pions due to their long lifetimes can also interact with the atmospheric nuclei producing additional pions which form the \textit{hadronic component} of the shower. The hadronic component can further contribute to both the electromagnetic and muonic component as more the shower propagates lesser the overall hadronic component becomes. A schematic of all the reactions with the different components is presented in fig~\ref{fig:EAS_components}.
 
 To understand the cascade of particles a detailed modelling of each component is required. These models help extract the basic properties of the cascade. A simplified model describing the electromagnetic component called the Heitler's toy model, its hadronic extension and a generalized cascade equation are all discussed below. The specific development of a neutrino induced EAS is also discussed.  
+% \begin{figure}[t!]
+%     \centering
+%     \includegraphics[width=14.5cm]{thesis_figures/EAS/Toy_mode_redo.png}
+%     \caption{Representation of Heitler's model for (a) electromagnetic cascades and (b) hadronic cascades.} 
+%     \label{fig:EAS_toy_model}
+% \end{figure}
+
 \begin{figure}[t!]
     \centering
-    \includegraphics[width=14.5cm]{thesis_figures/EAS/Toy_mode_redo.png}
-    \caption{Representation of Heitler's model for (a) electromagnetic cascades and (b) hadronic cascades.} 
+    \subcaptionbox*{Electromagnetic cascades\label{sub:fig:toy_em}}{\includegraphics[width=.45\linewidth]{thesis_figures/EAS/Toy_model_em.pdf}}
+    \hfill
+    \subcaptionbox*{Hadronic cascades\label{sub:fig:toy_had}}{\includegraphics[width=.45\linewidth]{thesis_figures/EAS/Toy_model_had.pdf}}
+    \caption{Representation of Heitler's model.}
     \label{fig:EAS_toy_model}
 \end{figure}
-
 
 \subsection{Heitler's Toy Model}
 \label{sec:Dev_Heitler}
@@ -64,15 +72,26 @@ Another process that can directly impact the development of high energy electrom
 \subsection{Neutrino induced EAS}
 \label{sec:Dev_Nu}
 The development of a neutrino induced shower in comparison to a CR shower is important in the context of this study. Understanding the differences helps to identify the unique signature at a CR observatory like the Pierre Auger. The differences in the shower development can also help increase the sensitivity of a neutrino observatory like the IceCube. Unlike a cosmic ray particle a neutrino can interact at any depth. This is due to the low neutrino cross-section at $10^{18}$ $\approx 10^{-33} \mathrm{cm^2}$  in comparison, for e.g. the proton-nucleon cross-section which is $\approx 10^{-27} \mathrm{cm^2}$. Thus, neutrino-induced showers require significantly higher neutrino energies to produce interactions with observable effects. The main channel via which an ultra-high energy neutrino can interact is either a CC or NC interaction as mentioned in the last chapter. Neutrino-induced showers involve fewer particles in the initial interaction and often have a lower multiplicity of secondary particles compared to CR-induced showers. The development of the shower and the unique signature depend on the flavor of the neutrino as shown in fig~\ref{fig:NU_EAS_channels}.
-
+% \begin{figure}[t!]
+%     \centering
+%     \includegraphics[width=14.5cm]{thesis_figures/EAS/Nu_EAS_channels.png}
+%     \caption{Sketch of different possible interactions of UHE neutrinos in the atmosphere. } 
+%     \label{fig:NU_EAS_channels}
+% \end{figure}
 \begin{figure}[t!]
     \centering
-    \includegraphics[width=14.5cm]{thesis_figures/EAS/Nu_EAS_channels.png}
-    \caption{Sketch of different possible interactions of UHE neutrinos in the atmosphere. } 
+    \subcaptionbox*{ \label{sub:fig:e_CC}}{\includegraphics[width=.45\linewidth]{thesis_figures/EAS/e_CC.pdf}}
+    \hfill
+    \subcaptionbox*{ \label{sub:fig:mu_CC}}{\includegraphics[width=.45\linewidth]{thesis_figures/EAS/mu_CC.pdf}}
+    \hfill
+    \subcaptionbox*{ \label{sub:fig:tau_CC}}{\includegraphics[width=.45\linewidth]{thesis_figures/EAS/tau_CC.pdf}}
+    \hfill
+    \subcaptionbox*{ \label{sub:fig:nu_NC}}{\includegraphics[width=.45\linewidth]{thesis_figures/EAS/nu_NC.pdf}}
+    \caption{Sketch of different possible interactions of UHE neutrinos in the atmosphere.}
     \label{fig:NU_EAS_channels}
 \end{figure}
 
-An electron neutrino, $\nu_e$, interacting via CC interaction produces an initial hadronic cascade which has fewer particles in comparison to a hadron-initiated shower from the CRs. The high energy electron/positron produced in the same initial interaction also produces an electromagnetic shower. At high energies the two showers are overlapped and the fraction of energy carried by the electron/positron governs the ratio of the electromagnetic to hadronic component for the shower.
+An electron neutrino, $\nu_e$, interacting via CC interaction (\ref{sub:fig:e_CC}) produces an initial hadronic cascade which has fewer particles in comparison to a hadron-initiated shower from the CRs. The high energy electron/positron produced in the same initial interaction also produces an electromagnetic shower. At high energies the two showers are overlapped and the fraction of energy carried by the electron/positron governs the ratio of the electromagnetic to hadronic component for the shower.
 
 A muon neutrino, $\nu_{\mu}$, also produces an initial hadron cascade but in contrast to the electron neutrino interaction the resulting muon has a very low probability to decay and mostly passes through the detector undetected. The energy carried by the muon which is usually a large fraction is lost and only the hadronic cascade can be detected.
 
@@ -91,7 +110,7 @@ Apart from the shower maximum and the number of muons at ground other observable
 \begin{figure}[t!]
     \centering
     \includegraphics[width=14.5cm]{thesis_figures/EAS/EAS_schematic.png}
-    \caption{Schematic of the development of an EAS in the atmosphere.} 
+    \caption{Schematic of the development of an EAS in the atmosphere. Taken from~\cite{thesis:mayotte2021}.} 
     \label{fig:EAS_schematic}
 \end{figure}
 
@@ -126,10 +145,11 @@ Charged particles moving through the atmosphere can also produce Cherenkov light
 
 \begin{figure}[t!]
     \centering
-    \includegraphics[width=14.5cm]{thesis_figures/EAS/EAS-Detection-Techniques.png}
-    \caption{Sketch of various ways to study experimentally extensive air showers.~\cite{article_2001_kampert}} 
+    \includegraphics[width=14.5cm]{thesis_figures/EAS/EAS-Detection-Techniques-mine.pdf}
+    \caption{Sketch of various ways to study experimentally extensive air showers. Inspired from~\cite{article_2001_kampert}} 
     \label{fig:EAS_det_techniques}
 \end{figure}
+
 
 \subsection{Radio Detection}
 \label{sec:EAS_rad}
