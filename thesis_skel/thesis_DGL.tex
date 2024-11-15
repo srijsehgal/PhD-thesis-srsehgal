@@ -231,6 +231,16 @@ This section includes some sanity checks to check and verify the quality of the 
 \todo{Expand with plots}
 \textit{What to include here? Theta distributions, AoP distribution comparisons, Core position distributions, Residuals, Xmax distributions etc.}
 
+\begin{figure}
+  \centering
+  \subcaptionbox{CC.\label{sub:fig:FD_site_drawing}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/MC_control/Theta_rec_CC_wnt_redcut.pdf}}
+  \hfill
+  \subcaptionbox{NC\label{sub:fig:FD_schematic}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/MC_control/Theta_rec_NC_wnt_redcut.pdf}}
+  \caption{Reconstructed Theta}
+  \label{fig:Rec_Theta}
+\end{figure}
+
+
 \section{\texorpdfstring{$\nu$}{} selection}
 \label{sec:nu_sel}
 This section tries to describe the decisions made to select $\nu$ induced air showers. The selection is optimized and evaluated on the above-mentioned neutrino simulations and a part of the measured data is used as an estimate for the expected background. Since a \textit{blind search} strategy is envisioned for the search. The rest of the measured data forms the \textit{search sample} and will be used to look for neutrino like events during the \textit{unblinding}. 
@@ -277,7 +287,7 @@ The pre-selection cuts are applied based on the unique properties of "young" neu
   \item ~\textbf{Inclined Shower Selection:} This cut aims to select showers which fall in the given angular window. The reconstructed zenith of each event is required to be in the range 58.5$^{\circ} < \mathrm{\theta_{rec} < 76.5^{\circ}}$. The range is extended by 1.5$^\circ$ on both sides in comparison to the simulated values from the simulations to account for the angular resolution of the detector. Further, the error on the reconstructed angle, $\mathrm{\Delta \theta_{rec}}$ is required to be smaller than $3^\circ$ to ensure the quality of angular reconstruction. The efficiency of this cut is found to be ... for CC(NC) neutrinos. The angular distribution of the background sample is shown in fig.~\ref{}.
   \item ~\textbf{Fiducial Quality Cut} This cut also remains unchanged when compared to the previous analysis. The main aim of the cut is to ensure that the shower core for the selected event is completely contained inside the array and the stations which are used for the analysis of the event are operational. This is ensured by requiring the event to satisfy the 6T5 trigger condition. The efficiency of the cut is 100\% for the neutrino simulations by design and for the background sample this cut leads to a reduction of ... as shown in fig.~\ref{}   
   \item ~\textbf{Young Shower Selection} This cut tries to ensure the selection of events with a high electromagnetic component at ground. For this purpose events with stations having FADC traces spread in time need to be selected. As mentioned previously ToT, ToTd and MoPS triggers being more sensitive to the presence of high electromagnetic component can be used for this young shower selection. This cut ensures that more than 75\% of stations in the T5 hexagon satisfy the ToT/MoPS/ToTd condition. the 75\% fraction is calculated overall per event basis and the hexagon could have stations with mixtures of these triggers. The cut retains most of the neutrino events and at the same time is highly effective in rejecting background especially for high angles as shown in the fig.~\ref{}.
-  \item ~\textbf{Angular Fit Quality} A few erroneous events were discovered to have a bad geometric fit. This problem though discovered with the analysis with new triggers has always affected the neutrino analysis. To mitigate this problem a fit quality cut based on the goodness of the geometry fit was devised. The cut only accepts events which have a goodness of geometrical fit less than 200. The efficiency of the cut is $\sim$99\% for the neutrino simulations and for the background sample this cut leads to a reduction of <0.1\% of events. The goodness of fit comparison for background and neutrinos is shown in fig.~\ref{}. Although the cut has minimal impact it, it ensures that one of the fundamental pillars of the analysis i.e. the geometry of the shower especially the zenith angle is well reconstructed.
+  \item ~\textbf{Angular Fit Quality} A few erroneous events were discovered to have a bad geometric fit. This problem though discovered with the analysis with new triggers has always affected the neutrino analysis. To mitigate this problem a fit quality cut based on the goodness of the geometry fit was devised. The cut only accepts events which have a goodness of geometrical fit less than 200. The efficiency of the cut if applied simultaneous to the station cut used to select stations for the Fisher analysis is $\sim$99\% for the neutrino simulations and for the background sample this cut leads to a reduction of <0.1\% of events. The goodness of fit comparison for background and neutrinos is shown in fig.~\ref{}. Although the cut has minimal impact it, it ensures that one of the fundamental pillars of the analysis i.e. the geometry of the shower especially the zenith angle is well reconstructed.
 \end{description} 
 
 \subsection{Fisher linear discriminant analysis}
@@ -499,25 +509,45 @@ In this section, the detection efficiency at each stage of the $\nu$ selection p
       \cline{3-4}
       \multicolumn{2}{|c|}{} & CC & NC \\
       \hline      
-      Inclined Selection & 58.5$^\circ < \theta_{rec} \geq 76.5^{\circ}$ & 90\% & 96\% \\ 
+      Inclined Selection & 58.5$^\circ < \theta_{rec}, \geq 76.5^{\circ}$ & 90.1\% & 89.5\% \\ 
     \hline
-    Fiducial Quality & 6T5 & 90\% & 96\%\\
+    Quality Cuts& 6T5 + $\delta \theta_{\text{rec}} < 3^{\circ}$  & 79.25\% & 78.4\%\\
     \hline
-    Young Shower Selection & 75 \% of T5 stations to be ToT/ToTd/MoPS & 90\% & 96\% \\
+    Young Shower Selection & 75 \% of T5 stations to be ToT/ToTd/MoPS & 84.9\% & 79.9\% \\
     \hline
-    Angular Fit Quality & $\mathrm{\chi^2/ndof < 200}$ & 90\% & 96\% \\
+    Angular Fit Quality & $\mathrm{\chi^2/ndof < 200}$ & 88.7\% & 82.6\% \\
     \hline
-    \multirow{2}{*}{Station Cut } & No. of T5 & 90\% & 96\% \\
+    \multirow{2}{*}{Station Cut } & No. of T5 & 86.7\% & 76.0\% \\
                                             & triggered stations $\geq 4$ & & \\ 
     \hline
-    Neutrino Selection & $\mathcal{F}_{\mathrm{cut}}$ & 90\% & 96\%\\
+    Neutrino Selection & $\mathcal{F}_{\mathrm{cut}}$ & 69.1\% & 37.1\%\\
     \hline
   \end{tabular}
   \caption{Table to test captions and labels.}
   \label{tab:Selection_eff}
 \end{table}
 
-The inclined shower selection removes $\sim x\%$ of showers. These showers were previously discussed in section~\ref{sec:reco_possel}. Most of these events are showers which interact very close to the ground which can lead to a mis-reconstructed zenith angle. Further, calculating the impact of $\Delta \theta_{rec}$ a stronger reduction is observed in NC than CC events. The error distributions for both channels are given in fig~\ref{}. The error seems to worsen with increasing zenith angle and reduction of shower energy. These are the two areas where the reconstruction algorithm does not perform properly as in both cases the number of triggered stations are very few and additionally in the second case certain geometrical patterns such as a line can impact the zenith angle determination.
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{ |P{2.4cm}||P{2.3cm}|P{2.3cm}|P{2.3cm}|P{2.3cm}|P{2.3cm}| }
+    \hline
+       \multicolumn{6}{|c|}{Relative efficiency (\%)} \\
+       \hline
+         Angular Region &(58.5$^\circ$-61.5$^\circ$]&(61.5$^\circ$-64.5$^\circ$]&(64.5$^\circ$-67.5$^\circ$]& (67.5$^\circ$-70.5$^\circ$] & (70.5$^\circ$- 76.5$^\circ$] \\
+    \hline
+    \centering 
+    Quality Cuts & 70.9 (72.7)& 71.3 (74.4) & 73.2 (74.86)& 88.1 (78.02)& 88.5 (83.5)\\
+    \hline
+    \centering
+    Fit + T5 Candidates & 75.0 (60.9) & 74.6 (61.7) & 74.9 (61.2)& 75.6 (62.1) & 79.9 (65.3)\\
+    \hline
+    \centering
+    Fisher Selection& 58.6 (11.5)& 69.6 (18.5)& 75.3 (27.8)& 80.3 (41.5)& 64.3 (29.2)\\
+    \hline
+  \end{tabular}
+\end{table}
+
+The inclined shower selection removes $\sim x\%$ of showers. These showers were previously discussed in section~\ref{sec:reco_possel}. Most of these events are showers which interact very close to the ground which can lead to a mis-reconstructed zenith angle. Further, calculating the impact of $\Delta \theta_{rec}$ a stronger both CC and NC events observe a strong reduction. Comparing to the analysis with old triggers this decrease is $\sim$10\% higher for CC but similar for the one observed for NC interactions. The error distributions for both channels are given in fig~\ref{}. The NC error seems to worsen with increasing zenith angle and reduction of shower energy. These are the two areas where the reconstruction algorithm does not perform properly as in both cases the number of triggered stations are very few and additionally in the second case certain geometrical patterns such as a line can impact the zenith angle determination. For the CC the main culprit for the higher decrease with the inclusion of new triggers is attributed to the overall worsening of the angular reconstruction with the inclusion of new trigger. This can be due to multiple reasons such as lack of a tuned segment selection algorithm for the new triggers, the new triggers being more sensitive to noise etc. Further work which could not be implemented in this thesis is envisioned for the future to improve the angular reconstruction algorithm and some ideas regarding this are presented in the Outlook section of the thesis.
 
 The fiducial quality cut is already a part of the reconstruction algorithm and is thus not evaluated in this section.
 
