@@ -1570,6 +1570,15 @@ R.~{Colalillo} and R.~{Mussa}, {\em {Observation of high energy radiation in
   the Surface Detectors of the Pierre Auger Observatory in correspondance with
   lightning strikes.}},.
 
+\bibitem{gap_top_down_module}
+S.~N. P.~Billoir, J.L.~Navarro, {\em GAP Note 2011-038, An Offline Module for
+  Injection of Random Accidental Signals in SD Stations (Auger key
+  protected)},.
+
+\bibitem{gap_top_down_proc}
+P.~Billoir, {\em GAP Note 2006-072, Top-down Selection of Events and Stations
+  (Auger key protected)},.
+
 \bibitem{James:1975dr}
 F.~James and M.~Roos, {\em {Minuit: A System for Function Minimization and
   Analysis of the Parameter Errors and Correlations}},
@@ -1604,6 +1613,29 @@ A.~Cooper-Sarkar, P.~Mertsch,  and S.~Sarkar, {\em {The high energy neutrino
   \href{http://dx.doi.org/10.1007/JHEP08(2011)042}{JHEP {\bfseries 08} (2011)
   042}, \href{http://arxiv.org/abs/1106.3723}{{\ttfamily arXiv:1106.3723
   [hep-ph]}}.
+
+\bibitem{gap_systematics}
+J.~L. Navarro {et~al.}, {\em An extensive review on the down-going neutrino
+  systematic uncertainties from the Pierre Auger Observatory}, Gap note
+  2010-027 (auger key protected), 2010.
+
+\bibitem{Huege:2022xbo}
+{CORSIKA} Collaboration, T.~Huege, {\em {CORSIKA 8 - the next-generation air
+  shower simulation framework}},
+  \href{http://dx.doi.org/10.21468/SciPostPhysProc.13.028}{SciPost Phys. Proc.
+  {\bfseries 13} (2023) 028}, \href{http://arxiv.org/abs/2208.14240}{{\ttfamily
+  arXiv:2208.14240 [astro-ph.IM]}}.
+
+\bibitem{gap_note_det_systematics}
+O.~Blanch., {\em Study of systematic uncertainties for skimming tau neutrinos.
+  Technical Report 054}, The pierre auger collaboration, 2006.
+
+\bibitem{Conrad:2002kn}
+J.~Conrad, O.~Botner, A.~Hallgren,  and C.~Perez de~los Heros, {\em {Including
+  systematic uncertainties in confidence interval construction for Poisson
+  statistics}}, \href{http://dx.doi.org/10.1103/PhysRevD.67.012002}{Phys. Rev.
+  D {\bfseries 67} (2003) 012002},
+  \href{http://arxiv.org/abs/hep-ex/0202013}{{\ttfamily arXiv:hep-ex/0202013}}.
 
 \bibitem{PierreAuger:2014zay}
 {Pierre Auger} Collaboration, A.~Aab {et~al.}, {\em {Muons in Air Showers at
@@ -1646,13 +1678,6 @@ W.~A. Rolke, A.~M. Lopez,  and J.~Conrad, {\em {Limits and confidence intervals
 \bibitem{TRolke_ROOT}
 {\em TRolke Class Reference},
 \newblock \url{https://root.cern/doc/v628/classTRolke.html}.
-
-\bibitem{Conrad:2002kn}
-J.~Conrad, O.~Botner, A.~Hallgren,  and C.~Perez de~los Heros, {\em {Including
-  systematic uncertainties in confidence interval construction for Poisson
-  statistics}}, \href{http://dx.doi.org/10.1103/PhysRevD.67.012002}{Phys. Rev.
-  D {\bfseries 67} (2003) 012002},
-  \href{http://arxiv.org/abs/hep-ex/0202013}{{\ttfamily arXiv:hep-ex/0202013}}.
 
 \bibitem{Conrad:2005zm}
 J.~Conrad and F.~Tegenfeldt, {\em {Likelihood ratio intervals with Bayesian

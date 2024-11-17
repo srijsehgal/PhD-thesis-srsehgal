@@ -10,3 +10,43 @@
 \end{figure}
 
 This appendix aims to present some interesting reconstructed events that were observed in the background training sample when new triggers were used for the neutrino analysis. As mentioned before in sec.~\ref{} and described in more detail in~\cite{} a segment selection process is applied to improve the quality of angular reconstruction. A small example of the working of the process is shown in fig.~\ref{}. It was observed while performing the neutrino analysis with new triggers some events were mis-reconstructed due to an untuned segment selection algorithm. These events were further checked and reconstructed using the standard reconstruction used for inclined UHECRs at the Pierre Auger Observatory. It was also noticed that the problems with the segment selection algorithm for the new triggers could primarily arise from the presence of multiple peaks with similar amplitudes in the waveform. There is also an argument that the primary purpose of the segment selection algorithm i.e. the reduction of accidental muons which change the start time of the signal might already be addressed with the design of the new triggers thus decreasing the overall need for such an algorithm. However, these are only hypothesis and need to be confirmed with further studies. Thus, due to the inability to confirm the validity of the segment selection process for the new triggers, the algorithm was not applied to stations with these triggers in a way that the reconstruction for stations with old triggers remained unaffected. 
+
+
+\begin{table}[h!]
+    \begin{subtable}[h]{\textwidth}
+    \centering
+    \begin{tabular}{ |P{1.0cm}||P{2.4cm}|P{2.4cm}|P{2.4cm}|P{2.4cm}|P{2.4cm}| }
+      \hline
+         \multicolumn{6}{|c|}{Evaluated Fisher Coefficients} \\
+         \hline
+          & Region 1 & Region 2& Region 3& Region 4 & Region 5 \\
+           &(58.5$^\circ$-61.5$^\circ$]&(61.5$^\circ$-64.5$^\circ$]&(64.5$^\circ$-67.5$^\circ$]& (67.5$^\circ$-70.5$^\circ$] & (70.5$^\circ$- 76.5$^\circ$] \\
+      \hline
+      $C_1$ & $3.06 \cdot 10^{-1}$ & $5.48 \cdot 10^{-1}$ & $7.36 \cdot 10^{-1}$                & $8.40 \cdot 10^{-1}$ & $9.61 \cdot 10^{-1}$ \\
+      $C_2$ & $5.05 \cdot 10^{-1}$ & $3.75 \cdot 10^{-1}$ & $2.57 \cdot 10^{-1}$                & $1.40 \cdot 10^{-1}$ & $1.99 \cdot 10^{-2}$ \\
+      $C_3$ & $8.03 \cdot 10^{-1}$ & $7.47 \cdot 10^{-1}$ & $6.22 \cdot 10^{-1}$                & $5.00 \cdot 10^{-1}$ & $2.74 \cdot 10^{-1}$ \\
+      $C_4$ & $7.92 \cdot 10^{-2}$ & $-3.90 \cdot 10^{-2}$ & $-6.90 \cdot 10^{-2}$                & $-7.90 \cdot 10^{-2}$ & $-2.27 \cdot 10^{-2}$ \\
+      \hline
+    \end{tabular}
+    \caption{Normalised Fisher coefficients obtained for each angular region}
+    \label{subtab:Fish_Coeff}
+   \end{subtable}
+   \newline
+   \vspace*{0.5 cm}
+   \newline
+    \begin{subtable}[h]{\textwidth}
+      \centering
+    \begin{tabular}{ |P{1.0cm}||P{2.4cm}|P{2.4cm}|P{2.4cm}|P{2.4cm}|P{2.4cm}| }
+      \hline
+          & Region 1 & Region 2& Region 3& Region 4 & Region 5 \\
+      \hline 
+      $a$ & $15.1 \pm 0.5$ & $14.3 \pm 0.8$ & $14.2 \pm 1.4$ & $14.3 \pm 1.7$                                       & $7.8 \pm 2.0$ \\
+      $b$ & $2.57 \pm 0.12$ & $2.94 \pm 0.22$ & $3.50 \pm 0.44$ & $4.63 \pm 0.65$                                       & $3.11 \pm 0.96$ \\
+      \hline
+    \end{tabular}
+    \caption{Fit parameters obtained after fitting $\mathrm{e^{a-bx}}$ to the tail of the Fisher distribution.}
+    \label{subtab:Fish_fit_params}
+    \end{subtable}
+    \caption*{Table to test captions and labels.}
+    \label{tab:Fish_analysis}
+  \end{table}
