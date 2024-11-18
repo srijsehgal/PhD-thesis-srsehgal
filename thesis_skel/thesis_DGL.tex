@@ -45,7 +45,7 @@ The simulations were performed using the GRID technology~\cite{GRID_tech,LozanoB
 \begin{figure}[t!]
   \centering
   \includegraphics[width=14.5cm]{thesis_figures/Nu_analysis/AugerSlantDepth.pdf}
-  \caption{The different Injected Slant Depthssimul ated for the different zenith angles in the range $60^{\circ}-75^{\circ}$. The purple line represents the atmospheric slant depth at the Pierre Auger Observatory. The blue dots represent the simulated depths for the different zenith angles. The top of the atmosphere is the x-axis of the plot i.w 0 g cm$^{-2}$.}
+  \caption{The different Injected Slant Depths simulated for the different zenith angles in the range $60^{\circ}-75^{\circ}$. The purple line represents the atmospheric slant depth at the Pierre Auger Observatory. The blue dots represent the simulated depths for the different zenith angles. The top of the atmosphere is the x-axis of the plot i.w 0 g cm$^{-2}$.}
   \label{fig:Salant_depth_sim}
 \end{figure}
 
@@ -222,7 +222,7 @@ Another shower front estimation technique based on a curved shower front approxi
 
 As can be seen by the equation, the spherical fit is decoupled from any prior knowledge of the shower core or the shower axis. It is only dependent on the point of origin. Quantities such as the shower axis can be determined later when the impact point, $\vec{x_c}$ has been estimated as $ \hat{a} = (\vec{x_o} -\vec{x_c})/ (\vec{x_o}-\vec{x_c})$. The expected solid angle differences between the two fits are of the order of half a degree. The curvature shower front fit is only used for station multiplicities greater than five. This is so because for lower station multiplicities the degrees of freedom are not enough to solve for the shower-front curvature. A side by side comparison for an event for both plane fit and spherical fit is shown in fig.~\ref{}.
 
-\todo{Add comparison picture of plane and spherical fit EVNTBrowser event}
+\todo{Add comparison picture of plane and spherical fit EVeNTBrowser event}
 
 \subsection{Posterior selection and Export}
 \label{subsec:reco_possel}
@@ -242,7 +242,7 @@ This section includes some sanity checks to check and verify the quality of the 
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=14.5cm]{thesis_figures/Nu_analysis/MC_control/Core_position_Profile_Rec_wnt_redcut.pdf}
+  \includegraphics[width=14.5cm]{thesis_figures/Nu_analysis/MC_control/Core_position_Profile_MC_wnt_redcut.pdf}
   \caption{Number of showers reconstructed for each MC core position. The colour scale represents the number of showers reconstructed. The circles with the lower count represent the stations in the array.}
   \label{fig:Core_XY_rec}
 \end{figure}
@@ -272,20 +272,18 @@ The angular resolution can be determined via the residual distributions ($\theta
 \label{subsec:old_trig_comp}
 In this subsection the impact of the inclusion of the new triggers to the total reconstructed events is discussed in more detail. The comparison is done with a sample reconstructed from the same CORSIKA showers using the same reconstruction chain described above. Stations with the new triggers were silenced via the option in the \textit{SdEventSelectorOG} module and thus were not used in the reconstruction. Two more small subsample was also simulated for low energies ($10^{17}-10^{18.5}$eV) each with either ToTd or MoPS active in addition to the old triggers to quantify their individual impact. 
 
-
 \begin{figure}[h!]
   \centering
   \subcaptionbox{$\nu_e$ CC simulations.\label{sub:fig:Rec_theta_CC_comp}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/MC_control/Theta_rec_CC_comp_redcut.pdf}}
   \hfill
-  \subcaptionbox{$\nu_e$ CC simulations.\label{sub:fig:Rec_theta_NC_comp}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/MC_control/Theta_rec_NC_comp_redcut.pdf}}
+  \subcaptionbox{$\nu_e$ NC simulations.\label{sub:fig:Rec_theta_NC_comp}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/MC_control/Theta_rec_NC_comp_redcut.pdf}}
   \caption{Comparison of the reconstructed zenith angle distributions for CC and NC neutrino simulations with and without the new triggers. The blue open histograms represent all events from the sample where both new and old triggers are used while the red filled histograms represents events from the sample with only the old triggers.} 
   \label{fig:Rec_Theta_comp}
 \end{figure}
+
  Fig~\ref{fig:Rec_Theta_comp} shows the comparison for reconstructed zenith angle distributions for the CC and NC channels. The blue histogram is the sample with both the new triggers and old triggers included while the red histogram is the sample with only the old triggers active. The distributions look very similar other than the higher number of events in the tails for the sample with new triggers. This increase is more significant for CC in comparison to NC channel since the inclusion of new triggers adds more overall events to the CC channel in comparison to NC. A worsening of the residual is also seen in fig.~\ref{sub:fig:Res_theta_CC_comp} but as mentioned before is corrected with the $\chi^2_{\text{red}}$ cut. 
  The individual contribution of the MoPS and Totd to the reconstructed theta for all channels in the energy range E$=10^{17}-10^{18.5}$eV is shown in fig.~\ref{sub:fig:Rec_theta_CC_trig}. It can be clearly seen that both ToTd and MoPS contribute to the higher extended tails. The contribution of MoPS is higher than that of ToTd. The magnitude difference can also be due to higher number of stations with MoPS (2x) in comparison to ToTd.
  
- 
-
 \begin{figure}[h!]
   \centering
   \subcaptionbox{$\mathrm{\theta_{Rec} - \theta_{MC}}$ comparison.\label{sub:fig:Res_theta_CC_comp}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/MC_control/Theta_res_CC_comp_wnt_redcut.pdf}}
@@ -307,7 +305,7 @@ The overall summary of the reconstructed events for both the sample for all ener
   \subcaptionbox{$\mathrm{\theta_{Rec} - \theta_{MC}}$ vs $X_{\text{MC}}$.\label{sub:fig:Res_Slant_comp}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/MC_control/Theta_res_vs_X_w_cut_wnt_redcut.pdf}}
   \hfill
   \subcaptionbox{Area over Peak distribution \label{sub:fig:AoP_comp}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/MC_control/AoP_new_vs_old_wnt.pdf}}
-  \caption{(a,b,c)The residual dependence on energy, zenith angle and slant depth for all reconstructed simulations. The errorbars are not the errors on the mean but signify the spread of the distribution. (d) The AoP distribution for the T5 stations for the sample with new triggers (open blue histogram) and old triggers (filled red histogram) is also shown.}
+  \caption{The residual dependence on energy (a), zenith angle (b) and slant depth (c) for all reconstructed simulations. The errorbars are not the errors on the mean but signify the spread of the distribution. (d) The AoP distribution for the T5 stations for the sample with new triggers (open blue histogram) and old triggers (filled red histogram) is also shown.}
   \label{fig:Res_comp}
 \end{figure}
 
@@ -321,14 +319,12 @@ The overall summary of the reconstructed events for both the sample for all ener
 
 \section{\texorpdfstring{$\nu$}{} selection}
 \label{sec:nu_sel}
-
 This section tries to describe the decisions made to select $\nu$ induced air showers. The selection is optimized and evaluated on the above-mentioned neutrino simulations and a part of the measured data which is used as an estimate for the expected background. Since a \textit{blind search} strategy is envisioned for the search. The rest of the measured data forms the \textit{search sample} and will be used to look for neutrino like events during the \textit{unblinding}. 
 In the first part, the selection used to identify $\nu$ showers is described in more detail. The selection consists of some pre-selection cuts applied to enhance the reconstruction quality of the selected events followed by a Fisher Linear Discriminant~\cite{Fisher_illustrative} based on AoP which is the main criteria of differentiation between a $\nu$ induced air shower and background.  
 In the second part, the performance of the selection is further evaluated based on temporal changes such as ageing in the surface detector and the neutrino detection efficiency is quantified. Comparisons to previously used selection are also presented especially in the context of the performance improvements achieved by using new triggers for neutrino detection.
 
 \subsection{Samples Used}
 \label{subsec:nu_sel_samp}
-
 As mentioned above to devise an efficient neutrino selection good quality training samples for both signal and background are required. Monte-Carlo simulations described in~\ref{sec:sim_DGL} are used for the signal sample. For the background sample a portion of real data (20\%) is used. Due to the low flux prediction of neutrinos a large portion of the measured data if not all is expected to be nucleonic air showers. Simulated showers could also serve as background sample, but this is not done to due to the following reasons. For the energies that are investigated in this search the high uncertainties observed for the air shower simulations, particularly due to hadronic interaction models could lead to errors. Further, the simulations are still incomplete i.e. they tend to sometimes ignore some physical processes and also do not account for all the possible and sometimes unpredictable detector effects which could be important for the neutrino search. Using measured data as background is advantageous here as it already contains all the possible effects. Also, due to the vast parameter space looked at for the neutrino search such a simulated background sample would require huge amount of computing resources. 
 
 The number of 20\% of the measured data sample for the time period 2014-2021 is arrived at to keep the search sample i.e. the rest 80\% large enough to look for neutrinos but still have enough events in the training sample for the Fisher analysis. The dataset is chosen at random by onlys selecting reconstructed events with SD event IDs divisible by 5. The training data for the time period corresponds to 1.29 $\pm$ 0.01 years of the continuous measurement of a full array composed of 1420 T5 hexagons. Periods of instability or large outages marked as "BadPeriods" are rejected. The events are chosen at random across the time period from the full sample of measured data by only taking those events where the Auger SD event ID is divisible by 5. The time period is chosen to be starting from the year 2014 since by this time the array had full coverage of MoPS and ToTd. The end date of December 31, 2021 was decided in discussions with the collaboration as the end of Phase 1 of data taking of the Pierre Auger Observatory since after this point significant changes were made to the electronics of the SD tanks as a part of AugerPrime activities as previous mentioned in sec.~\ref{sec:Aug_prime}.
@@ -398,19 +394,24 @@ It is really important to find the correct features or variables to train the al
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=\textwidth]{thesis_figures/Nu_analysis/Selection_Evo_AoP_Time_mean_redcut.pdf}
-  \caption{Distribution of the Area over Peak of all stations as a function of their relative time to the core for all events in the background training sample that pass the pre-selection cuts. The background sample is represented by the red points while the signal sample is represented by the green points. The error bars represent the spread of the distribution.}
+  \includegraphics[width=\textwidth]{thesis_figures/Nu_analysis/Selection_Evo_AoP_hist_wnt_redcut.pdf}
+  \caption{Histogram of Area over Peak of all stations that pass the pre-selection cuts. The distribution of the background training sample is represented in red while for the CC neutrino sample is represented in green.}
   \label{fig:Time_to_core}
 \end{figure}
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=\textwidth]{thesis_figures/Nu_analysis/Selection_Evo_AoP_Dist_mean_redcut.pdf}
-  \caption{Distribution of the Area over Peak of all stations as a function of their projected distance to the core for all events in the background training sample that pass the pre-selection cuts. The background sample is represented by the red points while the signal sample is represented by the green points. The error bars represent the spread of the distribution.}
-  \label{fig:Dist_to_core}
+  \includegraphics[width=\textwidth]{thesis_figures/Nu_analysis/Selection_Evo_AoP_Time_mean_CC_redcut.pdf}
+  \caption{Distribution of the Area over Peak of all stations as a function of their relative time to the core for all events in the background training sample that pass the pre-selection cuts. The background sample is represented by the red points while the CC neutrino sample is represented by the green points. The error bars represent the spread of the distribution.}
+  \label{fig:Time_to_core}
 \end{figure}
 
-\todo{Maybe check with just CC sample and see if the same conclusion is reached}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\textwidth]{thesis_figures/Nu_analysis/Selection_Evo_AoP_Dist_mean_CC_redcut.pdf}
+  \caption{Distribution of the Area over Peak of all stations as a function of their projected distance to the core for all events in the background training sample that pass the pre-selection cuts. The background sample is represented by the red points while the CC neutrino sample is represented by the green points. The error bars represent the spread of the distribution.}
+  \label{fig:Dist_to_core}
+\end{figure}
 
 \begin{figure}[h!]
   \centering
@@ -448,32 +449,32 @@ As mentioned before to train the Fisher polynomial 20\% of the measured data sam
   \centering
    \begin{subfigure}[l]{.48\textwidth}
      \centering
-     \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/{Fisher_nu_bkg_region_58.5_61.5}.pdf}
+     \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_nu_bkg_region_58.5_61.5.pdf}
      \caption{$ 58.5^{\circ} <\theta_{\text{Rec}} \leq 61.5^{\circ}$ }
      \label{fig:GEM1_after_prev}
    \end{subfigure}
    %\hfill
    \begin{subfigure}[r]{.48\textwidth}
      \centering
-     \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/{Fisher_nu_bkg_region_61.5_64.5}.pdf}
+     \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_nu_bkg_region_61.5_64.5.pdf}
      \caption{$61.5^{\circ} <\theta_{\text{Rec}} \leq 64.5^{\circ}$}
     \end{subfigure}
     \hfill
     \begin{subfigure}[l]{.48\textwidth}
       \centering
-      \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/{Fisher_nu_bkg_region_64.5_67.5}.pdf}
+      \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_nu_bkg_region_64.5_67.5.pdf}
       \caption{$ 64.5^{\circ} <\theta_{\text{Rec}} \leq 67.5^{\circ}$}
     \end{subfigure}
 
     \begin{subfigure}[r]{.48\textwidth}
       \centering
-      \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/{Fisher_nu_bkg_region_67.5_70.5}.pdf}
+      \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_nu_bkg_region_67.5_70.5.pdf}
       \caption{$ 67.5^{\circ} <\theta_{\text{Rec}} \leq 70.5^{\circ}$}
     \end{subfigure}
     \hfill    
     \begin{subfigure}[r]{.48\textwidth}
       \centering
-      \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/{Fisher_nu_bkg_region_70.5_73.5}.pdf}
+      \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_nu_bkg_region_70.5_73.5.pdf}
       \caption{$ 70.5^{\circ} <\theta_{\text{Rec}} \leq 76.5^{\circ}$}
    \end{subfigure}
    \caption{Fisher polynomial distributions ($\mathcal{F}$) for the signal (MC neutrinos) and background training samples (20\% data) for the different sub-angular regions.}
@@ -504,39 +505,40 @@ Fig~\ref{fig:Fisher_cut} shows the $\mathcal{F}_{cut}$ obtained for the differen
   \centering
    \begin{subfigure}[l]{.48\textwidth}
      \centering
-     \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/{Fisher_fit_region_58.5_61.5}.pdf}
+     \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_fit_region_58.5_61.5.pdf}
      \caption{$ 58.5^{\circ} <\theta_{\text{Rec}} \leq 61.5^{\circ}$}
      \label{fig:GEM1_after_prev}
    \end{subfigure}
    %\hfill
    \begin{subfigure}[r]{.48\textwidth}
      \centering
-     \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/{Fisher_fit_region_61.5_64.5}.pdf}
+     \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_fit_region_61.5_64.5.pdf}
      \caption{$ 61.5^{\circ} <\theta_{\text{Rec}} \leq 64.5^{\circ}$}
     \end{subfigure}
     \hfill
     \begin{subfigure}[l]{.48\textwidth}
       \centering
-      \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/{Fisher_fit_region_64.5_67.5}.pdf}
+      \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_fit_region_64.5_67.5.pdf}
       \caption{$ 64.5^{\circ} <\theta_{\text{Rec}} \leq 67.5^{\circ}$}
     \end{subfigure}
 
     \begin{subfigure}[r]{.48\textwidth}
       \centering
-      \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/{Fisher_fit_region_67.5_70.5}.pdf}
+      \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_fit_region_67.5_70.5.pdf}
       \caption{$ 67.5^{\circ} <\theta_{\text{Rec}} \leq 70.5^{\circ}$}
     \end{subfigure}
     \hfill    
     \begin{subfigure}[r]{.48\textwidth}
       \centering
-      \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/{Fisher_fit_region_70.5_73.5}.pdf}
+      \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_fit_region_70.5_73.5.pdf}
       \caption{$ 70.5^{\circ} <\theta_{\text{Rec}} \leq 76.5^{\circ}$}
    \end{subfigure}
-   \caption{Fisher Cut determination for the different sub-angular regions. The $\mathcal{F}$ distributions of the background training sample are plotted in purple. The exponential fit is shown in black with green marking the fitting region for the fit. The numbers in text indicate the comaparison for Observed and predicted events in each region, see text for more details. The red line indicates the $\mathcal{F}_{cut}$ obtained from the fit.}
+   \caption{Fisher Cut determination for the different angular sub-regions. The $\mathcal{F}$ distributions of the background training sample are plotted in purple. The exponential fit is shown in black with green marking the fitting region for the fit. The numbers in text indicate the comparison for Observed and Predicted events in each region, see text for more details. The red line indicates the $\mathcal{F}_{cut}$ obtained from the fit.}
     \label{fig:Fisher_cut}
 
 \end{figure}
 
+\FloatBarrier
 \begin{table}[h!]
   \centering
   \begin{tabular}{ |P{1.25cm}||P{2.23cm}|P{2.23cm}|P{2.23cm}|P{2.23cm}|P{2.28cm}| }
@@ -547,19 +549,19 @@ Fig~\ref{fig:Fisher_cut} shows the $\mathcal{F}_{cut}$ obtained for the differen
       & Region 1 & Region 2& Region 3& Region 4 & Region 5 \\
       &(58.5$^\circ$-61.5$^\circ$]&(61.5$^\circ$-64.5$^\circ$]&(64.5$^\circ$-67.5$^\circ$]& (67.5$^\circ$-70.5$^\circ$] & (70.5$^\circ$- 76.5$^\circ$] \\
     \hline 
-    $\mu$ + 1$\sigma$ & 521 - 487 & 14 & 17 & 19 & 23 \\
-    $\mu$ + 2$\sigma$ & 174 - 118  & 1820 & 2040 & 2330 & 2720 \\
-    $\mu$ + 3$\sigma$ & 41 - 36 & 220 & 140 & 230 & 120 \\
-    $\mu$ + 4$\sigma$ & 21 - 19 & 220 & 140 & 230 & 120 \\
-    $\mu$ + 5$\sigma$ & 2 - 3 & 220 & 140 & 230 & 120 \\
-    $\mu$ + 6$\sigma$ & 140 & 220 & 140 & 230 & 120 \\
+    $\mu$ + 1$\sigma$ & 521 - 514.5 & 185 - 195.1 & 145 - 90.2 & 44 - 40.7  & 25 - 15.6 \\
+    $\mu$ + 2$\sigma$ & 174 - 116.8  & 85 - 49.8 & 18 - 18.8 & 16 - 8.6 & 10 - 5.6 \\
+    $\mu$ + 3$\sigma$ & 41 - 33.6 & 17 - 12.7 & 5 - 3.9 & 1 - 1.5 & 1 - 2.04 \\
+    $\mu$ + 4$\sigma$ & 21 - 7.6 & 9 - 3.2 & 3 - 0.8 & 1 - 0.3 & 0 - 0.7 \\
+    $\mu$ + 5$\sigma$ & 2 - 2.2 & 5 - 0.8 & 0 - 0.2 & 0 - 0.1 & 0 - 0.3 \\
+    $\mu$ + 6$\sigma$ & 6 - 0.5 & 0 - 0.2 & 0 - 0.0 & 0 - 0.0 & 0 - 0.0 \\
     \hline
   \end{tabular}
-  \caption{Evaluation of the exponential fit for the Fisher cut determination. The observed and predicted (from the fit) number of events in the tail of the Fisher distribution are shown for each sub-angular region. The numbers are calculated by integrating from the start point mentioned in the first row till the +1$\sigma$ }
+  \caption{Evaluation of the exponential fit for the Fisher cut determination. The observed and predicted (from the fit) number of events in the tail of the Fisher distribution are shown for each angular sub-region. The numbers are calculated by integrating from the start point mentioned in the first row till the +1$\sigma$ }
   \label{tab:Cut_eval}
 \end{table}
 
-The final coefficients obtained are tabulated in App.~\ref{} and the cut value for each angular region is presented in tab.~\ref{tab:Selection_summ}. The two polynomials mentioned in the above section are evaluated based on the fraction of neutrino events passing the $\mathcal{F}_{cut}$. the numbers are calculated relative to the number of surviving events right before the Fisher analysis. As can be seen in Fig.~\ref{fig:Fishpol_v_theta} the simplified Fisher polynomial either matches or outperforms the polynomial used in the previous analysis. The comparison is done only for the case where new triggers are included. The much higher number of events in this sample are required to achieve a sufficiently high background-signal separation especially in the low zenith angular regions where previously a more stringent number of station cut was needed to reduce noise. However, the new Fisher polynomial seems to perform better even for higher angles which could lead to an overall improvement of neutrino detection efficiency irrespective of energy. This is proved later in sec.~\ref{sec:det_exposure_calc}. Based on this comparison the polynomial given in~\ref{eq:fisher_poly_new} was used for signal-background separation is this analysis. 
+The final coefficients obtained are tabulated in App.~\ref{sec:app_3} and the cut value for each angular region is presented in tab.~\ref{tab:Selection_summ}. The two polynomials mentioned in the above section are evaluated based on the fraction of neutrino events passing the $\mathcal{F}_{cut}$. the numbers are calculated relative to the number of surviving events right before the Fisher analysis. As can be seen in Fig.~\ref{fig:Fishpol_v_theta} the simplified Fisher polynomial either matches or outperforms the polynomial used in the previous analysis. The comparison is done only for the case where new triggers are included. The much higher number of events in this sample are required to achieve a sufficiently high background-signal separation especially in the low zenith angular regions where previously a more stringent number of station cut was needed to reduce noise. However, the new Fisher polynomial seems to perform better even for higher angles which could lead to an overall improvement of neutrino detection efficiency irrespective of energy. This is proved later in sec.~\ref{sec:det_exposure_calc}. Based on this comparison the polynomial given in~\ref{eq:fisher_poly_new} was used for signal-background separation is this analysis. 
 
 \begin{figure}[h!]
   \centering
@@ -572,11 +574,12 @@ A two-dimensional plot with the Fisher values on an event by event basis vs the 
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=14.5cm]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_comp_bkg_sim_wnt.pdf}
+  \includegraphics[width=\textwidth]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_comp_bkg_sim_wnt.pdf}
   \caption{Distribution of the Fisher values for the signal (MC neutrinos) and background training samples as a function of $\theta_{\text{Rec}}$. The black dots represent the background events and the 2-D histogram represents the signal events. The red line represents the interpolated $\mathcal{F}_{cut}$.}
   \label{fig:Fish_bkg_sig}
 \end{figure}
 
+\FloatBarrier
 
 \begin{table}[h!]
   \centering
@@ -598,12 +601,13 @@ A two-dimensional plot with the Fisher values on an event by event basis vs the 
     \multirow{2}{*}{\shortstack{Fisher Discrim.\\ $\mathcal{F}$}} & \multicolumn{5}{c|}{$\sum_{i=1}^{4} C_i AoP_i$} \\
        & \multicolumn{5}{c|}{i = number of first T5 triggered stations} \\ 
     \hline
-    ($\theta, \mathcal{F}_{\text{cut}}$) &(60,) & (63,) & (66,) & (69,) & (73.5,) \\
+    ($\theta, \mathcal{F}_{\text{cut}}$) &(60, 7.772) & (63, 6.613) & (66, 5.408) & (69, 4.180) & (73.5, 4.357) \\
     \hline
   \end{tabular}
-  \caption{Summary of the selection procedure along with the $\mathcal{F}_{\text{cut}}$ values for the different sub-angular regions.}
+  \caption{Summary of the selection procedure along with the $\mathcal{F}_{\text{cut}}$ values for the different angular sub-regions.}
   \label{tab:Selection_summ}
 \end{table}
+
 
 \subsection{Time evolution of selection parameters}
 \label{subsec:nu_sel_timeev}
@@ -726,26 +730,47 @@ In this section, the detection efficiency at each stage of the $\nu$ selection p
 
 
 The inclined shower selection removes $\sim 10\%$ of showers. These showers were previously discussed in section~\ref{sec:reco_possel}. Most of these events are showers which interact very close to the ground which can lead to a mis-reconstructed zenith angle. Further, calculating the impact of $\Delta \theta_{\text{rec}}$ both CC and NC events observe a strong reduction. Comparing to the analysis with old triggers this decrease is $\sim$10\% higher for CC but similar for the one observed for NC interactions. 
-The error distributions for both channels are given in fig~\ref{}. 
-The errors associated with neutral-current (NC) events tend to worsen with increasing zenith angle and decreasing shower energy. These conditions hinder the performance of the reconstruction algorithm, as both scenarios result in a limited number of triggered stations. Additionally, in the case of lower energies, certain geometric patterns, such as linear alignments, can adversely affect zenith angle determination.
+ 
+The errors associated with neutral-current (NC) events tend to worsen with increasing zenith angle and decreasing shower energy which was also shown earlier in the previous analysis. These conditions hinder the performance of the reconstruction algorithm, as both scenarios result in a limited number of triggered stations. Additionally, in the case of lower energies, certain geometric patterns, such as linear alignments, can adversely affect zenith angle determination.
 
+The error distributions for the CC channel is shown in fig~\ref{fig:Theta_err_comp}.
 For charged-current (CC) events, the significant decline in reconstruction performance with the inclusion of new triggers is primarily due to a deterioration in angular reconstruction. This issue may stem from several factors, such as the absence of a tuned segment selection algorithm for the new triggers or the susceptibility of these triggers to noise. Future improvements to the angular reconstruction algorithm, which were beyond the scope of this thesis, are proposed in the Outlook section to address these challenges and enhance performance.
 
-\todo{error distributions}
+\begin{figure}[h!]
+  \centering
+  \subcaptionbox{Comparison with old .\label{sub:fig:Rec_theta_CC_comp}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/Nu_eff/Theta_err_CC_comp_wnt_redcut}}
+  \hfill
+  \subcaptionbox{Effect of energy.\label{sub:fig:Rec_theta_NC_comp}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/Nu_eff/Theta_err_CC_comp_E_wnt_redcut}}
+  \caption{Looking at theta error deeply} 
+  \label{fig:Theta_err_comp}
+\end{figure}
+
 The fiducial quality cut is inherently integrated into the reconstruction algorithm and, therefore, is not evaluated separately in this section.
 
 The T5 candidate cut has a more pronounced effect on the NC channel than on the CC channel. This difference arises because the NC channel typically involves fewer triggered stations compared to the CC channel.
 
-Additionally, the Fisher discrimination efficiency varies between the channels, performing better for the CC channel than for the NC channel, as illustrated in Fig.~\ref{fig
-}. This discrepancy is further investigated through the Area-over-Peak (AoP) distributions for the two channels (see Fig.~\ref{}). On average, CC events exhibit higher AoP values compared to NC events. Notably, the AoP values for NC events tend to fall between those of CC and background events, resulting in less effective separation for the NC channel. Overall, NC channel events retain a lower electromagnetic component when reaching the ground compared to CC events, a feature already highlighted in previous analyses.
 
-\todo{Add figure for AoP modulation CC and NC and zenith angles vs Slant depth }
+Additionally, the Fisher discrimination efficiency varies between the channels, performing better for the CC channel than for the NC channel as seen in table~\ref{tab:Selection_eff}. This discrepancy is further investigated through the Area-over-Peak (AoP) distributions for the two channels (see Fig.~\ref{fig:AoP_v_X}). On average, CC events exhibit higher AoP values compared to NC events. Notably, the AoP values for NC events tend to fall between those of CC and background events, resulting in less effective separation for the NC channel. Overall, NC channel events retain a lower electromagnetic component when reaching the ground compared to CC events, a feature already highlighted in previous analyses.
 
-Fig~\ref{fig:Eff_v_theta_CC_E} shows the comparison of the neutrino detection efficiency w.r.t. the zenith angle for the CC channel at different primary energies. Overall the efficiency increases with energy reached maximum values for E$\sim 10^{20}$eV. The efficiency increases as a function of zenith angle with a maximum efficiency for $\theta_{MC} \sim 70^{\circ}$. The efficiency slightly decreases for angles above $ \sim 73^{\circ}$, since for very inclined showers the electromagnetic component at ground is significantly less, which affects the identification efficiency. Another factor contributing to this decrease for higher zenith angles is the quality cut on $\Delta \theta_{rec}$ which disproportionally affects the highest zenith angles since the angular reconstruction algorithm is not optimized for very inclined showers. Further it is also seen that since the efficiency for higher energies is already pretty high the effect of the new triggers is less pronounced for higher energies. This can also be further visualised in fig.~\ref{} where the trigger efficiency and the neutrino identification efficiency for two different primary energies and zenith angles are compared. As it is seen in the figure on the left for higher energies the trigger efficiency is for the injection slant depths close to the top of the atmosphere is very high and decreases close to the detector where the shower does not get enough time to develop and trigger the stations for a good reconstruction. For lower energies  such as the one presented on the right .... at low zenith angle the new triggers can significantly improve the trigger efficiency. 
+\begin{figure}[t!]
+  \centering
+  \includegraphics[width=\textwidth]{thesis_figures/Nu_analysis/Nu_eff/Selection_Evo_AoP_X_MC_wnt_redcut.pdf}
+  \caption{AoP modulation with slant depth }
+  \label{fig:AoP_v_X}
+\end{figure}
+
+Fig~\ref{fig:Eff_v_theta_CC_E} shows the comparison of the neutrino detection efficiency w.r.t. the zenith angle for the CC channel at different primary energies. Overall the efficiency increases with energy reached maximum values for E$\sim 10^{20}$eV. The efficiency increases as a function of zenith angle with a maximum efficiency for $\theta_{MC} \sim 70^{\circ}$. The efficiency slightly decreases for angles above $ \sim 73^{\circ}$, since for very inclined showers the electromagnetic component at ground is significantly less, which affects the identification efficiency. Another factor contributing to this decrease for higher zenith angles is the quality cut on $\delta \theta_{rec}$ which disproportionally affects the highest zenith angles since the angular reconstruction algorithm is not optimized for very inclined showers. Further it is also seen that since the efficiency for higher energies is already pretty high the effect of the new triggers is less pronounced for higher energies. This can also be further visualised in fig.~\ref{Eff_X_comp} where the trigger efficiency and the neutrino identification efficiency for two different primary energies and zenith angles are compared. As it is seen in the figure on the left for higher energies the trigger efficiency is for the injection slant depths close to the top of the atmosphere is very high and decreases close to the detector where the shower does not get enough time to develop and trigger the stations for a good reconstruction. For lower energies  such as the one presented on the right .... at low zenith angle the new triggers can significantly improve the trigger efficiency. 
+
+\begin{figure}[h!]
+  \centering
+  \subcaptionbox{SOme theta energy .\label{sub:fig:Rec_theta_CC_comp}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/Nu_eff/Efficiency_vs_X1_18_5_66.pdf}}
+  \hfill
+  \subcaptionbox{sOME THETA ENERGY.\label{sub:fig:Rec_theta_NC_comp}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/Nu_eff/Efficiency_vs_X1_19_5_72}}
+  \caption{Comparison of the trigger and neutrino detection efficiency as a function of injected slant depth for two different angles and energies. Top of the atmosphere etc.} 
+  \label{fig:Eff_X_comp}
+\end{figure}
 
 Figure~\ref{fig:Eff_v_theta_CC_E} compares the neutrino detection efficiency as a function of zenith angle for the CC channel at various primary energies. The efficiency generally increases with energy, reaching its maximum around \(E \sim 10^{20}\,\mathrm{eV}\). As a function of zenith angle, the efficiency peaks near \(\theta_{MC} \sim 70^\circ\) but begins to decline for angles exceeding \(\sim 73^\circ\). This decline is attributed to the reduced electromagnetic component at the ground for highly inclined showers, which impacts the identification efficiency. Another contributing factor is the \(\Delta \theta_{rec}\) quality cut, which disproportionately affects events with very high zenith angles due to limitations in the angular reconstruction algorithm for extremely inclined showers.
-
-Additionally, the influence of new triggers on efficiency varies with energy. For higher energies, where the efficiency is already near its maximum, the impact of the new triggers is less pronounced. This is visualized in Fig.~\ref{}, where the trigger and identification efficiencies are compared for different primary energies and zenith angles. For high energies (left panel), the trigger efficiency is almost perfect at slant depths near the top of the atmosphere but decreases closer to the detector, as the shower may not have sufficient time to develop and trigger enough stations for robust reconstruction. At lower energies (right panel), especially at low zenith angles, the new triggers significantly improve the overall trigger efficiency.
 
 It was observed that by using the new triggers a 50-20\% improvement per zenith angle can be achieved for the neutrino search for the DG$\mathrm{_{low}}$ channel especially for the CC channel as shown in Fig.~\ref{fig:Eff_v_theta_channel_comp}. The numbers for the sample with just old triggers are calculated relative to the events of the sample with new triggers which is significantly higher. This is done to ensure a fair comparison since even though the relative efficiency of the sample with just the old triggers could be higher, the absolute efficiency i.e the number of surviving events after all the cuts is way lower. 
 

@@ -22,9 +22,8 @@ In this analysis, a different approach based on the 6T5 condition, which is requ
   A_{hex}(E_{\nu}, X)  = \int^{\phi = 2\pi}_{\phi = 0} \,d\phi \int_{\theta_{min} = 58.5^{\circ}}^{\theta_{max}= 76.5^{\circ}}  \, A_{6T5} \cdot \varepsilon(E_{\nu}, X, \theta) \cdot sin\theta \, cos\theta \cdot d\theta    \mathrm{[cm^2 sr]}
 \end{equation}
 
-,where $\varepsilon(E_{\nu}, X, \theta)$ is the neutrino detection efficiency for each simulated energy, slant depth and zenith discussed in the last chapter. An example for a particular combination is given in fig.~\ref{} in the last chapter. Plots for efficiency for each combination can be found as part of the git repository made available for this analysis.
+,where $\varepsilon(E_{\nu}, X, \theta)$ is the neutrino detection efficiency for each simulated energy, slant depth and zenith discussed in the last chapter. An example for a particular combination is given in fig.~\ref{Eff_X_comp} in the last chapter. Plots for efficiency for each combination can be found as part of the git repository made available for this analysis.
 
-\todo{refer to T3 and nu eff figures to be added in the last chapter}
 The next step involves integrating the \textit{acceptance} over the different simulated injected slant depths (as given in table~\ref{tab:Simulation_params}). This accounts for the \textit{effective mass} target for the neutrino identification over the 6T5 hexagon unit. It is calculated as follows. 
 
 \begin{equation}
@@ -32,9 +31,14 @@ The next step involves integrating the \textit{acceptance} over the different si
   M_{\text{hex}}(E_{\nu}) = \int_X A_{\text{hex}}(E_{\nu}, X) \cdot dX
 \end{equation}
 
-Fig.~\ref{} shows the effective mass for both CC and NC interaction channels for a single 6T5 hexagon unit. Like the detection efficiency it increases with energy. 
+Fig.~\ref{fig:EffMass_flavors_comp} shows the effective mass for both CC and NC interaction channels for a single 6T5 hexagon unit. Like the detection efficiency it increases with energy. 
 
-\todo{Add the plot for effective mass}
+\begin{figure}[t!]
+  \centering
+  \includegraphics[width=14.5cm]{thesis_figures/ExpLimits/EffMass_comp_all_new_sim_optim.pdf}
+  \caption{Effective mass for one 6T5 hexagon of the SD array for different neutrino flavors and interaction channels. The dashed lines are the calculated effective mass for this analysis and the solid lines is the effective mass calculated for the analysis performed without including new triggers.}
+  \label{fig:EffMass_flavors_comp}
+\end{figure}
 Exposure calculation still needs to account for the detector configuration and its evolution over time. We reduced our array to units of 6T5 hexagons and a full SD array consisting of 1660 stations consists 1420 of these hexagons. Since the establishment of the Pierre Auger Observatory the active number of 6T5 hexagons are monitored every second. This forms a very good indicator for the time evolution of the SD array since any non-working station or large periods of instability are intrinsically recorded in the number of active 6T5 hexagons at that time. The instantaneous number of hexagons, $n_{\text{hex}}(t)$ thus can be used as an indicator of detector configurations over time. The $n_{\text{hex}}(t)$ were updated and calculated every minute and have an uncertainty of about 1.5\% as mentioned in~\cite{PierreAuger:2010zof}. To calculate the energy dependent exposure, the effective mass of one 6T5 hexagon is multiplied by the instantaneous number of hexagons and integrated in time. Further, the $\nu$ interaction probability for each flavour(i = $\nu_e, \nu_{\mu}, \nu_{\tau}$) and channel(c = CC, NC) is also folded in. The exposure is given as:
 
 \begin{equation}
@@ -65,7 +69,6 @@ The exposure calculated this analysis is also compared to the one calculated usi
 
 \section{Systematic uncertainties}
 \label{sec:det_uncert}
-\todo{Determine what to write}
 This section aims to detail the systematic uncertainties which can arise during the course analysis and their contribution to the exposure. The systematic uncertainities in an analysis can arise at any point. The investigations starts already at the simulation level where the uncertainties from the primary interaction, hadronic interaction models, thinning etc. can lead to uncertainties in the neutrino detection efficiency. At the next step the uncertainities in the reconstruction algorithms could also affect the final exposure. The crossections used for the final calculation of exposure could also prove to be a source of systematic uncertainities. Other parameters such as the number of hexagons are very well defined parameters and are not expected to have a contribution to the systematic uncertainities in the exposure. For this analysis the systematic uncertainities are either sourced through previous analysis~\cite{gap_systematics} or are calculated for certain cases. Since the analysis has been done once before albeit without the new triggers the sources of systematic uncertainties though not exactly the same are very similar to~\cite{gap_note_2013}. 
 The sources of systematic uncertainities considered for this analysis are discussed below:
 \begin{description}
@@ -112,17 +115,16 @@ This section is thus split into two subsections. The first describing the unblin
 \subsection{Flawed 20\% test sample}
 \label{subsec:unblind_20}
 
-\todo{Test sample before the reco changes:}
-% \begin{figure}[t!]
-%   \centering
-%   \includegraphics[width=14.5cm]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_comp_bkg_test_wnt.pdf}
-%   \caption{Test_reval vs background}
-%   \label{fig:Fish_bkg_test}
-% \end{figure}
+\begin{figure}[t!]
+  \centering
+  \includegraphics[width=14.5cm]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_comp_bkg_test_flawed_wnt.pdf}
+  \caption{Distribution of the Fisher values for the background training sample (blue) and the test sample (brown) as a function of $\theta_{\text{Rec}}$ for the sample before the last fixes to the reconstruction were applied. The red line represents the interpolated $\mathcal{F}_{cut}$. The interesting events are marked with circles.}
+  \label{fig:Fish_bkg_test_flawed}
+\end{figure}
 
 \todo{Add info of faulty events }
 
-The Fisher value distribution for the test sample is shown in fig~\ref{}. As it is shown no event passes the Fisher cut in any angular region. However, there are a few events which come very close to the cut line. Five events marked with a red circle were analysed in more detail. Each of them has its own unique reason with only the one with zenith being the most interesting. This event has the ID of 66106356. After looking at detailed information about the event it was found out that the accidental station cut used is insufficient. Previously, the  accidental cut (rejection of stations with Total signal < 3 VEM) is only applied to the event if there are more than 5 stations in the event. Since for this analysis due to the inclusion of MoPS and ToTd an overall increase in events is expected which also increases the overall number of stations with accidental stations this cut needs to be reduced a bit to take this overall increase into account. Thus, this cut was reduced to apply for events with more than 4 stations. This reduction of the cut decreases the total events passing the analysis cut by $\sim$5\% for the background training sample and $1-2$\% for the signal training sample. The Fisher coefficients and cut changes slightly. After this change in the reconstruction the test sample was obtained again and compared to the background dample as shown in fig~\ref{fig:Fish_bkg_test}. The other interesting events which have $\mathcal{F}$ values close to the $\mathcal{F_{cut}}$ with their respective ids are tabulated in table~\ref{}. These events were individually evaluated. Some of these () were found to have a bad time residual fit primarily because of multiple peaks observed in stations triggered by the new triggers. Since, no segmentation algorithm was used for stations with MoPS and ToTd triggers sometimes a wrong peak was selected which affected the reconstruction for these events. A future analysis with a corrected segmentation algorithm which is functional for the new triggers MoPS and ToTd is envisaged in the future analysis upgrades. Such events are expected to be limited to less than $\sim$1\% of total events but still require a careful look for future analysis upgrades. A further detailed analysis was also performed for these events where the primary mass composition was extracted via the muon production distributions as mentioned in~\cite{PierreAuger:2014zay}. Even with large uncertainties these events are most likely due to a light deep primary. For the other three events no particular feature worth mentioning was observed. 
+The Fisher value distribution for the test sample is shown in fig~\ref{fig:Fish_bkg_test_flawed}. As it is shown no event passes the Fisher cut in any angular region. However, there are a few events which come very close to the cut line. Five events marked with a red circle were analysed in more detail. Each of them has its own unique reason with only the one with zenith being the most interesting. This event has the ID of 66106356. After looking at detailed information about the event it was found out that the accidental station cut used is insufficient. Previously, the  accidental cut (rejection of stations with Total signal < 3 VEM) is only applied to the event if there are more than 5 stations in the event. Since for this analysis due to the inclusion of MoPS and ToTd an overall increase in events is expected which also increases the overall number of stations with accidental stations this cut needs to be reduced a bit to take this overall increase into account. Thus, this cut was reduced to apply for events with more than 4 stations. This reduction of the cut decreases the total events passing the analysis cut by $\sim$5\% for the background training sample and $1-2$\% for the signal training sample. The Fisher coefficients and cut changes slightly. After this change in the reconstruction the test sample was obtained again and compared to the background dample as shown in fig~\ref{fig:Fish_bkg_test}. The other interesting events which have $\mathcal{F}$ values close to the $\mathcal{F_{cut}}$ with their respective ids are tabulated in table~\ref{}. These events were individually evaluated. Some of these () were found to have a bad time residual fit primarily because of multiple peaks observed in stations triggered by the new triggers. Since, no segmentation algorithm was used for stations with MoPS and ToTd triggers sometimes a wrong peak was selected which affected the reconstruction for these events. A future analysis with a corrected segmentation algorithm which is functional for the new triggers MoPS and ToTd is envisaged in the future analysis upgrades. Such events are expected to be limited to less than $\sim$1\% of total events but still require a careful look for future analysis upgrades. A further detailed analysis was also performed for these events where the primary mass composition was extracted via the muon production distributions as mentioned in~\cite{PierreAuger:2014zay}. Even with large uncertainties these events are most likely due to a light deep primary. For the other three events no particular feature worth mentioning was observed. 
 
 \begin{figure}[t!]
   \centering
@@ -146,32 +148,32 @@ After the errors discovered in the initial partial unblinding were fixed by alte
   \centering
    \begin{subfigure}[l]{.48\textwidth}
      \centering
-     \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/{Fisher_fit_search+test_bkg_region_58.5_61.5}.pdf}
+     \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_fit_search+test_bkg_region_58.5_61.5.pdf}
      \caption{$ 58.5^{\circ} <\theta_{\text{Rec}} \leq 61.5^{\circ}$}
      \label{fig:58.5-61.5}
    \end{subfigure}
    %\hfill
    \begin{subfigure}[r]{.48\textwidth}
      \centering
-     \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/{Fisher_fit_search+test_bkg_region_61.5_64.5}.pdf}
+     \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_fit_search+test_bkg_region_61.5_64.5.pdf}
      \caption{$ 61.5^{\circ} <\theta_{\text{Rec}} \leq 64.5^{\circ}$}
     \end{subfigure}
     \hfill
     \begin{subfigure}[l]{.48\textwidth}
       \centering
-      \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/{Fisher_fit_search+test_bkg_region_64.5_67.5}.pdf}
+      \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_fit_search+test_bkg_region_64.5_67.5.pdf}
       \caption{$ 64.5^{\circ} <\theta_{\text{Rec}} \leq 67.5^{\circ}$}
     \end{subfigure}
 
     \begin{subfigure}[r]{.48\textwidth}
       \centering
-      \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/{Fisher_fit_search+test_bkg_region_67.5_70.5}.pdf}
+      \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_fit_search+test_bkg_region_67.5_70.5.pdf}
       \caption{$ 67.5^{\circ} <\theta_{\text{Rec}} \leq 70.5^{\circ}$}
     \end{subfigure}
     \hfill    
     \begin{subfigure}[r]{.48\textwidth}
       \centering
-      \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/{Fisher_fit_search+test_bkg_region_70.5_73.5}.pdf}
+      \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_fit_search+test_bkg_region_70.5_73.5.pdf}
       \caption{$ 70.5^{\circ} <\theta_{\text{Rec}} \leq 76.5^{\circ}$}
    \end{subfigure}
    \caption{Comparison of the $\mathcal{F}$ value distributions for the background training (purple) and the test+search samples (blue) for the different angular sub-regions. The test+search sample is scaled by the ratio of the integrals of the background training and test+search samples. The black dashed line indicates the exponential fit to the tail of the distribution. The red dashed line indicates the value of the $\mathcal{F_{cut}}$ obtained from the fit. For the test+search samplethe observed values are compared to the predicted values from the fit for ht.}
@@ -189,18 +191,19 @@ After the errors discovered in the initial partial unblinding were fixed by alte
       & Region 1 & Region 2& Region 3& Region 4 & Region 5 \\
       &(58.5$^\circ$-61.5$^\circ$]&(61.5$^\circ$-64.5$^\circ$]&(64.5$^\circ$-67.5$^\circ$]& (67.5$^\circ$-70.5$^\circ$] & (70.5$^\circ$- 76.5$^\circ$] \\
     \hline 
-    $\mu$ + 1$\sigma$ & 13 & 14 & 17 & 19 & 23 \\
-    $\mu$ + 2$\sigma$ & 1640 & 1820 & 2040 & 2330 & 2720 \\
-    $\mu$ + 3$\sigma$ & 140 & 220 & 140 & 230 & 120 \\
-    $\mu$ + 4$\sigma$ & 140 & 220 & 140 & 230 & 120 \\
-    $\mu$ + 5$\sigma$ & 140 & 220 & 140 & 230 & 120 \\
-    $\mu$ + 6$\sigma$ & 140 & 220 & 140 & 230 & 120 \\
+    $\mu$ + 1$\sigma$ & 518.6 - 506.7 & 245.9 - 198.4 & 124.1 - 99.1 & 42.5 - 41.6 & 20.0 - 14.0 \\
+    $\mu$ + 2$\sigma$ & 143.5 - 145.2 & 43.6 - 50.5 & 35.4 - 24.2 & 12.5 - 8.8 & 2.6 - 4.5 \\
+    $\mu$ + 3$\sigma$ & 48.6 - 32.8 & 19.9 - 12.9 & 8.4 - 4.8 & 1.3 - 1.6 & 0,0 - 1.5 \\
+    $\mu$ + 4$\sigma$ & 16.6 - 8.9 & 3.2 - 3.3 & 1.7 - 1.1 & 0.8 - 0.3 & 0.0 - 0.5 \\
+    $\mu$ + 5$\sigma$ & 1.2 - 0.5 & 0.5 - 0.8 & 0.5 - 0.3 & 0.0 - 0.0 & 0.0 - 0.0 \\
+    $\mu$ + 6$\sigma$ & 0.0 - 0.1 & 0.0 - 0.0 & 0.2 - 0.0 & 0.0 - 0.0 & 0.0 - 0.0 \\
     \hline
   \end{tabular}
   \caption{Evaluation of the exponential fit on the $\mathcal{F} $ distributions for test+search samples. The observed and predicted (from the fit) number of events in the tail of the Fisher distribution are shown for each angular sub-region. The numbers are calculated by integrating from the start point mentioned in the first row till the +1$\sigma$}
   \label{tab:Cut_eval_unblind}
 \end{table}
 
+\FloatBarrier
 \section{Diffuse limit for the UHE neutrino flux}
 \label{sec:diff_limit}
 Since no neutrino candidate was found in this analysis, an upper limit to the flux of the incoming UHE$\nu_s$ can be evaluated. Let flux per unit area, \textit{A}, energy, solid angle $\omega$ and time be denoted by $\phi(E_{\nu}) = \frac{d^6 N_{\nu}}{dE_{\nu}d\omega dA dt}$. The expected number of detected neutrinos can be calculated by folding in the total exposure $\xi_{tot}(E_{\nu})$ with flux as follows,
@@ -268,6 +271,12 @@ Assuming constant exposure and flux in each energy bin the differential limit ca
   \label{eq:diff_lim_approx}
  \text{Approx. Differential limit} \, (i^{\text{th}} \, E_{\nu} \, \text{bin})  = \frac{N_{\text{Up}}}{E^{-1}_{\nu} \cdot \xi(E_{\nu}) \cdot ln(10) \cdot \Delta (log_{10}(E_{\nu}))}
 \end{equation}
+\begin{figure}[t!]
+  \centering
+  \includegraphics[width=14.5cm]{thesis_figures/ExpLimits/Integ_DiffLimit_comp_combined_new_sim_optim.pdf}
+  \caption{Combination of Integral and differential upper limits for a UHE$\nu_s$ diffuse flux in the angular range, $ 58.5^{\circ} <\theta_{\text{Rec}} \leq 61.5^{\circ}$, for the time period 2004-2021. The limits for the time period 2004-2013 are plotted in orange and the limits for the time period 2014-2021 are plotted in purple. The combined limits are plotted in black.}
+  \label{fig:Limit_comp_2}
+\end{figure}
 
 These limits provide a way to denote the sensitivity of the detector for different energies. As it can be seen from the fig.~\ref{fig:Limit_comp_1} for the Down-going Low analysis the Pierre Auger Observatory is the most sensitive for energies $\sim$1 EeV. 
 
@@ -275,14 +284,9 @@ Both limits are also compared to the results from the previous analysis in fig~\
 
 Further, the limits obtained in this analysis are combined with the limits obtained using the old analysis. The total exposure for the time period 2004-2013 is calculated using the old analysis and selection as ToTd and MoPS were not implemented for this time period. This exposure is combined with the exposure obtained in this study with the inclusion of new triggers for the time period 2014-2021. This combination is only done under the assumption that the systematics for both the analysis are very similar. The combined exposure is then used to calculate the overall differential and integral limits for the DG$_{\text{low}}$ region in the time period 2004-2021. This is shown in fig~\ref{fig:Limit_comp_2}. Further this combination is also compared to the expected limit if only the old analysis is applied to the time period 2004-2021. This is shown in fig~\ref{fig:Limit_comp_3}.
 
-\begin{figure}[t!]
-  \centering
-  \includegraphics[width=14.5cm]{thesis_figures/ExpLimits/Integ_DiffLimit_comp_combined_new_sim_optim.pdf}
-  \caption{Combination of Integral and differential upper limits for a UHE$\nu_s$ diffuse flux in the DG$\mathrm{_{low}}$ for the time period 2004-2021. The limits for the time pweriod 2004-2013 are plotted in orange and the limits for the time period 2014-2021 are plotted in purple. The combined limits are plotted in black.}
-  \label{fig:Limit_comp_2}
-\end{figure}
 
-\begin{figure}[t!]
+
+\begin{figure}[h!]
   \centering
   \includegraphics[width=14.5cm]{thesis_figures/ExpLimits/Integ_DiffLimit_comp_combined_new_sim_optim_3.pdf}
   \caption{Comparison of the combined limits to the expected limits if only the old analysis is applied to the time period 2004-2021. The limits obtained in this study are plotted in black while the limits obtained from the old analysis for the same time period are plotted in blue.}
@@ -291,7 +295,7 @@ Further, the limits obtained in this analysis are combined with the limits obtai
 
 The aim of this study was to evaluate the improvement, but it was always known that unless huge, the inclusion of new triggers does not improve the overall diffuse flux limits set at Auger. The diffuse flux limit and sensitivity for Auger is dominated by the Earth-skimming channel as shown in~\cite{Aab_2019_diffuse}. This limit is significantly lower than the DG$\mathrm{_{low}}$ channel and is the main driver to constrain astrophysical and cosmogenic models. A comparison of the limits obtained in this study to the overall limit set at the Pierre Auger Observatory along with the flux predictions from some popular cosmogenic and astrophysical models is shown in fig.~\ref{} However, the improvements shown in this analysis are more important in the context of point source searches. This is discussed more in the next chapter. 
 
-\begin{figure}[t!]
+\begin{figure}[h!]
   \centering
   \includegraphics[width=14.5cm]{thesis_figures/ExpLimits/limits_and_models_DGL.pdf}
   \caption{Comparison of the combined limits obtained in this analysis to the current upper limits on the diffuse flux of cosmogenic neutrinos. The predicted fluxes from a few cosmogenic and astrophysical models is also shown for comparison. The plot has been modified to add the limits of this analysis and is originally taken from ~\cite{PierreAuger:2023pjg}}
