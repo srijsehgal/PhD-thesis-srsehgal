@@ -4,7 +4,7 @@
 \chapter{Neutrino Analysis \texorpdfstring{$60^\circ < \theta < 75^\circ$}{}}
 \label{chap:DGL}
 %==============================================================================
-This chapter details the work done to improve the neutrino search performed for the zenith range $60^\circ < \theta < 75^\circ$ at the Pierre AUger Observatory. The chapter aims to cover the expected signature in terms of measurable quantities in the Pierre Auger Observatory for the particular angular range, a description of the neutrino simulation used to develop the analysis and the reconstruction chain used to reconstruct the neutrino simulations with the Offline framework. Further, the quality cuts used are analysed in more detail, especially in the context of improving the capability of the search by the usage of MoPS and ToTd. In the end, the improvements to the neutrino detection efficiency with the inclusion of MoPS and ToTd is quantified.
+This chapter details the work done to improve the neutrino search performed for the zenith range $60^\circ < \theta < 75^\circ$ at the Pierre Auger Observatory. The chapter aims to cover the expected signature in terms of measurable quantities in the Pierre Auger Observatory for the particular angular range, a description of the neutrino simulation used to develop the analysis and the reconstruction chain used to reconstruct the neutrino simulations with the Offline framework. Further, the quality cuts used are analysed in more detail, especially in the context of improving the capability of the search by the usage of MoPS and ToTd. In the end, the improvements to the neutrino detection efficiency with the inclusion of MoPS and ToTd is quantified.
 
 
 \section{SD Neutrino signature \texorpdfstring{$60^{\circ} < \theta < 75^{\circ}$}{}}
@@ -14,8 +14,8 @@ The strategy and method to detect neutrino showers in this angular range with th
 
 \begin{figure}[t!]
   \centering
-  \includegraphics[width=14.5cm]{thesis_figures/Nu_analysis/Signal_trace_comp.png}
-  \caption{FADC trace comparison. Taken from~\cite{}}
+  \includegraphics[width=0.75\textwidth]{thesis_figures/Nu_analysis/Signal_trace_comp.png}
+  \caption{FADC trace comparison for station at 1~km distance from the shower core. The first and second panel indicate a station belonging to a cosmic ray like event for two different zenith angles. The last panel indicates a station trace for a neutrino simulated event. The Area over Peak is also indicated for each event for comparison. Taken from~\cite{Aab_2019_diffuse}}
   \label{fig:Signal_trace_comp}
 \end{figure}
 
@@ -35,7 +35,7 @@ Thus, in summary, $\nu_e$ CC and NC simulations can be considered to be good app
 \label{subsec:sim_EAS}
 CORSIKA (COsmic Ray Simulations for KASCADE)~\cite{Heck:1998vt}, a simulation software for modelling extensive air showers in the Earth's atmosphere was used to generate the EAS initiated by a $\nu$ primary. The simulation parameters are defined through files known as input cards. An example of the input cards used to generate simulation for this analysis is provided in Appendix~\ref{sec:app_1}. The first step involved simulating the primary neutrino-nucleon interaction which is performed in CORSIKA using the HERWIG~\cite{Corcella:2000bw} code. Further, options such as CHARM to track charm secondaries are not used. Also since only $\nu_e$ simulations are simulated, the TAULEP option which handles $\nu_{\tau}$ and $\overline{\nu_{\tau}}$ is also not used. The systematic uncertainties related to the primary interaction estimator are discussed later in section~\ref{sec:det_uncert}. CORSIKA further tracks and simulates the interactions of the primary interaction products as they travel in the atmosphere toward the ground constituting the air shower. It offers a wide variety of choices regarding the hadronic interaction models it uses to simulate these interactions. For the simulations used in this study separate high and low energy hadronic interaction models were used. For energies higher than 200 GeV three high energy hadronic models QGSJETT-II.04~\cite{Ostapchenko:2010vb}, SYBILL 2.3d~\cite{Riehn:2019jet} and EPOS-LHC~\cite{Pierog:2013ria} were compared. The results of the comparison are mentioned in detail in Appendix~\ref{sec:app_2}. Since the differences between the models are not that significant for the neutrino analysis SYBILL 2.3d was chosen as the high energy interaction model. For lower energies FLUKA~\cite{Ferrari:2005zk,Battistoni:2015epi} was chosen. The systematic uncertainties arising from different models are discussed in section~\ref{sec:det_uncert}.  
 
-To account for the curvature of the Earth which is especially important for the zenith angles studied, the EGS4~\cite{Nelson:1990sr} Monte-Carlo method is chosen to simulate the electromagnetic component of the shower. The analytical NKG method based on eq.~\ref{eq:Lateral_dist_func} which is also available but is not used for these simulations since it vastly underestimates the maximum of the electromagnetic component due to the fact it does not account for a curved atmosphere. Global Data Assimilation System (GDAS) measurements at Malargue~\cite{PierreAuger:2012jsu} were used for the atmospheric profile chosen for the simulations. The magnetic field components are taken to be the default values at the Malargue site ($\mathrm{B_x = 19.52\,\mu T}$ and $\mathrm{B_z = -14.17 \,\mu T}$). 
+To account for the curvature of the Earth which is especially important for the zenith angles studied, the EGS4~\cite{Nelson:1990sr} Monte-Carlo method is chosen to simulate the electromagnetic component of the shower. The analytical NKG method based on eq.~\ref{eq:Lateral_dist_func} which is also available but is not used for these simulations since it vastly underestimates the maximum of the electromagnetic component due to the fact it does not account for a curved atmosphere. Global Data Assimilation System (GDAS) measurements at Malargüe~\cite{PierreAuger:2012jsu} were used for the atmospheric profile chosen for the simulations. The magnetic field components are taken to be the default values at the Malargüe site ($\mathrm{B_x = 19.52\,\mu T}$ and $\mathrm{B_z = -14.17 \,\mu T}$). 
 
 Further, since the computing times taken for shower simulations scale roughly with the primary energy, for primary energies >$10^{16}$eV these times become extremely long. Though parallel computing provides a viable solution, the technique of "thin sampling" or thinning~\cite{Hillas:1997tf} offers an alternate way to reduce the computation times while simultaneously avoiding the waste of resources. The thinning algorithm is applied to all particles below the adjustable fraction of the primary energy that emerge from an interaction. Only one of these particles is followed, and a proper weight is assigned to this particle to account for the untracked ones which are dropped based on the thinning level ($\mathrm{\epsilon_{th} = E/E_0}$). Additional information about the application and the improvements to this process can be found in~\cite{Heck:1998gr,Kobal:2001jx}. A thinning value of $10^{-6}$ is used for the simulations in this study.
 
@@ -51,10 +51,12 @@ The simulations were performed using the GRID technology~\cite{GRID_tech,LozanoB
 
 \begin{table}[h!]
   \centering
-  \begin{tabular}{ |P{4.5cm}||P{0.75cm}|P{0.75cm}|P{0.75cm}|P{0.75cm}|P{0.75cm}|P{0.75cm}|P{0.75cm}|P{0.75cm}|  }
+  \begin{tabular}{ |P{4.5cm}||P{0.76cm}|P{0.76cm}|P{0.76cm}|P{0.74cm}|P{0.74cm}|P{0.74cm}|P{0.74cm}|P{0.74cm}|  }
     \hline
-    $\log_{10}(E/eV)$& 16.5 &17.0 & 17.5 & 18.0 & 18.5 & 19.0 & 19.5 & 20.0 \\
+    $\mathrm{\log_{10}(E/eV)}$& 16.5 &17.0 & 17.5 & 18.0 & 18.5 & 19.0 & 19.5 & 20.0 \\
+    \hline
     Showers per ($\theta$, X) & 300 & 200 & 150 & 50 & 50 & 50 & 50 & 50\\
+    \hline
     \multirow{2}{*}{\shortstack{Resamplings in Offline CC \\(NC)}} & 100 & 50 & 50 & 10 & 10 & 10 & 10 & 10 \\
                             & (200) & (100) & (100) & (50) & (50) & (50) & (50) & (50) \\
     \hline
@@ -80,7 +82,7 @@ After the simulation is completed, CORSIKA outputs a normal particle output file
 \subsection{Surface Detector Response}
 \label{subsec:sim_SD_resp}
 
-The next step required to complete the $\nu$-induced shower simulation is to generate an appropriate detector response in the SD array for each simulated atmospheric shower. This is done using the $\mathrm{\overline{Off}\underline{line}}$ framework (sec.~\ref{sec:Offline}). The framework can read in the CORSIKA output files, undo the applied thinning, simulate the Cherenkov light which will be produced as the particles travel through the WCDs and then also mimic the corresponding WCD electronics outputting the trigger and event information for each simulated shower akin to how real showers are measured at the Observatory. Each step is performed using special modules. The module sequence used to simulate the detector response for $\nu$-induced showers in this thesis is given below: 
+The next step required to complete the $\nu$-induced shower simulation is to generate an appropriate detector response in the SD array for each simulated atmospheric shower. This is done using the $\mathrm{\overline{Off}\underline{line}}$ framework (sec.~\ref{sec:Offline}). The framework can read in the CORSIKA output files, undo the applied thinning, simulate the Cherenkov light which will be produced as the particles travel through the WCDs and then also mimic the corresponding WCD electronics outputting the trigger and event information for each simulated shower akin to how real showers are measured at the Observatory. Each step is performed using special modules. Since $\mathrm{\overline{Off}\underline{line}}$ is an evolving framework a special tag "v4r0p2-pre3" was used to simulate the detector response and to reconstruct both the neutrino simulations and measured data. The module sequence used to simulate the detector response for $\nu$-induced showers in this thesis is given below: 
 
 \begingroup
   \fontfamily{cmtt}\selectfont <sequenceFile>\\
@@ -176,7 +178,7 @@ The \textit{MonteCarloEventSelectorOG} further removes stations with distance in
 
 The \textit{SdTopDownSignalSelectorUGR} is a module developed specifically to carry out a top-down selection and accidental signal rejection for neutrino like events. A summarised overview of what this module aims to accomplish is given next with a detailed description of the module already published in~\cite{gap_top_down_module}. The Top-down procedure is applicable for both the simulations and measured data whereas the accidental signal treatment is only applied for measured data. The procedure is based on~\cite{gap_top_down_proc}. Top-down selection requires a minimum of three stations with the shower front time tolerance compatibility dependent on the zenith angle. If the fit does not converge stations are successively removed and re-tested until a satisfactory fit is achieved. At the end of the procedure stations which do not contribute to the final fit are rejected while the others are marked as candidate stations. Further, the Top-Down procedure also takes into account the individual traces and uses the shape for 3-fold topologies. It also rejects isolated signals akin to the Bottom-up selection but with larger tolerances to account for the wider footprint of inclined events. The module also applies an accidental signal rejection procedure before the top-down procedure is applied to account for the atmospheric muon background. The atmospheric muons and also local showers can either trigger isolated stations or even real event stations affecting the start times and in turn the zenith angle reconstruction. This miss-reconstruction can either cause problems with the fitting of the top-down procedure and can also lead to a worsening neutrino detection efficiency by improper background rejection. The module discards stations with total signals below 3 VEM which rejects the muonic background which typically peaks at 1 VEM. The discarding procedure is implemented only till the minimal number of stations present in the event is below 6.
 
-Since the parameters of the module were evaluated without the consideration of MoPS and ToTd, especially for the segment selection and accidental stations removal procedure, slight changes were made to the module in this anlysis. The segmentation procedure was not applied to the stations which had a MoPS/ToTd trigger. These stations were only subjected to the top-down selection procedure. Some more details about this choice are presented in Appendix~\ref{sec:app_3}. Further, the accidental station cut was lowered till the minimum number of stations present in the event are below 5 compared to 6 to account for the increased number of stations expected with the inclusion of new triggers. This was done after the partial unblinding of the test sample and is described in more detail in sec.~\ref{subsec:unblind_20}. These changes were only implemented for the sample where the new triggers are included and the sample where the new triggers are not used remains unchanged. 
+Since the parameters of the module were evaluated without the consideration of MoPS and ToTd, especially for the segment selection and accidental stations removal procedure, slight changes were made to the module in this analysis. The segmentation procedure was not applied to the stations which had a MoPS/ToTd trigger. These stations were only subjected to the top-down selection procedure. Some more details about this choice are presented in Appendix~\ref{sec:app_3}. Further, the accidental station cut was lowered till the minimum number of stations present in the event are below 5 compared to 6 to account for the increased number of stations expected with the inclusion of new triggers. This was done after the partial unblinding of the test sample and is described in more detail in sec.~\ref{subsec:unblind_20}. These changes were only implemented for the sample where the new triggers are included and the sample where the new triggers are not used remains unchanged. 
 
 \subsection{Angular Reconstruction}
 \label{subsec:angular_reco}
@@ -201,16 +203,16 @@ Assuming a minimal change in altitude which is true for the SD location and prec
 
 \begin{figure}[t!]
   \centering
-  \includegraphics[width=\textwidth]{thesis_figures/Nu_analysis/Plane_fit.pdf}
+  \includegraphics[width=0.75\textwidth]{thesis_figures/Nu_analysis/Plane_fit.pdf}
   \caption{Schematic of plane-front approximation. Taken from~\cite{PierreAuger:2020yab}}
   \label{fig:Plane_fit}
   \end{figure}
 
-where $t_i$ are the start time of the signals of station i located at $x_i = \vec{x} - \vec{x_b}$. The minimization of the $\chi^2$ is performed using MINUIT~\cite{James:1975dr}. For the start time variance determination the standard model described in~\cite{PierreAuger:2020yab} is used. Replacing the axis with $a =(u,v,w)$ and the station coordinates with $x = (x,y)$ (ignoring altitude z). Adding the constraint $u^2 + v^2 + w^2 = 1$ the $chi^2$ can be easily solved. The solution only fails if the stations used while fitting have a linear dependence (three stations in a line) but for higher station multiplicity this is highly improbable, especially for the theta range explored for the DG$\mathrm{_{low}}$ channel.
+,where $t_i$ are the start time of the signals of station $i$ located at $x_i = \vec{x} - \vec{x_b}$. The minimization of the $\chi^2$ is performed using MINUIT~\cite{James:1975dr}. For the start time variance determination the standard model described in~\cite{PierreAuger:2020yab} is used. Replacing the axis with $a =(u,v,w)$ and the station coordinates with $x = (x,y)$ (ignoring altitude z). Adding the constraint $u^2 + v^2 + w^2 = 1$ the $chi^2$ can be easily solved. The solution only fails if the stations used while fitting have a linear dependence (three stations in a line) but for higher station multiplicity this is highly improbable, especially for the theta range explored for the DG$\mathrm{_{low}}$ channel.
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=\textwidth]{thesis_figures/Nu_analysis/Spherical_fit.png}
+  \includegraphics[width=0.75\textwidth]{thesis_figures/Nu_analysis/Spherical_fit.png}
   \caption{Schematic of spherical-front approximation. Taken from~\cite{PierreAuger:2020yab}}
   \label{fig:Spherical_fit}
 \end{figure}
@@ -220,9 +222,17 @@ Another shower front estimation technique based on a curved shower front approxi
   t(\vec{x}) = t_o + \frac{|\vec{x}-\vec{x_o}|}{c}
 \end{equation}
 
-As can be seen by the equation, the spherical fit is decoupled from any prior knowledge of the shower core or the shower axis. It is only dependent on the point of origin. Quantities such as the shower axis can be determined later when the impact point, $\vec{x_c}$ has been estimated as $ \hat{a} = (\vec{x_o} -\vec{x_c})/ (\vec{x_o}-\vec{x_c})$. The expected solid angle differences between the two fits are of the order of half a degree. The curvature shower front fit is only used for station multiplicities greater than five. This is so because for lower station multiplicities the degrees of freedom are not enough to solve for the shower-front curvature. A side by side comparison for an event for both plane fit and spherical fit is shown in fig.~\ref{}.
+As can be seen by the equation, the spherical fit is decoupled from any prior knowledge of the shower core or the shower axis. It is only dependent on the point of origin. Quantities such as the shower axis can be determined later when the impact point, $\vec{x_c}$ has been estimated as $ \hat{a} = (\vec{x_o} -\vec{x_c})/ (\vec{x_o}-\vec{x_c})$. The expected solid angle differences between the two fits are of the order of half a degree. The curvature shower front fit is only used for station multiplicities greater than five. This is so because for lower station multiplicities the degrees of freedom are not enough to solve for the shower-front curvature. A side by side comparison for an event for both plane fit and spherical fit is shown in fig.~\ref{fig:Wavefront_comp}.
 
-\todo{Add comparison picture of plane and spherical fit EVeNTBrowser event}
+\begin{figure}[h!]
+  \centering
+  \subcaptionbox{Plane wavefront assumption.\label{sub:fig:Rec_theta_CC}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/Plane_fit_residual.pdf}}
+  \hfill
+  \subcaptionbox{Spherical wavefront assumption.\label{sub:fig:Rec_theta_NC}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/Curve_fit_residual.pdf}}
+  
+\caption{Comparison for the Plane and Spherical wavefront fit for the same event. The black points indicated the time residuals calculated under the two assumptions plotted against the distance of each station from the core or hottest station. The red numbers indicate the Stations IDs of the stations used for the fit. The two approximations agree within errors for the zenith angle.}
+  \label{fig:Wavefront_comp}
+\end{figure}
 
 \subsection{Posterior selection and Export}
 \label{subsec:reco_possel}
@@ -246,7 +256,7 @@ This section includes some sanity checks to check and verify the quality of the 
   \caption{Number of showers reconstructed for each MC core position. The colour scale represents the number of showers reconstructed. The circles with the lower count represent the stations in the array.}
   \label{fig:Core_XY_rec}
 \end{figure}
-Fig.~\ref{fig:Rec_Theta} shows the reconstructed zenith angle distributions for the CC and NC neutrino simulations. The peaks in both the distributions correspond to the simulated MC angles. It is also clear that the distribution of the NC channel (fig.~\ref{sub:fig:Rec_theta_NC}) is slightly wider than that of the CC channel (fig.~\ref{sub:fig:Rec_theta_CC}) pointing towards a worse resolution. This can be attributed to the reduced total detectable energy carried by an NC shower in comparison to a CC shower. It can also be seen that the distributions of both the channels (open histogram) have a long tail extending towards small values of zenith angle. This is caused due to two reasons. The angular reconstruction used in this analysis is tuned to work best for UHECR showers initiated at the top of the atmosphere with zenith angles below $60^{\circ}$. For neutrinos which can be initated at any point in the atmosphere the reconstruction is not as efficient. This has been checked by only plotting showers having an injection slant depth < 300 g cm$^{-2}$ as shown in the filled histograms (purple). The second cause of this tail and the worsened resolution is also partially due to the inclusion of ToTd and MoPS. It was seen that the inclusion of these triggers can lead to a worsening of the resolution especially for inclined showers. This effect is more visible when these distributions are compared to reconstructions obtained without the inclusion of these triggers as shown in fig.~\ref{fig:Rec_Theta_comp}. The effect is due to a lack of tuned accidental signal rejection for these new triggers which affect the quality of the angular reconstruction as mentioned before. To mitigate this effect an angular fit quality cut is introduced in the analysis which significantly improves the resolution but comes at a cost of reduced efficiency.
+Fig.~\ref{fig:Rec_Theta} shows the reconstructed zenith angle distributions for the CC and NC neutrino simulations. The peaks in both the distributions correspond to the simulated MC angles. It is also clear that the distribution of the NC channel (fig.~\ref{sub:fig:Rec_theta_NC}) is slightly wider than that of the CC channel (fig.~\ref{sub:fig:Rec_theta_CC}) pointing towards a worse resolution. This can be attributed to the reduced total detectable energy carried by an NC shower in comparison to a CC shower. It can also be seen that the distributions of both the channels (open histogram) have a long tail extending towards small values of zenith angle. This is caused due to two reasons. The angular reconstruction used in this analysis is tuned to work best for UHECR showers initiated at the top of the atmosphere with zenith angles below $60^{\circ}$. For neutrinos which can be initiated at any point in the atmosphere the reconstruction is not as efficient. This has been checked by only plotting showers having an injection slant depth < 300 g cm$^{-2}$ as shown in the filled histograms (purple). The second cause of this tail and the worsened resolution is also partially due to the inclusion of ToTd and MoPS. It was seen that the inclusion of these triggers can lead to a worsening of the resolution especially for inclined showers. This effect is more visible when these distributions are compared to reconstructions obtained without the inclusion of these triggers as shown in fig.~\ref{fig:Rec_Theta_comp}. The effect is due to a lack of tuned accidental signal rejection for these new triggers which affect the quality of the angular reconstruction as mentioned before. To mitigate this effect an angular fit quality cut is introduced in the analysis which significantly improves the resolution but comes at a cost of reduced efficiency.
 
 \begin{figure}[h!]
   \centering
@@ -262,7 +272,7 @@ Fig.~\ref{fig:Rec_Theta} shows the reconstructed zenith angle distributions for 
   \subcaptionbox{\label{sub:fig:Res_theta_CC}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/MC_control/Theta_res_CC_X_wnt_redcut.pdf}}
   \hfill
   \subcaptionbox{\label{sub:fig:Res_theta_CC_chi2}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/MC_control/Theta_res_CC_Chi2_wnt_redcut.pdf}}
-  \caption{Residual distributions for the CC channel. The figure on the left (\ref{sub:fig:Res_theta_CC}) shows the residual distribution for all events (blue open histogram) and events with slant depth < 300 g cm$^{-2}$ (purple filled histogram). The figure on the right (\ref{sub:fig:Res_theta_CC_chi2}) shows the effect on residual distribution due to the proposed angular fit quality cut. The RMS value represents the angular resolution.}
+  \caption{Residual distributions for the CC channel. The figure on the left (\ref{sub:fig:Res_theta_CC}) shows the residual distribution for all events (blue open histogram) and events with slant depth <350 g cm$^{-2}$ (purple filled histogram). The figure on the right (\ref{sub:fig:Res_theta_CC_chi2}) shows the effect on residual distribution due to the proposed angular fit quality cut. The RMS value represents the angular resolution.}
   \label{fig:Res_Theta}
 \end{figure}
 
@@ -282,7 +292,7 @@ In this subsection the impact of the inclusion of the new triggers to the total 
 \end{figure}
 
  Fig~\ref{fig:Rec_Theta_comp} shows the comparison for reconstructed zenith angle distributions for the CC and NC channels. The blue histogram is the sample with both the new triggers and old triggers included while the red histogram is the sample with only the old triggers active. The distributions look very similar other than the higher number of events in the tails for the sample with new triggers. This increase is more significant for CC in comparison to NC channel since the inclusion of new triggers adds more overall events to the CC channel in comparison to NC. A worsening of the residual is also seen in fig.~\ref{sub:fig:Res_theta_CC_comp} but as mentioned before is corrected with the $\chi^2_{\text{red}}$ cut. 
- The individual contribution of the MoPS and Totd to the reconstructed theta for all channels in the energy range E$=10^{17}-10^{18.5}$eV is shown in fig.~\ref{sub:fig:Rec_theta_CC_trig}. It can be clearly seen that both ToTd and MoPS contribute to the higher extended tails. The contribution of MoPS is higher than that of ToTd. The magnitude difference can also be due to higher number of stations with MoPS (2x) in comparison to ToTd.
+ The individual contribution of the MoPS and ToTd to the reconstructed theta for all channels in the energy range E$=10^{17}-10^{18.5}$eV is shown in fig.~\ref{sub:fig:Rec_theta_CC_trig}. It can be clearly seen that both ToTd and MoPS contribute to the higher extended tails. The contribution of MoPS is higher than that of ToTd. The magnitude difference can also be due to higher number of stations with MoPS (2x) in comparison to ToTd.
  
 \begin{figure}[h!]
   \centering
@@ -304,8 +314,8 @@ The overall summary of the reconstructed events for both the sample for all ener
   \subcaptionbox{$\mathrm{\theta_{Rec} - \theta_{MC}}$ vs $\mathrm{\theta_{\text{MC}}}$\label{sub:fig:Res_theta_comp}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/MC_control/Theta_res_vs_MC_w_cut_wnt_redcut.pdf}}
   \subcaptionbox{$\mathrm{\theta_{Rec} - \theta_{MC}}$ vs $X_{\text{MC}}$.\label{sub:fig:Res_Slant_comp}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/MC_control/Theta_res_vs_X_w_cut_wnt_redcut.pdf}}
   \hfill
-  \subcaptionbox{Area over Peak distribution \label{sub:fig:AoP_comp}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/MC_control/AoP_new_vs_old_wnt.pdf}}
-  \caption{The residual dependence on energy (a), zenith angle (b) and slant depth (c) for all reconstructed simulations. The errorbars are not the errors on the mean but signify the spread of the distribution. (d) The AoP distribution for the T5 stations for the sample with new triggers (open blue histogram) and old triggers (filled red histogram) is also shown.}
+  \subcaptionbox{Area over Peak distribution.\label{sub:fig:AoP_comp}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/MC_control/AoP_new_vs_old_wnt.pdf}}
+  \caption{The residual dependence on energy (a), zenith angle (b) and slant depth (c) for all reconstructed simulations. The error bars signify the spread of the distribution. (d) The AoP distribution for the T5 stations for the sample with new triggers (open blue histogram) and old triggers (filled red histogram) is also shown.}
   \label{fig:Res_comp}
 \end{figure}
 
@@ -327,7 +337,7 @@ In the second part, the performance of the selection is further evaluated based 
 \label{subsec:nu_sel_samp}
 As mentioned above to devise an efficient neutrino selection good quality training samples for both signal and background are required. Monte-Carlo simulations described in~\ref{sec:sim_DGL} are used for the signal sample. For the background sample a portion of real data (20\%) is used. Due to the low flux prediction of neutrinos a large portion of the measured data if not all is expected to be nucleonic air showers. Simulated showers could also serve as background sample, but this is not done to due to the following reasons. For the energies that are investigated in this search the high uncertainties observed for the air shower simulations, particularly due to hadronic interaction models could lead to errors. Further, the simulations are still incomplete i.e. they tend to sometimes ignore some physical processes and also do not account for all the possible and sometimes unpredictable detector effects which could be important for the neutrino search. Using measured data as background is advantageous here as it already contains all the possible effects. Also, due to the vast parameter space looked at for the neutrino search such a simulated background sample would require huge amount of computing resources. 
 
-The number of 20\% of the measured data sample for the time period 2014-2021 is arrived at to keep the search sample i.e. the rest 80\% large enough to look for neutrinos but still have enough events in the training sample for the Fisher analysis. The dataset is chosen at random by onlys selecting reconstructed events with SD event IDs divisible by 5. The training data for the time period corresponds to 1.29 $\pm$ 0.01 years of the continuous measurement of a full array composed of 1420 T5 hexagons. Periods of instability or large outages marked as "BadPeriods" are rejected. The events are chosen at random across the time period from the full sample of measured data by only taking those events where the Auger SD event ID is divisible by 5. The time period is chosen to be starting from the year 2014 since by this time the array had full coverage of MoPS and ToTd. The end date of December 31, 2021 was decided in discussions with the collaboration as the end of Phase 1 of data taking of the Pierre Auger Observatory since after this point significant changes were made to the electronics of the SD tanks as a part of AugerPrime activities as previous mentioned in sec.~\ref{sec:Aug_prime}.
+The number of 20\% of the measured data sample for the time period 2014-2021 is arrived at to keep the search sample i.e. the rest 80\% large enough to look for neutrinos but still have enough events in the training sample for the Fisher analysis. The dataset is chosen at random by only selecting reconstructed events with SD event IDs divisible by 5. The training data for the time period corresponds to 1.29 $\pm$ 0.01 years of the continuous measurement of a full array composed of 1420 T5 hexagons. Periods of instability or large outages marked as "BadPeriods" are rejected. The events are chosen at random across the time period from the full sample of measured data by only taking those events where the Auger SD event ID is divisible by 5. The time period is chosen to be starting from the year 2014 since by this time the array had full coverage of MoPS and ToTd. The end date of December 31, 2021 was decided in discussions with the collaboration as the end of Phase 1 of data taking of the Pierre Auger Observatory since after this point significant changes were made to the electronics of the SD tanks as a part of AugerPrime activities as previous mentioned in sec.~\ref{sec:Aug_prime}.
 
 The remaining sample which consists of events with SD event IDs not divisible by 5 which is 80\% of the full sample was unblinded in two parts. A 20\% test sample was unblinded first to check if there was any need for further optimisation of the analysis and the rest 60\% constituted the search sample and was used to look for neutrino candidates.   
 
@@ -361,7 +371,7 @@ The pre-selection cuts are applied based on the unique properties of "young" neu
 \begin{description}
   \item ~\textbf{Inclined Shower Selection:} This cut aims to select showers which fall in the given angular window. The reconstructed zenith of each event is required to be in the range 58.5$^{\circ} < \mathrm{\theta_{rec} < 76.5^{\circ}}$. The range is extended by 1.5$^\circ$ on both sides in comparison to the simulated values from the simulations to account for the angular resolution of the detector. Further, the error on the reconstructed angle, $\mathrm{\Delta \theta_{rec}}$ is required to be smaller than $3^\circ$ to ensure the quality of angular reconstruction. The efficiency of this cut is found to be ... for CC(NC) neutrinos. The angular distribution of the background sample is shown in fig.~\ref{fig:Pre_cut_summary}.
   \item ~\textbf{Fiducial Quality Cut} This cut also remains unchanged when compared to the previous analysis. The main aim of the cut is to ensure that the shower core for the selected event is completely contained inside the array and the stations which are used for the analysis of the event are operational. This is ensured by requiring the event to satisfy the 6T5 trigger condition. The efficiency of the cut is 100\% for the neutrino simulations by design and for the background sample this cut leads to a reduction of ... as shown in fig.~\ref{fig:Pre_cut_summary}   
-  \item ~\textbf{Young Shower Selection} This cut tries to ensure the selection of events with a high electromagnetic component at ground. For this purpose events with stations having FADC traces spread in time need to be selected. As mentioned previously ToT, ToTd and MoPS triggers being more sensitive to the presence of high electromagnetic component can be used for this young shower selection. This cut ensures that more than 75\% of stations in the T5 hexagon satisfy the ToT/MoPS/ToTd condition. the 75\% fraction is calculated overall per event basis and the hexagon could have stations with mixtures of these triggers. The cut retains most of the neutrino events and at the same time is highly effective in rejecting background especially for high angles as shown in the fig.~\ref{fig:Pre_cut_summary}.
+  \item ~\textbf{Young Shower Selection} This cut tries to ensure the selection of events with a high electromagnetic component at ground. For this purpose events with stations having FADC traces spread in time need to be selected. As mentioned previously ToT, ToTd and MoPS triggers being more sensitive to the presence of high electromagnetic component can be used for this young shower selection. This cut ensures that more than 75\% of stations in the T5 hexagon satisfy the ToT/MoPS/ToTd condition. The 75\% fraction is calculated on a per-event basis and the hexagon could have stations with mixtures of these triggers. The cut retains most of the neutrino events and at the same time is highly effective in rejecting background especially for high angles as shown in the fig.~\ref{fig:Pre_cut_summary}.
   \item ~\textbf{Angular Fit Quality} A few erroneous events were discovered to have a bad geometric fit. This problem though discovered with the analysis with new triggers has always affected the neutrino analysis. To mitigate this problem a fit quality cut based on the goodness of the geometry fit was devised. The cut only accepts events which have a goodness of geometrical fit or $chi^2_{\text{Red}}$ less than 200. The efficiency of the cut if applied simultaneous to the station cut used to select stations for the Fisher analysis is $\sim$99\% for the neutrino simulations and for the background sample this cut leads to a reduction of <0.1\% of events. The change in background events with the application of the cut is shown in fig.~\ref{fig:Pre_cut_summary}. Although the cut has minimal impact it, it ensures that one of the fundamental pillars of the analysis i.e. the geometry of the shower especially the zenith angle is well reconstructed.
 \end{description} 
 
@@ -394,7 +404,7 @@ It is really important to find the correct features or variables to train the al
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=\textwidth]{thesis_figures/Nu_analysis/Selection_Evo_AoP_hist_wnt_redcut.pdf}
+  \includegraphics[width=0.9\textwidth]{thesis_figures/Nu_analysis/Selection_Evo_AoP_hist_wnt_redcut.pdf}
   \caption{Histogram of Area over Peak of all stations that pass the pre-selection cuts. The distribution of the background training sample is represented in red while for the CC neutrino sample is represented in green.}
   \label{fig:Time_to_core}
 \end{figure}
@@ -433,7 +443,7 @@ Different forms of the Fisher polynomial were tested, and their performance was 
   \mathcal{F} = \sum_{i=1}^{4\,\text{or}\,5} C_i AoP_i + C_p \prod_{i=1}^{4\,\text{or}\,5} AoP_i
 \end{equation}
 
-where $C_i$ and $C_p$ are the corresponding Fisher coefficients. 
+,where $C_i$ and $C_p$ are the corresponding Fisher coefficients. 
 
 A modified version of this baseline polynomial was used for this analysis. The product term was found to not have a significant contribution to the separation and was thus removed for this analysis. Further, the requirement of five stations for lower angular regions was also eliminated which effectively lowered the minimum number of stations required for each event. The form of the polynomial used is : 
 \begin{equation}
@@ -477,7 +487,7 @@ As mentioned before to train the Fisher polynomial 20\% of the measured data sam
       \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_nu_bkg_region_70.5_73.5.pdf}
       \caption{$ 70.5^{\circ} <\theta_{\text{Rec}} \leq 76.5^{\circ}$}
    \end{subfigure}
-   \caption{Fisher polynomial distributions ($\mathcal{F}$) for the signal (MC neutrinos) and background training samples (20\% data) for the different sub-angular regions.}
+   \caption{Fisher polynomial distributions ($\mathcal{F}$) for the signal (MC neutrinos) and background training samples (20\% data) for the different angular sub-regions.}
     \label{fig:Fisher_dists}
 
 \end{figure}
@@ -486,7 +496,7 @@ As mentioned before to train the Fisher polynomial 20\% of the measured data sam
 \label{subsubsec:nu_sel_fisher_cut}
 After the training process a cut criterion is still needed to be established to best separate the signal and background distribution. This cut is evaluated by analysing the tail of the Fisher value distribution of the background. 
 
-The tail is fit using an exponential function in the logarithmic scale ($A \mathcal{F} + B$). The fitting is done between for the range $\mu + \sigma$ - $\mu + 4\sigma$ where $\mu$ is the mean and $\sigma$ is the rms value of the distribution. The exponential assumption is only a reasonable guess especially due to the low statistics of the last few bins. The bin size can also affect the fit and is determined for each angular region by minimising the residual fit. This bin size is also verfied with the Freedman-Diaconis mehtod available in python to negate the possibility of over binning or under binning. Table~\ref{tab:Cut_eval} shows the \textit{observed} and \textit{predicted} values for the exponential fit procedure. The values are calculated by integrating from the start point mentioned in the first column till +1$\sigma$. The estimate using the exponential fit mostly agrees with the observed values. It agrees the best near the mean of the distribution and becomes slightly worse near the tails. In the higher angular regions a secondary bump like structure is also seen. This is attributed to the form of the Fisher polynomial and the lack of the product term. The predicted values also include the uncertainties of the fit which slightly increases the predicted number of the background events. The cut, $\mathcal{F}_cut$ is calculated such that after 20 years of data taking with a full SD array 0.2 events are expected to pass for each sub-angular regions with a total of 1 background event for the full search angular range. 
+The tail is fit using an exponential function in the logarithmic scale ($A \mathcal{F} + B$). The fitting is done between for the range $\mu + \sigma$ - $\mu + 4\sigma$ where $\mu$ is the mean and $\sigma$ is the rms value of the distribution. The exponential assumption is only a reasonable guess especially due to the low statistics of the last few bins. The bin size can also affect the fit and is determined for each angular region by minimising the residual fit. This bin size is also verified with the Freedman-Diaconis method available in python to negate the possibility of over binning or under binning. Table~\ref{tab:Cut_eval} shows the \textit{observed} and \textit{predicted} values for the exponential fit procedure. The values are calculated by integrating from the start point mentioned in the first column till +1$\sigma$. The estimate using the exponential fit mostly agrees with the observed values. It agrees the best near the mean of the distribution and becomes slightly worse near the tails. In the higher angular regions a secondary bump like structure is also seen. This is attributed to the form of the Fisher polynomial and the lack of the product term. The predicted values also include the uncertainties of the fit which slightly increases the predicted number of the background events. The cut, $\mathcal{F}_cut$ is calculated such that after 20 years of data taking with a full SD array 0.2 events are expected to pass for each angular sub-regions with a total of 1 background event for the full search angular range. 
 
 \begin{figure}[t!]
   \centering
@@ -538,7 +548,6 @@ Fig~\ref{fig:Fisher_cut} shows the $\mathcal{F}_{cut}$ obtained for the differen
 
 \end{figure}
 
-\FloatBarrier
 \begin{table}[h!]
   \centering
   \begin{tabular}{ |P{1.25cm}||P{2.23cm}|P{2.23cm}|P{2.23cm}|P{2.23cm}|P{2.28cm}| }
@@ -561,29 +570,32 @@ Fig~\ref{fig:Fisher_cut} shows the $\mathcal{F}_{cut}$ obtained for the differen
   \label{tab:Cut_eval}
 \end{table}
 
-The final coefficients obtained are tabulated in App.~\ref{sec:app_3} and the cut value for each angular region is presented in tab.~\ref{tab:Selection_summ}. The two polynomials mentioned in the above section are evaluated based on the fraction of neutrino events passing the $\mathcal{F}_{cut}$. the numbers are calculated relative to the number of surviving events right before the Fisher analysis. As can be seen in Fig.~\ref{fig:Fishpol_v_theta} the simplified Fisher polynomial either matches or outperforms the polynomial used in the previous analysis. The comparison is done only for the case where new triggers are included. The much higher number of events in this sample are required to achieve a sufficiently high background-signal separation especially in the low zenith angular regions where previously a more stringent number of station cut was needed to reduce noise. However, the new Fisher polynomial seems to perform better even for higher angles which could lead to an overall improvement of neutrino detection efficiency irrespective of energy. This is proved later in sec.~\ref{sec:det_exposure_calc}. Based on this comparison the polynomial given in~\ref{eq:fisher_poly_new} was used for signal-background separation is this analysis. 
+\FloatBarrier
+
+The final coefficients obtained are tabulated in App.~\ref{sec:app_3} and the cut value for each angular region is presented in tab.~\ref{tab:Selection_summ}. The two polynomials mentioned in the above section are evaluated based on the fraction of neutrino events passing the $\mathcal{F}_{cut}$. the numbers are calculated relative to the number of surviving events right before the Fisher analysis. As can be seen in Fig.~\ref{fig:Fishpol_v_theta} the simplified Fisher polynomial either matches or outperforms the polynomial used in the previous analysis. The comparison is done only for the case where new triggers are included. The much higher number of events in this sample are required to achieve a sufficiently high background-signal separation especially in the low zenith angular regions of the selected range where previously a more stringent number of station cut was needed to reduce noise. However, the new Fisher polynomial seems to perform better even for higher angles which could lead to an overall improvement of neutrino detection efficiency irrespective of energy. This is proved later in sec.~\ref{sec:det_exposure_calc}. Based on this comparison the polynomial given in~\ref{eq:fisher_poly_new} was used for signal-background separation is this analysis. 
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=\textwidth]{thesis_figures/Nu_analysis/Nu_eff/Fisher_efficencies_theta_F_wnt_redcut.pdf}
+  \includegraphics[width=0.95\textwidth]{thesis_figures/Nu_analysis/Nu_eff/Fisher_efficencies_theta_F_wnt_redcut.pdf}
   \caption{A comparison of the two different forms of Fisher polynomials tested in this analysis. the blue stars represent the efficiency of the new Fisher polynomial and the red dots represent the efficiency of the polynomial used in the previous analysis. The efficiency is calculated as the fraction of neutrino events passing the $\mathcal{F}_{cut}$ relative to the number of surviving events right before the Fisher analysis.}
   \label{fig:Fishpol_v_theta}
 \end{figure}
 
-A two-dimensional plot with the Fisher values on an event by event basis vs the zenith angle is shown in fig~\ref{fig:Fish_bkg_sig}. The black dots represent the background events and the 2-D histogram represents the signal events. The red line is obtained by setting the $\mathcal{F}_{cut}$ to the mid-value of the bin and the extrapolating for a particular sub-angular region. The background events seem to be distributed non-uniformally within the angular subsamples. The linear interpolation ensures that the effective number of events is almost constant with the zenith angle. Anything above the cut line is considered as a neutrino candidate. 
+A two-dimensional plot with the Fisher values on an event by event basis vs the zenith angle is shown in fig~\ref{fig:Fish_bkg_sig}. The black dots represent the background events and the 2-D histogram represents the signal events. The red line is obtained by setting the $\mathcal{F}_{cut}$ to the mid-value of the bin and extrapolating for a particular angular sub-region. The background events seem to be distributed non-uniformly within the angular subsamples. The linear interpolation ensures that the effective number of events is almost constant with the zenith angle. Anything above the cut line is considered as a neutrino candidate. 
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=\textwidth]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_comp_bkg_sim_wnt.pdf}
+  \includegraphics[width=0.95\textwidth]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_comp_bkg_sim_wnt.pdf}
   \caption{Distribution of the Fisher values for the signal (MC neutrinos) and background training samples as a function of $\theta_{\text{Rec}}$. The black dots represent the background events and the 2-D histogram represents the signal events. The red line represents the interpolated $\mathcal{F}_{cut}$.}
   \label{fig:Fish_bkg_sig}
 \end{figure}
 
-\FloatBarrier
+
 
 \begin{table}[h!]
   \centering
-  \begin{tabular}{ |P{2.5cm}||P{2.23cm}|P{2.225cm}|P{2.23cm}|P{2.23cm}|P{2.28cm}| }
+  \small
+  \begin{tabular}{ |P{2.3cm}||P{2.05cm}|P{2.05cm}|P{2.05cm}|P{2.05cm}|P{2.15cm}| }
     \hline
       \multicolumn{6}{|c|}{$\nu$ selection summary} \\
       \hline
@@ -608,7 +620,7 @@ A two-dimensional plot with the Fisher values on an event by event basis vs the 
   \label{tab:Selection_summ}
 \end{table}
 
-
+\FloatBarrier
 \subsection{Time evolution of selection parameters}
 \label{subsec:nu_sel_timeev}
 
@@ -623,7 +635,7 @@ Fig~\ref{fig:AoP_evol} show the evolution of AoP of the T5 stations selected for
 \begin{figure}[t!]
   \centering
   \includegraphics[width=0.95\textwidth]{thesis_figures/Nu_analysis/Time_evol/Selection_Evo_ToTFrac_LongSignal_wnt_redcut.pdf}
-  \caption{Comparison of average fraction of stations with ToT/ToTd/MoPS triggers (LongSignal fraction, purple) and stations with ToT triggers (ToT fraction, blue) for the background training sample.The fraction is calculated for the T5 stations that are used in the Fisher analysis.}
+  \caption{Comparison of average fraction of stations with ToT/ToTd/MoPS triggers (Long Signal fraction, purple) and stations with ToT triggers (ToT fraction, blue) for the background training sample. The fraction is calculated for the T5 stations that are used in the Fisher analysis.}
   \label{fig:LongSig_evol}
 
   \includegraphics[width=0.95\textwidth]{thesis_figures/Nu_analysis/Time_evol/Selection_Evo_AoP_wnt_redcut.pdf}
@@ -686,7 +698,8 @@ In this section, the detection efficiency at each stage of the $\nu$ selection p
 
 \begin{table}[h!]
   \centering
-  \begin{tabular}{ |P{2.4cm}||P{2.3cm}|P{2.3cm}|P{2.3cm}|P{2.3cm}|P{2.3cm}| }
+  \small
+  \begin{tabular}{ |P{2.1cm}||P{2.05cm}|P{2.1cm}|P{2.1cm}|P{2.1cm}|P{2.2cm}| }
     \hline
        \multicolumn{6}{|c|}{Relative efficiency (\%)} \\
        \hline
@@ -734,14 +747,14 @@ The inclined shower selection removes $\sim 10\%$ of showers. These showers were
 The errors associated with neutral-current (NC) events tend to worsen with increasing zenith angle and decreasing shower energy which was also shown earlier in the previous analysis. These conditions hinder the performance of the reconstruction algorithm, as both scenarios result in a limited number of triggered stations. Additionally, in the case of lower energies, certain geometric patterns, such as linear alignments, can adversely affect zenith angle determination.
 
 The error distributions for the CC channel is shown in fig~\ref{fig:Theta_err_comp}.
-For charged-current (CC) events, the significant decline in reconstruction performance with the inclusion of new triggers is primarily due to a deterioration in angular reconstruction. This issue may stem from several factors, such as the absence of a tuned segment selection algorithm for the new triggers or the susceptibility of these triggers to noise. Future improvements to the angular reconstruction algorithm, which were beyond the scope of this thesis, are proposed in the Outlook section to address these challenges and enhance performance.
+For charged-current (CC) events, the significant decline in reconstruction performance with the inclusion of new triggers is primarily due to a deterioration in angular reconstruction. This issue may stem from several factors, such as the absence of a tuned segment selection algorithm for the new triggers or the susceptibility of these triggers to noise. It was also seen that neutrino events with a lower primary energy, where new triggers perform the best, have a higher absolute error on zenith angle further cementing this fact. Future improvements to the angular reconstruction algorithm, which were beyond the scope of this thesis, are proposed in the Outlook section to address these challenges and enhance performance.
 
 \begin{figure}[h!]
   \centering
-  \subcaptionbox{Comparison with old .\label{sub:fig:Rec_theta_CC_comp}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/Nu_eff/Theta_err_CC_comp_wnt_redcut}}
+  \subcaptionbox{$\delta \theta_{\text{Rec}}$ comparison.\label{sub:fig:Rec_theta_CC_comp}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/Nu_eff/Theta_err_CC_comp_wnt_redcut}}
   \hfill
-  \subcaptionbox{Effect of energy.\label{sub:fig:Rec_theta_NC_comp}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/Nu_eff/Theta_err_CC_comp_E_wnt_redcut}}
-  \caption{Looking at theta error deeply} 
+  \subcaptionbox{$\delta \theta_{\text{Rec}}$ for different primary energies.\label{sub:fig:Rec_theta_NC_comp}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/Nu_eff/Theta_err_CC_comp_E_wnt_redcut}}
+  \caption{Error distribution of the reconstructed zenith angle for the $\nu_e$ CC neutrino simulations. On the left the error distribution is compared to the one obtained from the sample with just old triggers. On the right the error distribution is compared for low (brown) and high energy (green) events for the sample with new triggers included.} 
   \label{fig:Theta_err_comp}
 \end{figure}
 
@@ -755,24 +768,24 @@ Additionally, the Fisher discrimination efficiency varies between the channels, 
 \begin{figure}[t!]
   \centering
   \includegraphics[width=\textwidth]{thesis_figures/Nu_analysis/Nu_eff/Selection_Evo_AoP_X_MC_wnt_redcut.pdf}
-  \caption{AoP modulation with slant depth }
+  \caption{Average Area over Peak (AoP) of the T5 stations used in the Fisher analysis for the signal training sample as a function of the injected slant depth. The AoP values for the $\nu_e$ CC channels are also subdivided into two angular regions for comparison. The AoP value range for the background training sample is shown as the purple box.}
   \label{fig:AoP_v_X}
 \end{figure}
 
-Fig~\ref{fig:Eff_v_theta_CC_E} shows the comparison of the neutrino detection efficiency w.r.t. the zenith angle for the CC channel at different primary energies. Overall the efficiency increases with energy reached maximum values for E$\sim 10^{20}$eV. The efficiency increases as a function of zenith angle with a maximum efficiency for $\theta_{MC} \sim 70^{\circ}$. The efficiency slightly decreases for angles above $ \sim 73^{\circ}$, since for very inclined showers the electromagnetic component at ground is significantly less, which affects the identification efficiency. Another factor contributing to this decrease for higher zenith angles is the quality cut on $\delta \theta_{rec}$ which disproportionally affects the highest zenith angles since the angular reconstruction algorithm is not optimized for very inclined showers. Further it is also seen that since the efficiency for higher energies is already pretty high the effect of the new triggers is less pronounced for higher energies. This can also be further visualised in fig.~\ref{Eff_X_comp} where the trigger efficiency and the neutrino identification efficiency for two different primary energies and zenith angles are compared. As it is seen in the figure on the left for higher energies the trigger efficiency is for the injection slant depths close to the top of the atmosphere is very high and decreases close to the detector where the shower does not get enough time to develop and trigger the stations for a good reconstruction. For lower energies  such as the one presented on the right .... at low zenith angle the new triggers can significantly improve the trigger efficiency. 
+Fig~\ref{fig:Eff_v_theta_CC_E} shows the comparison of the neutrino detection efficiency w.r.t. the zenith angle for the CC channel at different primary energies. Overall the efficiency increases with energy reached maximum values for E$\sim 10^{20}$eV. The efficiency increases as a function of zenith angle with a maximum efficiency for $\theta_{MC} \sim 70^{\circ}$. The efficiency slightly decreases for angles above $ \sim 73^{\circ}$, since for very inclined showers the electromagnetic component at ground is significantly less, which affects the identification efficiency. Another factor contributing to this decrease for higher zenith angles is the quality cut on $\delta \theta_{rec}$ which disproportionally affects the highest zenith angles since the angular reconstruction algorithm is not optimized for very inclined showers. Further it is also seen that since the efficiency for higher energies is already pretty high the effect of the new triggers is less pronounced for higher energies. This can also be further visualised in fig.~\ref{Eff_X_comp} where the trigger efficiency and the neutrino identification efficiency for two different primary energies and zenith angles are compared. As it is seen in the figure on the right for higher energies the trigger efficiency is $\sim$ 1 for the injection slant depths close to the top of the atmosphere and decreases close to the detector where the shower does not get enough time to develop and trigger the stations for a good reconstruction. For lower energies  such as the one presented on the left at low zenith angles of the explored range the new triggers can significantly improve the trigger efficiency. 
 
 \begin{figure}[h!]
   \centering
-  \subcaptionbox{SOme theta energy .\label{sub:fig:Rec_theta_CC_comp}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/Nu_eff/Efficiency_vs_X1_18_5_66.pdf}}
+  \subcaptionbox{$\mathrm{log_{10}(E_\nu}/ev)$ = 18.5, $\theta_{MC}$ = 66$^{\circ}$.\label{sub:fig:Rec_theta_CC_comp}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/Nu_eff/Efficiency_vs_X1_18_5_66.pdf}}
   \hfill
-  \subcaptionbox{sOME THETA ENERGY.\label{sub:fig:Rec_theta_NC_comp}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/Nu_eff/Efficiency_vs_X1_19_5_72}}
-  \caption{Comparison of the trigger and neutrino detection efficiency as a function of injected slant depth for two different angles and energies. Top of the atmosphere etc.} 
+  \subcaptionbox{$\mathrm{log_{10}(E_\nu}/ev)$ = 19.5, $\theta_{MC}$ = 72$^{\circ}$.\label{sub:fig:Rec_theta_NC_comp}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/Nu_eff/Efficiency_vs_X1_19_5_72}}
+  \caption{Comparison of the trigger (blue) and neutrino detection (green) efficiency as a function of injected slant depth for two different angles and energies for $\nu_e$ CC sample. The top of the atmosphere is at 0 g cm$^{-2}$ and the SD depth changes according to the angle as shown in fig.~\ref{fig:Slant_depth_rec}.} 
   \label{fig:Eff_X_comp}
 \end{figure}
 
 Figure~\ref{fig:Eff_v_theta_CC_E} compares the neutrino detection efficiency as a function of zenith angle for the CC channel at various primary energies. The efficiency generally increases with energy, reaching its maximum around \(E \sim 10^{20}\,\mathrm{eV}\). As a function of zenith angle, the efficiency peaks near \(\theta_{MC} \sim 70^\circ\) but begins to decline for angles exceeding \(\sim 73^\circ\). This decline is attributed to the reduced electromagnetic component at the ground for highly inclined showers, which impacts the identification efficiency. Another contributing factor is the \(\Delta \theta_{rec}\) quality cut, which disproportionately affects events with very high zenith angles due to limitations in the angular reconstruction algorithm for extremely inclined showers.
 
-It was observed that by using the new triggers a 50-20\% improvement per zenith angle can be achieved for the neutrino search for the DG$\mathrm{_{low}}$ channel especially for the CC channel as shown in Fig.~\ref{fig:Eff_v_theta_channel_comp}. The numbers for the sample with just old triggers are calculated relative to the events of the sample with new triggers which is significantly higher. This is done to ensure a fair comparison since even though the relative efficiency of the sample with just the old triggers could be higher, the absolute efficiency i.e the number of surviving events after all the cuts is way lower. 
+It was observed that by using the new triggers a 50-20\% improvement per zenith angle can be achieved for the neutrino search for the DG$\mathrm{_{low}}$ channel especially for the CC channel as shown in Fig.~\ref{fig:Eff_v_theta_channel_comp}. The numbers for the sample with just old triggers are calculated relative to the events of the sample with new triggers which is significantly higher. This is done to ensure a fair comparison since even though the relative efficiency of the sample with just the old triggers could be higher, the absolute efficiency i.e. the number of surviving events after all the cuts is way lower. 
 
 There are several effects which contribute to this improvement. The new triggers increase the overall number of events especially for lower energies as shown in fig~\ref{fig:Events_vs_angle_summary}. The other factors which are different in this analysis is the reduction of the minimal T5 station requirement for the low angular regions and the change of the Fisher polynomial also contribute to the overall neutrino detection improvement in comparison to the previous analysis. A similar behaviour is observed for the NC channel albeit with a reduced overall efficiency in comparison to the CC channel. 
 

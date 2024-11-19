@@ -14,8 +14,14 @@ The second part of the chapter details the results of the unblinding where no po
 
 Exposure refers to the effective observation capability of a detector or observational setup over a specific time period, accounting for its sensitivity, the area it covers, and the duration of the observation. One of the most accurate techniques used at Auger to calculate the exposure of the SD array to UHE$\nu$ is through extensive simulations of different detector configurations. In this method MC neutrino showers are thrown over varied detector configuration to calculate the effective or active area at each instant of time. Since the detector configuration of the SD array is constantly changing (\textit{faulty tanks, regular maintenance etc.}), sometimes on a daily basis, this technique requires a large amount of computational time and resources making it less desirable for use in this analysis. 
 
-\todo{Add brillouin area figure}
-In this analysis, a different approach based on the 6T5 condition, which is required for each selected event in this analysis, is used for the exposure calculation. For this calculation, the 6T5 hexagon is taken to be the smallest possible detection unit for the $\nu$ event. The effective area i.e. the area seen by the incident cosmic neutrino for this detection unit at full efficiency is given by the Brillouin area~\cite{PierreAuger:2010zof}, $A_{6T5} = 1.95km^2$ as shown by the shaded area in fig~\ref{}. The aperture for this detector unit is dependent on the energy of the primary neutrino ,the slant depth in the atmosphere of the first inteeraction, X, neutrino flavor (crossection), type of the interaction (CC or NC), zenith angle, azimuth angle and the point of impact of the shower on the ground. The effective \textit{acceptance} of the detector unit can be written as follows:
+\begin{figure}[t!]
+  \centering
+  \includegraphics[width=0.75\textwidth]{thesis_figures/ExpLimits/Brillouin_area.png}
+  \caption{Sketch of a 6T5 hexagon of the SD array. The shaded area in yellow represents the Brillouin effective area ($A_{6T5}$) of the hexagon for a neutrino event.}
+  \label{fig:Brillouin_area}
+\end{figure}
+
+In this analysis, a different approach based on the 6T5 condition, which is required for each selected event in this analysis, is used for the exposure calculation. For this calculation, the 6T5 hexagon is taken to be the smallest possible detection unit for the $\nu$ event. The effective area i.e. the area seen by the incident cosmic neutrino for this detection unit at full efficiency is given by the Brillouin area~\cite{PierreAuger:2010zof}, $A_{6T5} = 1.95km^2$ as shown by the shaded area in fig~\ref{fig:Brillouin_area}. The aperture for this detector unit is dependent on the energy of the primary neutrino, the slant depth in the atmosphere of the first interaction, X, neutrino flavor (cross-section), type of the interaction (CC or NC), zenith angle, azimuth angle and the point of impact of the shower on the ground. The effective \textit{acceptance} of the detector unit can be written as follows:
 
 \begin{equation}
   \label{eq:nu_accep}
@@ -69,38 +75,38 @@ The exposure calculated this analysis is also compared to the one calculated usi
 
 \section{Systematic uncertainties}
 \label{sec:det_uncert}
-This section aims to detail the systematic uncertainties which can arise during the course analysis and their contribution to the exposure. The systematic uncertainities in an analysis can arise at any point. The investigations starts already at the simulation level where the uncertainties from the primary interaction, hadronic interaction models, thinning etc. can lead to uncertainties in the neutrino detection efficiency. At the next step the uncertainities in the reconstruction algorithms could also affect the final exposure. The crossections used for the final calculation of exposure could also prove to be a source of systematic uncertainities. Other parameters such as the number of hexagons are very well defined parameters and are not expected to have a contribution to the systematic uncertainities in the exposure. For this analysis the systematic uncertainities are either sourced through previous analysis~\cite{gap_systematics} or are calculated for certain cases. Since the analysis has been done once before albeit without the new triggers the sources of systematic uncertainties though not exactly the same are very similar to~\cite{gap_note_2013}. 
-The sources of systematic uncertainities considered for this analysis are discussed below:
+This section aims to detail the systematic uncertainties which can arise during the course analysis and their contribution to the exposure. The systematic uncertainties in an analysis can arise at any point. The investigations start already at the simulation level where the uncertainties from the primary interaction, hadronic interaction models, thinning etc. can lead to uncertainties in the neutrino detection efficiency. At the next step the uncertainties in the reconstruction algorithms could also affect the final exposure. The cross-sections used for the final calculation of exposure could also prove to be a source of systematic uncertainties. Other parameters such as the number of hexagons are very well- defined parameters and are not expected to have a contribution to the systematic uncertainties in the exposure. For this analysis the systematic uncertainties are either sourced through previous analysis~\cite{gap_systematics} or are calculated for certain cases. Since the analysis has been done once before albeit without the new triggers the sources of systematic uncertainties though not exactly the same are very similar to~\cite{gap_note_2013}. 
+The sources of systematic uncertainties considered for this analysis are discussed below:
 \begin{description}
-  \item \textbf{Primary interaction generator} For the simulations used in this analysis which is based on CORSIKA 7.2 the only available option for the primary interaction generator is the HERWIG~\cite{} code. Thus, it was not possible to compare the differences that could arise due to the use of different primary interaction generators. These systematic uncertainities were taken from ~\cite{gap_systematics} where PYTHIA~\cite{} and several versions of HERWIG are compared for CORSIKA 6. The uncertainties were found to be [+2.6\% , 3.7\%]. 
-  \item \textbf{Parton Distribution function} Again the uncertainities are taken from ~\cite{gap_systematics}since this functionality is again not available in CORSIKA 7. The systematic uncertainties on exposure quoted in the source are [+4\% , -5\%].
+  \item \textbf{Primary interaction generator} For the simulations used in this analysis which is based on CORSIKA 7.2 the only available option for the primary interaction generator is the HERWIG~\cite{} code. Thus, it was not possible to compare the differences that could arise due to the use of different primary interaction generators. These systematic uncertainties were taken from ~\cite{gap_systematics} where PYTHIA~\cite{} and several versions of HERWIG are compared for CORSIKA 6. The uncertainties were found to be [+2.6\%, 3.7\%]. 
+  \item \textbf{Parton Distribution function} Again the uncertainties are taken from ~\cite{gap_systematics}since this functionality is again not available in CORSIKA 7. The systematic uncertainties on exposure quoted in the source are [+4\%, -5\%].
   \item \textbf{Hadronic interaction models} The systematic uncertainties for the hadronic interaction models were calculated in this study and are detailed in App.~\ref{sec:app_2}. Three models QGSJETTII-04, EPOS-LHC and SIBYLL 2.3c were used for the calculation. The uncertainties were calculated by comparing the three models for a zenith of 72 deg and a primary energy of $10^{19}$eV. The systematic uncertainties were found to be (-5\%) where SIBYLL 2.3c is used as reference.
-  \item \textbf{Shower simulator and thinning algorithm} The systematic uncertainities due to the differing shower simulation programs was estimated thorough the comparison quoted in~\cite{Huege:2022xbo} for both hadronic cascades and electromagnetic showers. The differences seen in different softwares are of the order $\sim 15\%$ which agree nicely with the results from~\cite{gap_systematics}. The uncertainities due to thinning were also calculated in~\cite{gap_systematics} and were found to be $\sim 7\%$.
+  \item \textbf{Shower simulator and thinning algorithm} The systematic uncertainties due to the differing shower simulation programs was estimated thorough the comparison quoted in~\cite{Huege:2022xbo} for both hadronic cascades and electromagnetic showers. The differences seen in different software are of the order $\sim 15\%$ which agree nicely with the results from~\cite{gap_systematics}. The uncertainties due to thinning were also calculated in~\cite{gap_systematics} and were found to be $\sim 7\%$.
   \item \textbf{Detector simulation} The differences in the detector simulation software i.e a GEANT4 based approach used in this analysis to other approaches is already compared in ~\cite{gap_note_det_systematics}. The systematic uncertainties were found to be $\\pm 5\%$. Further, in this analysis the simulated showers were reconstructed using two different Offline tags with no significant differences observed in the final exposure. 
-  \item \textbf{Number of Hexagons} For the total number of hexagons calculated we implicitly assume that all the stations are equal. However, if the new triggers are not active in a given station, this hexagon might not contribute the same as the other ones. So there is a systematic error associated with using the hexagon files as they are as a station with 1 PMT is counted full there but likely shouldn't for low energy neutrino showers. So simply put: the ToTd or MoPS not active are not affecting 6T5s, but only because 6T5 doesn't account for this fact. Or: the 6T5 is a binary condition assuming a station is either alive or not. While for any analysis with new triggers, in principle, we have to account for the situation of a station being alive but not sending new triggers. The systematic ucetainitiy associated with this effect was calculated by looking at the average number of stations with only one functional PMT over time. The uncertainty associated with this effect was found to be $\pm 2\%$ at most. 
+  \item \textbf{Number of Hexagons} For the total number of hexagons calculated we implicitly assume that all the stations are equal. However, if the new triggers are not active in a given station, this hexagon might not contribute the same as the other ones. So there is a systematic error associated with using the hexagon files as they are as a station with 1 PMT is counted full there but likely shouldn't for low energy neutrino showers. So simply put: the ToTd or MoPS not active are not affecting 6T5s, but only because 6T5 doesn't account for this fact. Or: the 6T5 is a binary condition assuming a station is either alive or not. While for any analysis with new triggers, in principle, we have to account for the situation of a station being alive but not sending new triggers. The systematic uncertainty associated with this effect was calculated by looking at the average number of stations with only one functional PMT over time. The uncertainty associated with this effect was found to be $\pm 2\%$ at most. 
   \item \textbf{Reconstruction algorithm} The effect of different reconstruction algorithm were also tested in this analysis. Two modules HASReconstructionOG and the normal top-down selection module were tested. Though the total number of events that are reconstructed by these modules can differ the difference in the final exposure is found to be $< \pm 1\%$. 
-  \item \textbf{Neutrino cross-sections} The systematic uncertainities due to the neutrino cross-sections were taken from~\cite{Cooper-Sarkar:2011jtt} which are of the order $\pm 7\%$.
+  \item \textbf{Neutrino cross-sections} The systematic uncertainties due to the neutrino cross-sections were taken from~\cite{Cooper-Sarkar:2011jtt} which are of the order $\pm 7\%$.
 \end{description}
 
-Table ~\ref{tab:systematic_uncertainties} summarises the  source of systematic uncertainities and their contribution to the total exposure. The total systematic uncertainities are calculated by adding them in quadrature. As discussed later in sec.~\ref{subsec:Conrad} the uncertainities are directly incorporated in the limit by applying the Conrad method~\cite{Conrad:2002kn} to calculate the confidence intervals. 
+Table ~\ref{tab:systematic_uncertainties} summarises the  source of systematic uncertainties and their contribution to the total exposure. The total systematic uncertainties are calculated by adding them in quadrature. As discussed later in sec.~\ref{subsec:Conrad} the uncertainties are directly incorporated in the limit by applying the Conrad method~\cite{Conrad:2002kn} to calculate the confidence intervals. 
 
 \begin{table}[h!]
   \centering
   \begin{tabular}{ |P{4.0cm}||P{4.0cm}| }
     \hline
-    Source of systematic uncertainities & Contribution to the exposure \\
+    Source of systematic uncertainty & Contribution \\
     \hline
     Primary interaction generator & +3\% \enspace -4\%  \\
     Parton Distribution function & +4\% \enspace -5\%  \\
-    Hadronic interaction models &\null \enspace -5\% \\ 
-    Shower simulator &  +15\% \enspace \null   \\
+    Hadronic interaction models & -5\% \\ 
+    Shower simulator &  +15\%  \\
     Thinning algorithm & +7\% \enspace -7\%  \\
     Detector simulation & +5\% \enspace -5\%  \\
     Number of Hexagons & +2\% \enspace -2\%  \\
     Reconstruction algorithm & +1\% \enspace -1\%  \\
     Neutrino cross-sections & +7\% \enspace -7\%  \\
     \hline
-    Total uncertainities & +20\% \enspace -14\% \\
+    Total uncertainty & +20\% \enspace -14\% \\
     \hline
   \end{tabular}
   \caption{Systematic uncertainties and their contribution to the exposure}
@@ -115,6 +121,7 @@ This section is thus split into two subsections. The first describing the unblin
 \subsection{Flawed 20\% test sample}
 \label{subsec:unblind_20}
 
+\todo{Add circles to the figures}
 \begin{figure}[t!]
   \centering
   \includegraphics[width=14.5cm]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_comp_bkg_test_flawed_wnt.pdf}
@@ -122,9 +129,24 @@ This section is thus split into two subsections. The first describing the unblin
   \label{fig:Fish_bkg_test_flawed}
 \end{figure}
 
-\todo{Add info of faulty events }
+The Fisher value distribution for the test sample is shown in fig~\ref{fig:Fish_bkg_test_flawed}. As it is shown no event passes the Fisher cut in any angular region. However, there are a few events which come very close to the cut line. Five events marked with a red circle were analysed in more detail. Each of them has its own unique reason with only the one with zenith being the most interesting. This event has the SD Event ID of \textit{66106356}. After looking at detailed information about the event it was found out that the accidental station cut used is insufficient. Previously, the  accidental cut (rejection of stations with Total signal < 3 VEM) is only applied to the event if there are more than 5 stations in the event. Since for this analysis due to the inclusion of MoPS and ToTd an overall increase in events is expected which also increases the overall number of stations with accidental stations this cut needs to be reduced a bit to take this overall increase into account. Thus, this cut was reduced to apply for events with more than 4 stations. This reduction of the cut decreases the total events passing the analysis cut by $\sim$5\% for the background training sample and $1-2$\% for the signal training sample. The Fisher coefficients and cut changes slightly. After this change in the reconstruction the test sample was obtained again and compared to the background sample as shown in fig~\ref{fig:Fish_bkg_test}. The other interesting events which have $\mathcal{F}$ values close to the $\mathcal{F_{cut}}$ with their respective IDs are tabulated in table~\ref{tab:Interesting_events}. These events were individually evaluated. Some of these were found to have a bad time residual fit primarily because of multiple peaks observed in stations triggered by the new triggers. Since, no segmentation algorithm was used for stations with MoPS and ToTd triggers sometimes a wrong peak was selected which affected the reconstruction for these events. A future analysis with a corrected segmentation algorithm which is functional for the new triggers MoPS and ToTd is envisaged to upgrade this analysis. Such events are expected to be limited to less than $\sim$1\% of total events but still require a careful look for future analysis upgrades. A further detailed analysis where the primary mass composition is extracted via the muon production distributions as mentioned in~\cite{PierreAuger:2014zay} could not be performed for these events since the number of stations in the events $\sim 4$ are too few and the shower had a very low energy to extract any information about the primary. Such events were also seen in previous analysis albeit not these many. For the other events no particular feature worth mentioning was observed. Some images of the interesting events from this and the next section are included as a part of App.~\ref{sec:app_3}. 
 
-The Fisher value distribution for the test sample is shown in fig~\ref{fig:Fish_bkg_test_flawed}. As it is shown no event passes the Fisher cut in any angular region. However, there are a few events which come very close to the cut line. Five events marked with a red circle were analysed in more detail. Each of them has its own unique reason with only the one with zenith being the most interesting. This event has the ID of 66106356. After looking at detailed information about the event it was found out that the accidental station cut used is insufficient. Previously, the  accidental cut (rejection of stations with Total signal < 3 VEM) is only applied to the event if there are more than 5 stations in the event. Since for this analysis due to the inclusion of MoPS and ToTd an overall increase in events is expected which also increases the overall number of stations with accidental stations this cut needs to be reduced a bit to take this overall increase into account. Thus, this cut was reduced to apply for events with more than 4 stations. This reduction of the cut decreases the total events passing the analysis cut by $\sim$5\% for the background training sample and $1-2$\% for the signal training sample. The Fisher coefficients and cut changes slightly. After this change in the reconstruction the test sample was obtained again and compared to the background dample as shown in fig~\ref{fig:Fish_bkg_test}. The other interesting events which have $\mathcal{F}$ values close to the $\mathcal{F_{cut}}$ with their respective ids are tabulated in table~\ref{}. These events were individually evaluated. Some of these () were found to have a bad time residual fit primarily because of multiple peaks observed in stations triggered by the new triggers. Since, no segmentation algorithm was used for stations with MoPS and ToTd triggers sometimes a wrong peak was selected which affected the reconstruction for these events. A future analysis with a corrected segmentation algorithm which is functional for the new triggers MoPS and ToTd is envisaged in the future analysis upgrades. Such events are expected to be limited to less than $\sim$1\% of total events but still require a careful look for future analysis upgrades. A further detailed analysis was also performed for these events where the primary mass composition was extracted via the muon production distributions as mentioned in~\cite{PierreAuger:2014zay}. Even with large uncertainties these events are most likely due to a light deep primary. For the other three events no particular feature worth mentioning was observed. 
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{ |P{3.0cm}||P{2.0cm}||P{4.0cm}| }
+    \hline
+    SD Event ID & $\theta_{\text{Rec}}$ & Reason \\
+    \hline
+    32988124 & $71.96^{\circ}$ & MoPS peak selection  \\
+    40284452 & $58.88^{\circ}$ & No particular feature  \\
+    45782830 & $65.50^{\circ}$ & No particular feature  \\
+    54246856 & $70.79^{\circ}$ & MoPS Peak selection  \\
+    66106356 & $68.30^{\circ}$ & Accidental station cut  \\
+    \hline
+  \end{tabular}
+  \caption{Systematic uncertainties and their contribution to the exposure}
+  \label{tab:Interesting_events}
+\end{table}
 
 \begin{figure}[t!]
   \centering
@@ -176,13 +198,14 @@ After the errors discovered in the initial partial unblinding were fixed by alte
       \includegraphics[width=\linewidth]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_fit_search+test_bkg_region_70.5_73.5.pdf}
       \caption{$ 70.5^{\circ} <\theta_{\text{Rec}} \leq 76.5^{\circ}$}
    \end{subfigure}
-   \caption{Comparison of the $\mathcal{F}$ value distributions for the background training (purple) and the test+search samples (blue) for the different angular sub-regions. The test+search sample is scaled by the ratio of the integrals of the background training and test+search samples. The black dashed line indicates the exponential fit to the tail of the distribution. The red dashed line indicates the value of the $\mathcal{F_{cut}}$ obtained from the fit. For the test+search samplethe observed values are compared to the predicted values from the fit for ht.}
+   \caption{Comparison of the $\mathcal{F}$ value distributions for the background training (purple) and the test+search samples (blue) for the different angular sub-regions. The test+search sample is scaled by the ratio of the integrals of the background training and test+search samples. The black dashed line indicates the exponential fit to the tail of the distribution. The red dashed line indicates the value of the $\mathcal{F_{cut}}$ obtained from the fit. For the test+search sample the observed values are compared to the predicted values from the fit for ht.}
     \label{fig:Fisher_cut_2}
 
 \end{figure}
 
 \begin{table}[h!]
   \centering
+  \small
   \begin{tabular}{ |P{1.25cm}||P{2.23cm}|P{2.23cm}|P{2.23cm}|P{2.23cm}|P{2.28cm}|  }
     \hline
       Fit & \multicolumn{5}{c|}{Number of events in $\mathcal{F}$ tails} \\
@@ -293,12 +316,12 @@ Further, the limits obtained in this analysis are combined with the limits obtai
   \label{fig:Limit_comp_3}
 \end{figure}
 
-The aim of this study was to evaluate the improvement, but it was always known that unless huge, the inclusion of new triggers does not improve the overall diffuse flux limits set at Auger. The diffuse flux limit and sensitivity for Auger is dominated by the Earth-skimming channel as shown in~\cite{Aab_2019_diffuse}. This limit is significantly lower than the DG$\mathrm{_{low}}$ channel and is the main driver to constrain astrophysical and cosmogenic models. A comparison of the limits obtained in this study to the overall limit set at the Pierre Auger Observatory along with the flux predictions from some popular cosmogenic and astrophysical models is shown in fig.~\ref{} However, the improvements shown in this analysis are more important in the context of point source searches. This is discussed more in the next chapter. 
+The aim of this study was to evaluate the improvement, but it was always known that unless huge, the inclusion of new triggers does not improve the overall diffuse flux limits set at Auger. The diffuse flux limit and sensitivity for Auger is dominated by the Earth-skimming channel as shown in~\cite{Aab_2019_diffuse}. This limit is significantly lower than the DG$\mathrm{_{low}}$ channel and is the main driver to constrain astrophysical and cosmogenic models. A comparison of the limits obtained in this study to the overall limit set at the Pierre Auger Observatory along with the flux predictions from some popular cosmogenic and astrophysical models is shown in fig.~\ref{fig:Limit_comp_overall} However, the improvements shown in this analysis are more important in the context of point source searches. This is discussed more in the next chapter. 
 
 \begin{figure}[h!]
   \centering
   \includegraphics[width=14.5cm]{thesis_figures/ExpLimits/limits_and_models_DGL.pdf}
-  \caption{Comparison of the combined limits obtained in this analysis to the current upper limits on the diffuse flux of cosmogenic neutrinos. The predicted fluxes from a few cosmogenic and astrophysical models is also shown for comparison. The plot has been modified to add the limits of this analysis and is originally taken from ~\cite{PierreAuger:2023pjg}}
+  \caption{Comparison of the combined limits obtained in this analysis to the current upper limits on the diffuse flux of cosmogenic neutrinos. The predicted fluxes from a few cosmogenic and astrophysical models is also shown for comparison. The plot has been modified to add the limits of this analysis using code provided by J. Muñiz and is originally taken from ~\cite{PierreAuger:2023pjg}}
   \label{fig:Limit_comp_overall}
 \end{figure}
 
