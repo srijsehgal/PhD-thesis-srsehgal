@@ -69,19 +69,19 @@ The exposure to point-like sources of UHE neutrinos can then be calculated by in
 
 \begin{figure}[t!]
   \centering
-  \includegraphics[width=14.5cm]{thesis_figures/PointLimits/Exposure_vs_Dec.pdf}
+  \includegraphics[width=\textwidth]{thesis_figures/PointLimits/Exposure_vs_Dec.pdf}
   \caption{Average exposure for different neutrino energies as a function of declination for the DG$\mathrm{_{\text{low}}}$ channel. The exposure is calculated for the time period 2014-2021. The solid lines show the exposure calculated with the previous analysis while the dashed lines show the exposure calculated with the inclusion of new triggers.}
   \label{fig:Exp_dec}
 \end{figure}
 
 \begin{figure}[t!]
   \centering
-  \includegraphics[width=14.5cm]{thesis_figures/PointLimits/Hexagons_2004_2021_forSrijan.pdf}
+  \includegraphics[width=\textwidth]{thesis_figures/PointLimits/Hexagons_2004_2021_forSrijan.pdf}
   \caption{Number of 6T5 hexagons as a function of time. The white regions show the outages which are removed from the searches. The area between the green lines shows the time period of this search.}
   \label{fig:Hexagon_time}
 \end{figure}
 
-The exposure is $\delta$ dependent due to the dependence of effective area on $\theta(t)$. The effective area can also change with time due to the changes in the number of hexagons $n_{hex}(t)$. This change has been visualized in fig.~\ref{fig:Hexagon_time}. As it can be seen in the plot the number is relatively stable especially in the period of one sidereal day apart from a few outages which are removed from the searches. The directional exposure for the DGL channels for different fixed energies between 2014-2021 is shown in fig.~\ref{fig:Exp_dec}. The dashed line shows the exposure calculated in this study by including the new triggers while the solid line shows the exposure calculated with the previous analysis for the same time period. Similar to the exposure calculated for the diffuse flux the exposure is significantly improved for lower energies with the improvement decreasing for higher energies. The shape of the exposure is similar to the observation time plot in fig.~\ref{fig:time_per_day} with the maximum exposure peaks seen at the same declinations. 
+The exposure is $\delta$ dependent due to the dependence of effective area on $\theta(t)$. The effective area can also change with time due to the changes in the number of hexagons $n_{hex}(t)$. This change has been visualized in fig.~\ref{fig:Hexagon_time}. As it can be seen in the plot the number is relatively stable especially in the period of one sidereal day apart from a few outages which are removed from the searches. The directional exposure for the DGL channels for different fixed energies between 2014-2021 is shown in fig.~\ref{fig:Exp_dec}. The dashed line shows the exposure calculated in this study by including the new triggers while the solid line shows the exposure calculated with the previous analysis for the same time period. Similar to the exposure calculated for the diffuse flux the exposure is significantly improved for lower energies with the improvement decreasing for higher energies. The shape of the exposure is similar to the observation time plot in fig.~\ref{fig:time_per_day} with the maximum exposure peaks seen at the same declinations. It is also interesting to not that the exposure at given energy for any given point source with  can be estimated as the ratio between the diffuse exposure~\ref{fig:Limit_comp_1} and the solid angle covered by the DG$_{\text{low}}$ analysis multiplied by the fraction of time the source is visible~\ref{fig:time_per_day}. The solid angle covered by the DG$_{\text{low}}$ analysis is given by $2\pi \int_{60^{\circ}}^{75^{\circ}} \sin \theta d \theta \sim 1.515 \text{sr} $
 
 % As it can be seen in~\cite{} ES exposure published in~\cite{} is also plotted for comparison. It can be seen that generally the DG$_{low}$ point source exposure is lower than that of ES expect at higher energies where it is comparable. At these energies the different sensitive zenith angle ranges between the channels are the only differentiating factors for the exposure distribution. 
 
@@ -100,60 +100,100 @@ The point source flux is assumed to be independent of time and is assumed to be 
   k_{\text{PS}}^{90\%CL} = \frac{N_{\text{Up}}}{\int_{E_{\text{min}}}^{E_{\text{max}}} E_{\nu}^{-2} \, \xi(E_{\nu}, \delta) \, dE_{\nu}}
 \end{equation}
 
-For this study initially a time period from 1 Jan 2014 till 31 December 2021 is selected. The N$_{\tetx{Up}}$ = 2.39 is calculated according to the Conrad approach as mentioned in section~\ref{subsec:Conrad}. The exposure is assumed to be uniform within $\pm 0.6\%$ for the time period of search as shown in~\cite{PierreAuger:2017pzq}. 
+For this study initially a time period from 1 Jan 2014 till 31 December 2021 is selected. The N$_{\text{Up}}$ = 2.39 is calculated according to the Conrad approach as mentioned in section~\ref{subsec:Conrad}. The exposure is assumed to be uniform within $\pm 0.6\%$ for the time period of search as shown in~\cite{PierreAuger:2017pzq}. 
 
 
-\begin{figure}[t!]
+\begin{figure}[th!]
   \centering
-  \includegraphics[width=14.5cm]{thesis_figures/PointLimits/Point_comp_new_old.pdf}
-  \caption{Comparison of the 90\% C.L. declination dependent upper-limit (01.01.2004 - 31.12.2021) for the DG$_{\text{low}}$ channel of a single flavor point-like flux of UHE . The limit (dashed line) is compared to the limit obtained from the previous analysis (solid line) for the same time period.}
+  \includegraphics[width=\textwidth]{thesis_figures/PointLimits/Point_comp_new_old.pdf}
+  \caption{Comparison of the 90\% C.L. declination dependent upper-limit (01.01.2014 - 31.12.2021) for the DG$_{\text{low}}$ channel of a single flavor point-like flux of UHE . The limit (dashed line) is compared to the limit obtained from the previous analysis (solid line) for the same time period.}
   \label{fig:Dec_limit_new old}
-\end{figure}
-
-The 90\% C.L. declination dependent upper-limit for the DG$_{\text{low}}$ channel is shown in fig.~\ref{fig:Dec_limit_new old}. The limit is the stringent for the times the source is seen the longest. The limit is calculated for the energy range $\sim$ 2.0 $\times 10^{18}$eV - $\times 10^{20}$eV. The dependence of energy intervals is minimal. This limit is also compared to the limit obtained from the previous analysis for the same time period in the same figure. As it can be seen the limit is significantly improved with new triggers fulfilling one of the primary objectives of this thesis. Further a combined limit is calculated where the old analysis is applied for the time period 01.01.2004 - 31.12.2013 and the analysis presented in this thesis is applied for the time period 01.01.2014 - 31.12.2021. This combination is only done under the assumption that the systeamtics for both the time periods are similar and 0 neutrino candidates were found in both time periods. This combination along with the limits from the separate time periods is shown in Fig.~\ref{fig:Dec_limit_comb1}. Further this combination is also compared to the point-like source limit calculated with the old analysis for the time period 01.01.2004-31.12.2021. This is presented in fig.~\ref{fig:Dec_limit_comb2}. For the best declination range of the DG$_{\text{low}}$ channel the limit is improved by a factor of $\sim$ 2.5???.
-\todo{Get this number }
-
-\begin{figure}[t!]
-  \centering
   \includegraphics[width=14.5cm]{thesis_figures/PointLimits/Point_comp_combined.pdf}
-  \caption{Limit comparison}
+  \caption{90\% C.L. declination dependent upper-limit for different time periods for the DG$_{\text{low}}$ channel of a single flavor point-like flux of UHE . The limit for 01.01.2004-31.12.2013 obtained with the previously done analysis (solid, orange) is combined with the limit obtained in this analysis for 01.01.2014-31.12.2021 (dashed, purple) to give the combined limit for 01.01.2004-31.12.2021 (dashed dotted, black).}
   \label{fig:Dec_limit_comb1}
 \end{figure}
 
-\begin{figure}[t!]
+The 90\% C.L. declination dependent upper-limit for the DG$_{\text{low}}$ channel is shown in fig.~\ref{fig:Dec_limit_new old}. The limit is the stringent for the times the source is seen the longest. The limit is calculated for the energy range $\sim$ 2.0 $\times 10^{18}$eV - $\times 10^{20}$eV. The dependence of energy intervals is minimal. This limit is also compared to the limit obtained from the previous analysis for the same time period in the same figure. As it can be seen the limit is significantly improved with new triggers fulfilling one of the primary objectives of this thesis. Further a combined limit is calculated where the old analysis is applied for the time period 01.01.2004 - 31.12.2013 and the analysis presented in this thesis is applied for the time period 01.01.2014 - 31.12.2021. This combination is only done under the assumption that the systeamtics for both the time periods are similar and 0 neutrino candidates were found in both time periods. This combination along with the limits from the separate time periods is shown in Fig.~\ref{fig:Dec_limit_comb1}. Further this combination is also compared to the point-like source limit calculated with the old analysis for the time period 01.01.2004-31.12.2021. This is presented in fig.~\ref{fig:Dec_limit_comb2}. For the best declination range of the DG$_{\text{low}}$ channel the limit is improved by a factor of $\sim$ 2.5.... for the time period where both the new triggers and old triggers were active i.e 2014-2021. The combined limit obtained in this analysis is about ...x lower Since the exposure at high energies is a few magnitudes larger than the one at low energies, the new triggers do not improve the overall limit significantly. The improvement is primarily due to the changes in the Fisher discriminant analysis which were proposed and implemented in this thesis.
+\todo{Get this number }
+
+% \begin{figure}[th!]
+%   \centering
+%   \includegraphics[width=14.5cm]{thesis_figures/PointLimits/Point_comp_combined.pdf}
+%   \caption{Limit comparison}
+%   \label{fig:Dec_limit_comb1}
+% \end{figure}
+
+\begin{figure}[h!]
   \centering
-  \includegraphics[width=14.5cm]{thesis_figures/PointLimits/Point_comp_combined_2.pdf}
-  \caption{Limit comparison 2}
+  \includegraphics[width=\textwidth]{thesis_figures/PointLimits/Point_comp_combined_2.pdf}
+  \caption{Comparison of the 90\% C.L. declination dependent upper-limit (01.01.2004 - 31.12.2021) for the DG$_{\text{low}}$ channel of a single flavor point-like flux of UHE . The limit (dashed dotted) is compared to the limit obtained from the previous analysis (solid line) for the same time period.}
   \label{fig:Dec_limit_comb2}
+  \includegraphics[width=\textwidth]{thesis_figures/PointLimits/Point_comp_combined_3.pdf}
+  \caption{The upper limits  (01.01.2004 - 31.12.2021) at 90\% C.L. for different neutrino searches performed at the Pierre Auger Observatory of a single flavor point-like flux of UHE . The limit obtained in this analysis (dashed dotted, green) for the DG$_{\text{low}}$ channel is compared to the limits obtained for the DG$_{\text{high}}$ and ES channels.}
+  \label{fig:Dec_limit_comb3}
 \end{figure}
 
 A cross-check of the diffuse limit is obtained from the point source analysis by performing double integration of the exposure, $\xi(E_{\nu}, \delta)$ in a similar way as done in~\cite{gap_note_2013}.
 
 The diffuse limit can be written as:
 \begin{equation}
-  \mathrm{k_{PS}^{90\%CL} < \frac{N_{Up}}{\int_{log_{10}E_{min}}^{log_{10}E_{max}} \int_{-\pi/2}^{\pi/2}2\pi \cdot cos(\delta) \cdot E_{\nu}^{-1} \cdot \xi(E_{\nu}, \delta) \cdot ln(10) \cdot d(log_{10}(E_{\nu})) \cdot d\delta}} 
+  k_{\text{PS}}^{90\% \text{CL}} < \frac{N_{\text{Up}}}{\int_{log_{10}E_{\text{min}}}^{log_{10}E_{\text{max}}} \int_{-\pi/2}^{\pi/2}2\pi \cdot cos(\delta) \cdot E_{\nu}^{-1} \cdot \xi(E_{\nu}, \delta) \cdot ln(10) \cdot d(log_{10}(E_{\nu})) \cdot d\delta}
 \end{equation}
 
 \todo{Calculate this }
 The diffuse limit from point source analysis is given as: 
 \begin{equation}
-  \mathrm{k_{PS}^{90\%CL} < 2.0000 \times 10^{-8} GeV cm^{-2} s^{-1} sr^{-1}}
+  k_{\text{PS}}^{90\%\text{CL}} < 2.0000 \times 10^{-8} \text{GeV cm}^{-2} \text{s}^{-1} \text{sr}^{-1}
 \end{equation}
 
 \todo{Write a bit more about crosschecks}
-Which agrees with the value mentioned in eq.~\ref{eq:final_lim}. It is also important to mention that even though the overall sensitive declination range for the DG$_{\text{low}}$ analysis is small in comparison to other channels~\cite{Aab_2019_point}, the improvement presented in this thesis is still important as the sensitive declination ranges are not fully overlapping. Thus, if there is a point source at between declinations $ \delta \in [-80^{\circ}- -68^{\circ}]$ then DG$_{\text{low}}$ channel offers the only window at Auger to see UHE$\nu_s$ from such a source.  
+Which agrees with the value mentioned in eq.~\ref{eq:final_lim}. . 
 
-\begin{figure}[t!]
-  \centering
-  \includegraphics[width=14.5cm]{thesis_figures/PointLimits/Point_comp_combined_3.pdf}
-  \caption{Limit comparison 3}
-  \label{fig:Dec_limit_comb3}
-\end{figure}
+It is also important to mention that even though the overall sensitive declination range for the DG$_{\text{low}}$ analysis is small in comparison to other channels~\cite{Aab_2019_point}, the improvement presented in this thesis is still important as the sensitive declination ranges are not fully overlapping. Thus, if there is a point source at between declinations $ \delta \in [-80^{\circ}- -68^{\circ}]$ then DG$_{\text{low}}$ channel offers the only window at Auger to see UHE$\nu_s$ from such a source.  
+
+% \begin{figure}[h!]
+%   \centering
+%   \includegraphics[width=\textwidth]{thesis_figures/PointLimits/Point_comp_combined_3.pdf}
+%   \caption{Limit comparison 3}
+%   \label{fig:Dec_limit_comb3}
+% \end{figure}
 
 \todo{Make table of sources}
-The limit obtained in this analysis was then used to constraint some interesting sources which exclusively lie in the DG$_{\text{low}}$ sensitive range. The sources were selected based on their declination and expected neutrino energies which could lie in the region explored.  
+The limit obtained in this analysis was then used to constraint some interesting sources which exclusively lie in the DG$_{\text{low}}$ sensitive range. The sources were selected based on their declination and expected energies of neutrinos they could produce which could lie in the region explored. The upper limts on the expected neutrino flux are given under the same assumptions the limts are calculated for i.e. a $E^{-2}$ like flux constant in time. 
+
+\begin{table}
+  \centering
+  \begin{tabular}{|c|c|c|c|}
+    \hline
+    Source & Dec. & R.A. & k$^{\text{90\%CL}}_PS$ \\
+    & [deg] & [deg] & [GeV cm$^{-2}$ s$^{-1}$ sr$^{-1}$] \\
+    \hline
+    BZQ J0102-7546 & -75.4 & 15.3 & 1.0E+18 \\
+    BZQ J0102-8012 & -80.1 & 15.3 & 1.0E+18  \\
+    BZB J0127-8108 & -81.1 & 21.5 & 1.0E+18 \\
+    BZQ J0217-7347 & -73.8 & 34.26 & 1.2E+18 \\
+    BZQJ0143-6813 & -68.1 & 25.3 & 1.2E+18 \\
+    \hline
+  \end{tabular}
+  \caption{Upper limits on the expected neutrino flux at 90\% C.L. for different sources. The limits are calculated for the DG$_{\text{low}}$ channel.}
+  \label{tab:source_limits}
+\end{table}
 
 
+199|BZQJ0143-6813|01 43 18.4 -68 13 26.0|1.223|
+263|BZQJ0217-7347|02 17 45.4 -73 47 21.0|1.234|
+1004|BZQJ0947-7731|09 47 51.4 -77 31 35.0|2.528|
+1205|BZUJ1058-8003|10 58 43.3 -80 03 53.9|0.   |
+2248|BZQJ1733-7935|17 33 40.6 -79 35 54.9|0.876|
+2352|BZBJ1843-7430|18 43 39.7 -74 30 24.9|0.   |
+2541|BZQJ2147-7536|21 47 12.7 -75 36 12.9|1.138|
+2820|BZQJ2356-6820|23 56 00.5 -68 20 03.0|1.716|
+63|BZBJ0028-7045|00 28 41.5 -70 45 15.9|0.   |  
+133|BZQJ0102-7546|01 02 18.5 -75 46 50.9|1.017|  
+134|BZQJ0102-8012|01 02 15.0 -80 12 39.2|1.169|  
+303|BZQJ0217-7347|02 17 45.4 -73 47 21.4|1.234|  
+412|BZQJ0311-7651|03 11 55.2 -76 51 50.9|0.223|  
+447|BZQJ0332-7249|03 32 42.9 -72 49 04.5|2.739|  
 
 %%% Local Variables:
 %%% mode: latex
