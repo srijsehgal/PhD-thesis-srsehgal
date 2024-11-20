@@ -5,7 +5,7 @@
 \label{sec:align}
 %==============================================================================
  
-This chapter aims to detail the procedure used to calculate the detector exposure or sensitivity to neutrinos for the DG$\mathrm{_{low}}$ region. The efficiencies calculated in the last chapter are used and the final expected neutrino rates are calculated. The first part of the chapter describes the exposure calculation along with the exposure contribution from different channels. Systematic uncertainties which can arise during the full analysis along with their contribution to the exposure are also discussed. 
+This chapter aims to detail the procedure used to calculate the detector exposure or sensitivity to neutrinos for the DG$\mathrm{_{\text{low}}}$ region. The efficiencies calculated in the last chapter are used and the final expected neutrino rates are calculated. The first part of the chapter describes the exposure calculation along with the exposure contribution from different channels. Systematic uncertainties which can arise during the full analysis along with their contribution to the exposure are also discussed. 
 The second part of the chapter details the results of the unblinding where no possible neutrino candidates were found for the investigated angular range. Using this information an upper limit on the incoming flux of UHE $\nu$ is calculated. This limit is further compared to the one obtained by the previous analysis for the same time period but without the contribution of new triggers. The overall improvement to this limit is a crucial result of this work. 
 
 
@@ -16,7 +16,7 @@ Exposure refers to the effective observation capability of a detector or observa
 
 \begin{figure}[t!]
   \centering
-  \includegraphics[width=0.75\textwidth]{thesis_figures/ExpLimits/Brillouin_area.png}
+  \includegraphics[width=0.5\textwidth]{thesis_figures/ExpLimits/Brillouin_area.png}
   \caption{Sketch of a 6T5 hexagon of the SD array. The shaded area in yellow represents the Brillouin effective area ($A_{6T5}$) of the hexagon for a neutrino event.}
   \label{fig:Brillouin_area}
 \end{figure}
@@ -56,7 +56,7 @@ Exposure calculation still needs to account for the detector configuration and i
 \begin{figure}[t!]
   \centering
   \includegraphics[width=14.5cm]{thesis_figures/ExpLimits/Exposure_comp_all_anotated_new_sim_optim.pdf}
-  \caption{Exposure of the Pierre Auger Observatory for different neutrino flavors and interaction channels in the DG$_{\text{low}}$ angular range for the time period 2014-2021. The dashed lines are the calculated exposures for this analysis and the solid lines is the exposure calculated for the analysis performed without including new triggers for the same time period.}
+  \caption{Exposure of the Pierre Auger Observatory for different neutrino flavors and interaction channels in the DG$_{\text{\text{low}}}$ angular range for the time period 2014-2021. The dashed lines are the calculated exposures for this analysis and the solid lines is the exposure calculated for the analysis performed without including new triggers for the same time period.}
   \label{fig:Exp_flavors_comp}
 \end{figure}
 
@@ -68,6 +68,7 @@ An effective or total exposure, $\xi_{tot}(E_{\nu}) = \sum_{i}\sum_{c} \xi^{i,c}
   \caption{Comparison of the total exposure of the Pierre Auger Observatory for the time period 2014-2021. The dashed dotted line is the exposure calculated for this analysis and the solid line is the exposure calculated for the analysis performed without including new triggers for the same time period.}
   \label{fig:Exp_total_comp}
 \end{figure}
+\todo{Replace with one with no title}
 
 As seen in the figure the $\nu_e$ CC channels contributes the most to the total neutrino exposure($\sim$85\%). The exposure rises rapidly at lower energies and then mostly flattens with just a slight increase which is due to the energy dependent neutrino cross-section. The shape is due to the neutrino detection efficiency which is small for lower energies as shown in fig~\ref{fig:Eff_v_theta_CC_E} in the last chapter. The next dominant channels are the $\nu_{\tau}$ and $\nu_{\mu}$ CC which are assumed to have a similar detection efficiency as the NC channel but have a higher value of cross-section. The NC channel contribution is very small($\sim$5\%) due to the reasons discussed in section~\ref{subsec:nu_sel_nudeteff}.  
 
@@ -248,7 +249,7 @@ Assuming a differential UHE$\nu$ flux $\phi = k \cdot E_{\nu}^{-2}$, the integra
 \label{subsec:FandC}
 Feldman-Cousins method~\cite{Feldman:1997qc} is a statistical technique used to construct confidence intervals, particularly for Poisson distributed data. This approach addressed the key shortcomings of traditional methods used to construct confidence intervals especially for cases where the number of observed events are low or zero. Traditional methods such as Gaussian approximation, which assume that data follows a normal distribution and are used to calculate confidence intervals can often lead to incorrect intervals particularly in rare event searches where the data is better described by a Poisson distribution. This can also lead to unphysical values e.g. negative value for rate of expected events. The Feldman-Cousins approach solves this problem by giving a unified method for constructing confidence intervals. The method ensures that the intervals are unbiased and do not favour one outcome over the other. It also ensures a natural transition from two-sided intervals (where there is significant data) to one-sided upper limits (when there is little to no data). The method also respects physical constraints, such as non-negative values for expected event rates. It also provides intervals with more accurate coverage probabilities, reducing over-coverage issues common in other methods. 
 
-The Feldman \& Cousins approach is implemented as a part of \textit{gammapy} in python~\cite{Gammapy:2023gvb} which was used to get the interval for this analysis. The information was also verified with look-up tables in~\cite{Feldman:1997qc}. For a 90\% confidence interval, in case of zero signal and background events, the upper and lower limits are given as $N^{90\%}_{\text{up}} = 2.44$ and $N^{90\%}_{\text{low}} = 0$ respectively. If one signal event is seen with zero background then this interval shifts to [4.36,0.11]. It is important to note that both statistical and systematic uncertainties are not included for the intervals calculated in the Feldman \& Cousins method. 
+The Feldman \& Cousins approach is implemented as a part of \textit{gammapy} in python~\cite{Gammapy:2023gvb} which was used to get the interval for this analysis. The information was also verified with look-up tables in~\cite{Feldman:1997qc}. For a 90\% confidence interval, in case of zero signal and background events, the upper and lower limits are given as $N^{90\%}_{\text{up}} = 2.44$ and $N^{90\%}_{\text{\text{low}}} = 0$ respectively. If one signal event is seen with zero background then this interval shifts to [4.36,0.11]. It is important to note that both statistical and systematic uncertainties are not included for the intervals calculated in the Feldman \& Cousins method. 
 
 \subsection{Rolke approach}
 \label{subsec:Rolke}
@@ -260,7 +261,7 @@ The Conrad method for calculating confidence intervals allows the inclusion of s
 
 \begin{equation}
   \label{eq:Conrad_lim}
-  N^{90\%}_{up} = 2.39, \,N^{90\%}_{low} = 0
+  N^{90\%}_{up} = 2.39, \,N^{90\%}_{\text{low}} = 0
 \end{equation}
 
 The interval is smaller in comparison to the Feldman \& Cousins method due to the uneven interval for the systematic uncertainty. 
@@ -277,7 +278,7 @@ It applies to an energy range of $E_{\nu} \epsilon [1.3 \times 10^{18} - 2.5 \ti
 \begin{figure}[t!]
   \centering
   \includegraphics[width=14.5cm]{thesis_figures/ExpLimits/Integ_DiffLimit_comp_new_sim_optim.pdf}
-  \caption{Integral (90\% C.L., long purple dashed lines) and differential upper limits (short purple segments) for the UHE$\nu_s$ diffuse flux in the DG$\mathrm{_{low}}$ region. The limits for an analysis without the new triggers are also plotted in orange for comparison. Both the limits are calculated for the time period 2014-2021.}
+  \caption{Integral (90\% C.L., long purple dashed lines) and differential upper limits (short purple segments) for the UHE$\nu_s$ diffuse flux in the DG$\mathrm{_{\text{low}}}$ region. The limits for an analysis without the new triggers are also plotted in orange for comparison. Both the limits are calculated for the time period 2014-2021.}
   \label{fig:Limit_comp_1}
 \end{figure}
 
@@ -305,7 +306,7 @@ These limits provide a way to denote the sensitivity of the detector for differe
 
 Both limits are also compared to the results from the previous analysis in fig~\ref{fig:Limit_comp_1}. As it was seen in the exposure comparison it is clear that the new triggers help improve the sensitivity at lower energies. For higher energies the improvements to the upper-limit for the diffuse flux of UHE${\nu_s}$ though not as significant is still substantial. This improvement can be attributed to the changes in the Fisher analysis. The integral flux limit sees an improvement $\sim$ 40\%. 
 
-Further, the limits obtained in this analysis are combined with the limits obtained using the old analysis. The total exposure for the time period 2004-2013 is calculated using the old analysis and selection as ToTd and MoPS were not implemented for this time period. This exposure is combined with the exposure obtained in this study with the inclusion of new triggers for the time period 2014-2021. This combination is only done under the assumption that the systematics for both the analysis are very similar. The combined exposure is then used to calculate the overall differential and integral limits for the DG$_{\text{low}}$ region in the time period 2004-2021. This is shown in fig~\ref{fig:Limit_comp_2}. Further this combination is also compared to the expected limit if only the old analysis is applied to the time period 2004-2021. This is shown in fig~\ref{fig:Limit_comp_3}.
+Further, the limits obtained in this analysis are combined with the limits obtained using the old analysis. The total exposure for the time period 2004-2013 is calculated using the old analysis and selection as ToTd and MoPS were not implemented for this time period. This exposure is combined with the exposure obtained in this study with the inclusion of new triggers for the time period 2014-2021. This combination is only done under the assumption that the systematics for both the analysis are very similar. The combined exposure is then used to calculate the overall differential and integral limits for the DG$_{\text{\text{low}}}$ region in the time period 2004-2021. This is shown in fig~\ref{fig:Limit_comp_2}. Further this combination is also compared to the expected limit if only the old analysis is applied to the time period 2004-2021. This is shown in fig~\ref{fig:Limit_comp_3}.
 
 
 
@@ -316,7 +317,7 @@ Further, the limits obtained in this analysis are combined with the limits obtai
   \label{fig:Limit_comp_3}
 \end{figure}
 
-The aim of this study was to evaluate the improvement, but it was always known that unless huge, the inclusion of new triggers does not improve the overall diffuse flux limits set at Auger. The diffuse flux limit and sensitivity for Auger is dominated by the Earth-skimming channel as shown in~\cite{Aab_2019_diffuse}. This limit is significantly lower than the DG$\mathrm{_{low}}$ channel and is the main driver to constrain astrophysical and cosmogenic models. A comparison of the limits obtained in this study to the overall limit set at the Pierre Auger Observatory along with the flux predictions from some popular cosmogenic and astrophysical models is shown in fig.~\ref{fig:Limit_comp_overall} However, the improvements shown in this analysis are more important in the context of point source searches. This is discussed more in the next chapter. 
+The aim of this study was to evaluate the improvement, but it was always known that unless huge, the inclusion of new triggers does not improve the overall diffuse flux limits set at Auger. The diffuse flux limit and sensitivity for Auger is dominated by the Earth-skimming channel as shown in~\cite{Aab_2019_diffuse}. This limit is significantly lower than the DG$\mathrm{_{\text{low}}}$ channel and is the main driver to constrain astrophysical and cosmogenic models. A comparison of the limits obtained in this study to the overall limit set at the Pierre Auger Observatory along with the flux predictions from some popular cosmogenic and astrophysical models is shown in fig.~\ref{fig:Limit_comp_overall} However, the improvements shown in this analysis are more important in the context of point source searches. This is discussed more in the next chapter. 
 
 \begin{figure}[h!]
   \centering
