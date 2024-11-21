@@ -1,7 +1,7 @@
 % !TEX root = mythesis.tex
 
 %==============================================================================
-\chapter{Detector exposure and Limits to the diffuse flux}
+\chapter{Detector Exposure and Limits to the Diffuse Flux}
 \label{sec:align}
 %==============================================================================
  
@@ -81,7 +81,7 @@ The sources of systematic uncertainties considered for this analysis are discuss
 \begin{description}
   \item \textbf{Primary interaction generator} For the simulations used in this analysis which is based on CORSIKA 7.2 the only available option for the primary interaction generator is the HERWIG~\cite{Corcella:2000bw} code. Thus, it was not possible to compare the differences that could arise due to the use of different primary interaction generators. These systematic uncertainties were taken from ~\cite{gap_systematics} where PYTHIA~\cite{Sjostrand:2006za} and several versions of HERWIG are compared for CORSIKA 6. The uncertainties were found to be [+2.6\%, 3.7\%]. 
   \item \textbf{Parton Distribution function} Again the uncertainties are taken from ~\cite{gap_systematics}since this functionality is not available in CORSIKA 7. The systematic uncertainties on exposure quoted by the source are [+4\%, -5\%].
-  \item \textbf{Hadronic interaction models} The systematic uncertainties for the hadronic interaction models were calculated in this study and are detailed in App.~\ref{sec:app_2}. Three models QGSJETTII-04, EPOS-LHC and SIBYLL 2.3c were used for the calculation. The uncertainties were calculated by comparing the three models for a zenith of 72 deg and a primary energy of $10^{19}$eV. The systematic uncertainties were found to be (-5\%) where SIBYLL 2.3c is used as reference.
+  \item \textbf{Hadronic interaction models} The choice of the hadronic model used for the simulations can also lead to systematic uncertainties since most of these models are tuned on different accelerator datasets measured at much lower energies than the ones investigated in this analysis. The systematic uncertainties due to the choice of the hadronic interaction models were calculated in~\cite{gap_systematics} and were found to be $\pm 5\%$, However, the largest uncertainities were reported for the QGSJET and QGSJETII models of which QGSJET has not been developed further. For this study the electromagnetic showers which contribute the most to the exposure are not expected to vary much sue to the choice of the hadronic model. Since SIBYLL 2.3d is chosen to be the main hadronic model for this analysis the systematic uncertainties are assumed from~\cite{} of the order $\pm ...\%$.  
   \item \textbf{Shower simulator and thinning algorithm} The systematic uncertainties due to the differing shower simulation programs was estimated thorough the comparison quoted in~\cite{Huege:2022xbo} for both hadronic cascades and electromagnetic showers. The differences seen in different software are of the order $\sim 15\%$ which agree nicely with the results from~\cite{gap_systematics}. The uncertainties due to thinning were also calculated in~\cite{gap_systematics} and were found to be $\sim 7\%$.
   \item \textbf{Detector simulation} The differences in the detector simulation software i.e. a GEANT4 based approach used in this analysis to other approaches is already compared in~\cite{gap_note_det_systematics}. The systematic uncertainties were found to be $\pm 5\%$. Further, in this analysis the simulated showers were reconstructed using two different Offline tags with no significant differences observed in the final exposure. 
   \item \textbf{Number of Hexagons} For the total number of hexagons calculated we implicitly assume that all the stations are equal. However, if the new triggers are not active in a given station, this hexagon might not contribute the same as the other ones. So there is a systematic error associated with using the hexagon files as they are as a station with 1 PMT is counted full there but likely shouldn't for low energy neutrino showers. So simply put: the ToTd or MoPS not active are not affecting 6T5s, but only because 6T5 doesn't account for this fact. Or: the 6T5 is a binary condition assuming a station is either alive or not. While for any analysis with new triggers, in principle, we have to account for the situation of a station being alive but not sending new triggers. The systematic uncertainty associated with this effect was calculated by looking at the average number of stations with only one functional PMT over time. The uncertainty associated with this effect was found to be $\pm 2\%$ at most. 
@@ -99,7 +99,7 @@ Table ~\ref{tab:systematic_uncertainties} summarizes the  source of systematic u
     \hline
     Primary interaction generator & +3\% \enspace -4\%  \\
     Parton Distribution function & +4\% \enspace -5\%  \\
-    Hadronic interaction models & -5\% \\ 
+    Hadronic interaction models & ...\% \\ 
     Shower simulator &  +15\%  \\
     Thinning algorithm & +7\% \enspace -7\%  \\
     Detector simulation & +5\% \enspace -5\%  \\

@@ -1,83 +1,47 @@
 %------------------------------------------------------------------------------
-\chapter{Adapting DGH analysis to current Offline}
+\chapter{Supplementary results from Fisher Linear Discriminant Analysis}
 \label{sec:app_4}
 %------------------------------------------------------------------------------
-This section aims to present the work done during this thesis to adapt the Down Going High neutrino analysis as a Standard Application to work with the current Offline version. The Down going high neutrino analysis was first created in 2011 and has not been updated since then. This has led to the ModuleSequence used in the erstwhile analysis to be incompatible with the new Offline versions. The work involved creating a Modulesequence that mimics the old analysis but is compatible with the new structure of Offline. This work has required a lot of input from J. Muniz  who was one of the authors of the original analysis. In the next few paragraphs the changes made to the original ModuleSequence are discussed along with the reasons for the choices made. The new ModuleSequence is then tested on a few events to check if the output is consistent with the old analysis. The work is still in progress and requires further testing and validation before it can be used for the analysis. 
 
-The previous version of the Module sequence is presented below:
-\begingroup
-  \fontfamily{qcr}\selectfont \\ 
-  \noindent <sequenceFile>\\
-  \null\quad <enableTiming/>\\
-  \null\quad <moduleControl>\\
-  \null\qquad <loop numTimes="unbounded" pushEventToStack="yes"> \\
-    \null\qquad \quad  <!-- Event Reading and Pre-selection -->\\
-    \null\qquad \quad  <module> EventFileReaderOG </module>\\
-    \null \qquad \quad  <module> EventCheckerOG </module>\\
-    \null\qquad \quad  <!-- SD Calibration previously SdCalibratorOG-->\\
-    \null\qquad \quad   <module> SdGainRatioCorrectorKG </module>\\
-    \null\qquad \quad   <module> SdStationCheckerOG </module>\\
-    \null\qquad \quad   <module> SdHistogramFitterKG </module>\\
-    \null\qquad \quad   <module> SdBaselineFinderKG </module>\\
-    \null\qquad \quad   <module> SdTraceCalibratorOG </module>\\
-    \null\qquad \quad   <module> SdSignalRecoveryKLT </module>\\
-    \null\qquad \quad  <!-- Special Module to handle station with double peaks -->\\
-    \null\qquad \quad   <module> doublePeaketector </module>\\
-    \null\qquad \quad  <!-- Rerunning SD Calibration -->\\
-    \null\qquad \quad   <module> SdCalibratorUSC </module>\\
-    \null\qquad \quad  <!-- Event-selection -->\\
-    \null\qquad \quad   <module> SdMonteCarloEventSelectorOG </module>\\
-    \null\qquad \quad   <module> SdEventSelectorUBA </module>\\
-    \null\qquad \quad   <module> SdTopDownSelectorUBA </module>\\
-    \null\qquad \quad  <!-- Angular Reconstruction -->\\
-    \null\qquad \quad   <module> simpleRec </module>\\
-  \null \qquad  </loop>\\
-  \null \quad  </moduleControl>\\
-   </sequenceFile>\\
-\endgroup
+As mentioned before the Fisher Linear Discriminant analysis with a standalone python program (available on Gitlab) and checked against the inbuilt scikit-learn library. The Fisher polynomial of the form described in eq.~\ref{eq:fisher_poly_new} which was trained separately for five angular sub-regions. The results of the Fisher Coefficients, $C_i$ for each angular region is given below in~\ref{Normalised Fisher coefficients obtained for each angular region}. 
+Further, as mentioned before the cut to establish the separation between the background and training sample is evaluated by fitting the tail of the background distribution to an exponential function in each angular region such that 0.2 events are expected to pass the cut in 20 years as mentioned in sec.~\ref{subsubsec:nu_sel_fisher_cut}. The fit parameters obtained after fitting $\mathrm{e^{a-bx}}$ to the tail of the Fisher distribution are given in~\ref{subtab:Fish_fit_params}. The cut values were already mentioned before in table~\ref{tab:Selection_summ}.
 
-The new version of the Module sequence is presented below:
-\begingroup
-  \fontfamily{cmtt}\selectfont \\ 
-  \noindent <sequenceFile>\\
-  \null\quad <enableTiming/>\\
-  \null\quad <moduleControl>\\
-  \null\qquad <loop numTimes="unbounded" pushEventToStack="yes"> \\
-    \null\qquad \quad  <!-- Event Reading and Pre-selection -->\\
-    \null\qquad \quad  <module> EventFileReaderOG </module>\\
-    \null \qquad \quad  <module> EventCheckerOG </module>\\
-    \null\qquad \quad  <!-- SD Calibration -->\\
-    \null\qquad \quad   <module> SdGainRatioCorrectorKG </module>\\
-    \null\qquad \quad   <module> SdStationCheckerOG </module>\\
-    \null\qquad \quad   <module> SdHistogramFitterKG </module>\\
-    \null\qquad \quad   <module> SdBaselineFinderKG </module>\\
-    \null\qquad \quad   <module> SdTraceCalibratorOG </module>\\
-    \null\qquad \quad   <module> SdSignalRecoveryKLT </module>\\
-    \null\qquad \quad  <!-- Special Module to handle station with double peaks -->\\
-    \null\qquad \quad   <module> doublePeaketector </module>\\
-    \null\qquad \quad  <!-- Rerunning SD Calibration -->\\
-    \null\qquad \quad   <module> SdGainRatioCorrectorKG </module>\\
-    \null\qquad \quad   <module> SdStationCheckerOG </module>\\
-    \null\qquad \quad   <module> SdHistogramFitterKG </module>\\
-    \null\qquad \quad   <module> SdBaselineFinderKG </module>\\
-    \null\qquad \quad   <module> SdTraceCalibratorOG </module>\\
-    \null\qquad \quad   <module> SdSignalRecoveryKLT </module>\\
-    \null\qquad \quad  <!-- Event-selection -->\\
-    \null\qquad \quad   <module> SdMonteCarloEventSelectorOG </module>\\
-    \null\qquad \quad   <module> SdEventSelectorOG </module>\\
-    \null\qquad \quad   <module> SdTopDownSelector </module>\\
-    \null\qquad \quad  <!-- Angular Reconstruction -->\\
-    \null\qquad \quad   <module> SdPlaneFitOG </module>\\
-    \null\qquad \quad   <module> LDFFinderKG </module>\\
-    \null\qquad \quad  <!-- Post selection and export -->\\
-    \null\qquad \quad   <module> DLECorrectionWG </module>\\
-    \null\qquad \quad   <module> SdEventPosteriorSelectorOG </module>\\
-    \null\qquad \quad   <module> RecDataWriterNG </module>\\
-  \null \qquad  </loop>\\
-  \null \quad  </moduleControl>\\
-   </sequenceFile>\\
-\endgroup
 
-Since 2011 the modules in Offline have gone through a considerable amount of changes. The old \textit{SdCalibratorOG} module was split into six separate modules for better future adaptability. This change also came with some improvements in the calibration process which can be found in more detail in~\cite{}. The \textit{doublePeaketector} was also slightly updated by the author to fit the coding style of the $\mathrm{\overline{Off}\underline{line}}$ framework. The earlier used \textit{SdCalibratorUSC} is no longer a part of the current framework but was thoroughly checked against the currently use calibration modules. The only difference that was observed was a snippet of code setting stations with multiple peaks to a specific error code and rejected the station with the error code. This functionality is envisioned to be transferred to other modules to simplify the analysis. For the result presented in this section this change has not been implemented yet and the standard calibration modules are used. \textit{SdEventSelectorUBA} was found to be very similar to the currently used \textit{SdEventSelectorOG} while \textit{SdTopDownSelectorUBA} has been replaced by \textit{SdTopDownSelector}. The last replacement is not perfect and is currently being improved to mimic the old module. The last change involved breaking down the \textit{simpleRec} module which was responsible for some of the quality cuts implemented in the DG$\mathrm{_{high}}$ and also implemented a plane and curved angular reconstruction. The angular reconstruction part was replaced by the \textit{SdPlaneFitOG} and \textit{LDFFinderKG} modules to do the plane and curved shower front-fit respectively. The other analysis cuts from the module were implemented in a standalone program which analyses the ADSTs produced after detector reconstruction. 
-
-After all the changes were implemented to the \textit{Modulesequence} and the DG$\mathrm{_{high}}$ analysis was rewritten in the exact same way as~\cite{PierreAuger:2011cpc}. The neutrino identification efficiency was evaluated using a simulation sample having a primary energy of $10^{19}$eV with zenith angle of $75^\circ$ which is the last bin of the DG$\mathrm{_{low}}$ analysis range. The identification efficiency was found to be \textbf{0.52}. This is very close to the identification efficiency of \textbf{\textit{0.58}} which was evaluated with the previous implementation of the analysis for the same energy and the same zenith angle. This shows that the new implementation of the analysis is consistent with the old implementation and can be used for the analysis. The next steps involve testing the analysis on a larger sample of events and comparing the results with the old analysis. The analysis will also be tested on the data to check if the results are consistent with the old analysis. The work is still in progress and requires further testing and validation before it can be used for the analysis. 
+\begin{table}[h!]
+    \begin{subtable}[h]{\textwidth}
+    \centering
+    \begin{tabular}{ |P{1.0cm}||P{2.4cm}|P{2.4cm}|P{2.4cm}|P{2.4cm}|P{2.4cm}| }
+      \hline
+         \multicolumn{6}{|c|}{Evaluated Fisher Coefficients} \\
+         \hline
+          & Region 1 & Region 2& Region 3& Region 4 & Region 5 \\
+           &(58.5$^\circ$-61.5$^\circ$]&(61.5$^\circ$-64.5$^\circ$]&(64.5$^\circ$-67.5$^\circ$]& (67.5$^\circ$-70.5$^\circ$] & (70.5$^\circ$- 76.5$^\circ$] \\
+      \hline
+      $C_1$ & $3.06 \cdot 10^{-1}$ & $5.48 \cdot 10^{-1}$ & $7.36 \cdot 10^{-1}$                & $8.40 \cdot 10^{-1}$ & $9.61 \cdot 10^{-1}$ \\
+      $C_2$ & $5.05 \cdot 10^{-1}$ & $3.75 \cdot 10^{-1}$ & $2.57 \cdot 10^{-1}$                & $1.40 \cdot 10^{-1}$ & $1.99 \cdot 10^{-2}$ \\
+      $C_3$ & $8.03 \cdot 10^{-1}$ & $7.47 \cdot 10^{-1}$ & $6.22 \cdot 10^{-1}$                & $5.00 \cdot 10^{-1}$ & $2.74 \cdot 10^{-1}$ \\
+      $C_4$ & $7.92 \cdot 10^{-2}$ & $-3.90 \cdot 10^{-2}$ & $-6.90 \cdot 10^{-2}$                & $-7.90 \cdot 10^{-2}$ & $-2.27 \cdot 10^{-2}$ \\
+      \hline
+    \end{tabular}
+    \caption{Normalised Fisher coefficients obtained for each angular region}
+    \label{subtab:Fish_Coeff}
+   \end{subtable}
+   \newline
+   \vspace*{0.5 cm}
+   \newline
+    \begin{subtable}[h]{\textwidth}
+      \centering
+    \begin{tabular}{ |P{1.0cm}||P{2.4cm}|P{2.4cm}|P{2.4cm}|P{2.4cm}|P{2.4cm}| }
+      \hline
+          & Region 1 & Region 2& Region 3& Region 4 & Region 5 \\
+      \hline 
+      $a$ & $15.1 \pm 0.5$ & $14.3 \pm 0.8$ & $14.2 \pm 1.4$ & $14.3 \pm 1.7$                                       & $7.8 \pm 2.0$ \\
+      $b$ & $2.57 \pm 0.12$ & $2.94 \pm 0.22$ & $3.50 \pm 0.44$ & $4.63 \pm 0.65$                                       & $3.11 \pm 0.96$ \\
+      \hline
+    \end{tabular}
+    \caption{Fit parameters obtained after fitting $\mathrm{e^{a-bx}}$ to the tail of the Fisher distribution.}
+    \label{subtab:Fish_fit_params}
+    \end{subtable}
+    \caption*{Table to test captions and labels.}
+    \label{tab:Fish_analysis}
+  \end{table}

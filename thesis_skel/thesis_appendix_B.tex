@@ -1,218 +1,25 @@
 %------------------------------------------------------------------------------
-\chapter{Testing hadronic models}
+\chapter{Testing the impact of high and low energy hadronic interaction models for neutrino simulations}
 \label{sec:app_2}
 %------------------------------------------------------------------------------
-This appendix includes the comparison of residuals obtained from alignment using the previously used method and Millepede. The reduced chi-square comparison plots for the two methods were shown earlier.
-It also includes the residual versus position plots for the Micromega detectors.
-\begin{figure}[h!]
-\centering
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_prev/square/GEM1.png}
+This appendix contains the efforts done to check the dependence of the low and high hadronic interaction models used to simulate neutrino showers. The check was performed before the full library was simulated by the MC task. For the choice of the low energy hadronic interaction model UrQMD and FLUKA were compared and for the high energy model QGSJET-II-04,EPOS-LHC and SIBYLL 2.3d  were compared. The comparison was done by simulating 20 neutrino showers for each model for five different injected slant depths. The comparison was only done for $\nu_e$ CC showers with a primary energy of $10^{19}$eV for a zenith angle of $72^\circ$ was considered for the comparison. These three choices were made since such neutrinos are expected to give a good idea of the performance of the models and their effect to the overall analysis. The showers were simulated with CORSIKA 7.7.2 and the output was fed to the Offline analysis framework for the detector response simulation and reconstruction in the same way as described in chapter.~\ref{chap:DGL}. 
 
-   \caption{GEM1 after previously used method}
-   \label{fig:GEM1_after_prev}
- \end{subfigure}
- %\hfill
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_millepede/square/GEM1.png}
-   \caption{GEM1 after Millepede}
-   %\label{fig:GEM1_before}
- \end{subfigure}
- \hfill
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_prev/square/GEM2.png}
-   \caption{GEM2 after previously used method}
-   \label{fig:GEM2_after_prev}
- \end{subfigure}
- %\hfill
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_millepede/square/GEM2.png}
-   \caption{GEM2 after Millepede}
-   %\label{fig:GEM2_before}
- \end{subfigure}
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_prev/square/GEM4.png}
+The comparison was done by calculating the ratio of the surviving events for both the models at each simulated slant depth. This comparison is shown in fig.~\ref{fig:Efficiency_vs_slant_comp_FLUKAnURQMD}. As seen in the figure the ration $\sim 1$ within the error bars which are high due to lack of statistics. After this comparison FLUKA was chosen as the main low energy hadronic model used in the simulations mainly because of ease of use. 
 
-   \caption{GEM4 after previously used method}
-   \label{fig:GEM4_after_prev}
- \end{subfigure}
- %\hfill
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_millepede/square/GEM4.png}
-   \caption{GEM4 after Millepede}
-   %\label{fig:GEM4_before}
- \end{subfigure}
- \caption{Residual of GEM detectors.}
-\end{figure}
-
-%%%%MICROMEGAS start here
-
-\begin{figure}[h!]
-\centering
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_prev/square/MX1.png}
-
-   \caption{MM1 after previously used method}
-   \label{fig:MX1_after_prev}
- \end{subfigure}
- %\hfill
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_millepede/square/MX1.png}
-   \caption{MM1 after Millepede}
-   %\label{fig:MX1_after}
- \end{subfigure}
- \hfill
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_prev/square/MX2.png}
-   \caption{MM2 after previously used method}
-   \label{fig:MX2_after_prev}
- \end{subfigure}
- %\hfill
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_millepede/square/MX2.png}
-   \caption{MM2 after Millepede}
-   %\label{fig:MX2_after}
- \end{subfigure}
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_prev/square/MX3.png}
-
-   \caption{MM3 after previously used method}
-   \label{fig:MX3_after_prev}
- \end{subfigure}
- %\hfill
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_millepede/square/MX3.png}
-   \caption{MM3 after Millepede}
-   %\label{fig:MX3_after}
- \end{subfigure}
- \caption{Residual of Micromega detectors.}
-\end{figure}
-
-
-\begin{figure}[h!]
-\centering
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_prev/square/MX4.png}
-
-   \caption{MM4 after previously used method}
-   \label{fig:MX4_after_prev}
- \end{subfigure}
- %\hfill
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_millepede/square/MX4.png}
-   \caption{MM4 after Millepede}
-   %\label{fig:MX4_after}
- \end{subfigure}
- \hfill
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_prev/square/MX5.png}
-   \caption{MM5 after previously used method}
-   \label{fig:MX5_after_prev}
- \end{subfigure}
- %\hfill
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_millepede/square/MX5.png}
-   \caption{MM5 after Millepede}
-   %\label{fig:MX5_after}
- \end{subfigure}
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_prev/square/MX7.png}
-
-   \caption{MM6 after previously used method}
-   \label{fig:MX6_after_prev}
- \end{subfigure}
- %\hfill
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_after_millepede/square/MX7.png}
-   \caption{MM6 after Millepede}
-   %\label{fig:MX6_after}
- \end{subfigure}
- \caption{Residual of Micromega detectors.}
-\end{figure}
-
-%%micromegas%
-
-\begin{figure}[h!]
-\centering
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_T/rotMX1U_after_millepede_T.png}
-   \caption{MM1 U plane}
-   %\label{fig:MX1X_before}
- \end{subfigure}
- %\hfill
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_T/rotMX1V_after_millepede_T.png}
-   \caption{MM1 V plane}
-   %\label{fig:MX1Y_before}
- \end{subfigure}
- \hfill
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_T/rotMX2U_after_millepede_T.png}
-   \caption{MM2 U plane}
-   %\label{fig:GEM2X_before}
- \end{subfigure}
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_T/rotMX2V_after_millepede_T.png}
-   \caption{MM2 V plane}
-   %\label{fig:GEM2Y_before}
- \end{subfigure}
- \hfill
- \begin{subfigure}[l]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_T/rotMX3U_after_millepede_T.png}
-   \caption{MM3 U plane}
-   %\label{fig:MX1 X plane}
- \end{subfigure}
- %\hfill
- \begin{subfigure}[r]{.45\textwidth}
-   \centering
-   \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_T/rotMX3V_after_millepede_T.png}
-   \caption{MM3 V plane}
-   %\label{fig:GEM4Y_before}
- \end{subfigure}
- \caption{Residual vs position for Micromega detectors}
- \label{fig:res_vs_pos_MX}
-\end{figure}
-
-\begin{figure}[t!]
-\begin{subfigure}[l]{.45\textwidth}
+\begin{figure}[ht!]
   \centering
-  \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_T/rotMX4U_after_millepede_T.png}
-  \caption{MM4 U plane}
-  %\label{fig:GEM4X_before}
-\end{subfigure}
-%\hfill
-\begin{subfigure}[r]{.45\textwidth}
-  \centering
-  \includegraphics[width=\linewidth]{thesis_figures/alignment/Run_3211_T/rotMX4V_after_millepede_T.png}
-  \caption{MM4 V plane}
-  %\label{fig:GEM4Y_before}
-\end{subfigure}
-\caption{ Residual vs position for MM4}
+  \includegraphics[width=\textwidth]{thesis_figures/App2/Efficiency_vs_slant_comp_FLUKAnURQMD.pdf}
+  \caption{Ratio FLUKA vs URqmd}
+  \label{fig:Efficiency_vs_slant_comp_FLUKAnURQMD}
 \end{figure}
-%%% Local Variables:
-%%% mode: latex
-%%% TeX-master: "../mythesis"
-%%% End:
+
+
+For the choice of high energy interaction model The T3 and $\nu$ identification efficiency was calculated. The T3 efficiency was calculated as a ratio of the number of reconstructed events to the number of simulated events. The $\nu$ identification efficiency was not calculated according to the method presented in this thesis but rather with a less stringent cut where the AoP of the three earliest stations were required to be above 1.5. The efficiency was calculated relative to the total simulated events and was plotted against the different injected slant depths which were simulated. This was also done to attempt to calculate the systematic uncertainties which can arise due to the choice of the hadronic interaction model. The systematic uncertainties were calculated as the difference between the integral of efficiencies of the different models. Taking SIBYLL 2.3d as the reference model A, to test any other model the uncertainty is given by $\frac{\int A - \int B}{\int B}$. The results of the comparison are shown in fig.~\ref{fig:Eff_vs_slant_comp_all_HModels}. The calculated systematic uncertainties are below 5\% for the T3 efficiency and below 10\% for the $\nu$ identification efficiency. The relative uncertainty for the T3 efficiency for SIBYLL 2.3d in comparison to the EPOS-LHC was found to be $\sim +3\%$ and for QGSJETTII04 was found to be $\sim + 7\%$ and the uncertainty on $\nu$ identification was found to be $\sim +10\%$ for both the models. However, due to the limited statistics no relevant conclusions can be drawn from this comparison. Thus, in the end the systematic uncertainties that were used in this analysis related to the choice of the hadronic interaction model were taken from other sources.  
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\textwidth]{thesis_figures/App2/Efficiency_vs_slant_comp_FLUKAnURQMD.pdf}
+  \caption{All model eff comp}
+  \label{fig:Eff_vs_slant_comp_all_HModels}
+\end{figure}
+
