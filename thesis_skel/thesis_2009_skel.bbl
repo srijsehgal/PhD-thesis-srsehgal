@@ -1619,6 +1619,12 @@ J.~L. Navarro {et~al.}, {\em An extensive review on the down-going neutrino
   systematic uncertainties from the Pierre Auger Observatory}, Gap note
   2010-027 (auger key protected), 2010.
 
+\bibitem{Sjostrand:2006za}
+T.~Sjostrand, S.~Mrenna,  and P.~Z. Skands, {\em {PYTHIA 6.4 Physics and
+  Manual}}, \href{http://dx.doi.org/10.1088/1126-6708/2006/05/026}{JHEP
+  {\bfseries 05} (2006) 026},
+  \href{http://arxiv.org/abs/hep-ph/0603175}{{\ttfamily arXiv:hep-ph/0603175}}.
+
 \bibitem{Huege:2022xbo}
 {CORSIKA} Collaboration, T.~Huege, {\em {CORSIKA 8 - the next-generation air
   shower simulation framework}},
@@ -1693,6 +1699,24 @@ J.~Conrad and F.~Tegenfeldt, {\em {Likelihood ratio intervals with Bayesian
   no.~6537, (2017) 1266--1270},
   \href{http://arxiv.org/abs/1709.07321}{{\ttfamily arXiv:1709.07321
   [astro-ph.HE]}}.
+
+\bibitem{Massaro:2008ye}
+E.~Massaro, P.~Giommi, C.~Leto, P.~Marchegiani, A.~Maselli, M.~Perri,
+  S.~Piranomonte,  and S.~Sclavi, {\em {Roma-BZCAT: A multifrequency catalogue
+  of Blazars}}, \href{http://dx.doi.org/10.1051/0004-6361:200810161}{Astron.
+  Astrophys. {\bfseries 495} (2009) 691},
+  \href{http://arxiv.org/abs/0810.2206}{{\ttfamily arXiv:0810.2206
+  [astro-ph]}}.
+
+\bibitem{Ballet:2020hze}
+{Fermi-LAT} Collaboration, J.~Ballet, T.~H. Burnett, S.~W. Digel,  and B.~Lott,
+  {\em {Fermi Large Area Telescope Fourth Source Catalog Data Release 2}},
+  \href{http://arxiv.org/abs/2005.11208}{{\ttfamily arXiv:2005.11208
+  [astro-ph.HE]}}.
+
+\bibitem{Wakely:2007qpa}
+S.~P. Wakely and D.~Horan, {\em {TeVCat: An online catalog for Very High Energy
+  Gamma-Ray Astronomy}},.
 
 \bibitem{PierreAuger:2011cpc}
 {Pierre Auger} Collaboration, P.~Abreu {et~al.}, {\em {A Search for Ultra-High
