@@ -1579,6 +1579,10 @@ S.~N. P.~Billoir, J.L.~Navarro, {\em GAP Note 2011-038, An Offline Module for
 P.~Billoir, {\em GAP Note 2006-072, Top-down Selection of Events and Stations
   (Auger key protected)},.
 
+\bibitem{gap_segment_selection}
+P.~Billoir, {\em GAP Note 2005-074, FADC trace cleaning in Surface Detector
+  through a segmentation procedure (Auger key protected)}, 2005.
+
 \bibitem{James:1975dr}
 F.~James and M.~Roos, {\em {Minuit: A System for Function Minimization and
   Analysis of the Parameter Errors and Correlations}},
