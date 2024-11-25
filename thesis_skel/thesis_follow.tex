@@ -14,10 +14,10 @@ In this chapter, the point source sensitivity to $\nu$ events of the SD array is
 
 \subsection{Source visibility}
 \label{subsec:psource_coverage}
-The field of view (FOV) of the Observatory and the corresponding neutrino efficiency is related to the zenith angle which in turn is related to the declination. For a given point-like source at declination $\delta$ and right ascension $\alpha$ (in equatorial coordinates), the time zenith angle which is the $\theta$ dependence at a certain time, $t$ is given by:
+The \gls{FOV} of the Observatory and the corresponding neutrino efficiency is related to the zenith angle which in turn is related to the declination. For a given point-like source at declination, $\delta$ and right ascension, $\alpha$ (in equatorial coordinates), the time zenith angle which is the $\theta$ dependence at a certain time, $t$ is given by:
 \begin{equation}
   \label{eq:zenith_angle_time}
-  cos \theta(\text{t}) = sin \lambda \,sin \delta+ cos \lambda \, cos \delta \,sin (2\pi \frac{\text{t}}{\text{T}} - \alpha)
+  \cos \theta(\text{t}) = \sin \lambda \,\sin \delta+ \cos \lambda \, \cos \delta \,\sin (2\pi \frac{\text{t}}{\text{T}} - \alpha)
 \end{equation} 
 where $T$ is the duration of one sidereal day and $\lambda$ is the latitude of the observer ($\lambda = -35.2^{\circ}$ for Pierre Auger Observatory). 
 Fig.~\ref{fig:Auger_FoV} shows the FOV bands for different neutrino search channels (DG$\mathrm{_{\text{low}}}$, DG$\mathrm{_{\text{high}}}$, ES). These bands are plotted in equatorial coordinates as a function of $\mathrm{\alpha - t _{GS}}$ where $\mathrm{t_{GS}}$ is the Greenwich Sidereal Time (GST) converted to for a mean longitude of the Observatory, $l$ calculated as $\mathrm{t_{GS}= 2\pi t/T + l}$. The sensitive declination ranges for different $\mathrm{t_{GS}}$ can be read from the plot which is very useful for real-time transient follow-up. For DG$\mathrm{_{\text{low}}}$ showers the SD of the Pierre Auger Observatory is sensitive to declinations between $\delta \sim -85^{\circ} - 40^{\circ}$. Another way to denote sky coverage for different neutrino searches at Auger is by calculating the time a source is visible to the Observatory for a particular declination. This is plotted in fig.~\ref{fig:time_per_day} for all three search channels. As it can be seen from the plot all three channels are the most sensitive at two ends of their sensitive declination ranges (DG$\mathrm{_{\text{low}}}$-$\delta \sim -70^{\circ}, 35^{\circ}$) which is a consequence of smaller variation in zenith angle in time for certain directions. The sensitivity sharply decreases beyond these declination values. In the middle of these \textit{two horns} is a plateau like region. It is also seen that generally the fraction of time a source is visible is comparable in the DG$\mathrm{_{\text{low}}}$ and DG$\mathrm{_{\text{high}}}$ channel with both being higher than the ES channel due to the size of the zenith angle windows. The fraction of visible time for vertical showers is also plotted. Even though this fraction of time is significantly high, currently no neutrino search is performed for this region as it is very difficult to differentiate between a cosmic ray and neutrino EAS for this zenith angle range.
@@ -137,7 +137,7 @@ A cross-check of the diffuse limit is obtained from the point source analysis by
 
 The diffuse limit can be written as:
 \begin{equation}
-  k_{\text{PS}}^{90\% \text{CL}} < \frac{N_{\text{Up}}}{\int_{log_{10}E_{\text{min}}}^{log_{10}E_{\text{max}}} \int_{-\pi/2}^{\pi/2}2\pi \cdot cos(\delta) \cdot E_{\nu}^{-1} \cdot \xi(E_{\nu}, \delta) \cdot ln(10) \cdot d(log_{10}(E_{\nu})) \cdot d\delta}
+  k_{\text{PS}}^{90\% \text{CL}} < \frac{N_{\text{Up}}}{\int_{log_{10}E_{\text{min}}}^{log_{10}E_{\text{max}}} \int_{-\pi/2}^{\pi/2}2\pi \cdot \cos(\delta) \cdot E_{\nu}^{-1} \cdot \xi(E_{\nu}, \delta) \cdot ln(10) \cdot d(log_{10}(E_{\nu})) \cdot d\delta}
 \end{equation}
 
 The diffuse limit from point source analysis is given as: 
