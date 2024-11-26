@@ -1,7 +1,7 @@
 % !TEX root = mythesis.tex
 
 %==============================================================================
-\chapter{Detector Exposure and Limits to the Diffuse Flux of UHE$\nu$s}
+\chapter{Detector Exposure and Limits to the Diffuse Flux of UHE\texorpdfstring{$\nu$}{}s}
 \label{sec:align}
 %==============================================================================
  
@@ -281,18 +281,18 @@ It applies to an energy range of $E_{\nu} \epsilon [1.3 \times 10^{18} - 2.5 \ti
   \label{fig:Limit_comp_1}
 \end{figure}
 
-The other lines dashed purple lines with central dots are the \textit{differential limits}. These are calculated by integrating the denominator of eq.~\ref{eq:integ_lim} in bins of width $\Delta = 0.5eV$ in $log_{10}(E_{\nu})$. Mathematically for the $i^{th}$ bin this can be represented as follows:
+The other lines dashed purple lines with central dots are the \textit{differential limits}. These are calculated by integrating the denominator of eq.~\ref{eq:integ_lim} in bins of width $\Delta = 0.5eV$ in $\log_{10}(E_{\nu})$. Mathematically for the $i^{th}$ bin this can be represented as follows:
 
 \begin{equation}
   \label{eq:diff_lim}
-  \text{Differential limit} \, (i^{\text{th}} \, E_{\nu} \, \text{bin})  = \frac{N_{\text{Up}}}{\int_{log_{10}(E^i - (\Delta log_{10}E)/2)}^{log_{10}(E^i + (\Delta log_{10}E)/2)} E^{-1}_{\nu} \cdot \xi(E_{\nu}) \cdot ln(10) \cdot d(log_{10}(E_{\nu}))}
+  \text{Differential limit} \, (i^{\text{th}} \, E_{\nu} \, \text{bin})  = \frac{N_{\text{Up}}}{\int_{\log_{10}(E^i - (\Delta \log_{10}E)/2)}^{\log_{10}(E^i + (\Delta \log_{10}E)/2)} E^{-1}_{\nu} \cdot \xi(E_{\nu}) \cdot ln(10) \cdot d(\log_{10}(E_{\nu}))}
 \end{equation}
 
 Assuming constant exposure and flux in each energy bin the differential limit can be estimated as:
 
 \begin{equation}
   \label{eq:diff_lim_approx}
- \text{Approx. Differential limit} \, (i^{\text{th}} \, E_{\nu} \, \text{bin})  = \frac{N_{\text{Up}}}{E^{-1}_{\nu} \cdot \xi(E_{\nu}) \cdot ln(10) \cdot \Delta (log_{10}(E_{\nu}))}
+ \text{Approx. Differential limit} \, (i^{\text{th}} \, E_{\nu} \, \text{bin})  = \frac{N_{\text{Up}}}{E^{-1}_{\nu} \cdot \xi(E_{\nu}) \cdot ln(10) \cdot \Delta (\log_{10}(E_{\nu}))}
 \end{equation}
 \begin{figure}[t!]
   \centering
