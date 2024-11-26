@@ -1722,6 +1722,10 @@ E.~Massaro, P.~Giommi, C.~Leto, P.~Marchegiani, A.~Maselli, M.~Perri,
 S.~P. Wakely and D.~Horan, {\em {TeVCat: An online catalog for Very High Energy
   Gamma-Ray Astronomy}},.
 
+\bibitem{Baseline_update}
+T.~Schulz {et~al.}, {\em GAP2022-045, New Baseline Algorithm for UB Traces
+  (Auger key protected)}, 2022.
+
 \bibitem{PierreAuger:2011cpc}
 {Pierre Auger} Collaboration, P.~Abreu {et~al.}, {\em {A Search for Ultra-High
   Energy Neutrinos in Highly Inclined Events at the Pierre Auger Observatory}},
