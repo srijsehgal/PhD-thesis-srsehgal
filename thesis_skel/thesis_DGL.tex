@@ -263,14 +263,14 @@ This section includes some sanity checks to examine and verify the quality of th
   \caption{Number of showers reconstructed for each MC core position. The colour scale represents the number of showers reconstructed. The circles with the lower count represent the stations in the array.}
   \label{fig:Core_XY_rec}
 \end{figure}
-Fig.~\ref{fig:Rec_Theta} shows the reconstructed zenith angle distributions for the CC and NC neutrino simulations. The peaks in both the distributions correspond to the simulated MC angles. It is also clear that the distribution of the NC channel (Fig.~\ref{sub:fig:Rec_theta_NC}) is slightly wider than that of the CC channel (Fig.~\ref{sub:fig:Rec_theta_CC}) pointing towards a worse resolution. This can be attributed to the reduced total detectable energy carried by an NC shower in comparison to a CC shower. It can also be seen that the distributions of both the channels (open histogram) have a long tail extending towards small values of zenith angle. This is caused due to two reasons. The angular reconstruction used in this analysis is tuned to work best for UHECR showers initiated at the top of the atmosphere with zenith angles below $60^{\circ}$. For neutrinos which can be initiated at any point in the atmosphere the reconstruction is not as efficient. This has been checked by only plotting showers having an injection slant depth < 300 g cm$^{-2}$ as shown in the filled histograms (purple). The second cause of this tail and the worsened resolution is also partially due to the inclusion of ToTd and MoPS. It was seen that the inclusion of these triggers can lead to a worsening of the resolution especially for inclined showers. This effect is more visible when these distributions are compared to reconstructions obtained without the inclusion of these triggers as shown in Fig.~\ref{fig:Rec_Theta_comp} later. The effect is due to a lack of tuned accidental signal rejection for these new triggers which affect the quality of the angular reconstruction as mentioned before. To mitigate this effect an angular fit quality cut is introduced in the analysis which significantly improves the resolution but comes at a cost of reduced efficiency.
+Fig.~\ref{fig:Rec_Theta} shows the reconstructed zenith angle distributions for the CC and NC neutrino simulations. The peaks in both the distributions correspond to the simulated MC angles. It is also clear that the distribution of the NC channel (Fig.~\ref{sub:fig:Rec_theta_NC}) is slightly wider than that of the CC channel (Fig.~\ref{sub:fig:Rec_theta_CC}) pointing towards a worse resolution. This can be attributed to the reduced total detectable energy carried by an NC shower in comparison to a CC shower. It can also be seen that the distributions of both the channels (open histogram) have a long tail extending towards small values of zenith angle. This is caused due to two reasons. The angular reconstruction used in this analysis is tuned to work best for UHECR showers initiated at the top of the atmosphere with zenith angles below $60^{\circ}$. For neutrinos which can be initiated at any point in the atmosphere the reconstruction is not as efficient. This has been checked by only plotting showers having an injection slant depth < 350 g cm$^{-2}$ as shown in the filled histograms (purple). The second cause of this tail and the worsened resolution is also partially due to the inclusion of ToTd and MoPS. It was seen that the inclusion of these triggers can lead to a worsening of the resolution especially for inclined showers. This effect is more visible when these distributions are compared to reconstructions obtained without the inclusion of these triggers as shown in Fig.~\ref{fig:Rec_Theta_comp} later. The effect is due to a lack of tuned accidental signal rejection for these new triggers which affect the quality of the angular reconstruction as mentioned before. To mitigate this effect an angular fit quality cut is introduced in the analysis which significantly improves the resolution but comes at a cost of reduced efficiency.
 
 \begin{figure}[h!]
   \centering
   \subcaptionbox{$\nu_e$ CC simulations.\label{sub:fig:Rec_theta_CC}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/MC_control/Theta_rec_CC_wnt_redcut.pdf}}
   \hfill
   \subcaptionbox{$\nu_e$ NC simulations.\label{sub:fig:Rec_theta_NC}}{\includegraphics[width=.48\linewidth]{thesis_figures/Nu_analysis/MC_control/Theta_rec_NC_wnt_redcut.pdf}}
-  \caption{Reconstructed zenith angle distributions for CC and NC neutrino simulations. The open histograms represent all events while the purple filled histograms represent events with slant depth < 300 g cm$^{-2}$.}
+  \caption{Reconstructed zenith angle distributions for CC and NC neutrino simulations. The open histograms represent all events while the purple filled histograms represent events with slant depth < 350 g cm$^{-2}$.}
   \label{fig:Rec_Theta}
 \end{figure}
 
@@ -283,7 +283,7 @@ Fig.~\ref{fig:Rec_Theta} shows the reconstructed zenith angle distributions for 
   \label{fig:Res_Theta}
 \end{figure}
 
-The angular resolution can be determined via the residual distributions ($\theta_{\text{Rec}} - \theta_{\text{Rec}}$) shown in Fig.~\ref{fig:Res_Theta}. It is given by the standard deviation of the residual distribution. For the CC channel the angular resolution is $\sim3^{\circ}$ when all events are considered (blue open histogram). The resolution improves to $\sim1^{\circ}$ when only events with slant depth < 350\,g\,cm$^{-2}$ are considered (purple filled histogram). The angular resolution is $\sim2^{\circ}$ with the proposed angular fit quality cut is also shown in Fig.~\ref{sub:fig:Res_theta_CC_chi2}. 
+The angular resolution can be determined via the residual distributions ($\theta_{\text{Rec}} - \theta_{\text{MC}}$) shown in Fig.~\ref{fig:Res_Theta}. It is given by the standard deviation of the residual distribution. For the CC channel the angular resolution is $\sim3^{\circ}$ when all events are considered (blue open histogram). The resolution improves to $\sim1^{\circ}$ when only events with slant depth < 350\,g\,cm$^{-2}$ are considered (purple filled histogram). The angular resolution is $\sim2^{\circ}$ with the proposed angular fit quality cut is also shown in Fig.~\ref{sub:fig:Res_theta_CC_chi2}. 
 \FloatBarrier
 \subsection{Comparison to reconstruction with old triggers}
 \label{subsec:old_trig_comp}
@@ -586,7 +586,7 @@ The final coefficients obtained are tabulated in Appendix~\ref{sec:app_4} and th
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.95\textwidth]{thesis_figures/Nu_analysis/Nu_eff/Fisher_efficencies_theta_F_wnt_redcut.pdf}
+  \includegraphics[width=0.9\textwidth]{thesis_figures/Nu_analysis/Nu_eff/Fisher_efficencies_theta_F_wnt_redcut.pdf}
   \caption{A comparison of the two different forms of Fisher polynomials tested in this analysis. The blue stars represent the efficiency of the new Fisher polynomial and the red dots represent the efficiency of the polynomial used in the previous analysis. The efficiency is calculated as the fraction of neutrino events passing the $\mathcal{F}_{\text{cut}}$ relative to the number of surviving events right before the Fisher analysis.}
   \label{fig:Fishpol_v_theta}
 \end{figure}
@@ -595,7 +595,7 @@ A two-dimensional plot with the Fisher values on an event by event basis vs the 
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.95\textwidth]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_comp_bkg_sim_wnt.pdf}
+  \includegraphics[width=0.9\textwidth]{thesis_figures/Nu_analysis/Fisher_plots/Fisher_comp_bkg_sim_wnt.pdf}
   \caption{Distribution of the Fisher values for the signal (MC neutrinos) and background training samples as a function of $\theta_{\text{Rec}}$. The black dots represent the background events and the 2-D histogram represents the signal events. The red line represents the interpolated $\mathcal{F}_{\text{cut}}$.}
   \label{fig:Fish_bkg_sig}
 \end{figure}
@@ -630,7 +630,7 @@ A two-dimensional plot with the Fisher values on an event by event basis vs the 
   \label{tab:Selection_summ}
 \end{table}
 
-\FloatBarrier
+% \FloatBarrier
 \subsection{Time evolution of selection parameters}
 \label{subsec:nu_sel_timeev}
 
@@ -728,34 +728,11 @@ In this section, the detection efficiency at each stage of the $\nu$ selection p
   \label{tab:Rel_eff_theta}
 \end{table}
 
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=\textwidth]{thesis_figures/Nu_analysis/Nu_eff/Rel_efficencies_theta_comp_wnt_redcut_correct.pdf}
-  \caption{Relative fraction of CC (purple dots) and NC (blue stars) events passing the selection cuts as a function of $\theta_{\text{MC}}$. The values are calculated relative to the events remaining after the preceding cut.}
-  \label{fig:Eff_v_theta_channel}
-\end{figure}
-
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=\textwidth]{thesis_figures/Nu_analysis/Nu_eff/Rel_efficencies_theta_E_CC_wnt_redcut.pdf}
-  \caption{Relative fraction of CC events passing the selection cuts as a function of $\theta_{\text{MC}}$ for four different E$_{\text{MC}}$. The values are calculated relative to the events remaining after the preceding cut.}
-  \label{fig:Eff_v_theta_CC_E}
-\end{figure}
-
-
-\begin{figure}[t!]
-  \centering
-  \includegraphics[width=\textwidth]{thesis_figures/Nu_analysis/Nu_eff/Rel_efficencies_theta_comp_redcut.pdf}
-  \caption{Comparison of the neutrino detection efficiency for both neutrino channels for the sample with the new triggers to the one without. For both the samples the efficiency is calculated relative to the events remaining after the precedent cuts in the sample with new triggers.}
-  \label{fig:Eff_v_theta_channel_comp}
-\end{figure}
-
-
 The inclined shower selection removes $\sim 10\%$ of showers. These showers were previously discussed in section~\ref{sec:reco_possel}. Most of these events are showers which interact very close to the ground which can lead to a mis-reconstructed zenith angle. Further, calculating the impact of $\delta \theta_{\text{Rec}}$ both CC and NC events observe a strong reduction. Comparing to the analysis with old triggers this decrease is $\sim$10\% higher for CC but similar for the one observed for NC interactions. 
  
 The errors associated with \gls{NC} events tend to worsen with increasing zenith angle and decreasing shower energy which was also shown earlier in the previous analysis. These conditions hinder the performance of the reconstruction algorithm, as both scenarios result in a limited number of triggered stations. Additionally, in the case of lower energies, certain geometric patterns, such as linear alignments, can adversely affect zenith angle determination.
 
-The error distributions for the CC channel is shown in Fig.~\ref{fig:Theta_err_comp}.
+The error distribution for the CC channel is shown in Fig.~\ref{fig:Theta_err_comp}.
 For \gls{CC} events, the significant decline in reconstruction performance with the inclusion of new triggers is primarily due to a deterioration in angular reconstruction. This issue may stem from several factors, such as the absence of a tuned segment selection algorithm for the new triggers or the susceptibility of these triggers to noise. It was also seen that neutrino events with a lower primary energy, where new triggers perform the best, have a higher absolute error on zenith angle further cementing this fact. Future improvements to the angular reconstruction algorithm, which were beyond the scope of this thesis, are proposed in the Outlook section to address these challenges and enhance performance.
 
 \begin{figure}[h!]
@@ -774,14 +751,30 @@ The T5 candidate cut has a more pronounced effect on the NC channel than on the 
 
 Additionally, the Fisher discrimination efficiency varies between the channels, performing better for the CC channel than for the NC channel as seen in table~\ref{tab:Selection_eff}. This discrepancy is further investigated through the \gls{AoP} distributions for the two channels (see Fig.~\ref{fig:AoP_v_X}). On average, CC events exhibit higher AoP values compared to NC events. Notably, the AoP values for NC events tend to fall between those of CC and background events, resulting in less effective separation for the NC channel. Overall, NC channel events retain a lower electromagnetic component when reaching the ground compared to CC events, a feature already highlighted in previous analyses.
 
+% Figure~\ref{fig:Eff_v_theta_channel} also visualizes the Fisher discrimination efficiency as a function of the MC zenith angle for both the CC and NC channels. 
+% \begin{figure}[h!]
+%   \centering
+%   \includegraphics[width=0.95\textwidth]{thesis_figures/Nu_analysis/Nu_eff/Rel_efficencies_theta_comp_wnt_redcut_correct.pdf}
+%   \caption{Relative fraction of CC (purple dots) and NC (blue stars) events passing all the selection cuts as a function of $\theta_{\text{MC}}$. The values are calculated relative to the events remaining after the preceding cut.}
+%   \label{fig:Eff_v_theta_channel}
+% \end{figure}
+
 \begin{figure}[t!]
   \centering
-  \includegraphics[width=0.85\textwidth]{thesis_figures/Nu_analysis/Nu_eff/Selection_Evo_AoP_X_MC_wnt_redcut.pdf}
+  \includegraphics[width=0.95\textwidth]{thesis_figures/Nu_analysis/Nu_eff/Selection_Evo_AoP_X_MC_wnt_redcut.pdf}
   \caption{Average Area over Peak of the T5 stations used in the Fisher analysis for the signal training sample as a function of the injected slant depth. The AoP values for the $\nu_e$ CC channels are also subdivided into two angular regions for comparison. The AoP value range for the background training sample is shown as the purple box.}
   \label{fig:AoP_v_X}
 \end{figure}
 
-Fig.~\ref{fig:Eff_v_theta_CC_E} shows the comparison of the neutrino detection efficiency w.r.t. the zenith angle for the CC channel at different primary energies. Overall the efficiency increases with energy reached maximum values for E $\sim 10^{20}$eV. The efficiency increases as a function of zenith angle with a maximum efficiency for $\theta_{\text{MC}} \sim 70^{\circ}$. The efficiency slightly decreases for angles above $ \sim 73^{\circ}$, since for very inclined showers the electromagnetic component at ground is significantly less, which affects the identification efficiency. Another factor contributing to this decrease for higher zenith angles is the quality cut on $\delta \theta_{\text{Rec}}$ which disproportionally affects the highest zenith angles since the angular reconstruction algorithm is not optimized for very inclined showers. Further it is also seen that since the efficiency for higher energies is already pretty high the effect of the new triggers is less pronounced for higher energies. This can also be further visualized in Fig.~\ref{fig:Eff_X_comp} where the trigger efficiency and the neutrino identification efficiency for two different primary energies and zenith angles are compared. As it is seen in the figure on the right for higher energies the trigger efficiency is $\sim$ 1 for the injection slant depths close to the top of the atmosphere and decreases close to the detector where the shower does not get enough time to develop and trigger the stations for a good reconstruction. For lower energies  such as the one presented on the left at low zenith angles of the explored range the new triggers can significantly improve the trigger efficiency. 
+\begin{figure}[ht!]
+  \centering
+  \includegraphics[width=0.95\textwidth]{thesis_figures/Nu_analysis/Nu_eff/Rel_efficencies_theta_E_CC_wnt_redcut.pdf}
+  \caption{Relative fraction of CC events passing the selection cuts as a function of $\theta_{\text{MC}}$ for four different E$_{\text{MC}}$. The values are calculated relative to the events remaining after the preceding cut.}
+  \label{fig:Eff_v_theta_CC_E}
+\end{figure}
+
+% Fig.~\ref{fig:Eff_v_theta_CC_E} shows the comparison of the neutrino detection efficiency w.r.t. the zenith angle for the CC channel at different primary energies. Overall the efficiency increases with energy reached maximum values for E $\sim 10^{20}$eV. The efficiency increases as a function of zenith angle with a maximum efficiency for $\theta_{\text{MC}} \sim 70^{\circ}$. The efficiency slightly decreases for angles above $ \sim 73^{\circ}$, since for very inclined showers the electromagnetic component at ground is significantly less, which affects the identification efficiency. Another factor contributing to this decrease for higher zenith angles is the quality cut on $\delta \theta_{\text{Rec}}$ which disproportionally affects the highest zenith angles since the angular reconstruction algorithm is not optimized for very inclined showers. 
+Figure~\ref{fig:Eff_v_theta_CC_E} compares the neutrino detection efficiency as a function of zenith angle for the CC channel at various primary energies. The efficiency generally increases with energy, reaching its maximum around \(E \sim 10^{20}\,\mathrm{eV}\). As a function of zenith angle, the efficiency peaks near \(\theta_{\text{MC}} \sim 70^\circ\) but begins to decline for angles exceeding \(\sim 73^\circ\). This decline is attributed to the reduced electromagnetic component at the ground for highly inclined showers, which impacts the identification efficiency. Another contributing factor is the \(\delta \theta_{\text{Rec}}\) quality cut, which disproportionately affects events with very high zenith angles due to limitations in the angular reconstruction algorithm for extremely inclined showers. Further it is also seen that since the efficiency for higher energies is already pretty high the effect of the new triggers is less pronounced for higher energies. This can also be further visualized in Fig.~\ref{fig:Eff_X_comp} where the trigger efficiency and the neutrino identification efficiency for two different primary energies and zenith angles are compared. As it is seen in the figure on the right for higher energies the trigger efficiency is $\sim$ 1 for the injection slant depths close to the top of the atmosphere and decreases close to the detector where the shower does not get enough time to develop and trigger the stations for a good reconstruction. For lower energies  such as the one presented on the left at low zenith angles of the explored range the new triggers can significantly improve the trigger efficiency. 
 
 \begin{figure}[h!]
   \centering
@@ -792,13 +785,19 @@ Fig.~\ref{fig:Eff_v_theta_CC_E} shows the comparison of the neutrino detection e
   \label{fig:Eff_X_comp}
 \end{figure}
 
-Figure~\ref{fig:Eff_v_theta_CC_E} compares the neutrino detection efficiency as a function of zenith angle for the CC channel at various primary energies. The efficiency generally increases with energy, reaching its maximum around \(E \sim 10^{20}\,\mathrm{eV}\). As a function of zenith angle, the efficiency peaks near \(\theta_{\text{MC}} \sim 70^\circ\) but begins to decline for angles exceeding \(\sim 73^\circ\). This decline is attributed to the reduced electromagnetic component at the ground for highly inclined showers, which impacts the identification efficiency. Another contributing factor is the \(\delta \theta_{\text{Rec}}\) quality cut, which disproportionately affects events with very high zenith angles due to limitations in the angular reconstruction algorithm for extremely inclined showers.
+% It was observed that by using the new triggers a 50-20\% improvement per zenith angle can be achieved for the neutrino search for the DG$\mathrm{_{low}}$ channel especially for the CC channel as shown in Fig.~\ref{fig:Eff_v_theta_channel_comp}. 
+The implementation of new triggers leads to a 20--50\% improvement per simulated zenith angle in the neutrino detection efficiency for the DG$_{\mathrm{low}}$ channel, particularly for the CC channel, as illustrated in Fig.~\ref{fig:Eff_v_theta_channel_comp}. The numbers for the sample with just old triggers are calculated relative to the events of the sample with new triggers which is significantly higher. This is done to ensure a fair comparison since even though the relative efficiency of the sample with just the old triggers could be higher, the absolute efficiency i.e. the number of surviving events after all the cuts is way lower. 
 
-It was observed that by using the new triggers a 50-20\% improvement per zenith angle can be achieved for the neutrino search for the DG$\mathrm{_{low}}$ channel especially for the CC channel as shown in Fig.~\ref{fig:Eff_v_theta_channel_comp}. The numbers for the sample with just old triggers are calculated relative to the events of the sample with new triggers which is significantly higher. This is done to ensure a fair comparison since even though the relative efficiency of the sample with just the old triggers could be higher, the absolute efficiency i.e. the number of surviving events after all the cuts is way lower. 
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.95\textwidth]{thesis_figures/Nu_analysis/Nu_eff/Rel_efficencies_theta_comp_redcut.pdf}
+  \caption{Comparison of the neutrino detection efficiency for both neutrino channels for the sample with the new triggers to the one without. For both the samples the efficiency is calculated relative to the events remaining after the precedent cuts in the sample with new triggers.}
+  \label{fig:Eff_v_theta_channel_comp}
+\end{figure}
 
-There are several effects which contribute to this improvement. The new triggers increase the overall number of events especially for lower energies as shown in Fig.~\ref{fig:Events_vs_angle_summary}. The other factors which are different in this analysis is the reduction of the minimal T5 station requirement for the low angular regions and the change of the Fisher polynomial also contribute to the overall neutrino detection improvement in comparison to the previous analysis. A similar behaviour is observed for the NC channel albeit with a reduced overall efficiency in comparison to the CC channel. 
+% There are several effects which contribute to this improvement. The new triggers increase the overall number of events especially for lower energies as shown in Fig.~\ref{fig:Events_vs_angle_summary}. The other factors which are different in this analysis is the reduction of the minimal T5 station requirement for the low angular regions and the change of the Fisher polynomial also contribute to the overall neutrino detection improvement in comparison to the previous analysis. A similar behaviour is observed for the NC channel albeit with a reduced overall efficiency in comparison to the CC channel. 
 
-The implementation of new triggers leads to a 20--50\% improvement per simulated zenith angle in the neutrino detection efficiency for the DG$_{\mathrm{low}}$ channel, particularly for the CC channel, as illustrated in Fig.~\ref{fig:Eff_v_theta_channel_comp}. This improvement is most significant for energies up to \(10^{18.5}\,\mathrm{eV}\) and diminishes at higher energies. Several factors contribute to this enhancement. The new triggers increase the total number of detectable events, especially at lower energies, as demonstrated in Fig.~\ref{fig:Events_vs_angle_summary}. Additional factors, such as reducing the minimal T5 station requirement for low angular regions and modifying the Fisher polynomial, also play key roles in improving the overall neutrino detection efficiency compared to previous analyses. While similar trends are observed for the NC channel, the overall efficiency remains lower than that of the CC channel.
+ This improvement is most significant for energies up to \(10^{18.5}\,\mathrm{eV}\) and diminishes at higher energies. Several factors contribute to this enhancement. The new triggers increase the total number of detectable events, especially at lower energies, as demonstrated earlier in Fig.~\ref{fig:Events_vs_angle_summary}. Additional factors, such as reducing the minimal T5 station requirement for low angular regions and modifying the Fisher polynomial, also play key roles in improving the overall neutrino detection efficiency compared to previous analyses. While similar trends are observed for the NC channel, the overall efficiency remains lower than that of the CC channel.
 
 
 
