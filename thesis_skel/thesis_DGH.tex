@@ -238,10 +238,10 @@ Assuming a differential UHE$\nu$ flux $\phi = k \cdot E_{\nu}^{-2}$, the integra
 
 \begin{equation}
   \label{eq:integ_lim}
-  \mathrm{k_{up} = \frac{N_{up}}{\int_{E_{\nu min}}^{E_{\nu max}} E_{\nu}^{-2} \cdot \xi_{tot}(E_{\nu}) \cdot dE_{\nu}}} \, ,
+  k_{\text{up}} = \frac{N_{\text{up}}}{\int_{E_{\nu \text{min}}}^{E_{\nu \text{max}}} E_{\nu}^{-2} \cdot \xi_{\text{tot}}(E_{\nu}) \cdot dE_{\nu}} \, ,
 \end{equation}
 
-the value of $\mathrm{N_{up}}$ for a given confidence level can be determined based on the number of observed events and the number of expected background events. Different statistical methods can be used to obtain the value for $N_{up}$ based on the confidence interval. In the next sections some of these different statistical approaches are discussed in more detail. The Feldman and Cousins limit with an extension that incorporates the systematic uncertainties discussed above is chosen as a final estimate for $\mathrm{N_{up}}$.
+the value of $N_{\text{up}}$ for a given confidence level can be determined based on the number of observed events and the number of expected background events. Different statistical methods can be used to obtain the value for $N_{\text{up}}$ based on the confidence interval. In the next sections some of these different statistical approaches are discussed in more detail. The Feldman and Cousins limit with an extension that incorporates the systematic uncertainties discussed above is chosen as a final estimate for $N_{\text{up}}$.
 
 \subsection{Feldman and Cousins limit}
 \label{subsec:FandC}
@@ -269,7 +269,7 @@ The interval is smaller in comparison to the Feldman \& Cousins method due to th
 After the determination of $N_{\text{up}}$ using the Conrad approach the equation~\ref{eq:integ_lim} can be solved to determine the upper limit to the diffused flux of UHE$\nu$s. The integral goes from $E_{\text{min}} = 10^{17.5} $eV till $E_{\text{max}} = 10^{20.5} $eV which is the total energy range explored in the simulations. It is also important to note that the limit is only valid for a smaller energy window. The single flavour 90\% C.L. integrated limit is given by 
 \begin{equation}
   \label{eq:final_lim} 
-  \mathrm{k_{90} < 1.9 x 10^{-7} GeV cm^{-2} s^{-1} sr^{-1}}.
+  k_{90} < 1.9 \times 10^{-7} \mathrm{GeV cm^{-2} s^{-1} sr^{-1}}.
 \end{equation}
 It applies to an energy range of $E_{\nu} \epsilon [1.3 \times 10^{18} - 2.5 \times 10^{19.5}]$ which is the energy range for which $\sim$90\% total event rate is expected in the case of $E^{-2}_{\nu}$ flux. The value along with the 90\% energy range is plotted as a dashed purple line in Fig.~\ref{fig:Limit_comp_1}.
 
@@ -284,14 +284,14 @@ The other dashed purple lines with central dots are the \textit{differential lim
 
 \begin{equation}
   \label{eq:diff_lim}
-  \text{Differential limit} \, (i^{\text{th}} \, E_{\nu} \, \text{bin})  = \frac{N_{\text{Up}}}{\int_{\log_{10}(E^i - (\Delta \log_{10}E)/2)}^{\log_{10}(E^i + (\Delta \log_{10}E)/2)} E^{-1}_{\nu} \cdot \xi(E_{\nu}) \cdot ln(10) \cdot d(\log_{10}(E_{\nu}))}
+  \text{Differential limit} \, (i^{\text{th}} \, E_{\nu} \, \text{bin})  = \frac{N_{\text{up}}}{\int_{\log_{10}(E^i - (\Delta \log_{10}E)/2)}^{\log_{10}(E^i + (\Delta \log_{10}E)/2)} E^{-1}_{\nu} \cdot \xi(E_{\nu}) \cdot \ln(10) \cdot d(\log_{10}(E_{\nu}))}
 \end{equation}
 
 Assuming constant exposure and flux in each energy bin the differential limit can be estimated as:
 
 \begin{equation}
   \label{eq:diff_lim_approx}
- \text{Approx. Differential limit} \, (i^{\text{th}} \, E_{\nu} \, \text{bin})  = \frac{N_{\text{Up}}}{E^{-1}_{\nu} \cdot \xi(E_{\nu}) \cdot ln(10) \cdot \Delta (\log_{10}(E_{\nu}))}
+ \text{Approx. Differential limit} \, (i^{\text{th}} \, E_{\nu} \, \text{bin})  = \frac{N_{\text{up}}}{E^{-1}_{\nu} \cdot \xi(E_{\nu}) \cdot \ln(10) \cdot \Delta (\log_{10}(E_{\nu}))}
 \end{equation}
 \begin{figure}[t!]
   \centering
